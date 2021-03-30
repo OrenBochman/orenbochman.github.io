@@ -66,7 +66,12 @@ When it comes to modern deep learning, there's a sort of new normal, which is to
 
 ## W1V2: Seq2Seq	
 
-![screenshot_of_outline_slide](/assets/c4w1_screenshot_00.png){: .callout}
+![screenshot_of_outline_slide >](/assets/c4w1_screenshot_00.png)
+
+| I am text to the left  | ![screenshot_of_outline_slide](/assets/c4w1_screenshot_00.png) |
+
+| ![](/assets/c4w1_screenshot_00.png) | I am text to the right |
+
 
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. 
 
