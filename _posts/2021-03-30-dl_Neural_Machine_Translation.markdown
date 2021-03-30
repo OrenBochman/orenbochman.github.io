@@ -1,3 +1,6 @@
+layout: page
+title: "Neural Machine Translation Notes"
+permalink: /Neural_Machine_Translation_Notes/
 # Neural Machine Translation
 #DeepLearningAlgorithems
 
@@ -9,7 +12,7 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
 - Apply word alignment for machine translation
 - Train a Neural Machine Translation model with Attention
 - Develop intuition for how teacher forcing helps a translation model checks its predictions
-- Use **[BLEU]()** score and **[ROUGE]()** score to evaluate machine-generated text quality
+- Use **[BLEU](https://en.wikipedia.org/wiki/BLEU)** score and **[ROUGE](https://en.wikipedia.org/wiki/ROUGE_(metric))** score to evaluate machine-generated text quality
 - Describe several decoding methods including [MBR]() and [Beam search]()
 
 ## TLDR: Neural Network engineering
