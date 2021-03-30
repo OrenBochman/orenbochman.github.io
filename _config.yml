@@ -35,6 +35,40 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+
+# Your disqus username, entering this will enable commenting on posts
+disqus: barryclark
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-90766411-1
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble: 
+  email: 
+  facebook: 
+  flickr: 
+  github: orenbochman
+  instagram: 
+  linkedin: orenbochman
+  pinterest: 
+  rss: 
+  twitter: orenbochman
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+baseurl: ""
+markdown: kramdown
+highlighter: pygments
+permalink: /:title
+
+# Emoji please!
+gems:
+  - jemoji
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
