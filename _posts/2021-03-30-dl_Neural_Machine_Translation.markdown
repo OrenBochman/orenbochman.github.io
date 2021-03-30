@@ -5,7 +5,11 @@ permalink: /Neural_Machine_Translation_Notes/
 tag: deeplearning.ai
 tag: deep learning
 tag: #DeepLearningAlgorithems
+
 ---
+<style>
+{% include callout.css %}
+</style>
 # Neural Machine Translation
 
 My deeplearning.ai course notes **Natural Language Processing with Attention Models** 
@@ -130,7 +134,7 @@ Then you will run scores through softmax, so each score is transformed to a numb
 - Add up everything in the alignments vector to arrive at 
 	what's called the context vector. 
 	
-## W1V4: Attention	
+## W1V4: Attention
 	
 The attention mechanism uses encoded representations of both the input or the encoder hidden states and the outputs or the decoder hidden states. The keys and values are pairs. Both of dimension NN, where NN is the input sequence length and comes from the encoder hidden states.
 
@@ -154,17 +158,19 @@ a picture of attention in translation with English to German	  An important thin
 ## Evaluation for Machine Translation	
 ### BLEU
 
+
 The closer the BLEU score is to one, the better your model is. The closer to zero, the worse it is. 	
-To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. To demonstrate, I'll use uni-grams as an example. Look at the following table:	
-	
-You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate. The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
+To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. To demonstrate, I'll use uni-grams as an example. 
+
+![screenshot_of_outline_slide](/assets/c4w1_screenshot_10.png){: .callout} You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate. The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
 
 ### ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
+![recall in ROUGE](/assets/c4w1_screenshot_11.png){: .callout}
 
 Rouge also allows you to compute precision as follows: 
-	
+![precision in ROUGE](/assets/c4w1_screenshot_12.png){: .callout}
 BLUE	
 ROUGE	
 Transformers for sequential	Text summarization
