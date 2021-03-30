@@ -167,7 +167,7 @@ To get the BLEU score, the candidates and the references are usually based on an
 ### ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
-![recall in ROUGE](/assets/c4w1_screenshot_11.png){: .callout}
+![recall in ROUGE](/assets/c4w1_screenshot_11.png){.callout}
 
 Rouge also allows you to compute precision as follows: 
 ![precision in ROUGE](/assets/c4w1_screenshot_12.png){: .callout}
@@ -189,16 +189,15 @@ Transformers for sequential	Text summarization
 	
 Tranlate 
 English to German	the word embeddings lets us identify similar words across languages.
-	query is the German words -- and the english words are the keys. 
-	each key is assigned probability that it is similar to the query and this is called the attention weight.
+query is the German words -- and the english words are the keys. 
+each key is assigned probability that it is similar to the query and this is called the attention weight.
 
 The query is then assigned the weighed sum of the keys. 
 word embeddings times the word their weights.
 Formally we have three matrices 
 
-
-L_K is the number of words in the Key
-L_Q is the number of words in the Query
+$L_K$ is the number of words in the Key
+$L_Q$ is the number of words in the Query
 
 Q - query = [ G_1, ... , G_L_Q] G are embedding column vectors for German words
 K key = [E_1 ... E_L_K]
@@ -211,7 +210,7 @@ Q are embeddings of German words
 
 attention weights are like  are alignment scores.
 
-softmax(QK^T )  is the probaility of alignment
+$softmax(QK^T)$  is the probaility of alignment
 
  
 I am happy:	
@@ -229,35 +228,33 @@ coreference resolution
 	
 # Week 3	
 	
-	Evolution
-	CBOW in Word2Vec - Issue: Fixed window we want all the context
-	ElMo - Bidirectional LSTM - Issue long term dependency
-GPT2 - issue: unidirectional. only looks back
-	BERT - just encoder - biderctional, multi mask learning
-	T5 - Encoder Decoder - multi-task learning
-2013 Word2Vec Google
-CBOW & Skip grams	
-2014 Glove Stanford	. GloVe: Global Vectors for Word Representation. [pdf] [bib]
-2017 fasttext Facebook	CBOW 
-	morphological via sub words
+Evolution
+- CBOW in Word2Vec - Issue: Fixed window we want all the context
+- ElMo - Bidirectional LSTM - Issue long term dependency
+- GPT2 - issue: unidirectional. only looks back
+- BERT - just encoder - biderctional, multi mask learning
+- T5 - Encoder Decoder - multi-task learning
+- 2013 Word2Vec Google
+- CBOW & Skip grams	
+- 2014 Glove Stanford	. GloVe: Global Vectors for Word 
 
+## Representation. [pdf] [bib]
+- 2017 fasttext Facebook	CBOW 
+  - morphological via sub words
 	Algorithm of fasttext is based on these two papers:[8]
-	• Enriching Word Vectors with Subword Information , Piotr Bojanowski, Edouard Grave, Armand Joulin and Tomas Mikolov, 2016
-	• Bag of Tricks for Efficient Text Classification, Armand Joulin, Edouard Grave, Piotr Bojanowski, Tomas Mikolov, 2016
-2018 ELMO Allen Institute for AI	ELMo - 
+	- Enriching Word Vectors with Subword Information , Piotr Bojanowski, Edouard Grave, Armand Joulin and Tomas Mikolov, 2016
+	- Bag of Tricks for Efficient Text Classification, Armand Joulin, Edouard Grave, Piotr Bojanowski, Tomas Mikolov, 2016
+- 2018 ELMO Allen Institute for AI	ELMo - 
 	Character based
 	Bidirectional LSTM - 
 	Issue: long term dependency is weak due to vanishing gradient and information loss.
-GPT 	Encoder only with left context
+- GPT 	Encoder only with left context
 
-
-
-
-Bert	uses 
-2020 T5	uses a label to specify task
+- Bert	uses 
+- 2020 T5	uses a label to specify task
 	uses task specific bidirectional lstm to build the embeddings
 
-BERT 	Decoder only
+- BERT 	Decoder only
 
 Input	Token embedding - the distributed representation of the tokens in one space S  with Dim(S)=D
 	

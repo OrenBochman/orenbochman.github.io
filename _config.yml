@@ -32,10 +32,10 @@ theme: minima
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  - jekyll-seo-tag
 
 # Your disqus username, entering this will enable commenting on posts
-disqus: barryclark
+disqus: orenbochman
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-90766411-1
@@ -56,7 +56,6 @@ footer-links:
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
 baseurl: ""
 markdown: kramdown
 highlighter: pygments
@@ -65,7 +64,6 @@ permalink: /:title
 # Emoji please!
 gems:
   - jemoji
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
