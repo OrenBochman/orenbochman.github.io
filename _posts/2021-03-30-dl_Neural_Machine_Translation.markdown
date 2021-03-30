@@ -4,9 +4,9 @@ title: "Neural Machine Translation Notes"
 permalink: /Neural_Machine_Translation_Notes/
 tag: deeplearning.ai
 tag: deep learning
+tag: #DeepLearningAlgorithems
 ---
 # Neural Machine Translation
-#DeepLearningAlgorithems
 
 My deeplearning.ai course notes **Natural Language Processing with Attention Models** 
 
