@@ -30,7 +30,7 @@ twitter_username: orenbochman
 github_username:  orenbochman
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
