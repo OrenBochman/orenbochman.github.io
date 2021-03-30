@@ -1,6 +1,9 @@
 layout: page
 title: "Neural Machine Translation Notes"
 permalink: /Neural_Machine_Translation_Notes/
+tag: deeplearning.ai
+tag: deep learning
+---
 # Neural Machine Translation
 #DeepLearningAlgorithems
 
