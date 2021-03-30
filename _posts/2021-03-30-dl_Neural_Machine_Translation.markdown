@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Neural Machine Translation Notes"
 permalink: /Neural_Machine_Translation_Notes/
