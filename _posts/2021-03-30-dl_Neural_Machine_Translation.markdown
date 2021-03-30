@@ -66,11 +66,12 @@ When it comes to modern deep learning, there's a sort of new normal, which is to
 
 ## W1V2: Seq2Seq	
 
-![screenshot rooted](/assets/c4w1_screenshot_00.png)
-![screenshot unrooted](assets/c4w1_screenshot_00.png)
+![screenshot_of_outline_slide](/assets/c4w1_screenshot_00.png){: .callout}
+
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. 
 
 (because you can run different batches or examples in parallel or even different directions)
+![screenshot_of_outline_slide](/assets/c4w1_screenshot_01.png){: .callout}
 
 In other words, if you rely on sequences and you need to know the beginning of a text before being able to compute something about the ending of it, then you can not use parallel computing. You would have to wait until the initial computations are complete. This is not good, because if your text is too long, then 
 
