@@ -39,11 +39,9 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
         
             return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
     ```
-3. How do we manage layer input and output in a neural network	
+3. How do we manage layer input and output in a neural network?
 
-    if we need something more complex then feeding input to next output we can use stack semantics of Trax.
-	
-	note this is actually something I've seen in papers and wondered about. 
+    If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
 
     In Trax we can do it using a **select**
 
@@ -52,30 +50,30 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
     ```
     which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
 
-
 4. how can we make residual connections ? 
 	
     use a d. residual layer
-
-
 ## W1V1: Intro
 
-This course is called Natural Language Processing with Attention Models. When you finish this course, you have pretty much reached the cutting edge of today's practical NLP methods. You use a powerful technique called attention to build several different models. Some of the things you build using the attention mechanism, you build a powerful language translation model. You also build an algorithm capable of summarizing texts. You build a model that can actually answer questions about the piece of text, and you build a chat bot that you can actually have a conversation with.	sentiment analysis
+This course is called Natural Language Processing with Attention Models. By the end of the course, we will have reached the cutting edge of today's practical NLP methods. We will use a powerful technique called **attention** to build several different models. Some of the things you build using the attention mechanism, you build a powerful language translation model. You also build an algorithm capable of summarizing texts. You build a model that can actually answer questions about the piece of text, and you build a chat bot that you can actually have a conversation with.	
+
+We will also have another look at sentiment analysis.
 	
 When it comes to modern deep learning, there's a sort of new normal, which is to say, most people aren't actually building and training models from scratch. Instead, it's more common to download a pre-trained model and then tweak it and find units for your specific use case. In this course, we show you how to build the models from scratch, but we also provide you custom pre-trained models that we created just for you. By training them continuously for weeks on the most powerful TPU clusters that are currently only available to researchers as Google.
 
 ## W1V2: Seq2Seq	
 
-![screenshot_of_outline_slide >](/assets/c4w1_screenshot_00.png)
 
-| I am text to the left  | ![screenshot_of_outline_slide](/assets/c4w1_screenshot_00.png) |
+### Outline:
 
-| ![](/assets/c4w1_screenshot_00.png) | I am text to the right |
-
+- Introduction to Neural Machine Translation 
+- Seq2Seq model and its shortcomings 
+- Solution for the information bottleneck 
 
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. 
 
-(because you can run different batches or examples in parallel or even different directions)
+The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. (because you can run different batches or examples in parallel or even different directions)
+
 ![screenshot_of_outline_slide](/assets/c4w1_screenshot_01.png){: .callout}
 
 In other words, if you rely on sequences and you need to know the beginning of a text before being able to compute something about the ending of it, then you can not use parallel computing. You would have to wait until the initial computations are complete. This is not good, because if your text is too long, then 
@@ -83,45 +81,53 @@ In other words, if you rely on sequences and you need to know the beginning of a
 1. it will take a long time for you to process it and 
 2. you will lose a good amount of information mentioned earlier in the text as you approach the end.  
 
-Therefore, attention mechanisms have become critical  for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
-	
-the middle part is the final hidden state produced by the encoder.
+### Seq2Seq model 
+- Introduced by Google in 2014
+- Maps variable-length sequences to fixed-length memory
+- LSTMs and GRUs are typically used to overcome the vanishing gradient problem 
 
-one approach is to try and provide the decoder with the attention later 
+![encoder decoder architecture](/assets/c4w1_screenshot_03.png){: .callout}
+
+Therefore, attention mechanisms have become critical for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
+
+in this encoder decoder architecture the yellow block in the middle is the final hidden state produced by the encoder. It is essentialy a compressed representation of the sequqence in this case the english sentence. The problem with RNN is they tend to have a bias for represnting more recent data.
+
+One approach to overcome this issue is to provide the decoder with the attention layer. 
 
 ## W1V3: Alignment
 
-	Alignment is an old problem and there was a paper learning to align and translate.
-	https://arxiv.org/pdf/1409.0473 2015
-https://arxiv.org/abs/1909.02074 2019
-	
-	Bahdanau et al. 2014: Neural Machine Translation by Jointly Learning to Align and Translate
-	berliner = citizen of berlin 
-	berliner = jelly dounut
-	
-	alignment
-	
-	each word does not translate exactly to another word
-	adding an attention layers allows the model to give different words more importance when translating another word.
-This is a good task for an attention layer	Developing intuition about alignment:
-also check out this page http://phdopen.mimuw.edu.pl/index.php?page=l18w5	in a 2017 talk, Lukasz Kaiser referred to [K,V] as a memory.  
-	
-	We want to manage information better in our model.
-	We keep the information in a memory consisting of keys and values. (It needs to be differentiable so we can use it with back propagation)
-	
-	Then we put in the query a sequence and in the 
-	keys another sequence (depending on the task they may be the same say for summarization or different for alignment or translation) 
-	
-	By combining Q K using a Softmax we get a vector of probabilities each position in the memory is relevant. weight matrix to apply to the values in the memory.
-	
-	
+Alignment is an old problem and there are a number of papers on learning to align and translate which helped put attention mechanism into focus.
 
-	- get all of the available hidden states ready for  the encoder and do the same for the first hidden states of the decoder. (In the example, there are two encoder hidden states, shown by blue dots, and one decoder hidden states.)
-	- Next, score each of the encoder hidden states by getting its dot product between each encoder state and decoder hidden states. 
-	A higher score means that the hidden state will have more influence on the output. 
-	Then you will run scores through softmax, so each score is transformed to a number between 0 and 1, this gives you your attention distribution. 
-	- Take each encoder hidden state, and multiply it by its softmax score, which is a number between 0 and 1, this results in the alignments vector. 
-	- Add up everything in the alignments vector to arrive at 
+- [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://arxiv.org/pdf/1409.0473) 2016
+- [Jointly Learning to Align and Translate with Transformer Models](https://arxiv.org/abs/1909.02074) 2019
+
+berliner = citizen of berlin 
+berliner = jelly dounut
+
+alignment
+
+each word does not translate exactly to another word
+adding an attention layers allows the model to give different words more importance when translating another word.
+
+This is a good task for an attention layer
+
+Developing intuition about alignment:
+also check out this page [Deep Learning: The Good, the Bad and the Ugly
+](http://phdopen.mimuw.edu.pl/index.php?page=l18w5)	in a 2017 talk, Lukasz Kaiser referred to [K,V] as a memory.
+
+We want to manage information better in our model.
+We keep the information in a memory consisting of keys and values. (It needs to be differentiable so we can use it with back propagation)
+	
+Then we put in the query a sequence and in the keys another sequence (depending on the task they may be the same say for summarization or different for alignment or translation) 
+
+By combining Q K using a Softmax we get a vector of probabilities each position in the memory is relevant. weight matrix to apply to the values in the memory.
+
+- get all of the available hidden states ready for  the encoder and do the same for the first hidden states of the decoder. (In the example, there are two encoder hidden states, shown by blue dots, and one decoder hidden states.)
+- Next, score each of the encoder hidden states by getting its dot product between each encoder state and decoder hidden states. 
+A higher score means that the hidden state will have more influence on the output. 
+Then you will run scores through softmax, so each score is transformed to a number between 0 and 1, this gives you your attention distribution. 
+- Take each encoder hidden state, and multiply it by its softmax score, which is a number between 0 and 1, this results in the alignments vector. 
+- Add up everything in the alignments vector to arrive at 
 	what's called the context vector. 
 	
 ## W1V4: Attention	
@@ -175,34 +181,33 @@ Transformers for sequential	Text summarization
 	T5
 	translation classification Q&A , regression, summarization
 	
-	Tranlate 
+Tranlate 
 English to German	the word embeddings lets us identify similar words across languages.
 	query is the German words -- and the english words are the keys. 
 	each key is assigned probability that it is similar to the query and this is called the attention weight.
 
 The query is then assigned the weighed sum of the keys. 
-	  word embeddings times the word their weights.
-	Formally we have three matrices 
+word embeddings times the word their weights.
+Formally we have three matrices 
+
+
+L_K is the number of words in the Key
+L_Q is the number of words in the Query
+
+Q - query = [ G_1, ... , G_L_Q] G are embedding column vectors for German words
+K key = [E_1 ... E_L_K]
+V value
 	
+D the embedding dimension
 	
-	L_K is the number of words in the Key
-	L_Q is the number of words in the Query
-	
-	
-	Q - query = [ G_1, ... , G_L_Q] G are embedding column vectors for German words
-	K key = [E_1 ... E_L_K]
-	V value
-	
-	D the embedding dimension
-	
-	K are embeddings of English words
-	Q are embeddings of German words
-	
-	attention weights are like  are alignment scores.
-	
-	softmax(QK^T )  is the probaility of alignment
-	
-	 
+K are embeddings of English words
+Q are embeddings of German words
+
+attention weights are like  are alignment scores.
+
+softmax(QK^T )  is the probaility of alignment
+
+ 
 I am happy:	
 	
 	
@@ -216,7 +221,7 @@ How does multiheaded attention make the different heads learn different things.	
 head verb
 coreference resolution
 	
-Week 3	
+# Week 3	
 	
 	Evolution
 	CBOW in Word2Vec - Issue: Fixed window we want all the context
