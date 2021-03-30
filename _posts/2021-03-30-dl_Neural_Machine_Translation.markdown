@@ -59,6 +59,8 @@ When it comes to modern deep learning, there's a sort of new normal, which is to
 
 ## W1V2: Seq2Seq	
 
+![My helpful screenshot](assets/screenshot.png)
+
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. 
 
 (because you can run different batches or examples in parallel or even different directions)
@@ -71,10 +73,11 @@ In other words, if you rely on sequences and you need to know the beginning of a
 Therefore, attention mechanisms have become critical  for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
 	
 the middle part is the final hidden state produced by the encoder.
-	
-	one approach is to try and provide the decoder with the attention later 
 
-## W1V3: Alignment	
+one approach is to try and provide the decoder with the attention later 
+
+## W1V3: Alignment
+
 	Alignment is an old problem and there was a paper learning to align and translate.
 	https://arxiv.org/pdf/1409.0473 2015
 https://arxiv.org/abs/1909.02074 2019
