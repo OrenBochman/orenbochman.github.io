@@ -10,11 +10,11 @@ tag: #DeepLearningAlgorithems
 
 # Neural Machine Translation
 
-My deeplearning.ai course notes **Natural Language Processing with Attention Models** 
+My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
 
-{:toc}
+[[toc]]
 
-## Learning Objectives:
+### Learning Objectives:
 
 - Explain how an Encoder/Decoder model works
 - Apply word alignment for machine translation
@@ -32,7 +32,8 @@ Using an `tl.attention` layer. While it does not reorder the input,  attention w
     
 Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/layers_intro.html?highlight=fn#With-the-Fn-layer-creating-function.)
 
-```python	
+
+~~~	
 	def Addition(): # this is a a closure
 	
 		layer_name = "Addition"  # the name 
@@ -42,7 +43,9 @@ Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/l
 			return x + y
 	
 		return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
-```
+~~~
+{: .language-python}
+
 ### How do we manage layer input and output in a neural network?
 
 If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
