@@ -5,12 +5,12 @@ date:   2021-03-29 16:16:16 +0300
 categories: blogging test
 tags: ["charts"]
 ---
-
-# pie chart
+# Pie Chart
 
 <div class="mermaid">
-pie title Pets adopted by volunteers
-"Dogs" : 386
-"Cats" : 85
-"Rats" : 35
+pie
+    title: Pets adopted by volunteers
+    "Cats" : 85
+    "Dogs" : 386
+    "Rats" : 35
 </div>
