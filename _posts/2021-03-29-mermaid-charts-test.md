@@ -7,16 +7,21 @@ tags: ["charts"]
 ---
 
 # flowchart
+
 <div class="mermaid">
 graph TD;
-    id1[(Database)]
     A((A))-->B>B];
     A-->C{C};
     B-->D{{D}};
     C-->D;
+    C-->E;
     D-->E[/E/];
     E-->F[\F/];
     E-->G[\G\];
+    G-->H[(Database)];
+    F-->H
+    A-->H-->A
+
 </div>
 
 # Sequence diagram
