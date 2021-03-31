@@ -12,7 +12,7 @@ tag: #DeepLearningAlgorithems
 
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
 
-[[toc]]
+{:toc}
 
 ### Learning Objectives:
 

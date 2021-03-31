@@ -63,6 +63,9 @@ permalink: /:title
 
 kramdown:
   html_to_native: true
+  parse_block_html: true
+  toc_levels: 3
+  
 
 # Emoji please!
 gems:
