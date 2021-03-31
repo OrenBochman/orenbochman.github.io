@@ -497,10 +497,11 @@ T5	like BERT does  Transfer learning + fine tuning.
 2^18 steps = 262144
 
 
-~~~mermaid
+<div class="mermaid">
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-~~~
+</div>
+
