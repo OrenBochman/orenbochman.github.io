@@ -89,9 +89,21 @@ merge newbranch
 <div class="mermaid">
 erDiagram
     CUSTOMER ||--o{ ORDER : places
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
     ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-# ER diagram
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    LINE-ITEM {
+        string productCode
+        int quantity
+        float pricePerUnit
+    }
 </div>
 
 # User Journey Diagram
