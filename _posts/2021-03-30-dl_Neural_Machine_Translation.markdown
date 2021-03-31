@@ -5,7 +5,6 @@ permalink: /Neural_Machine_Translation_Notes/
 tag: deeplearning.ai
 tag: deep learning
 tag: #DeepLearningAlgorithems
-
 ---
 
 # Neural Machine Translation
@@ -33,7 +32,7 @@ Using an `tl.attention` layer. While it does not reorder the input,  attention w
 Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/layers_intro.html?highlight=fn#With-the-Fn-layer-creating-function.)
 
 
-~~~	
+~~~python
 	def Addition(): # this is a a closure
 	
 		layer_name = "Addition"  # the name 
@@ -44,7 +43,6 @@ Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/l
 	
 		return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
 ~~~
-{: .language-python}
 
 ### How do we manage layer input and output in a neural network?
 
@@ -52,9 +50,9 @@ If we need something more complex then feeding input to next output we can use s
 
 In Trax we can do it using a `tl.Select` combinator
 
-```python
+~~~python
     tl.Select([0,1,0,1])
-```
+~~~
 which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
 
 ### How to make a residual connections ? 
@@ -69,7 +67,7 @@ Note: Setting tempature to 0 will return the maximal likelyhood estimate - this 
 
 the implementation is like this:
 
-```python
+~~~python
 def logsoftmax_sample(log_probs, temperature=1.0):  
 """Returns a sample from a log-softmax output, with temperature.
 
@@ -81,24 +79,24 @@ Args:
 u = np.random.uniform(low=1e-6, high=1.0 - 1e-6, size=log_probs.shape)
 g = -np.log(-np.log(u))
 return np.argmax(log_probs + g * temperature, axis=-1)
-```
+~~~
 ## Additional coding notes:
 
 ### How to use numpy to reshape a test tesnsor so it has a (size 0) batch dimenion at the front?
 
 This is needed when inspecting single test inputs instead of working with a batch. The model is expecting to process batches of inputs like it saw during training - we therefore need to add a dimension at the start.
 
-```python
+~~~python
 padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
-```
+~~~
 
-```python
+~~~python
 # get log probabilities from the last token output
 log_probs = output[0,-1,:] 
-```
+~~~
 ### How to use calculate jaccard_similarity which is the intersection over union?
 
-```python
+~~~python
 def jaccard_similarity(candidate, reference):
     """Returns the Jaccard similarity between two token lists
 
@@ -123,7 +121,7 @@ def jaccard_similarity(candidate, reference):
     overlap = len(joint_elems) / len(all_elems)
     
     return overlap
-```
+~~~
 ## W1V1: Intro
 
 This course is called Natural Language Processing with Attention Models. By the end of the course, we will have reached the cutting edge of today's practical NLP methods. We will use a powerful technique called **attention** to build several different models. Some of the things you build using the attention mechanism, you build a powerful language translation model. You also build an algorithm capable of summarizing texts. You build a model that can actually answer questions about the piece of text, and you build a chat bot that you can actually have a conversation with.	
@@ -326,7 +324,7 @@ coreference resolution
 
 ### Random sampling
 
-```python
+~~~python
 def logsoftmax_sample(log_probs, temperature=1.0):  
   """Returns a sample from a log-softmax output, with temperature.
 
@@ -339,7 +337,7 @@ def logsoftmax_sample(log_probs, temperature=1.0):
   g = -np.log(-np.log(u))
   return np.argmax(log_probs + g * temperature, axis=-1)
 
-```
+~~~
 ### Beam Search
 
 The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter the beam width limits the choices considered at each step. ![Beam Search](/assets/c4w1_screenshot_15.png){: .callout}
@@ -499,10 +497,10 @@ T5	like BERT does  Transfer learning + fine tuning.
 2^18 steps = 262144
 
 
-```mermaid
+~~~mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-```
+~~~
