@@ -47,7 +47,7 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
 
     If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
 
-    In Trax we can do it using a **select**
+    In Trax we can do it using a **tl.Select** combinator
 
     ```python
         tl.Select([0,1,0,1])
@@ -55,8 +55,70 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
     which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
 
 4. how can we make residual connections ? 
-	
+   using the  **tl.Residual** combinator
     use a d. residual layer
+
+5. When decoding, how do you sample from the states with some noise AKA **Temprature Based Sampling** 
+
+	using `tl.logsoftmax_sample()` lets us get **Temprature Based Sampling** and **Greedy Decoding** based on the `temprature` parameter
+	
+	Note: Setting tempature to 0 will return the maximal likelyhood estimate - this is called **Greedy Decoding**
+	its implementation is:
+
+	```python
+	def logsoftmax_sample(log_probs, temperature=1.0):  # pylint: disable=invalid-name
+	"""Returns a sample from a log-softmax output, with temperature.
+
+	Args:
+		log_probs: Logarithms of probabilities (often coming from LogSofmax)
+		temperature: For scaling before sampling (1.0 = default, 0.0 = pick argmax)
+	"""
+	# This is equivalent to sampling from a softmax with temperature.
+	u = np.random.uniform(low=1e-6, high=1.0 - 1e-6, size=log_probs.shape)
+	g = -np.log(-np.log(u))
+	return np.argmax(log_probs + g * temperature, axis=-1)```
+
+## Additional coding notes:
+### How to use numpy to reshape a test tesnsor so it has a (size 0) batch dimenion at the front.
+
+This is needed when inspecting single test inputs instead of working with a batch. The model is expecting to process batches of inputs like it saw during training - we therefore need to add a dimension at the start.
+
+```python
+padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
+```
+
+```python
+# get log probabilities from the last token output
+log_probs = output[0,-1,:] 
+```
+### how to use calculate jaccard_similarity which is the intersection over union?
+
+```python
+def jaccard_similarity(candidate, reference):
+    """Returns the Jaccard similarity between two token lists
+
+    Args:
+        candidate (list of int): tokenized version of the candidate translation
+        reference (list of int): tokenized version of the reference translation
+
+    Returns:
+        float: overlap between the two token lists
+    """
+    
+    # convert the lists to a set to get the unique tokens
+    can_unigram_set, ref_unigram_set = set(candidate), set(reference)  
+    
+    # get the set of tokens common to both candidate and reference
+    joint_elems = can_unigram_set.intersection(ref_unigram_set)
+    
+    # get the set of all tokens found in either candidate or reference
+    all_elems = can_unigram_set.union(ref_unigram_set)
+    
+    # divide the number of joint elements by the number of all elements
+    overlap = len(joint_elems) / len(all_elems)
+    
+    return overlap
+```
 ## W1V1: Intro
 
 This course is called Natural Language Processing with Attention Models. By the end of the course, we will have reached the cutting edge of today's practical NLP methods. We will use a powerful technique called **attention** to build several different models. Some of the things you build using the attention mechanism, you build a powerful language translation model. You also build an algorithm capable of summarizing texts. You build a model that can actually answer questions about the piece of text, and you build a chat bot that you can actually have a conversation with.	
@@ -108,7 +170,7 @@ Alignment is an old problem and there are a number of papers on learning to alig
 berliner = citizen of berlin 
 berliner = jelly dounut
 
-alignment
+### Alignment
 
 each word does not translate exactly to another word
 adding an attention layers allows the model to give different words more importance when translating another word.
@@ -155,15 +217,34 @@ a picture of attention in translation with English to German	  An important thin
 	In a situation like the one I just mentioned, where the grammar of foreign language requires a difference word order than the other, the attention is so flexible enough to find the connection. The first four tokens, the agreements on the, are pretty straightforward, but then the grammatical structure between French and English changes. Now instead of looking at the corresponding fifth token to translate the French word zone, the attention knows to look further down at the eighth token, which corresponds to the English word area, glorious and necessary. It's pretty amazing, was a little matrix multiplication can do.
 	So attention is a layer of calculations that let your model focus on the most important parts of the sequence for each step. Queries, values, and keys are representations of the encoder and decoder hidden states. And they're used to retrieve information inside the attention layer by calculating the similarity between the decoder queries and the encoder key- value pairs. 
 	
-## Evaluation for Machine Translation	
+## Evaluation metrics for machine translation	
 ### BLEU
 
+- The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled "[BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf)"
+- The closer the BLEU score is to one, the better your model is. 
+- The closer to zero, the worse it is. 	
 
-The closer the BLEU score is to one, the better your model is. The closer to zero, the worse it is. 	
-To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. To demonstrate, I'll use uni-grams as an example. 
+To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. For example using uni-grams:
 
-![screenshot_of_outline_slide](/assets/c4w1_screenshot_10.png){: .callout} You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate. The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
+![screenshot_of_outline_slide](/assets/c4w1_screenshot_10.png){: .callout} 
 
+You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate.
+
+The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
+
+$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}$$
+
+with the Brevity Penalty and precision defined as:
+
+$$BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)$$
+
+$$precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}$$
+
+where:
+
+- $m^{i}_{cand}$, is the count of i-gram in candidate matching the reference translation.
+- $m^{i}_{ref}$, is the count of i-gram in the reference translation.
+- $w^{i}_{t}$, is the total number of i-grams in candidate translation.
 ### ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
@@ -171,8 +252,16 @@ Another similar method for evaluation is the ROUGE score which calculates precis
 
 Rouge also allows you to compute precision as follows: 
 ![precision in ROUGE](/assets/c4w1_screenshot_12.png){: .callout}
-BLUE	
-ROUGE	
+
+recall that ROUGE-N refers to the overlap of N-grams between the actual system and the reference summaries. 
+
+$$ ROUGE_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{|{ test \space unigrams}| } $$
+
+$$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{|\{ vocab\}|}  $$
+these are combined using an F score metric
+
+$$ F_{score}= 2 *\frac{(precision * recall)}{(precision + recall)} $$
+
 Transformers for sequential	Text summarization
 	autocompletion
 	named entity recognition
@@ -225,7 +314,62 @@ Shaw et all 2018 Self-Attention with Relative Position Representations
 How does multiheaded attention make the different heads learn different things.	head noun
 head verb
 coreference resolution
-	
+
+
+## Decoding
+
+### Random sampling
+
+```python
+def logsoftmax_sample(log_probs, temperature=1.0):  
+  """Returns a sample from a log-softmax output, with temperature.
+
+  Args:
+    log_probs: Logarithms of probabilities (often coming from LogSofmax)
+    temperature: For scaling before sampling (1.0 = default, 0.0 = pick argmax)
+  """
+  # This is equivalent to sampling from a softmax with temperature.
+  u = np.random.uniform(low=1e-6, high=1.0 - 1e-6, size=log_probs.shape)
+  g = -np.log(-np.log(u))
+  return np.argmax(log_probs + g * temperature, axis=-1)
+
+```
+### Beam Search
+
+The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter the beam width limits the choices considered at each step. ![Beam Search](/assets/c4w1_screenshot_15.png){: .callout}
+
+## Minimum Bayes Risk (MBR)
+
+Minimum Bayes Risk (MBR) 
+Compares many samples against one another. To implement MBR: 
+- Generate several random samples 
+- Compare each sample against all the others and assign a similarity score (such as ROUGE!) 
+- Select the sample with the highest similarity: the golden one 
+
+![MBR](/assets/c4w1_screenshot_16.png){: .callout}
+
+Summary 
+- Maximal Probability is a baseline - but not a very good one if the data is noisy.
+- Random sampling with temprature is better.
+- Beam search uses conditional probabilities and the parameter 
+- MBR (Minimum Bayes Risk)takes several samples and compares them against each other to find the golden one 
+
+
+
+## See also
+
+This course drew from the following resources:
+
+The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled "[BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf)"
+
+- [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) (Raffel et al, 2019)
+- [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451) (Kitaev et al, 2020)
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017)
+-​ [Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf) (Peters et al, 2018)
+- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) (Alammar, 2018)
+- [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) (Visualizing Transformer Language Models) (Alammar, 2019)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al, 2018)
+- [How GPT3 Works - Visualizations and Animations](http://jalammar.github.io/how-gpt3-works-visualizations-animations/) (Alammar, 2020)
 # Week 3	
 	
 Evolution
