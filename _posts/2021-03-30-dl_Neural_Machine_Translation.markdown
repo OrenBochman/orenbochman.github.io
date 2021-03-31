@@ -232,17 +232,22 @@ You would sum over the unique n-gram counts in the candidate and divide by the t
 
 The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
 
-$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} \#eq:binom$$
+
+$$
+\begin{equation}
+ BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} \label{eq:sample} 
+\end{equation}
+$$
 
 with the Brevity Penalty and precision defined as:
 
-$$BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)$$
+$$ BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr) $$
 
-$$precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}$$
+$$ precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}} $$
 
 where:
 
-- $m^{i}_{cand}$, is the count of i-gram in candidate matching the reference translation.
+- \(m^{i}_{cand}\), is the count of i-gram in candidate matching the reference translation.
 - $m^{i}_{ref}$, is the count of i-gram in the reference translation.
 - $w^{i}_{t}$, is the total number of i-grams in candidate translation.
 ### ROUGE 	
@@ -258,6 +263,7 @@ recall that ROUGE-N refers to the overlap of N-grams between the actual system a
 $$ ROUGE_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{|{ test \space unigrams}| } $$
 
 $$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{|\{ vocab\}|}  $$
+
 these are combined using an F score metric
 
 $$ F_{score}= 2 *\frac{(precision * recall)}{(precision + recall)} $$
@@ -491,8 +497,12 @@ T5	like BERT does  Transfer learning + fine tuning.
 	pre training
 
 2^18 steps = 262144
-	
-	
 
 
-	
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
