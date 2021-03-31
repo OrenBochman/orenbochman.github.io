@@ -7,6 +7,9 @@ tag: deeplearning.ai
 tag: deep learning
 tag: #DeepLearningAlgorithems
 ---
+
+{:toc}
+
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
 ### Learning Objectives:
 

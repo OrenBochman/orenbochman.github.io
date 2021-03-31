@@ -33,6 +33,8 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
+#  - jemoji
+
 
 # Your disqus username, entering this will enable commenting on posts
 disqus: orenbochman
@@ -63,13 +65,7 @@ permalink: /:title
 
 kramdown:
   html_to_native: true
-  parse_block_html: true
-  toc_levels: 3
-  
-
-# Emoji please!
-gems:
-  - jemoji
+#  parse_block_html: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
