@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Neural Machine Translation Notes"
-date:   2021-03-30 17:16:16 +0300
+date:   2021-03-30 18:16:16 +0300
 categories: nlp coursera notes
 tag: deeplearning.ai
 tag: deep learning
 tag: #DeepLearningAlgorithems
 ---
-
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
 ### Learning Objectives:
 
