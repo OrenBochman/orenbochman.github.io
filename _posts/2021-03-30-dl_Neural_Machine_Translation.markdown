@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Neural Machine Translation Notes"
 permalink: /Neural_Machine_Translation_Notes/
 tag: deeplearning.ai
