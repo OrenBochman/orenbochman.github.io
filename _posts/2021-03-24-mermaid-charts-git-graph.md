@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Mermaid Git Graph"
-date:   2021-03-29 16:16:16 +0300
+date:   2021-03-24 16:16:16 +0300
 categories: blogging test
 tags: ["charts"]
 ---
-
 # Git graph
 
 <div class="mermaid">
