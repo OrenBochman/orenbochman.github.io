@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neural Machine Translation Notes"
+title: "Neural Machine Translation"
 date:   2021-03-30 18:16:16 +0300
 categories: nlp coursera notes
 tag: deeplearning.ai
@@ -8,9 +8,10 @@ tag: deep learning
 tag: #DeepLearningAlgorithems
 ---
 
-{:toc}
-
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
 ### Learning Objectives:
 
 - Explain how an Encoder/Decoder model works
