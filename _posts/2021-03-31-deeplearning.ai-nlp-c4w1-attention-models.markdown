@@ -10,9 +10,6 @@ tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 Notes for: NLP with Attention Models Week 1
 Natural Language Processing with Attention Models
 
-
- 
-
 **Contents**
 * This will become a table of contents (this text will be scrapped).
 {:toc}
@@ -31,7 +28,7 @@ Natural Language Processing with Attention Models
 ### How do we learn to **align** two sequences?
 
 Using an `tl.attention` layer. While it does not reorder the input,  attention works by by assigning to each item of the input a subset of the input.
-### How do we use arbitrary functions on a Trax Neuarl Net?
+### How do we ustilize arbitrary functions on a Trax Neuarl Net?
     
 Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/layers_intro.html?highlight=fn#With-the-Fn-layer-creating-function.)
 
@@ -48,26 +45,37 @@ Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/l
 		return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
 ~~~
 
-### How do we manage layer input and output in a neural network?
+### How to duplicate or delete input in Trax neural networks?
 
-If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
+Simple serial architectures map input to output. 
 
-In Trax we can do it using a `tl.Select` combinator
+When a more complex setup is needed like in the deep imagenets by google this is done using a `tl.Select` combinator. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular - which is also covered in the next item.
 
 ~~~python
-    tl.Select([0,1,0,1])
+tl.Select([0,1,0,1])
 ~~~
-which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
 
-### How to make a residual connections ? 
-   using the  `tl.Residual` combinator
-    use a d. residual layer
+which pops items 0,1 from the stack and pushes them in twice. This replicating the inputs on the stack.
 
-### When decoding, how do you sample from the states with some noise AKA **Temprature Based Sampling** 
+Now lets suppose a layer gets 3 tensors + the output of anther layer. Which means there will be 4 tensors on the stack. To ignore say the second item we use select. But we also want to consume a layer's output so we can idicate this using the second parameter which tell the select it has three in coming tensors.
 
-using `tl.logsoftmax_sample()` lets us get **Temprature Based Sampling** and **Greedy Decoding** based on the `temprature` parameter
-	
-Note: Setting tempature to 0 will return the maximal likelyhood estimate - this is called **Greedy Decoding**
+~~~python
+tl.Select([0,2],n_in=3)
+~~~
+
+### How to make a residual connections in a Trax Neural Nets? 
+
+Use the  `tl.Residual` combinator. 
+
+~~~python
+tl.Residual( tl.The_Layer_To_Bypass() )
+~~~
+
+### How to sample sequence states with noise AKA **Temprature Based Sampling** ? 
+
+ Use `tl.logsoftmax_sample()` to create **Temprature Based Sampling** or **Greedy Decoding** based on the `temprature` parameter. 
+ 
+ Setting tempature to 0 will return the maximal likelyhood estimate - this is called **Greedy Decoding**. Larger values will add noise to the distribution allowing sampling of items with lower probabilities.
 
 the implementation is like this:
 
