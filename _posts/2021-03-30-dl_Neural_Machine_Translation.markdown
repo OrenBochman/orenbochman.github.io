@@ -10,11 +10,6 @@ tag: #DeepLearningAlgorithems
 # Neural Machine Translation
 
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
-
-**Contents**
-* TOC
-{:toc}
-
 ### Learning Objectives:
 
 - Explain how an Encoder/Decoder model works
