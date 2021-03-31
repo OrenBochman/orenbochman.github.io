@@ -232,12 +232,7 @@ You would sum over the unique n-gram counts in the candidate and divide by the t
 
 The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
 
-
-$$
-\begin{equation}
- BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} \label{eq:sample} 
-\end{equation}
-$$
+$$ BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} $$
 
 with the Brevity Penalty and precision defined as:
 
@@ -247,7 +242,7 @@ $$ precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand
 
 where:
 
-- \(m^{i}_{cand}\), is the count of i-gram in candidate matching the reference translation.
+- $m^{i}_{cand}$, is the count of i-gram in candidate matching the reference translation.
 - $m^{i}_{ref}$, is the count of i-gram in the reference translation.
 - $w^{i}_{t}$, is the total number of i-grams in candidate translation.
 ### ROUGE 	
