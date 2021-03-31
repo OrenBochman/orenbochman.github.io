@@ -7,15 +7,12 @@ tag: deep learning
 tag: #DeepLearningAlgorithems
 
 ---
-<style>
-{% include callout.css %}
-</style>
+
 # Neural Machine Translation
 
 My deeplearning.ai course notes **Natural Language Processing with Attention Models** 
 
 {:toc}
-
 
 ## Learning Objectives:
 
