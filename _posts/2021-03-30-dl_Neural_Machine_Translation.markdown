@@ -11,6 +11,8 @@ tag: #DeepLearningAlgorithems
 
 My [deeplearning.ai](deeplearning.ai) notes for: Natural Language Processing with Attention Models 
 
+**Contents**
+* TOC
 {:toc}
 
 ### Learning Objectives:
