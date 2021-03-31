@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mermaid Charts Test"
+title: "Mermaid Charts Sequence Diagram"
 date:   2021-03-29 16:16:16 +0300
 categories: blogging test
 tags: ["charts"]
