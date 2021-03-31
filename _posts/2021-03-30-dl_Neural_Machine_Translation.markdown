@@ -232,7 +232,7 @@ You would sum over the unique n-gram counts in the candidate and divide by the t
 
 The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
 
-$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}$$
+$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} \#eq:binom$$
 
 with the Brevity Penalty and precision defined as:
 
