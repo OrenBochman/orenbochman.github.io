@@ -14,6 +14,9 @@ tag: #DeepLearningAlgorithems
 
 My deeplearning.ai course notes **Natural Language Processing with Attention Models** 
 
+[[TOC]]
+
+
 ## Learning Objectives:
 
 - Explain how an Encoder/Decoder model works
@@ -25,61 +28,63 @@ My deeplearning.ai course notes **Natural Language Processing with Attention Mod
 
 ## TLDR: Neural Network engineering
 
-1. How do we learn to **align** two sequences?
+### How do we learn to **align** two sequences?
 
-   Using **attention** layer. While it does not reorder the input,  attention works by by assigning to each item of the input a subset of the input.
-2. How do we use arbitrary functions on a Trax Neuarl Net?
+Using an `tl.attention` layer. While it does not reorder the input,  attention works by by assigning to each item of the input a subset of the input.
+### How do we use arbitrary functions on a Trax Neuarl Net?
     
-    Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/layers_intro.html?highlight=fn#With-the-Fn-layer-creating-function.)
+Using a [functional layers](https://trax-ml.readthedocs.io/en/latest/notebooks/layers_intro.html?highlight=fn#With-the-Fn-layer-creating-function.)
 
-    ```python	
-        def Addition(): # this is a a closure
-        
-            layer_name = "Addition"  # the name 
+```python	
+	def Addition(): # this is a a closure
+	
+		layer_name = "Addition"  # the name 
 
-            # Custom function for the custom layer
-            def func(x, y):
-                return x + y
-        
-            return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
-    ```
-3. How do we manage layer input and output in a neural network?
+		# Custom function for the custom layer
+		def func(x, y):
+			return x + y
+	
+		return tl.Fn(layer_name, func) # returning an tl.Fn object with name and function
+```
+### How do we manage layer input and output in a neural network?
 
-    If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
+If we need something more complex then feeding input to next output we can use stack semantics of Trax. This is actually something I've seen in some papers on image processing papers before residual architectures became more popular.
 
-    In Trax we can do it using a **tl.Select** combinator
+In Trax we can do it using a `tl.Select` combinator
 
-    ```python
-        tl.Select([0,1,0,1])
-    ```
-    which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
+```python
+    tl.Select([0,1,0,1])
+```
+which pops items 0,1 from the stack and pushes them in twice. Effectively replicating the input.
 
-4. how can we make residual connections ? 
-   using the  **tl.Residual** combinator
+### How to make a residual connections ? 
+   using the  `tl.Residual` combinator
     use a d. residual layer
 
-5. When decoding, how do you sample from the states with some noise AKA **Temprature Based Sampling** 
+### When decoding, how do you sample from the states with some noise AKA **Temprature Based Sampling** 
 
-	using `tl.logsoftmax_sample()` lets us get **Temprature Based Sampling** and **Greedy Decoding** based on the `temprature` parameter
+using `tl.logsoftmax_sample()` lets us get **Temprature Based Sampling** and **Greedy Decoding** based on the `temprature` parameter
 	
-	Note: Setting tempature to 0 will return the maximal likelyhood estimate - this is called **Greedy Decoding**
-	its implementation is:
+Note: Setting tempature to 0 will return the maximal likelyhood estimate - this is called **Greedy Decoding**
 
-	```python
-	def logsoftmax_sample(log_probs, temperature=1.0):  # pylint: disable=invalid-name
-	"""Returns a sample from a log-softmax output, with temperature.
+the implementation is like this:
 
-	Args:
-		log_probs: Logarithms of probabilities (often coming from LogSofmax)
-		temperature: For scaling before sampling (1.0 = default, 0.0 = pick argmax)
-	"""
-	# This is equivalent to sampling from a softmax with temperature.
-	u = np.random.uniform(low=1e-6, high=1.0 - 1e-6, size=log_probs.shape)
-	g = -np.log(-np.log(u))
-	return np.argmax(log_probs + g * temperature, axis=-1)```
+```python
+def logsoftmax_sample(log_probs, temperature=1.0):  
+"""Returns a sample from a log-softmax output, with temperature.
 
+Args:
+	log_probs: Logarithms of probabilities (often coming from LogSofmax)
+	temperature: For scaling before sampling (1.0 = default, 0.0 = pick argmax)
+"""
+# This is equivalent to sampling from a softmax with temperature.
+u = np.random.uniform(low=1e-6, high=1.0 - 1e-6, size=log_probs.shape)
+g = -np.log(-np.log(u))
+return np.argmax(log_probs + g * temperature, axis=-1)
+```
 ## Additional coding notes:
-### How to use numpy to reshape a test tesnsor so it has a (size 0) batch dimenion at the front.
+
+### How to use numpy to reshape a test tesnsor so it has a (size 0) batch dimenion at the front?
 
 This is needed when inspecting single test inputs instead of working with a batch. The model is expecting to process batches of inputs like it saw during training - we therefore need to add a dimension at the start.
 
@@ -91,7 +96,7 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 # get log probabilities from the last token output
 log_probs = output[0,-1,:] 
 ```
-### how to use calculate jaccard_similarity which is the intersection over union?
+### How to use calculate jaccard_similarity which is the intersection over union?
 
 ```python
 def jaccard_similarity(candidate, reference):
