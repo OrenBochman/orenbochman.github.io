@@ -125,22 +125,23 @@ applications
 ![applications](/assets/week2/c4w2_2021-03-25-035416-application-NLP.png#sl)
 applications 
 <hr>
-![Positional encoding](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl) 
 
-Positional encoding 
+![SOTA](//Users/oren/workspace/orenbochman.github.io/assets/week2/c4w2_2021-03-25-035417-SOTA.png#sl)
+
+
+SOTA
 <hr>
 
-~~~mermaid
+<div class="mermaid">
 journey
     title NLP Transformers Time Line
 	Section NLP
       GPT-2: 1 : GPT-2
       BERT : 2 : Bert
       T5   : 3 : T5
+</div>
 
-~~~
-
-
+![Positional encoding](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
 
 # W2V3: Dot-Product Attention
 
