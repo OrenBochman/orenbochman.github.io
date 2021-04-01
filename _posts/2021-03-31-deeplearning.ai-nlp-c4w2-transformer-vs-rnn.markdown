@@ -83,34 +83,33 @@ The LSTM which goes a long way to solving the vanishing gradient problems requie
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 <hr>
 
-
 ![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png#sl)
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
 <hr>
 Two other issues with RNNs are the:
-### Loss of information: 
+
+## Information loss 
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
 ![](/assets/c4w2_2021-03-25-035412-Transformer.png#sl)
 <hr>
-### Vanishing Gradient: 
 
-when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
+## Vanishing Gradient
+
+When gradients you back-propagate, the gradients can become really small and as a result.
+With small gradient the model will learn very little.
 
 ![transformer architecture](/assets/c4w2_transformer-parallel.png#hi)
-some text
-
-<hr>
 
 ![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
+<hr>
 
-
-![](/assets/c4w2_2021-03-25-035414-Summary.png#sl)
+![summary](/assets/c4w2_2021-03-25-035414-Summary.png#sl)
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
