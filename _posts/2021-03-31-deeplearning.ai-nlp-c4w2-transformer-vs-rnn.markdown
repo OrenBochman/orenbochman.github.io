@@ -11,7 +11,7 @@ slug: 4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 ---
 
-![deeplearning.ai](/assets/logo_deeplearning.ai.png){: class="logo"}
+![deeplearning.ai](/assets/logo_deeplearning.ai.png#logo)
 
 Course notes for: NLP with Attention Models Week 2
 Transformers vs RNNs
@@ -76,7 +76,7 @@ This illusrates a typical RNN that is used to translate the English sentence "Ho
 
 ![RNN architecture](/assets/c4w2_rnn-non-parallel.png#hi)
 
-![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
+![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png#sl)
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
@@ -84,7 +84,7 @@ However, as time went by and models got longer and deeper the biggest challange 
 <hr>
 
 
-![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
+![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png#sl)
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
@@ -94,23 +94,23 @@ Two other issues with RNNs are the:
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
-![](/assets/c4w2_2021-03-25-035412-Transformer.png){: class="sl"}
+![](/assets/c4w2_2021-03-25-035412-Transformer.png#sl)
 <hr>
 ### Vanishing Gradient: 
 
 when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
 
-![transformer architecture](/assets/c4w2_transformer-parallel.png){: class="hi"}
+![transformer architecture](/assets/c4w2_transformer-parallel.png#hi)
 some text
 
 <hr>
 
-![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: class="sl"}
+![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 
 
-![](/assets/c4w2_2021-03-25-035414-Summary.png){: class="sl"}
+![](/assets/c4w2_2021-03-25-035414-Summary.png#sl)
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
