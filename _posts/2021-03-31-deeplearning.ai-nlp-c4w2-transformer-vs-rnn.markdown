@@ -141,12 +141,7 @@ For RNNs, the number of steps increases with longer sequences. Finally, transfor
 - OCR
 - Spell Cheking
   
-<hr>
-
-
-<hr>
-
-## SOTA
+## SOTA Transformers
 
 ![sota](/assets/week2/c4w2-17-sota.png#sl)
 
@@ -165,9 +160,27 @@ journey
 
 ## T5 - Text-To-Text Transfer Transformer
 
+![t5](/assets/week2/c4w2-18-t5.gif#hl)
+
+<hr>
+
 ![t5](/assets/week2/c4w2-18-t5.png#sl)
 
+can do a number of tasks with a single model
+
+Classiifcation tasks are selected using the initial string:
+- Translate English into German
+- Cola sentence
+- Question
+<hr>
+
 ![text-to-text-transformer](/assets/week2/c4w2-19-text-to-text-transformer.png#sl)
+
+Regresion tasks using:
+- Stbs Sentece1 ... Stbs Sentece2 ...
+- Summersize: 
+
+[play triavia against T5 here](https://t5-trivia.glitch.me/)
 
 <hr>
 
@@ -179,17 +192,17 @@ journey
 
 <hr>
 
-# W2V3: Dot-Product Attention
+# V3: Dot-Product Attention
 
-# W2V4: Causal Attention
+# V4: Causal Attention
 
-# W2V5: Multi-head Attention
+# V5: Multi-head Attention
 
-# W2V6: Transformer Decoder
+# V6: Transformer Decoder
 
-# W2V7: Transformer Summarizer
+# V7: Transformer Summarizer
 
-# W2V8: Reading: Content Resource
+# V8: Reading: Content Resource
 
 # Lab1 : Attention
 
