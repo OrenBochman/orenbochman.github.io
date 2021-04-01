@@ -73,20 +73,20 @@ This illusrates a typical RNN that is used to translate the English sentence "Ho
 ![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width:85%; display: block; margin-left: auto; margin-right: auto;  border: 2px solid red;"}
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
-
+<hr>
 ![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
 
-<hr>
-
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
-
+<hr>
 ![](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
 Two other issues with RNNs are the:
+<hr>
 
 ![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: class="sl"}
+
 ### Loss of information: 
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
