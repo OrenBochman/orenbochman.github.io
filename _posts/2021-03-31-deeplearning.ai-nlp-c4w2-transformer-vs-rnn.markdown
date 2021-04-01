@@ -11,7 +11,7 @@ slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 ---
 
-![deeplearning.ai](/assets/logo_deeplearning.ai.png#logo)
+![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
 
 Course notes for: NLP with Attention Models Week 2
 Transformers vs RNNs
@@ -68,22 +68,22 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 log_probs = output[0,-1,:] 
 ~~~
 
-# W2V1: Transformers vs RNNs
+# Video 1: Transformers vs RNNs
 
 RNNs were a big breakthrough and became the state of the art (SOTA) for macine translation (MT).
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/c4w2_rnn-non-parallel.png#hi)
+![RNN architecture](/assets/week2/c4w2_rnn-non-parallel.png#hi)
 
-![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png#sl)
+![RNN architecture](/assets/week2/c4w2_2021-03-25-035410-LSTMs.png#sl)
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 <hr>
 
-![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png#sl)
+![Seq2Seq](/assets/week2/c4w2_2021-03-25-035410-Seq2Seq.png#sl)
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
@@ -94,7 +94,7 @@ Two other issues with RNNs are the:
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
-![](/assets/c4w2_2021-03-25-035412-Transformer.png#sl)
+![](/assets/week2/c4w2_2021-03-25-035412-Transformer.png#sl)
 <hr>
 
 ## Vanishing Gradient
@@ -102,14 +102,14 @@ It becomes harder to keep track of whether the subject is singular or plural as 
 When gradients you back-propagate, the gradients can become really small and as a result.
 With small gradient the model will learn very little.
 
-![transformer architecture](/assets/c4w2_transformer-parallel.png#hi)
+![transformer architecture](/assets/week2/c4w2_transformer-parallel.png#hi)
 
-![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
+![Positional Encodings](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 <hr>
 
-![summary](/assets/c4w2_2021-03-25-035414-Summary.png#sl)
+![summary](/assets/week2/c4w2_2021-03-25-035414-Summary.png#sl)
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
@@ -117,7 +117,30 @@ For RNNs, the number of steps increases with longer sequences. Finally, transfor
 
 <hr>
 
-# W2V2: Transformer Applications
+# Video 2: Transformer Applications
+
+![applications](/assets/week2/c4w2_2021-03-25-035415-application.png#sl)
+applications 
+<hr>
+![applications](/assets/week2/c4w2_2021-03-25-035416-application-NLP.png#sl)
+applications 
+<hr>
+![Positional encoding](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl) 
+
+Positional encoding 
+<hr>
+
+~~~mermaid
+journey
+    title NLP Transformers Time Line
+	Section NLP
+      GPT-2: 1 : GPT-2
+      BERT : 2 : Bert
+      T5   : 3 : T5
+
+~~~
+
+
 
 # W2V3: Dot-Product Attention
 

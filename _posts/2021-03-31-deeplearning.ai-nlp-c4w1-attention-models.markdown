@@ -9,7 +9,7 @@ tags:
     - '#DeepLearningAlgorithems'
 lastmod: 2021-04-01T11:13:20.956Z
 ---
-![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="float: right"}
+![deeplearning.ai](/assets/logo/logo_deeplearning.ai.png){: style="float: right"}
 
 Notes for: NLP with Attention Models Week 1
 Natural Language Processing with Attention Models
@@ -159,7 +159,7 @@ The sequential nature of models you learned in the previous course (RNNs, LSTMs,
 
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. (because you can run different batches or examples in parallel or even different directions)
 
-![screenshot_of_outline_slide](/assets/c4w1_screenshot_01.png#sl)
+![screenshot_of_outline_slide](/assets/week1/c4w1_screenshot_01.png#sl)
 
 In other words, if you rely on sequences and you need to know the beginning of a text before being able to compute something about the ending of it, then you can not use parallel computing. You would have to wait until the initial computations are complete. This is not good, because if your text is too long, then 
 
@@ -171,7 +171,7 @@ In other words, if you rely on sequences and you need to know the beginning of a
 - Maps variable-length sequences to fixed-length memory
 - LSTMs and GRUs are typically used to overcome the vanishing gradient problem 
 
-![encoder decoder architecture](/assets/c4w1_screenshot_03.png#sl)
+![encoder decoder architecture](/assets/week1/c4w1_screenshot_03.png#sl)
 
 Therefore, attention mechanisms have become critical for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
 
@@ -241,13 +241,13 @@ a picture of attention in translation with English to German	  An important thin
 
 ### BLEU
 
-- The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled "[BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf)"
+- The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled [BLEU: a Method for Automatic Evaluation of Machine Translation][BLEU: a Method for Automatic Evaluation of Machine Translation]
 - The closer the BLEU score is to one, the better your model is. 
 - The closer to zero, the worse it is. 	
 
 To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. For example using uni-grams:
 
-![screenshot_of_outline_slide](/assets/c4w1_screenshot_10.png#HL)
+![screenshot_of_outline_slide](/assets/week1/c4w1_screenshot_10.png#HL)
 
 You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate.
 
@@ -269,13 +269,13 @@ where:
 ## ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
-![recall in ROUGE](/assets/c4w1_screenshot_11.png#HL)
+![recall in ROUGE](/assets/week1/c4w1_screenshot_11.png#HL)
 
 $$ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{|{ test \space unigrams}| } $$
 
 Rouge also allows you to compute precision as follows: 
 
-![precision in ROUGE](/assets/c4w1_screenshot_12.png#HL)
+![precision in ROUGE](/assets/week1/c4w1_screenshot_12.png#HL)
 
 $$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{|\{ vocab\}|}  $$
 
@@ -307,7 +307,7 @@ def logsoftmax_sample(log_probs, temperature=1.0):
 
 ## Beam Search
 
-The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/c4w1_screenshot_15.png){: .callout}
+The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/week1/c4w1_screenshot_15.png){: .callout}
 
 ## Minimum Bayes Risk (MBR)
 
@@ -318,7 +318,7 @@ To implement MBR:
 - Compare each sample against all the others and assign a similarity score (e.g. ROUGE).
 - Select the sample with the highest similarity: the golden one.
 
-![MBR](/assets/c4w1_screenshot_16.png){: .callout}
+![MBR](/assets/week1/c4w1_screenshot_16.png){: .callout}
 
 ## Summary
 
@@ -327,12 +327,11 @@ To implement MBR:
 - Beam search uses conditional probabilities and the parameter.
 - MBR (Minimum Bayes Risk)takes several samples and compares them against each other to find the golden one.
 
-# See also
+# Referrences
 
-This course drew from the following resources:
+The notes drew from the following resources:
 
-The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled "[BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf)"
-
+- [BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf) (Kishore Papineni et allm 2002)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) (Raffel et al, 2019)
 - [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451) (Kitaev et al, 2020)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017)
