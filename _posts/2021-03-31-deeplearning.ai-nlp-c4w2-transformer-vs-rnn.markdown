@@ -9,8 +9,9 @@ tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 .sl {
     float: right; 
     width:55%; 
-    margin:10px 10px 0px 5px; 
-    border: 2px solid green;
+    margin:10px 10px 10px 0px; 
+    border: 2px solid gold;
+	display: block;
 
 }
 
@@ -19,9 +20,9 @@ tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
     display: block;
 	margin: 10px auto 10px auto;
     border: 2px solid gold;
-}    
+}
 
-#hr { clear:both; block:true; }
+hr { 	clear:both;  }
 
 .logo {
     width: 20%;
@@ -92,38 +93,28 @@ RNNs were a big breakthrough and became the SOTA for MT.
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width:85%; display: block; margin-left: auto; margin-right: auto;  border: 2px solid red;"}
-
-
+![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: class="hi"}
 
 ![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
-
-<hr>
-
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
-
 <hr>
+
 
 ![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
-Two other issues with RNNs are the:
-
-![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: class="sl"}
-
 <hr>
-
+Two other issues with RNNs are the:
 ### Loss of information: 
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
 ![](/assets/c4w2_2021-03-25-035412-Transformer.png){: class="sl"}
 <hr>
-
 ### Vanishing Gradient: 
 
 when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
@@ -143,8 +134,7 @@ Additionally, the gradient steps that need to be taken from the last output to t
 
 For RNNs, the number of steps increases with longer sequences. Finally, transformers don't suffer from vanishing gradients problems that are related to the length of the sequences. 
 
-
-
+<hr>
 
 ## W2V2: Transformer Applications{: style="clear"}
 
