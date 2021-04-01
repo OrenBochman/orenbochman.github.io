@@ -70,7 +70,7 @@ RNNs were a big breakthrough and became the SOTA for MT.
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width:100%; margin:10px; border: 2px solid gold;"}
+![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width:100%-20px; margin:10px; border: 2px solid gold;"}
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
