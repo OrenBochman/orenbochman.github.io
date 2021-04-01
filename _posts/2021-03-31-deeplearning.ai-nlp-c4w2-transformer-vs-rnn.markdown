@@ -5,6 +5,8 @@ date:   2021-03-31 16:10:06 +0300
 categories: nlp coursera notes
 tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 ---
+
+
 ![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="float: right"}
 
 Notes for: NLP with Attention Models Week 2
@@ -62,23 +64,66 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 log_probs = output[0,-1,:] 
 ~~~
 
-## W2V1: Intro
 
-## W2V2: Transformers vs RNNs
+## W2V1: Transformers vs RNNs
 
-## W2V3: Transformer Applications
+RNNs were a big breakthrough and became the SOTA for MT.
 
-## W2V4: Dot-Product Attention
+This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-## W2V5: Causal Attention
+![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="margin:10px"}
 
-## W2V6: Multi-head Attention
+The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
-## W2V7: Transformer Decoder
+![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
 
-## W2V8: Transformer Summarizer
+However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 
-## W2V9: Reading: Content Resource
+![](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
+
+Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
+
+Two other issues with RNNs are the:
+
+![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear:both;"}
+### Loss of information: 
+
+It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
+
+![](/assets/c4w2_2021-03-25-035412-Transformer.png){: style="float: right; width:45%; margin:10px 10px 0px 5px; clear:both;"}
+
+### Vanishing Gradient: 
+
+when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
+
+![transformer architecture](/assets/c4w2_transformer-parallel.png)
+
+![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear:both;"}
+
+Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
+
+![](/assets/c4w2_2021-03-25-035414-Summary.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear: both;"}
+
+Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
+
+For RNNs, the number of steps increases with longer sequences. Finally, transformers don't suffer from vanishing gradients problems that are related to the length of the sequences. 
+
+
+
+
+## W2V2: Transformer Applications{: style="clear"}
+
+## W2V3: Dot-Product Attention
+
+## W2V4: Causal Attention
+
+## W2V5: Multi-head Attention
+
+## W2V6: Transformer Decoder
+
+## W2V7: Transformer Summarizer
+
+## W2V8: Reading: Content Resource
 
 ## Lab1 : Attention
 
