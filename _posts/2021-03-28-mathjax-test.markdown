@@ -12,5 +12,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 $$ \begin{equation} 
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  (\#eq:binom)
 \end{equation} $$
