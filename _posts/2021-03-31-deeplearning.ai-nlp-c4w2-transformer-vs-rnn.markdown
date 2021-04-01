@@ -5,11 +5,33 @@ date:   2021-03-31 16:10:06 +0300
 categories: nlp coursera notes
 tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 ---
+<style>
+.sl {
+    float: right; 
+    width:55%; 
+    margin:10px 10px 0px 5px; 
+    border: 2px solid green;
 
+}
+
+.hi {
+    width:85%; 
+    display: block;
+	margin: 10px auto 10px auto;
+    border: 2px solid gold;
+}    
+
+#hr { clear:both; block:true; }
+
+.logo {
+    width: 20%;
+    float: right
+}
+</style>
 
 ![deeplearning.ai](/assets/logo_deeplearning.ai.png){: class="logo"}
 
-Notes for: NLP with Attention Models Week 2
+Course notes for: NLP with Attention Models Week 2
 Transformers vs RNNs
 
 Spoiler: ;-) Transformers win.
@@ -72,32 +94,44 @@ This illusrates a typical RNN that is used to translate the English sentence "Ho
 
 ![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width:85%; display: block; margin-left: auto; margin-right: auto;  border: 2px solid red;"}
 
-The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
-<hr>
+
+
 ![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
 
-However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 <hr>
-![](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
+
+
+The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
+
+However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
+
+<hr>
+
+![Seq2Seq](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
 Two other issues with RNNs are the:
-<hr>
 
 ![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: class="sl"}
+
+<hr>
 
 ### Loss of information: 
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
 ![](/assets/c4w2_2021-03-25-035412-Transformer.png){: class="sl"}
+<hr>
 
 ### Vanishing Gradient: 
 
 when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
 
 ![transformer architecture](/assets/c4w2_transformer-parallel.png){: class="hi"}
+some text
+
+<hr>
 
 ![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: class="sl"}
 
