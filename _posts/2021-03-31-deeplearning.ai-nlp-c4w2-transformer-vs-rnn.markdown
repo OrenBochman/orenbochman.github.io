@@ -5,30 +5,7 @@ date:   2021-03-31 16:10:06 +0300
 categories: nlp coursera notes
 tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 ---
-<style>
-.sl {
-    float: right; 
-    width:55%; 
-    margin:10px 10px 10px 0px; 
-    border: 2px solid gold;
-	display: block;
 
-}
-
-.hi {
-    width:85%; 
-    display: block;
-	margin: 10px auto 10px auto;
-    border: 2px solid gold;
-}
-
-hr { 	clear:both;  }
-
-.logo {
-    width: 20%;
-    float: right
-}
-</style>
 
 ![deeplearning.ai](/assets/logo_deeplearning.ai.png){: class="logo"}
 
@@ -128,6 +105,7 @@ some text
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 
+
 ![](/assets/c4w2_2021-03-25-035414-Summary.png){: class="sl"}
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
@@ -136,7 +114,7 @@ For RNNs, the number of steps increases with longer sequences. Finally, transfor
 
 <hr>
 
-## W2V2: Transformer Applications{: style="clear"}
+## W2V2: Transformer Applications
 
 ## W2V3: Dot-Product Attention
 
