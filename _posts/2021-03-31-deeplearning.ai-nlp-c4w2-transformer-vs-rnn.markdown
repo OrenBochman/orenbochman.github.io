@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Course 4 Week 2 Transformers vs RNNs
+title: NLP with Attention Models Week 2 Transformers vs RNNs
 date: 2021-04-01T10:49:23.948Z
 categories: nlp coursera notes
 tags:
     - deeplearning.ai
     - deep learning
     - '#DeepLearningAlgorithems'
-slug: 4-week-2-transformers-rnns
+slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 ---
 

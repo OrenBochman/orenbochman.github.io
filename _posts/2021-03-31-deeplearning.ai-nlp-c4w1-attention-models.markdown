@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "Course 4 Week 1 NLP with Attention Models"
-date:   2021-03-30 18:16:16 +0300
+title: NLP with Attention Models Week 1 NLP with Attention Models
+date: '2021-03-30T18:16:16.956Z
 categories: nlp coursera notes
-tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
+tags:
+    - deeplearning.ai
+    - deep learning
+    - '#DeepLearningAlgorithems'
+lastmod: 2021-04-01T11:13:20.956Z
 ---
 ![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="float: right"}
 
