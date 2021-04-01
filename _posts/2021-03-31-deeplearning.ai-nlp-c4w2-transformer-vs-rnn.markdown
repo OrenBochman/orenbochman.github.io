@@ -70,7 +70,7 @@ RNNs were a big breakthrough and became the SOTA for MT.
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width=95%;margin:10px"}
+![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: class="hi"}
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
@@ -95,7 +95,7 @@ It becomes harder to keep track of whether the subject is singular or plural as 
 
 when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
 
-![transformer architecture](/assets/c4w2_transformer-parallel.png){: style="width=95%;margin:10px"}
+![transformer architecture](/assets/c4w2_transformer-parallel.png){: class="hi"}
 
 ![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: class="sl"}
 
