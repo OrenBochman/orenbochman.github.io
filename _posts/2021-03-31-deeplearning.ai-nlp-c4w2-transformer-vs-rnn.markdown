@@ -74,16 +74,21 @@ RNNs were a big breakthrough and became the state of the art (SOTA) for macine t
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/week2/c4w2_rnn-non-parallel.png#hi)
 
-![RNN architecture](/assets/week2/c4w2_2021-03-25-035410-LSTMs.png#sl)
+![rnn-non-parallel](/assets/week2/c4w2-04-rnn-non-parallel.png#hi)
+![transformer-parallel](/assets/week2/c4w2-05-transformer-parallel.png#sl)
+
+
+
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 <hr>
 
-![Seq2Seq](/assets/week2/c4w2_2021-03-25-035410-Seq2Seq.png#sl)
+
+![lstm](/assets/week2/c4w2-10-lstm.png#sl)
+![seq2seq-steps](/assets/week2/c4w2-11-seq2seq-steps.png#sl)
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
@@ -94,7 +99,8 @@ Two other issues with RNNs are the:
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
-![](/assets/week2/c4w2_2021-03-25-035412-Transformer.png#sl)
+![transformer](/assets/week2/c4w2-12-transformer.png#hl)
+
 <hr>
 
 ## Vanishing Gradient
@@ -102,34 +108,48 @@ It becomes harder to keep track of whether the subject is singular or plural as 
 When gradients you back-propagate, the gradients can become really small and as a result.
 With small gradient the model will learn very little.
 
-![transformer architecture](/assets/week2/c4w2_transformer-parallel.png#hi)
 
-![Positional Encodings](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
+![positonal-encoding](/assets/week2/c4w2-14-positonal-encoding.png#sl)
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 <hr>
 
-![summary](/assets/week2/c4w2_2021-03-25-035414-Summary.png#sl)
+![summary](/assets/week2/c4w2-13-summary.png#sl)
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
 For RNNs, the number of steps increases with longer sequences. Finally, transformers don't suffer from vanishing gradients problems that are related to the length of the sequences. 
-
 <hr>
 
 # Video 2: Transformer Applications
 
-![applications](/assets/week2/c4w2_2021-03-25-035415-application.png#sl)
-applications 
-<hr>
-![applications](/assets/week2/c4w2_2021-03-25-035416-application-NLP.png#sl)
-applications 
+![application](/assets/week2/c4w2-15-application.png#sl)
+
 <hr>
 
-![SOTA](//Users/oren/workspace/orenbochman.github.io/assets/week2/c4w2_2021-03-25-035417-SOTA.png#sl)
+![application-NLP](/assets/week2/c4w2-16-application-NLP.png#sl)
+
+- Text summerization
+- Autocomplete
+- NER
+- Q&A
+- Translation
+- Chat Bots
+- Sentiment Analysos
+- Market Intelligence
+- Text Classification
+- OCR
+- Spell Cheking
+  
+<hr>
 
 
-SOTA
+<hr>
+
+## SOTA
+
+![sota](/assets/week2/c4w2-17-sota.png#sl)
+
 <hr>
 
 <div class="mermaid">
@@ -141,7 +161,23 @@ journey
       T5   : 3 : T5
 </div>
 
-![Positional encoding](/assets/week2/c4w2_2021-03-25-035413-Positonal-Encoding.png#sl)
+<hr>
+
+## T5 - Text-To-Text Transfer Transformer
+
+![t5](/assets/week2/c4w2-18-t5.png#sl)
+
+![text-to-text-transformer](/assets/week2/c4w2-19-text-to-text-transformer.png#sl)
+
+<hr>
+
+![quiz](/assets/week2/c4w2-21-quiz.png#sl)
+
+<hr>
+
+![summary](/assets/week2/c4w2-20-summary.png#sl)
+
+<hr>
 
 # W2V3: Dot-Product Attention
 
@@ -160,3 +196,16 @@ journey
 # Lab2 : The Transformer Decoder
 
 # Assignment: Transformer Summarizer
+
+<!-- 
+# all images
+
+format all image names like
+/assets/week2/c4w2-04-name.png
+run search and replace:
+^(assets/week2/c4w2-..-)([^.]+)(\.png)
+![$2](/$1$2$3#sl)
+
+ to get them as images get all the names
+
+-->
