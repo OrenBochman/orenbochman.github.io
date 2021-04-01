@@ -7,7 +7,7 @@ tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
 ---
 
 
-![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="float: right"}
+![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="width 20%; float: right"}
 
 Notes for: NLP with Attention Models Week 2
 Transformers vs RNNs
@@ -64,14 +64,13 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 log_probs = output[0,-1,:] 
 ~~~
 
-
 ## W2V1: Transformers vs RNNs
 
 RNNs were a big breakthrough and became the SOTA for MT.
 
 This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="margin:10px"}
+![RNN architecture](/assets/c4w2_rnn-non-parallel.png){: style="width=95%;margin:10px"}
 
 The LSTM which goes a long way to solving the vanishing gradient problems requies three times the memory and cpu steps a the vanila RNN.
 
@@ -85,24 +84,24 @@ Which entailed that to process the word "you", the RNN it has to first go throug
 
 Two other issues with RNNs are the:
 
-![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear:both;"}
+![](/assets/c4w2_2021-03-25-035411-Seq2Seq-steps.png){: class="sl"}
 ### Loss of information: 
 
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 
-![](/assets/c4w2_2021-03-25-035412-Transformer.png){: style="float: right; width:45%; margin:10px 10px 0px 5px; clear:both;"}
+![](/assets/c4w2_2021-03-25-035412-Transformer.png){: class="sl"}
 
 ### Vanishing Gradient: 
 
 when you back-propagate, the gradients can become really small and as a result,  your model will not be learning much.
 
-![transformer architecture](/assets/c4w2_transformer-parallel.png)
+![transformer architecture](/assets/c4w2_transformer-parallel.png){: style="width=95%;margin:10px"}
 
-![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear:both;"}
+![Positional Encodings](/assets/c4w2_2021-03-25-035413-Positonal-Encoding.png){: class="sl"}
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 
-![](/assets/c4w2_2021-03-25-035414-Summary.png){: style="float: right; width:45%; margin:10px 10px 5px 0px; clear: both;"}
+![](/assets/c4w2_2021-03-25-035414-Summary.png){: class="sl"}
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
