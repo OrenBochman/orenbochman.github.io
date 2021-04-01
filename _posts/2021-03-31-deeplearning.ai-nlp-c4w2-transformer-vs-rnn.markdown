@@ -76,6 +76,7 @@ The LSTM which goes a long way to solving the vanishing gradient problems requie
 
 ![RNN architecture](/assets/c4w2_2021-03-25-035410-LSTMs.png){: class="sl"}
 
+<hr>
 However, as time went by and models got longer and deeper the biggest challange with iproving RNNs, became  thier use of sequential computation. 
 
 ![](/assets/c4w2_2021-03-25-035410-Seq2Seq.png){: class="sl"}
