@@ -14,6 +14,8 @@ lastmod: 2021-04-01T11:13:20.956Z
 Notes for: NLP with Attention Models Week 1
 Natural Language Processing with Attention Models
 
+<!--more-->
+
 **Contents**
 * This will become a table of contents (this text will be scrapped).
 {:toc}

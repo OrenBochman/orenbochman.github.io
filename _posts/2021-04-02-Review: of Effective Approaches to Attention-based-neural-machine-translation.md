@@ -17,7 +17,9 @@ lastmod: 2021-04-02T10:50:10.126Z
 # Dot-Product Attention
 
 Dot-Product Attention is the first of three attention mechanisms covered in the course. Dot-Product Attention is a good fit, in an engineering sense, for a encoder-decoder architecture with tasks where the source source sequence is fully available at the start and the tasks is mapping or tansformation the source sequence to an ouput sequqence like inth alignment, or translation.
+<!--more-->
 
+{:toc}
 
 This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is avilable at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
 
