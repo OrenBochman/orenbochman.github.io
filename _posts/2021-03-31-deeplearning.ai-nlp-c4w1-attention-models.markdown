@@ -9,7 +9,9 @@ tags:
     - '#DeepLearningAlgorithems'
 lastmod: 2021-04-01T11:13:20.956Z
 ---
-![deeplearning.ai](/assets/logo/logo_deeplearning.ai.png){: style="float: right"}
+
+![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
+
 
 # Natural Language Processing with Attention Models
 Notes for: NLP with Attention Models Week 1
