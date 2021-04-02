@@ -8,7 +8,6 @@ tags:
     - deep learning
     - '#DeepLearningAlgorithems'
 lastmod: 2021-04-01T11:13:20.956Z
-excerpt_separator: <!--more-->
 ---
 ![deeplearning.ai](/assets/logo/logo_deeplearning.ai.png){: style="float: right"}
 

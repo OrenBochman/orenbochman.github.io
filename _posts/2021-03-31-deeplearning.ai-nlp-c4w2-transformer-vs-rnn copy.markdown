@@ -10,7 +10,7 @@ tags:
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
-excerpt_separator: <!--more-->
+
 ---
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
 
