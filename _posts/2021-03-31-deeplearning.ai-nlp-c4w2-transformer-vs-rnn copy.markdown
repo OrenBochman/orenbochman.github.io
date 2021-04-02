@@ -279,7 +279,14 @@ Dot product attention could be summarized as follows:
 
 ![intro-to-attention](/assets/week2/c4w2-23-intro-to-attention.png#sl)
 
-### Queary, Key, and Value
+### Query, Key & Value
+
+In another talk on youtube Dr Lukcas talks about attention and here he is talking about solving the problem of retrieving infomation from a long sequqence. This is essentially what alignemnt was also trying to do. So if we think about retrieving information from a memory:
+
+- The **Query** is the embeding for a token in the *target* sequence we wish to process. 
+- The **Key** is our the embedding of the token from the source sequence 
+- The **Value** is the likelyhood that the key is signficant...
+
 
 ![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
 
@@ -299,7 +306,10 @@ picks the most similar key $k_j$
 Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by VV to get a weighted combination of the input. 
 
 ![attention-quizz](/assets/week2/c4w2-28-attention-quizz.png#sl)
+
 ![summary-for-dot-product-attention](/assets/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
+
+<hr>
 
 # V4: Causal Attention
 
