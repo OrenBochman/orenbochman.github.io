@@ -13,8 +13,9 @@ author: Oren Bochman
 excerpt_separator: <!--more-->
 ---
 
+# Transformers vs RNNs
 Course notes for: NLP with Attention Models Week 2 
-Transformers vs RNNs
+
 
 ::: danger
 Spoiler: ;-) Transformers win.]]
