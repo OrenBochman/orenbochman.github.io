@@ -39,7 +39,7 @@ and a **local** one that only looks at a **subset**
 of source words at a time."
 talks about 
 
-# Global attention** 
+# Global attention
 
 This is defined in §3.1 of the paper as:
 
