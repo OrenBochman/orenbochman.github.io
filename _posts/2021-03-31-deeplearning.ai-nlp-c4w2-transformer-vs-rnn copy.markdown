@@ -11,17 +11,17 @@ slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
 excerpt_separator: <!--more-->
-
 ---
 
-![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
-
-Course notes for: NLP with Attention Models Week 2
+Course notes for: NLP with Attention Models Week 2 
 Transformers vs RNNs
 
-Spoiler: ;-) Transformers win.
+::: danger
+Spoiler: ;-) Transformers win.]]
+:::
 
 <!--more-->
+![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
 
 **Contents**
 * This will become a table of contents (this text will be scrapped).
