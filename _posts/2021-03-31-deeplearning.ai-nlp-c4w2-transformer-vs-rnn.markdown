@@ -203,7 +203,7 @@ Dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Ch
 
 It is the first of three attention mechanisms we will study. In the engineering sense it is suited for a encoder decoder architecture with tasks where the source source sequence is fully available at the start and the tasks is mapping or tansformation the source sequence to an ouput sequqence like inth alignment, or translation.
 
-Attention was not completely new and it had not yet taken center stage in the model, but its often usefull to garner the concepts and intuition which inspired the reserchers to adapt attention and how they come up with this form
+Attention was not completely new and it had not yet taken center stage in the model, but its often useful to garner the concepts and intuition which inspired the reserchers to adapt attention and how they come up with this form of attention.
 
 They abstract starts with:
 
@@ -217,36 +217,69 @@ and a **local** one that only looks at a **subset**
 of source words at a time."
 talks about 
 
-the global attention is defined using
+**Global attention** is defined in §3.1 of the paper as:
 
-$$ a_t(s)=align(h_t,\bar{h}_s)=\frac{e^{(score(h_t,\bar{h}_s))}}{\sum_{s'}e^{(score(h_t,\bar{h}_s))}} $$
+$$ a_t(s)=align(h_t,\bar{h}_s)= \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} }$$
 
-where score is reffered to as a *content-based* function with three alternaive are offered:
+where $h_t$ and $h_s$ are the target and source sequences and 
+$score()$ which is refered to as a *content-based* function as one of three alternaive forms provided:
 
-$$ score(h_t,\bar{h}_s)=h_t^T\bar{h}_s $$ 
+### Dot product attention:
 
-dot
-$$ score(h_t,\bar{h}_s)=h_t^TW_a\bar{h}_s $$ 
+$$ score(h_t,\bar{h}_s)=h_t^T\bar{h}_s$$ 
 
-general
-$$ score(h_t,\bar{h}_s)=v_a^Ttanh(h_t;\bar{h}_s) $$ 
+This form combines the source and target using a dot product. Geometricaly this essentialy a projection operation.
 
-concat
+### general attention:
 
-they also menthion using a location based function
+$$ score(h_t,\bar{h}_s)=h_t^TW_a\bar{h}_s$$ 
 
-$$ a_t = softmax(W_aH_t) $$ location
+this form combines the source and target using a dot product after applying a learned attention weights to the sourse. Geometricaly this is a projection of the target on a linear transformation of the source or **scaled dot product attention** as it is now known
 
-> The global attention has a drawback that it has to attend to all words on the source side for each target word, which is expensive and can potentially render it impractical to translate longer sequences, e.g., paragraphs or documents. To address this deficiency, we propose a local attentional mechanism that chooses to focus only on a small subset of the source positions per target word. This model takes inspiration from the tradeoff between the soft and hard attentional models proposed by Xu et al. (2015)
+### concatenative attention:
 
-<hr>
+$$ score(h_t,\bar{h}_s)=v_a^Ttanh(h_t;\bar{h}_s)$$ 
+
+this is hard to make sense of 
+
+they also mention having considered using a *location based function*
+
+location : 
+
+$$ a_t = softmax(W_a h_t)$$ 
+
+which is just a linear transform of the hidden target state $h_t$
+
+in §3.2 they consider a local attention mechanism:
+
+> We propose a local attentional mechanism that chooses to focus only on a small subset of the source positions per target word. This model takes inspiration from the tradeoff between the soft and hard attentional models proposed by Xu et al. (2015) to tackle the image caption generation task.
+
+> Our local attention mechanism selectively focuses on a small window of context and is differentiable. ... In concrete details, the model first generates an aligned position $p_t$ for each target word at time $t$. The context vector ct
+is then derived as a weighted average over
+the set of source hidden states within the window
+$[p_t−D, p_t+D]$; $D$ is empirically selected.
+
+the big idea here is to use a fixed window size for this step to conserve resources when translating paragraphs or documents - a laudable notion for times where LSTM gobbled up resources in proportion to the sequence length...
+
+they also talk about *monotonic alignment* where $p_t=t$ and *predictive alignment*
+
+$$p_t=S\cdot sigmoid(v_p^Ttanh(W_ph_t))$$
+
+$$a_t(s)=align(h_t,\bar{h}_s)e^{(-\frac{(s-p_t)^2}{s\sigma^2})}$$
+
+with align() as defined above and $\sigma=\frac{D}{2}$
+
+the rest of the paper has details about the experiment with one last intersting aspect which are visulization of alignment weights.
+
+![alignment-visulization](/assets/week2/c4w2-22-alignment-visulization.png#hi)
+
+So to recap they were focused on alignment and try to tackle it using a function of the content and a fuction of its location.
 
 Dot product attention could be summarized as follows:
 
-
 ![intro-to-attention](/assets/week2/c4w2-23-intro-to-attention.png#sl)
 
-## Queary, Key, and Value
+### Queary, Key, and Value
 
 ![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
 
@@ -267,6 +300,7 @@ Queries are the German words and the keys are the English words. Once you have t
 
 ![attention-quizz](/assets/week2/c4w2-28-attention-quizz.png#sl)
 ![summary-for-dot-product-attention](/assets/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
+
 # V4: Causal Attention
 
 First, you'll see what are the three main types of attention. After, I'll show you a brief overview of causal attention. And finally, you'll discover some mathematical foundations behind the causal attention. 
