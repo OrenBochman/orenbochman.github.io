@@ -184,31 +184,153 @@ Regresion tasks using:
 
 <hr>
 
-![quiz](/assets/week2/c4w2-21-quiz.png#sl)
+![transformers quiz](/assets/week2/c4w2-21-quiz.png#sl)
 
 <hr>
 
-![summary](/assets/week2/c4w2-20-summary.png#sl)
 
+I found this a bit confusing. We are told that the transformers can do in one operation what RNN needed to do in many steps. Also when querieing transformers it does one task at a time. It seem that this question is about the ability of multiple heads to do serveral tasks at once could not do this is not well understood. 
+<hr>
+
+![summary of transformers](/assets/week2/c4w2-20-summary-of-transformers.png#sl)
 <hr>
 
 # V3: Dot-Product Attention
 
+![outline-of-dot-product-attention](/assets/week2/c4w2-22-outline-of-dot-product-attention.png#sl)
+
+Dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is avilable at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
+
+It is the first of three attention mechanisms we will study. In the engineering sense it is suited for a encoder decoder architecture with tasks where the source source sequence is fully available at the start and the tasks is mapping or tansformation the source sequence to an ouput sequqence like inth alignment, or translation.
+
+Attention was not completely new and it had not yet taken center stage in the model, but its often usefull to garner the concepts and intuition which inspired the reserchers to adapt attention and how they come up with this form
+
+They abstract starts with:
+
+>  "An attentional mechanism has lately been used to improve neural machine translation (NMT) by selectively focusing on parts of the source sentence during translation."
+
+which was covered in last lesson. The abstract continues with:
+
+> "This paper examines two simple and effective classes of attentional mechanism: a **global** approach
+which always attends to **all** source words
+and a **local** one that only looks at a **subset**
+of source words at a time."
+talks about 
+
+the global attention is defined using
+
+$$ a_t(s)=align(h_t,\bar{h}_s)=\frac{e^{(score(h_t,\bar{h}_s))}}{\sum_{s'}e^{(score(h_t,\bar{h}_s))}} $$
+
+where score is reffered to as a *content-based* function with three alternaive are offered:
+
+$$ score(h_t,\bar{h}_s)=h_t^T\bar{h}_s $$ 
+
+dot
+$$ score(h_t,\bar{h}_s)=h_t^TW_a\bar{h}_s $$ 
+
+general
+$$ score(h_t,\bar{h}_s)=v_a^Ttanh(h_t;\bar{h}_s) $$ 
+
+concat
+
+they also menthion using a location based function
+
+$$ a_t = softmax(W_aH_t) $$ location
+
+> The global attention has a drawback that it has to attend to all words on the source side for each target word, which is expensive and can potentially render it impractical to translate longer sequences, e.g., paragraphs or documents. To address this deficiency, we propose a local attentional mechanism that chooses to focus only on a small subset of the source positions per target word. This model takes inspiration from the tradeoff between the soft and hard attentional models proposed by Xu et al. (2015)
+
+<hr>
+
+Dot product attention could be summarized as follows:
+
+
+![intro-to-attention](/assets/week2/c4w2-23-intro-to-attention.png#sl)
+
+## Queary, Key, and Value
+
+![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
+
+Given an input, you transform it into a new representation or a column vector. Depending on the task you are working on, you will end up getting queries, keys, and values. Each column corresponds to a word in the figure above. Hence, when you compute the following: 
+
+![concept-of-attention](/assets/week2/c4w2-25-concept-of-attention.png#sl)
+
+This concept implies that similar vectors are likely to have a higher score when you dot them with one another. You transform that score into a probability by using a softmax function. You can then multiply the output by 
+
+You can think of the **keys** and the **values** as being the same. 
+![attention-math](/assets/week2/c4w2-26-attention-math.png#sl)
+
+Note that both $K,V$ are of dimension $L_k,D$. Each query $q_i$
+picks the most similar key $k_j$
+
+![atttention-formula](/assets/week2/c4w2-27-atttention-formula.png#sl)
+Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by VV to get a weighted combination of the input. 
+
+![attention-quizz](/assets/week2/c4w2-28-attention-quizz.png#sl)
+![summary-for-dot-product-attention](/assets/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
 # V4: Causal Attention
+
+First, you'll see what are the three main types of attention. After, I'll show you a brief overview of causal attention. And finally, you'll discover some mathematical foundations behind the causal attention. 
+
+There are three types of attention mechansims:
+
+1. Encoder-Decodr attention:
+    
+   one sentence in the decoder look at to another one in the encoder
+
+   e.g. in translation model.
+
+2. Causual Attention:
+
+   In the same senence words attend to previous words. Future words have not been generated yet. 
+   
+   e.g. in text generation of summaries.
+
+3. Bi-directional self attention:
+   
+   In one senence words look bothe at previous and future words.
+
+In causal attention, **queries** and **keys** come from the same sentence. That is why it is often referred to as **self-attention**.  In general, causal attention allows words to attend to other words that are related in various ways. 
+
+However, they cannot attend to words in the future since these were not generated yet. Mathematically, it looks like this: 
 
 # V5: Multi-head Attention
 
+Let's summarize the intuition behind **multi-head attention** and **scaled dot product attention**.
+
+Given a word, you take its embedding then you multiply it by the $Q$, $K$, $V$ matrix to get the corresponding queries, keys and values. When you use multi-head attention, a head can learn different relationships between words from another head. 
+
+Here's one way to look at it: 
+
+-  First, imagine that you have an embedding for a word. You multiply that embedding with $Q$ to get $q_1$, $K$ to get $k_1$, and V to get $v_1$
+
+- Next, you feed it to the linear layer, once you go through the linear layer for each word, you need to calculate a score. After that, you end up having an embedding for each word. But you still need to get the score for how much of each word you are going to use. For example, this will tell you how similar two words are $q_1$ and $k_1$or even $q_1$ and $k_2$  by doing a simple $q_1 \dot k_1$. You can take the softmax of those scores (the paper mentions that you have to divide by $\sqrt(d)$ to get a probability and then you multiply that by the value. That gives you the new representation of the word.
+
+If you have many heads, you can concatenate them and then multiply again by a matrix that is of dimension (dim of each head by num heads - dim of each head) to get one final vector corresponding to each word. 
+
+Here is step by step guide, first you get the $Q$, $K$, $V$ matrices: 
+
+Note that the computation above was done for one head. If you have several heads, concretely nn, then you will have $Z_1, Z_2, ..., Z_n$. In which case, you can just concatenate them and multiply by a $W_O$ matrix as follows:
+
+
+Hence, the more heads you have, the more $Z$s you will end up concatenating and as a result, that will change the inner dimension of $W_O$, which will then project the combined embeddings into one final embedding. 
+
 # V6: Transformer Decoder
+
 
 # V7: Transformer Summarizer
 
+
 # V8: Reading: Content Resource
+
 
 # Lab1 : Attention
 
+
 # Lab2 : The Transformer Decoder
 
+
 # Assignment: Transformer Summarizer
+
 
 <!-- 
 # all images
@@ -222,3 +344,23 @@ run search and replace:
  to get them as images get all the names
 
 -->
+
+![three-ways-of-attention](/assets/week2/c4w2-30-three-ways-of-attention.png#sl)
+![causual-attention](/assets/week2/c4w2-31-causual-attention.png#sl)
+![causual-attention-mask](/assets/week2/c4w2-32-causual-attention-mask.png#sl)
+![causual-attention-math-](/assets/week2/c4w2-33-causual-attention-math-.png#sl)
+![causual-attention-quiz](/assets/week2/c4w2-34-causual-attention-quiz.png#sl)
+![summary-for-causual-attention](/assets/week2/c4w2-35-summary-for-causual-attention.png#sl)
+![outline-of-mutihead-attention](/assets/week2/c4w2-40-outline-of-mutihead-attention.png#sl)
+![muti-head-attention](/assets/week2/c4w2-41-muti-head-attention.png#sl)
+![overview-of-muti-head-attention](/assets/week2/c4w2-42-overview-of-muti-head-attention.png#sl)
+![muti-head-attention-scaled-dot-product](/assets/week2/c4w2-43-muti-head-attention-scaled-dot-product.png#sl)
+![muti-head-attention-concatenation](/assets/week2/c4w2-44-muti-head-attention-concatenation.png#sl)
+![muti-head-attention-math](/assets/week2/c4w2-46-muti-head-attention-math.png#sl)
+![muti-head-attention-fotmula](/assets/week2/c4w2-47-muti-head-attention-fotmula.png#sl)
+![muti-head-attention-quiz](/assets/week2/c4w2-48-muti-head-attention-quiz.png#sl)
+![summary-muti-head-attention](/assets/week2/c4w2-49-summary-muti-head-attention.png#sl)
+![muti-head-attention-math](/assets/week2/c4w2-50-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/week2/c4w2-51-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/week2/c4w2-52-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/week2/c4w2-53-muti-head-attention-math.png#sl)
