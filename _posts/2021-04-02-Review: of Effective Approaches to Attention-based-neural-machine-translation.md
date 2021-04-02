@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Review: of Effective Approaches to Attention-based NMT'
+title: 'Review: Effective Approaches to Attention-based NMT'
 date: 2021-04-02T10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
