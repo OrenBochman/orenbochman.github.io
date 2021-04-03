@@ -13,7 +13,7 @@ theme: flexible-jekyll
 
 # Author Settings
 author: Oren Bochman # add your name
-author-img: oren-bochman.jpg # add your photo
+author-img: oren-bochman.png # add your photo
 about-author: I am a data scientist focusing on front-end development. Always hungry to keep learning. # add description
 social-twitter:  orenbochman # add your Twitter handle
 social-facebook: orenbochman # add your Facebook handle
