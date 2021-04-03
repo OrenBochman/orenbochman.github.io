@@ -384,25 +384,43 @@ Queries are the German words and the keys are the English words. Once you have t
 
 # V4: Causal Attention
 
-- In this course we are interested in three main types of attention. 
+- We are interested in three main types of attention. 
 - We'll see a brief overview of causal attention. 
 - We'll discover some mathematical foundations behind the causal attention. 
 <hr>
 
-![three-ways-of-attention](/assets/week2/c4w2-30-three-ways-of-attention.png#sl)
+::: alert
+course objective
+:::
 
-There are three types of attention mechanisms:
+![three forms of attention](/assets/week2/c4w2-30-three-ways-of-attention.png#sl)
 
-1. Encoder-Decoder attention AKA dot product attention:
+
+
+In terms of use cases there are three types of attention mechanisms:
+
+### Scaled dot product attention:
+   - AKA Encoder-Decoder attention.
    - one sentence in the decoder look at to another one in the encoder.
-   - e.g. in translation model.
-2. Causal Attention:
+   - use cases:
+     - seq2seq
+     - machine translation.
+
+### Causal Attention:
+   - AKA self attention.
+   - attention is all you need.
    - In the same sentence words attend to previous words. 
    - Future words have not been generated yet. 
-   - e.g. in text generation of summaries.
-3. Bi-directional self attention:
+   - use cases:
+     - generation 
+     - text generation 
+     - summarization.
+  
+### Bi-directional self attention:
    - In one sentence words look both at previous and future words.
-   - !!! TODO: add use case. !!!
+   - use cases:
+     - machine comprehension.
+     - question answering
 <hr>
 
 ![causal attention](/assets/week2/c4w2-31-causal-attention.png#sl)

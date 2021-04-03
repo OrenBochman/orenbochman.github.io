@@ -1,0 +1,31 @@
+/* these hr tags- can be placed after image + text to ensure text will not overflow to next slide   */
+
+hr { 	
+  clear:both;  
+}
+
+/* the hi anchor for slide make - is 55% and right aligned */
+
+img[src*='#sl'] { 
+  float: right; 
+  width:55%; 
+  margin:10px 10px 10px 0px; 
+  border: 2px solid gold;
+  display: block;
+}
+/* the hi anchor for hero image image - is 85% width and centered */
+
+img[src*='#hi'] { 
+  width:85%; 
+  display: block;
+  margin: 10px auto 10px auto;
+  border: 2px solid gold;
+}
+
+/* the logo anchor for post logos - is 20% wide and right aligned */
+
+
+img[src*='#logo'] {
+      width: 20%;
+      float: right
+}
