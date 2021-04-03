@@ -25,12 +25,28 @@ discus-identifier: orenbochman # add your discus identifier
 analytics: UA-90766411-1
 
 # Build Settings
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 markdown: kramdown
-highlighter: pygments
+  math_engine: mathjax
+  syntax_highlighter: rouge
 plugins:
-  - jekyll-sitemap
+  #- jekyll-sitemap
   - jekyll-paginate
-  - jemoji
+  #- jemoji
+  # - jekyll-coffeescript
+  # - jekyll-default-layout
+  # - jekyll-gist
+  # - jekyll-github-metadata
+  # - jekyll-optional-front-matter
+  # - jekyll-readme-index
+  # - jekyll-titles-from-headings
+  # - jekyll-relative-links
 
 paginate: 8
 paginate_path: "/page/:num"
