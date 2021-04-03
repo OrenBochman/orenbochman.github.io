@@ -45,20 +45,19 @@ This is defined in §3.1 of the paper as:
 
 $$ a_t(s)=align(h_t,\bar{h}_s)= \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} }$$
 
-where $h_t$ and $h_s$ are the target and source sequences and 
-$score()$ which is refered to as a *content-based* function as one of three alternaive forms provided:
+where $h_t$ and $h_s$ are the target and source sequences and $score()$ which is referred to as a *content-based* function as one of three alternative forms provided:
 
 ## Dot product attention:
 
 $$ score(h_t,\bar{h}_s)=h_t^T\bar{h}_s$$ 
 
-This form combines the source and target using a dot product. Geometricaly this essentialy a projection operation.
+This form combines the source and target using a dot product. Geometrically this essentially a projection operation.
 
 ## General attention:
 
 $$ score(h_t,\bar{h}_s)=h_t^TW_a\bar{h}_s$$ 
 
-this form combines the source and target using a dot product after applying a learned attention weights to the sourse. Geometricaly this is a projection of the target on a linear transformation of the source or **scaled dot product attention** as it is now known
+this form combines the source and target using a dot product after applying a learned attention weights to the source. Geometrically this is a projection of the target on a linear transformation of the source or **scaled dot product attention** as it is now known
 
 ## Concatenative attention:
 
