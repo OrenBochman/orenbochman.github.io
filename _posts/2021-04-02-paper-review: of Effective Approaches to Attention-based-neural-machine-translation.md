@@ -40,13 +40,17 @@ talks about
 
 This is defined in §3.1 of the paper as:
 
-$$ a_t(s)=align(h_t,\bar{h}_s)= \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} } $$
+$$
+a_t(s)=align(h_t,\bar{h}_s) = \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} } 
+$$
 
 where $$h_t$$ and $$h_s$$ are the target and source sequences and $score()$ which is referred to as a *content-based* function as one of three alternative forms provided:
 
 ## Dot product attention:
 
-$$ score(h_t,\bar{h}_s)=h_t^T\bar{h}_s $$
+$$
+score(h_t,\bar{h}_s)=h_t^T\bar{h}_s 
+$$
 
 This form combines the source and target using a dot product. Geometrically this essentially a projection operation.
 
@@ -58,7 +62,9 @@ this form combines the source and target using a dot product after applying a le
 
 ## Concatenative attention:
 
-$$ score(h_t,\bar{h}_s)=v_a^Ttanh(h_t;\bar{h}_s)$$ 
+$$
+score(h_t,\bar{h}_s)=v_a^Ttanh(h_t;\bar{h}_s)
+$$ 
 
 this is hard to make sense of 
 
@@ -66,7 +72,9 @@ they also mention having considered using a *location based function*
 
 location : 
 
-$$ a_t = softmax(W_a h_t)$$ 
+$$
+a_t = softmax(W_a h_t)
+$$ 
 
 which is just a linear transform of the hidden target state $$h_t$$ 
 
@@ -83,11 +91,15 @@ the big idea here is to use a fixed window size for this step to conserve resour
 
 they also talk about *monotonic alignment* where $$p_t=t$$ and *predictive alignment*
 
-$$ p_t=S\cdot sigmoid(v_p^Ttanh(W_ph_t))$$
+$$
+p_t=S\cdot sigmoid(v_p^Ttanh(W_ph_t))
+$$
 
-$$ a_t(s)=align(h_t,\bar{h}_s)e^{(-\frac{(s-p_t)^2}{s\sigma^2})} $$
+$$
+a_t(s)=align(h_t,\bar{h}_s)e^{(-\frac{(s-p_t)^2}{s\sigma^2})}
+$$
 
-with align() as defined above and $\sigma=\frac{D}{2}$
+with align() as defined above and $$\sigma=\frac{D}{2}$$
 
 the rest of the paper has details about the experiment with one last interesting aspect which are visualization of alignment weights.
 
