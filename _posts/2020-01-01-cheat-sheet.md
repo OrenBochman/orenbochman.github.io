@@ -23,6 +23,10 @@ This is my note. All the content I type here is
 treated as a single paragraph.
 :::
 
+Center-aligned
+{: .alert .alert-info .text-center}
+
+
 {% include note.html content="This is my sample note." %}
 {% include warning.html content="This is my sample note." %}
 {% include important.html content="This is my sample note." %}
