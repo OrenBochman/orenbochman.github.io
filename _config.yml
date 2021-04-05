@@ -27,7 +27,6 @@ discus-identifier: #orenbochman # add your discus identifier
 analytics: UA-90766411-1
 
 # Build Settings
-markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
