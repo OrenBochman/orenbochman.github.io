@@ -1,15 +1,10 @@
 title: Hello, I'm Oren Bochman Data Science Blog.
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-#baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+  Deep learning, AI, Machine Learning, Bayesian Methods, and more
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://orenbochman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://orenbochman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
 site-twitter: #if your site has a twitter account, enter it here
-theme: flexible-jekyll
-
 # Author Settings
 author: Oren Bochman # add your name
 author-img: oren-bochman.png # add your photo
@@ -27,17 +22,16 @@ discus-identifier: #orenbochman # add your discus identifier
 analytics: UA-90766411-1
 
 # Build Settings
+markdown: kramdown
+theme: flexible-jekyll
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
   - jekyll-feed
   - jekyll-seo-tag
-
-
 paginate: 8
 paginate_path: "/page/:num"
-
 defaults:
   -
     scope:
@@ -45,6 +39,10 @@ defaults:
     values:
       use_math: true
       author: "Oren Bochman"
-
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "node_modules"
+  - "gulpfile.js"
+  - "package.json"
+  - "yarn.lock"
