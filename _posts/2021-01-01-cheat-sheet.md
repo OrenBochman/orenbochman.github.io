@@ -12,17 +12,21 @@ img : cheat-sheets.jpg
 When $$ a \ne 0 $$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are:
 
 $$ 
-  x = {-b \pm \sqrt{b^2-4ac} \over 2a}. 
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}. 
 $$
 
 to get numbered equations:
 
-$$\begin{equation} 
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-\end{equation}$$
+ $$
+\begin{equation} 
+f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+\end{equation}
+ $$
 
-$$\begin{aligned}
+$$
+\begin{aligned}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
@@ -34,7 +38,8 @@ $$\begin{aligned}
       \vdots \\
       y_n
     \end{array} \right)
-\end{aligned}$$
+\end{aligned}
+$$
 
 it would make sense to have some more equations with
 - matrices
