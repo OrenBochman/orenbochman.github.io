@@ -4,7 +4,7 @@ title: "Welcome to Jekyll!"
 date: 2017-04-06 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: Jekyll-and-Hyde.jpg
-fig-caption: hopefully less Jekyll & Dr. Hyde 
+fig-caption: hopefully less Jekyll and more Dr. Hyde 
 categories: jekyll update
 
 ---

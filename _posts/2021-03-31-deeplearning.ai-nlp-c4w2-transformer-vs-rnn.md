@@ -13,6 +13,7 @@ tags:
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
+img: notes-from-coursera-deep-learning-courses.jpg
 ---
 <style>
 

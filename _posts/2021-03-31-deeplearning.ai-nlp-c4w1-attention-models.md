@@ -8,6 +8,7 @@ tags:
     - deep learning
     - '#DeepLearningAlgorithems'
 lastmod: 2021-04-01T11:13:20.956Z
+img: notes-from-coursera-deep-learning-courses.jpg
 ---
 
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
