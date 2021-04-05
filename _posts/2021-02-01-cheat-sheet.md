@@ -21,7 +21,7 @@ $$\begin{equation} f(k)=\binom{n}{k} p^k(1-p)^{n-k}\end{equation}$$
 
 some other text:
 
-$$\begin{aligned}
+$$\begin{equation} \begin{aligned}
     & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
     = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
     & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
@@ -34,7 +34,7 @@ $$\begin{aligned}
       y_n
       \end{array} 
       \right)
-   \end{aligned}$$
+   \end{aligned}\end{equation} $$
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
