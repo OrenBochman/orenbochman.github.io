@@ -28,7 +28,15 @@ discus-identifier: orenbochman # add your discus identifier
 analytics: UA-90766411-1
 
 # Build Settings
+lsi: false
+safe: true
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+gist:
+  noscript: false
+incremental: false
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
