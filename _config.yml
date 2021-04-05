@@ -22,7 +22,7 @@ social-linkedin: orenbochman # add your Linkedin handle
 social-email: # add your Email address
 
 # Disqus
-discus-identifier: orenbochman # add your discus identifier
+discus-identifier: #orenbochman # add your discus identifier
 
 # Tracker
 analytics: UA-90766411-1
