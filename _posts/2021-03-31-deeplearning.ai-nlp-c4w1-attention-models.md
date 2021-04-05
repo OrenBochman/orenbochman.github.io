@@ -267,22 +267,22 @@ $$ precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand
 
 where:
 
-- $m^{i}_{cand}$, is the count of i-gram in candidate matching the reference translation.
-- $m^{i}_{ref}$, is the count of i-gram in the reference translation.
-- $w^{i}_{t}$, is the total number of i-grams in candidate translation.
+- $$m^{i}_{cand}$$, is the count of i-gram in candidate matching the reference translation.
+- $$m^{i}_{ref}$$, is the count of i-gram in the reference translation.
+- $$w^{i}_{t}$$, is the total number of i-grams in candidate translation.
 
 ## ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
 ![recall in ROUGE](/assets/week1/c4w1_screenshot_11.png#HL)
 
-$$ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{|{ test \space unigrams}| } $$
+$$ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{\vert{ test \space unigrams}\vert } $$
 
 Rouge also allows you to compute precision as follows: 
 
 ![precision in ROUGE](/assets/week1/c4w1_screenshot_12.png#HL)
 
-$$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{|\{ vocab\}|}  $$
+$$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{\vert\{ vocab\}\vert}  $$
 
 The ROUGE-N refers to the overlap of N-grams between the actual system and the reference summaries. 
 
