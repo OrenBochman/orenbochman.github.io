@@ -257,13 +257,14 @@ To get the BLEU score, the candidates and the references are usually based on an
 You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate.
 
 The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
-$$ BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)} $$
+
+$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}$$
 
 with the Brevity Penalty and precision defined as:
 
-$$ BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr) $$
+\[BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)\]
 
-$$ precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}} $$
+$$precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}$$
 
 where:
 
