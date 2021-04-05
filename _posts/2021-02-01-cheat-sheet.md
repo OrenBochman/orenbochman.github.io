@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Jekyll Markdown Cheat Sheet"
-date:   2017-01-01 16:00:00
+date:   2021-02-01 16:00:00
 categories: [cheat-sheets, blogging]
 tags: [code, tests]
 img : cheat-sheets.jpg
