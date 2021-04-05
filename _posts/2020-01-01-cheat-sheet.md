@@ -19,16 +19,22 @@ $$ \begin{equation}
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
 \end{equation} $$
 
+it would make sense to have some more equations with
+- matrices
+- sum product
+- equals alignment across lines
+
 # Alerts	
 
 this is how I'd alerts to be coded - infact
 
-<code>
-::: Note 
+```::: Note 
 This is my note. All the content I type here is 
 treated as a single paragraph.
 :::
-</code>
+```
+
+which looks like: 
 
 ::: Note 
 This is my note. All the content I type here is 
@@ -45,3 +51,18 @@ Center-aligned
 {% include tip.html content="This is my sample note." %}
 {% include callout.html type="danger" content="This is my sample note." %}
 
+
+# footnotes
+
+
+```
+You can find a demo of a site[^Demo] built with PostCSS in our footnotes, or you can checkout the [^Github Repo] for the project.
+
+[Demo](http://iviewsource.com/exercises/postcsslayouts)
+[Github Repo](https://github.com/planetoftheweb/postcsslayouts)
+```
+
+You can find a demo of a site[^Demo] built with PostCSS in our footnotes, or you can checkout the [^Github Repo] for the project.
+
+[Demo](http://iviewsource.com/exercises/postcsslayouts)
+[Github Repo](https://github.com/planetoftheweb/postcsslayouts)
