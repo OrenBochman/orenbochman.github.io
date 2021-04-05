@@ -15,7 +15,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$.
 
 to get numbered equations:
 
-$$f(k) = \binom{n}{k} p^k(1-p)^{n-k}$$
+$$f(k)=\binom{n}{k} p^k(1-p)^{n-k}$$
 
 some other text:
 
@@ -33,6 +33,12 @@ $$\begin{aligned}
       \end{array} 
       \right)
    \end{aligned}$$
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+
+$$mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$$
+
+$$\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ} \mathfrak{abcdefghijklmnopqrstuvwxyz}$$
 
 it would make sense to have some more equations with
 - matrices
