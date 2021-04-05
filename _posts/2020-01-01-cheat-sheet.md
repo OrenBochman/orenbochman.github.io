@@ -28,7 +28,8 @@ it would make sense to have some more equations with
 
 this is how I'd alerts to be coded - infact
 
-```::: Note 
+```
+::: Note 
 This is my note. All the content I type here is 
 treated as a single paragraph.
 :::
@@ -52,7 +53,7 @@ Center-aligned
 {% include callout.html type="danger" content="This is my sample note." %}
 
 
-# footnotes
+# Footnotes
 
 
 ```
