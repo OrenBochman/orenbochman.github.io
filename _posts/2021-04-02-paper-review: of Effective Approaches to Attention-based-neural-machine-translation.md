@@ -22,8 +22,6 @@ Dot-Product Attention is the first of three attention mechanisms covered in the 
 
 This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
 
-
-
 Attention was not completely new and it had not yet taken center stage in the model, but its often useful to garner the concepts and intuition which inspired the researchers to adapt attention and how they come up with this form of attention.
 
 They abstract starts with:
