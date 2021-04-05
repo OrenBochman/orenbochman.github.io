@@ -1,12 +1,26 @@
 <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        packages: ['base', 'ams']
-      },
-      loader: {
-        load: ['ui/menu', '[tex]/ams']
-      }
-    };
+window.MathJax = {
+  loader: {
+    load: ['[tex]/tagformat']
+  },
+  startup: {
+    pageReady: () => {
+      alert('Running MathJax')l;
+      return MathJax.startup.defaultPageReady();
+    }
+  },
+  tex: {
+    packages: {'[+]': ['tagformat']},
+    tagSide: 'left',
+    macros: {
+      RR: '{\\bf R}',
+      bold: ['{\\bf #1}',1]
+    },
+    tagformat: {
+       tag: (n) => '[' + n + ']'
+    }
+  }
+};
 </script>
 <!-- Mathjax Support -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
