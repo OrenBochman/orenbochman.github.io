@@ -16,10 +16,13 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 to get numbered equations:
 
 $$
+
   \begin{equation} 
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
   \end{equation}
+  
 $$
+
 some other text:
 
 $$
