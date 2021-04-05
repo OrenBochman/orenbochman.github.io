@@ -9,11 +9,7 @@ img : cheat-sheets.jpg
 
 # Math
 
-When 
-$$a \ne 0$$, 
-there are two solutions to 
-$$ax^2 + bx + c = 0$$ 
-and they are
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
@@ -50,6 +46,18 @@ it would make sense to have some more equations with
 - matrices
 - sum product
 - equals alignment across lines
+## fraction
+
+$$\left(\frac{x^2}{y^3}\right)$$	
+
+## matrix
+
+$$ \left[
+  \begin{array}{ c c }
+     1 & 2 \\
+     3 & 4
+  \end{array} \right]
+$$
 
 # Alerts	
 
