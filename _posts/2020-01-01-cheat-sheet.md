@@ -4,7 +4,7 @@ date:   2017-01-01 16:00:00
 categories: [cheat-sheets, blogging]
 tags: [code, tests]
 img : cheat-sheets.jpg
-usemathjax: true
+use_math: true
 ---
 
 # Math
@@ -37,7 +37,7 @@ $$ \begin{aligned}
       \vdots \\
       y_n
     \end{array} \right)
-\end{aligned}$$
+\end{aligned} $$
 
 it would make sense to have some more equations with
 - matrices
