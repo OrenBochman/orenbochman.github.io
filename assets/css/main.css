@@ -1485,9 +1485,6 @@ a.newer-posts:hover {
   padding: 0px;
 }
 
-
-
-
 .alert {
   padding: 15px;
   margin-bottom: 20px;
@@ -1513,12 +1510,10 @@ a.newer-posts:hover {
   margin-top: 5px
 }
 
-.alert-dismissable,
 .alert-dismissible {
   padding-right: 35px
 }
 
-.alert-dismissable .close,
 .alert-dismissible .close {
   position: relative;
   top: -2px;
@@ -1526,18 +1521,10 @@ a.newer-posts:hover {
   color: inherit
 }
 
-.alert-success {
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6
-}
 
-.alert-success hr {
-  border-top-color: #c9e2b3
-}
 
-.alert-success .alert-link {
-  color: #2b542c
+.alert, .callout {
+  overflow: hidden;
 }
 
 .alert-info {
@@ -1560,12 +1547,10 @@ a.newer-posts:hover {
   border-color: #faebcc
 }
 
-.alert-warning hr {
-  border-top-color: #f7e1b5
-}
-
-.alert-warning .alert-link {
-  color: #66512c
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
 }
 
 .alert-danger {
@@ -1574,37 +1559,10 @@ a.newer-posts:hover {
   border-color: #ebccd1
 }
 
-.alert-danger hr {
-  border-top-color: #e4b9c0
-}
-
-.alert-danger .alert-link {
-  color: #843534
-}
-
-
-.alert-warning {
-  color: #444;
-}
-
-div.alert code, h2 code {
-  background-color: transparent !important;
-}
-/* without this, the links in these notes aren't visible.*/
-.alert a {
-  text-decoration: underline;
-}
-
-div.alert code, h2 code {
-  background-color: transparent !important;
-}
-/* without this, the links in these notes aren't visible.*/
-.alert a {
-  text-decoration: underline;
-}
-
-.alert, .callout {
-  overflow: hidden;
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6
 }
 
 .bs-callout {
