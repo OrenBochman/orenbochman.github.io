@@ -13,7 +13,7 @@ When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$.
 
-$$ S_z^x(y) = \sum_{i=1}^y \left( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) \right), $$
+$$S_z^x(y) = \sum_{i=1}^y \left( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) \right)$$
 
 to get numbered equations:
 
