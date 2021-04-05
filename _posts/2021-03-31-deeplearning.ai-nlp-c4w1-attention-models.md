@@ -262,7 +262,7 @@ $$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}$$
 
 with the Brevity Penalty and precision defined as:
 
-\[BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)\]
+$$BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)$$
 
 $$precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}$$
 
