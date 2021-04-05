@@ -47,7 +47,20 @@
         '' : String(document.location).replace(/#.*$/, '')),
     formatError:               // function called when TeX syntax errors occur
         (jax, err) => jax.formatError(err)
-  }
+  },mml: {
+    parseAs: 'html',                     // or 'xml'
+    forceReparse: false,                 // true to serialize and re-parse all MathML
+    parseError: function (node) {        // function to process parsing errors
+      this.error(this.adaptor.textContent(node).replace(/\n.*/g, ''));
+    },
+    verify: {                            // parameters controling verification of MathML
+      checkArity: true,                  //   check if number of children is correct
+      checkAttributes: false,            //   check if attribute names are valid
+      fullErrors: false,                 //   display full error messages or just error node
+      fixMmultiscripts: true,            //   fix unbalanced mmultiscripts
+      fixMtables: true                   //   fix incorrect nesting in mtables
+    }
+  },
     startup: {
     ready: () => {
       console.log('MathJax is loaded, but not yet initialized');
