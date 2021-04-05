@@ -11,18 +11,13 @@ use_math: true
 
 
 When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are:
-
-\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. \]
-
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 
 to get numbered equations:
 
-$$
-\begin{equation} 
+$$\begin{equation} 
   f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-\end{equation}
-$$
+\end{equation}$$
 
 $$ \begin{aligned}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
