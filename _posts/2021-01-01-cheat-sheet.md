@@ -17,11 +17,11 @@ $$
 
 to get numbered equations:
 
- $$
-\begin{equation} 
-f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-\end{equation}
- $$
+$$
+  \begin{equation} 
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+  \end{equation}
+$$
 
 $$
 \begin{aligned}
