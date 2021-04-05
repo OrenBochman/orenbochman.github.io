@@ -1,11 +1,21 @@
 ---
-title:  "callouts and alerts Jekyll Markdown"
+title:  "My Jekyll Markdown Cheetsheet"
 date:   2017-01-01 16:00:00
-categories: [test]
-tags: [code, test]
+categories: [cheat-sheets, blogging]
+tags: [code, tests]
+img : cheat-sheets.jpg
 ---
 
-# Note	
+# Math
+
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are:
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+$$ \begin{equation} 
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+\end{equation} $$
+# Alerts	
 
 ::: Note 
 This is my note. All the content I type here is 

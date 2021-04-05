@@ -1,15 +1,16 @@
 ---
 layout: post
-title: 'Review: Effective Approaches to Attention-based NMT'
+title: 'Paper Review: Effective Approaches to Attention-based NMT'
 date: 2021-04-02T10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
    - attention
    - deep learning
-   - '#DeepLearningAlgorithems'
+   - literature review
    - paper
 slug: review-effective-approaches-attention-based-nmt
 lastmod: 2021-04-02T10:50:10.126Z
+image: literature-review.jpg
 ---
 
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
