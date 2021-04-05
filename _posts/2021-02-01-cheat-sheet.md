@@ -15,7 +15,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$.
 
 to get numbered equations:
 
-$$f(k)=\binom{n}{k} p^k(1-p)^{n-k}$$
+$$\begin{equation} f(k)=\binom{n}{k} p^k(1-p)^{n-k}\end{equation}$$
 
 some other text:
 
