@@ -37,4 +37,13 @@ plugins:
 paginate: 8
 paginate_path: "/page/:num"
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      use_math: true
+      author: "Oren Bochman"
+
+
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

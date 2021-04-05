@@ -4,13 +4,13 @@ date:   2017-01-01 16:00:00
 categories: [cheat-sheets, blogging]
 tags: [code, tests]
 img : cheat-sheets.jpg
-use_math: true
 ---
 
 # Math
 
 
 When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are:
+
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 
 to get numbered equations:
