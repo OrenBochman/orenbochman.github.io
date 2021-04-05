@@ -86,14 +86,21 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-  MathJax.Hub.Config({
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      showProcessingMessages: false,
       tex2jax: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        processEscapes: true
+      },
+      menuSettings: {
+        zoom: "Hover"
+        }
     });
-  </script>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+
 
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
