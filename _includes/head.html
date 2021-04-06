@@ -105,9 +105,44 @@
   window.MathJax = {
     loader: {load: ['[tex]/ams']},
     tex: {
+      inlineMath: [['@@', '@@']],
+      displayMath: [['$@', '$@'],],
       tags: 'ams',
-      packages: {'[+]': ['ams']}}
+      multlineWidth: '85%',      // width of multline environment
+      packages: {'[+]': ['ams']}},
+      formatError:               // function called when TeX syntax errors occur
+        (jax, err) => jax.formatError(err),
   };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<!--script>
+window.MathJax = {
+  loader: {
+    load: ['[tex]/tagformat']
+  },
+  startup: {
+    pageReady: () => {
+      alert('Running MathJax')l;
+      return MathJax.startup.defaultPageReady();
+    }
+  },
+  tex: {
+    packages: {'[+]': ['tagformat']},
+    tagSide: 'left',
+    macros: {
+      RR: '{\\bf R}',
+      bold: ['{\\bf #1}',1]
+    },
+    tagformat: {
+       tag: (n) => '[' + n + ']'
+    }
+  }
+};</script-->
+
+<!--script> // this version cleanup aft jekl
   //http://docs.mathjax.org/en/latest/input/tex/extensions/index.html
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -126,7 +161,7 @@
       script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
       document.head.appendChild(script);
   }, false);
-</script>
+</script-->
 
 <!-- Use Jekyll SEO plugin -->
   {% seo %}
