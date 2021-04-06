@@ -13,15 +13,17 @@ When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$.
 
-$$S_z^x(y) = \sum_{i=1}^y \left( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) \right)$$
+$$S_z^x(y) = \sum_{i=1}^y ( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) )$$
 
 to get numbered equations:
 
-$$\begin{equation} f(k)=\binom{n}{k} p^k(1-p)^{n-k}\end{equation}$$
+$$\begin{equation} 
+    f(k)=\binom{n}{k} p^k(1-p)^{n-k}
+  \end{equation}$$
 
 some other text:
 
-$$\begin{equation} \begin{align*}
+$$\begin{equation} \begin{align}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
@@ -34,7 +36,8 @@ $$\begin{equation} \begin{align*}
       \vdots \\
       y_n
     \end{array} \right)
-\end{align*} \end{equation}$$
+  \end{align} 
+  \end{equation}$$
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
