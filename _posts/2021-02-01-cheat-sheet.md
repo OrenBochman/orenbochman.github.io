@@ -13,7 +13,7 @@ When @a \ne 0@, there are two solutions to @ax^2 + bx + c = 0@ and they are
 
 @@x = {-b \pm \sqrt{b^2-4ac} \over 2a}@@.
 
-@@S_z^x(y) = \sum_{i=1}^y ( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) )@@
+@@S_z^x(y) = \sum_{i=1}^y \left( \sum_{x'=0}^{x-1} S_z^{x'}(y-i) + \sum_{z'=0}^{z-1} S_{z'}^{z}(y-i) \right)@@
 
 to get numbered equations:
 
@@ -27,28 +27,14 @@ some other text:
   & \phi(x,y) = \phi (\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \newline
   & (x_1, \ldots, x_n) 
-  ( \begin{array}{ccc}
+  \left( \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \newline
       \vdots         & \ddots & \vdots         \newline
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} )
-  ( \begin{array}{c}  y_1 \newline
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} \right)
+  \left( \begin{array}{c}  y_1 \newline
                       \vdots \newline 
-                      y_n \end{array} )
+                      y_n \end{array} \right)
   \end{align}@@
-
-@@\begin{equation} \begin{align*}
-  & \phi(x,y) = \phi (\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \newline
-  & (x_1, \ldots, x_n) 
-  ( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \newline
-      \vdots         & \ddots & \vdots         \newline
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} )
-  ( \begin{array}{c}  y_1 \newline
-                      \vdots \newline 
-                      y_n \end{array} )
-  \end{align*} 
-  \end{equation}@@
 
 @@\begin{equation}\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}\end{equation}@@
 
