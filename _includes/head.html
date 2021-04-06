@@ -86,21 +86,6 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
-  <!--script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      showProcessingMessages: false,
-      tex2jax: {
-        inlineMath: [["$", "$"], ["\\(", "\\)"]],
-        processEscapes: true
-      },
-      menuSettings: {
-        zoom: "Hover"
-        }
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
-</script-->
-
 <script>
   window.MathJax = {
     loader: {load: ['[tex]/ams']},
@@ -116,52 +101,6 @@
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-
-<!--script>
-window.MathJax = {
-  loader: {
-    load: ['[tex]/tagformat']
-  },
-  startup: {
-    pageReady: () => {
-      alert('Running MathJax')l;
-      return MathJax.startup.defaultPageReady();
-    }
-  },
-  tex: {
-    packages: {'[+]': ['tagformat']},
-    tagSide: 'left',
-    macros: {
-      RR: '{\\bf R}',
-      bold: ['{\\bf #1}',1]
-    },
-    tagformat: {
-       tag: (n) => '[' + n + ']'
-    }
-  }
-};</script-->
-
-<!--script> // this version cleanup aft jekl
-  //http://docs.mathjax.org/en/latest/input/tex/extensions/index.html
-
-  document.addEventListener('DOMContentLoaded', function() {
-      function stripcdata(x) {
-          if (x.startsWith('% <![CDATA[') && x.endsWith('%]]>'))
-              return x.substring(11,x.length-4);
-          return x;
-      }
-      document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-        el.outerHTML = "\\(" + stripcdata(el.textContent) + "\\)";
-      });
-      document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-        el.outerHTML = "\\[" + stripcdata(el.textContent) + "\\]";
-      });
-      var script = document.createElement('script');
-      script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-      document.head.appendChild(script);
-  }, false);
-</script-->
 
 <!-- Use Jekyll SEO plugin -->
   {% seo %}
