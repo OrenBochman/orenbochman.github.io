@@ -11,7 +11,7 @@ comments: true
 
 Here is an issue I opened:
 
-I've had a too many issues to list trying to cram mathjax v.3 down  kramdown's throat without it choking latex code on a new jekyll blog hosted by githubpages. 
+I've had a too many issues to list trying to cram mathjax v.3 down  kramdown's throat without it choking latex code on a new jekyll blog hosted by github pages. 
 
 Here are a few that if fixed should make it much simpler to use mathjax. 
 
