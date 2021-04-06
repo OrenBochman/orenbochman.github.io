@@ -25,27 +25,27 @@ some other text:
 
 @@\begin{align}
   & \phi(x,y) = \phi (\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \newline
   & (x_1, \ldots, x_n) 
   ( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots         & \ddots & \vdots         \\
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \newline
+      \vdots         & \ddots & \vdots         \newline
       \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} )
-  ( \begin{array}{c}  y_1 \\
-                      \vdots \\ 
+  ( \begin{array}{c}  y_1 \newline
+                      \vdots \newline 
                       y_n \end{array} )
   \end{align}@@
 
 @@\begin{equation} \begin{align*}
   & \phi(x,y) = \phi (\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \newline
   & (x_1, \ldots, x_n) 
   ( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots         & \ddots & \vdots         \\
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \newline
+      \vdots         & \ddots & \vdots         \newline
       \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} )
-  ( \begin{array}{c}  y_1 \\
-                      \vdots \\ 
+  ( \begin{array}{c}  y_1 \newline
+                      \vdots \newline 
                       y_n \end{array} )
   \end{align*} 
   \end{equation}@@
@@ -70,7 +70,7 @@ it would make sense to have some more equations with
 
 @@ \left[
   \begin{array}{ c c }
-     1 & 2 \\
+     1 & 2 \newline
      3 & 4
   \end{array} \right]
 @@
