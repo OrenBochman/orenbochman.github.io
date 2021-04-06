@@ -66,10 +66,68 @@ n/2,  & \text{if $n$ is even} \\
 <hr>
 ### Typography
 
-@@\begin{equation}\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}\end{equation}@@
+- Use `\mathbb` or \Bbb for "blackboard bold":
+@@
+  \begin{equation}
+  \mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\mathbf` for boldface: 
+@@
+  \begin{equation}
+  \mathbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\mathit` for italics:  
+@@
+  \begin{equation}
+  \mathit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\pmb` for boldfaced italics: 
+@@
+  \begin{equation}
+  \pmb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\mathtt` for "typewriter" font: 
+@@
+  \begin{equation}
+  \mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\mathrm` for roman font: @@
+  \begin{equation}
+  \mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+- Use `\mathsf` for sans-serif font: 
+@@
+  \begin{equation}
+  \mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
 
-@@\begin{equation}\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ} 
-  \mathfrak{abcdefghijklmnopqrstuvwxyz}\end{equation}@@
+- Use `\mathcal` for "calligraphic" letters: 
+@@
+  \begin{equation}
+  \mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+
+- Use `\mathscr` for script letters: 
+@@
+  \begin{equation}
+  \mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+  \end{equation}
+@@
+
+- Use `\mathfrak` for "Fraktur" (old German style) letters:
+@@
+\begin{equation}
+  \mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ} \\
+  \mathfrak{abcdefghijklmnopqrstuvwxyz}
+\end{equation}@@
 
 ## Commutative Diagram
 @@
@@ -152,6 +210,44 @@ You can find a demo of a site[^Demo] built with PostCSS in our footnotes, or you
 [Demo](http://iviewsource.com/exercises/postcsslayouts)
 [Github Repo](https://github.com/planetoftheweb/postcsslayouts)
 
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+```sequence{theme=hand}
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+```wavedrom
+{ signal: [
+  { name: 'A', wave: '01........0....',  node: '.a........j' },
+  { name: 'B', wave: '0.1.......0.1..',  node: '..b.......i' },
+  { name: 'C', wave: '0..1....0...1..',  node: '...c....h..' },
+  { name: 'D', wave: '0...1..0.....1.',  node: '....d..g...' },
+  { name: 'E', wave: '0....10.......1',  node: '.....ef....' }
+  ],
+  edge: [
+    'a~b t1', 'c-~a t2', 'c-~>d time 3', 'd~-e',
+    'e~>f', 'f->g', 'g-~>h', 'h~>i some text', 'h~->j'
+  ]
+}
+```
+
+
+## Plantuml charts 
+
+```plantuml
+Bob -> Alice : hello world
+```
 
 ## Mermaids
 
+## See also
+
+- [railroad fiagram generator](https://www.bottlecaps.de/rr/ui)
