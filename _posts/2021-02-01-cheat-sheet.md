@@ -13,12 +13,14 @@ img : cheat-sheets.jpg
 
 ## Inline, display, square root and fraction
 
-When @a \ne 0@, there are two solutions to @ax^2 + bx + c = 0@ and they are
+When @a \ne 0@, there are two solutions to @ax^2 + bx + c = 0@ and they are:
 
-fraction using `\over`
+- fraction using `\over`
+
 @@x = {-b \pm \sqrt{b^2-4ac} \over 2a}@@.
 
-fraction using `\fraction`
+- fraction using `\fraction`
+
 @@\left(\frac{x^2}{y^3}\right)@@	
 
 ### Summation and product
@@ -27,13 +29,17 @@ fraction using `\fraction`
 
 to get numbered equations:
 
-@@\begin{equation}
-f(k) = \binom{n}{k} p^k(1-p)^{n-k}
-\end{equation}@@
+@@
+\begin{equation}
+  f(k) = \binom{n}{k} p^k(1-p)^{n-k}
+\end{equation}
+@@
 
-@@\begin{equation*} 
+@@
+\begin{equation*} 
     f(k)=\binom{n}{k} p^k(1-p)^{n-k}
-  \end{equation*}@@
+  \end{equation*}
+@@
 
 some other text:
 <hr>
