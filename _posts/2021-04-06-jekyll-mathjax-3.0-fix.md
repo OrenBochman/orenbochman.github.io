@@ -3,7 +3,8 @@ layout: post
 title: Jekyll take 3 
 date: 2021-04-04 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: jekyll-and-hyde.jpg # Add image post (optional)
+img: Jekyll-and-Hyde.jpg
+fig-caption: hopefully less Jekyll and more Dr. Hyde 
 tags: [blogging, jekyll, kramdown, mathjax] # add tag
 comments: true
 ---
