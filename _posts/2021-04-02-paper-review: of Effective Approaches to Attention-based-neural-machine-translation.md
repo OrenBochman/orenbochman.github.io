@@ -44,7 +44,7 @@ This is defined in §3.1 of the paper as:
 a_t(s)=align(h_t,\bar{h}_s) = \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} } 
 @@
 
-where @@h_t@@ and @@h_s@@ are the target and source sequences and @score()@ which is referred to as a *content-based* function as one of three alternative forms provided:
+where @h_t@ and @h_s@ are the target and source sequences and @score()@ which is referred to as a *content-based* function as one of three alternative forms provided:
 
 ## Dot product attention:
 
@@ -78,18 +78,18 @@ a_t = softmax(W_a h_t)
 
 which is just a linear transform of the hidden target state @@h_t@@ 
 
-# Local attention
+# Local Attention
 
 in §3.2 they consider a local attention mechanism:
 
 > We propose a local attentional mechanism that chooses to focus only on a small subset of the source positions per target word. This model takes inspiration from the tradeoff between the soft and hard attentional models proposed by Xu et al. (2015) to tackle the image caption generation task.
 
-> Our local attention mechanism selectively focuses on a small window of context and is differentiable. ... In concrete details, the model first generates an aligned position @@p_t@@ for each target word at time @@t@@. The context vector @@c_t@@
-is then derived as a weighted average over the set of source hidden states within the window @@[p_t−D, p_t+D]@@; @@D@@ is empirically selected.
+> Our local attention mechanism selectively focuses on a small window of context and is differentiable. ... In concrete details, the model first generates an aligned position @p_@ for each target word at time @@t@@. The context vector @c_t@
+is then derived as a weighted average over the set of source hidden states within the window @[p_t−D, p_t+D]@; @D@ is empirically selected.
 
 the big idea here is to use a fixed window size for this step to conserve resources when translating paragraphs or documents - a laudable notion for times where LSTM gobbled up resources in proportion to the sequence length...
 
-they also talk about *monotonic alignment* where @@p_t=t@@ and *predictive alignment*
+they also talk about *monotonic alignment* where @p_t=t@ and *predictive alignment*
 
 @@
 p_t=S\cdot sigmoid(v_p^Ttanh(W_ph_t))
