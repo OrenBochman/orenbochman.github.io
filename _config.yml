@@ -23,6 +23,15 @@ analytics: UA-90766411-1
 
 # Build Settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview:         true
+    preview_as_code: true
+    semantics: true
+    texhints: true
+
+  syntax_highlighter: rouge
 theme: flexible-jekyll
 plugins:
   - jekyll-sitemap

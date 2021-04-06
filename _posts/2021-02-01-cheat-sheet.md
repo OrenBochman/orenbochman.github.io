@@ -38,9 +38,11 @@ $$\begin{equation} \begin{align*}
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
-$$mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$$
+$$\begin{equation}\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}\end{equation}$$
 
-$$\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ} \mathfrak{abcdefghijklmnopqrstuvwxyz}$$
+$$\begin{equation}\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ} 
+  \mathfrak{abcdefghijklmnopqrstuvwxyz}\end{equation}$$
+
 
 it would make sense to have some more equations with
 - matrices
