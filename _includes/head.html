@@ -89,10 +89,10 @@
 <script>
   window.MathJax = {
     loader: {
-      load: ['[tex]/ams',
-             '[tex]/amsCd',
-             '[tex]/amscd'
-            ]
+      source: {
+        '[tex]/amsCd': '[tex]/amscd'
+      },
+      load: ['[tex]/ams'],      
     },
     tex: {
       inlineMath: [['@', '@']],
