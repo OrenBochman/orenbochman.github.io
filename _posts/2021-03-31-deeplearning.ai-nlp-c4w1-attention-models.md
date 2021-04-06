@@ -153,16 +153,13 @@ When it comes to modern deep learning, there's a sort of new normal, which is to
 
 # Video 2: Seq2Seq	
 
-
 ### Outline:
 
 - Introduction to Neural Machine Translation 
 - Seq2Seq model and its shortcomings 
-- Solution for the information bottleneck 
+- Solution for the information bottleneck  
 
-The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. 
-
-The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. (because you can run different batches or examples in parallel or even different directions)
+The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for speed ups within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. (because you can run different batches or examples in parallel or even different directions)
 
 ![screenshot_of_outline_slide](/assets/week1/c4w1_screenshot_01.png#sl)
 
@@ -180,7 +177,7 @@ In other words, if you rely on sequences and you need to know the beginning of a
 
 Therefore, attention mechanisms have become critical for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
 
-in this encoder decoder architecture the yellow block in the middle is the final hidden state produced by the encoder. It is essentialy a compressed representation of the sequqence in this case the english sentence. The problem with RNN is they tend to have a bias for represnting more recent data.
+in this encoder decoder architecture the yellow block in the middle is the final hidden state produced by the encoder. It is essentials a compressed representation of the sequence in this case the english sentence. The problem with RNN is they tend to have a bias for representing more recent data.
 
 One approach to overcome this issue is to provide the decoder with the attention layer. 
 
@@ -192,10 +189,10 @@ Alignment is an old problem and there are a number of papers on learning to alig
 - [Jointly Learning to Align and Translate with Transformer Models](https://arxiv.org/abs/1909.02074) 2019
 
 berliner = citizen of berlin 
-berliner = jelly dounut
+berliner = jelly doughnut
 
 
-Not all words translate pricesly to another word.
+Not all words translate precisely to another word.
 Adding an attention layers allows the model to give different words more importance when translating another word.
 
 This is a good task for an attention layer
@@ -229,13 +226,13 @@ Keys and values have their own respective matrices, but the matrices have the sa
 
 We then run a softmax:
 
-$$ softmax(QK^T )  $$
+@@ softmax(QK^T )  @@
 
 That allows us to get a distribution of numbers between 0 and 1. 
 
 We then would multiply the output by V. Remember V in this example was the same as our keys, corresponding to the English word embeddings. Hence the equation becomes
 
-$$ softmax(QK^T )V  $$
+@@ softmax(QK^T )V  @@
 	
 In the matrix, the lighter square shows where the model is actually looking when making the translation of that word. This mapping should not necessarily be one to one. The lighting just tells you to what extent is each word contributing to the input that will be fed into the decoder. As you can see several words can contribute to translating another word, depending on the weights (output) of the softmax that will be used to create the new input. 
 a picture of attention in translation with English to German	  An important thing to keep in mind is that the model should be flexible enough to connect each English word with its relevant German word, even if they do not appear in the same position in their respective sentences. In other words, it should be flexible enough to handle differences in grammar and word ordering in different languages.
@@ -258,44 +255,44 @@ You would sum over the unique n-gram counts in the candidate and divide by the t
 
 The same concept could apply to unigrams, bigrams, etc. One issue with the BLEU score is that it does not take into account semantics, so it does not take into account the order of the n-grams in the sentence.	
 
-$$BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}$$
+@@BLEU = BP\Bigl(\prod_{i=1}^{4}precision_i\Bigr)^{(1/4)}@@
 
 with the Brevity Penalty and precision defined as:
 
-$$BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)$$
+@@BP = min\Bigl(1, e^{(1-({ref}/{cand}))}\Bigr)@@
 
-$$precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}$$
+@@precision_i = \frac {\sum_{snt \in{cand}}\sum_{i\in{snt}}min\Bigl(m^{i}_{cand}, m^{i}_{ref}\Bigr)}{w^{i}_{t}}@@
 
 where:
 
-- $$m^{i}_{cand}$$, is the count of i-gram in candidate matching the reference translation.
-- $$m^{i}_{ref}$$, is the count of i-gram in the reference translation.
-- $$w^{i}_{t}$$, is the total number of i-grams in candidate translation.
+- @m^{i}_{cand}@, is the count of i-gram in candidate matching the reference translation.
+- @m^{i}_{ref}@, is the count of i-gram in the reference translation.
+- @w^{i}_{t}@, is the total number of i-grams in candidate translation.
 
 ## ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
 ![recall in ROUGE](/assets/week1/c4w1_screenshot_11.png#HL)
 
-$$ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{\vert{ test \space unigrams}\vert } $$
+@@ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{\vert{ test \space unigrams}\vert } @@
 
 Rouge also allows you to compute precision as follows: 
 
 ![precision in ROUGE](/assets/week1/c4w1_screenshot_12.png#HL)
 
-$$ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{\vert\{ vocab\}\vert}  $$
+@@ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{\vert\{ vocab\}\vert} @@
 
 The ROUGE-N refers to the overlap of N-grams between the actual system and the reference summaries. 
 
 Reacall and precision can be combined using the  [F-score](https://en.wikipedia.org/wiki/F-score) metric.
 
-$$ F_{score}= 2 *\frac{(precision * recall)}{(precision + recall)} $$
+@@ F_{score}= 2 *\frac{(precision * recall)}{(precision + recall)} @@
 
 # Decoding
 
 ## Random sampling
 
-Random sampling for decoding involves drawing a word from the softmax distribuion. To explore the latent space it is possible to introduce a temprature variable which controlls the randomness of the sample.
+Random sampling for decoding involves drawing a word from the softmax distribution. To explore the latent space it is possible to introduce a temperature variable which controls the randomness of the sample.
 
 ~~~python
 def logsoftmax_sample(log_probs, temperature=1.0):  
@@ -313,7 +310,7 @@ def logsoftmax_sample(log_probs, temperature=1.0):
 
 ## Beam Search
 
-The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/week1/c4w1_screenshot_15.png){: .callout}
+The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/week1/c4w1_screenshot_15.png#sl)
 
 ## Minimum Bayes Risk (MBR)
 
@@ -324,16 +321,16 @@ To implement MBR:
 - Compare each sample against all the others and assign a similarity score (e.g. ROUGE).
 - Select the sample with the highest similarity: the golden one.
 
-![MBR](/assets/week1/c4w1_screenshot_16.png){: .callout}
+![MBR](/assets/week1/c4w1_screenshot_16.png#sl)
 
 ## Summary
 
 - Maximal Probability is a baseline - but not a very good one if the data is noisy.
-- Random sampling with temprature is better.
+- Random sampling with temperature is better.
 - Beam search uses conditional probabilities and the parameter.
 - MBR (Minimum Bayes Risk)takes several samples and compares them against each other to find the golden one.
 
-# Referrences
+# References
 
 The notes drew from the following resources:
 

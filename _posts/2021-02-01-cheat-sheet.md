@@ -17,9 +17,9 @@ When @a \ne 0@, there are two solutions to @ax^2 + bx + c = 0@ and they are
 
 to get numbered equations:
 
-@@\begin{equation} 
+@@\begin{equation*} 
     f(k)=\binom{n}{k} p^k(1-p)^{n-k}
-  \end{equation}@@
+  \end{equation*}@@
 
 some other text:
 

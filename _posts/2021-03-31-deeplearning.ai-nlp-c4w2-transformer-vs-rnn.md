@@ -83,7 +83,8 @@ For the impatient future self - We will start with  NLP engineering insights fro
 - Attention is a general solution for the sequence alignment problem.
 - Attention does not reorder the input sequence.
 - It provides a linear transformation which filters the relevant parts of the source for predicting the each item in the target.
-- $$ attention(h_t,\bar{h}_s)= softmax(h_t^T\bar{h}_s)$$
+
+@@ attention(h_t,\bar{h}_s)= softmax(h_t^T\bar{h}_s)@@
 
   
 
@@ -93,7 +94,8 @@ For the impatient future self - We will start with  NLP engineering insights fro
 - In the engineering sense it is suited for a encoder-decoder architecture 
 - It is the best fit for tasks where the source source sequence is fully available at the start and the tasks is mapping or transformation the source sequence to an output sequence like 
 - It is used for alignment and machine translation or translation.
-- $$ attention_{(\cdot)}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V$$  
+
+@@ attention_{(\cdot)}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@  
 
 ```python
 def DotProductAttention(query,key,value,mask,scale=True):                  
@@ -121,7 +123,8 @@ def DotProductAttention(query,key,value,mask,scale=True):
 - Causal attention is also called self attention.
 - It used to generate a sequence based on previous tokens.
 - A mask is used to enforce ignoring of future values in training.
-- $$ attention_{self}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}}+M)V$$  
+
+@@ attention_{self}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}}+M)V@@  
 where n is the embedding dimension the
 
 ```python
@@ -145,7 +148,8 @@ def SelfAttention(query,key,value,scale=True):
 # What is multi-headed attention?
 
 - multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
-- $$ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V$$
+  
+@@ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@
 
 
 # Additional coding notes:
@@ -332,13 +336,13 @@ I have summarized this paper in the  blog post available here [link](url).
 Dot product attention could be summarized as follows:
 
 - we encode the source and target as Query, Key & Value matrices
-- we take product $$(Q K^T)$$ which gives us weights for the relative importance of keys to queries - they can be thought as alignment or content scores.
-- we apply the $$softmax(Q K^T)$$ to normalize these weights into probabilities.
-- we apply these to $$V$$ to get a weighed sum of the input.
+- we take product @(Q K^T)@ which gives us weights for the relative importance of keys to queries - they can be thought as alignment or content scores.
+- we apply the @softmax(Q K^T)@ to normalize these weights into probabilities.
+- we apply these to @V@ to get a weighed sum of the input.
 
 ### Query, Key & Value
 
-The input and output sequences are mapped to an embedding layer to become the $$Q$$, $$K$$ and $$V$$ matrices.
+The input and output sequences are mapped to an embedding layer to become the @Q@, @K@ and @V@ matrices.
 each word in the input corresponds to a column these matrices.
 
 the input and output sequences are mapped to an embedding layer become the Q, K and V matrices.
@@ -369,7 +373,7 @@ You can think of the **keys** and the **values** as being the same.
 
 ![attention-formula](/assets/week2/c4w2-27-attention-formula.png#sl)
 
-Note that both $$K$$,$$V$$ are of dimension $$L_k,D$$. Each query $$q_i$$ picks the most similar key $$k_j$$
+Note that both @K@,@V@ are of dimension @L_k, D@. Each query @q_i@ picks the most similar key @k_j@
 
 Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by VV to get a weighted combination of the input. 
 
@@ -479,11 +483,11 @@ Q. What are multiple attention heads?
 
 <hr>
 
-Given a word, you take its embedding then you multiply it by the $$Q$$, $$K$$, $$V$$ matrix to get the corresponding queries, keys and values. When you use multi-head attention, a head can learn different relationships between words from another head. 
+Given a word, you take its embedding then you multiply it by the @Q@, @K@, @V@ matrix to get the corresponding queries, keys and values. When you use multi-head attention, a head can learn different relationships between words from another head. 
 
 Here's one way to look at it: 
 
--  First, imagine that you have an embedding for a word. You multiply that embedding with $$Q$$ to get $$q_1$$, $$K$$ to get $$k_1$$, and V to get $$v_1$$
+-  First, imagine that you have an embedding for a word. You multiply that embedding with @Q@ to get @q_1@, @K@ to get @k_1@, and V to get @v_1@
 <hr>
 
 
@@ -517,15 +521,15 @@ Here's one way to look at it:
 ![muti-head-attention-math](/assets/week2/c4w2-53-muti-head-attention-math.png#sl)
 
 <hr>
-- Next, you feed it to the linear layer, once you go through the linear layer for each word, you need to calculate a score. After that, you end up having an embedding for each word. But you still need to get the score for how much of each word you are going to use. For example, this will tell you how similar two words are $$q_1$$ and $$k_1$$or even $$q_1$$ and $$k_2$$  by doing a simple $$q_1 \dot k_1$$. You can take the softmax of those scores (the paper mentions that you have to divide by $$\sqrt(d)$$ to get a probability and then you multiply that by the value. That gives you the new representation of the word.
+- Next, you feed it to the linear layer, once you go through the linear layer for each word, you need to calculate a score. After that, you end up having an embedding for each word. But you still need to get the score for how much of each word you are going to use. For example, this will tell you how similar two words are @q_1@ and @k_1@or even @q_1@ and @k_2@  by doing a simple @q_1 \dot k_1@. You can take the softmax of those scores (the paper mentions that you have to divide by @\sqrt(d)@ to get a probability and then you multiply that by the value. That gives you the new representation of the word.
 
 If you have many heads, you can concatenate them and then multiply again by a matrix that is of dimension (dim of each head by num heads - dim of each head) to get one final vector corresponding to each word. 
 
-Here is step by step guide, first you get the $$Q$$, $$K$$, $$V$$ matrices: 
+Here is step by step guide, first you get the @Q@, @K@, @V@ matrices: 
 
-Note that the computation above was done for one head. If you have several heads, concretely nn, then you will have $$Z_1, Z_2, ..., Z_n$$. In which case, you can just concatenate them and multiply by a $$W_O$$ matrix as follows:
+Note that the computation above was done for one head. If you have several heads, concretely nn, then you will have @Z_1, Z_2, ..., Z_n@. In which case, you can just concatenate them and multiply by a @W_O@ matrix as follows:
 
-Hence, the more heads you have, the more $$Z$$s you will end up concatenating and as a result, that will change the inner dimension of $$W_O$$, which will then project the combined embeddings into one final embedding. 
+Hence, the more heads you have, the more @Z@s you will end up concatenating and as a result, that will change the inner dimension of @W_O@, which will then project the combined embeddings into one final embedding. 
 
 ![summary-muti-head-attention](/assets/week2/c4w2-49-summary-muti-head-attention.png#sl)
 
@@ -566,7 +570,7 @@ format all image names like
 /assets/week2/c4w2-04-name.png
 run search and replace:
 ^(assets/week2/c4w2-..-)([^.]+)(\.png)
-![$$2](/$$1$$2$$3#sl)
+![$2](/$1$2$3#sl)
 
  to get them as images get all the names
 
