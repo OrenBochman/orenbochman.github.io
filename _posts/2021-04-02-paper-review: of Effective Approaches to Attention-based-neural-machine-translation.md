@@ -10,7 +10,26 @@ tags:
    - paper
 img: literature-review.jpg
 ---
-
+<style>
+hr { 	clear:both;  }
+img[src*='#sl'] { 
+  float: right; 
+  width:35%; 
+  margin:10px 10px 10px 0px; 
+  border: 2px solid gold;
+  display: block;
+}
+img[src*='#hi'] { 
+  width:85%; 
+  display: block;
+  margin: 10px auto 10px auto;
+  border: 2px solid gold;
+}
+img[src*='#logo'] {
+      width: 20%;
+      float: right
+}
+</style>
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
 
 # Dot-Product Attention
@@ -20,10 +39,24 @@ img: literature-review.jpg
 The first assignment in the course using encoder decoder LSTM model with attention is so  similar to the setup disused in this paper, it may well have inspired it. 
 
 This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based). In this paper they tried to take the attention mechanism being used in other tasks and to distill it to its essence and at the same time to also find a more general form.
+<center>
 
 |Global Attention|Local Attention|
-|--|--|
+|:---:|:---:|
 |![](/assets/week2/paper-eata-02-attention-global.png)|![](/assets/week2/paper-eata-03-attention-local.png)|
+
+</center>
+
+
+![alignment-visulization](/assets/week2/c4w2-22-alignment-visulization.png#hi)
+
+<hr>
+
+![rnn](/assets/week2/paper-eata-01-nmt.png#hi) 
+
+So to recap: Luong et all were focused on alignment problem in NMT. When they try to tackle it using attention as function of the content and a function of its location. They came up with a number of to distill and generalize attention mechanism. 
+
+<hr>
 
 <!--more-->
 
@@ -46,13 +79,13 @@ talks about
 
 <hr>
 
-![page 1](/assets/week2/paper1/page-002.png#sl)
+![page 2](/assets/week2/paper1/page-002.png#sl)
 
 ## §2 Neural Machine Translation:
 
 This section provides a summary of the the NMT task using 4 equations:
 
-![rnn](/assets/week2/paper-eata-01-nmt.png#hi) 
+
 
 In particular they note that in the decoder the conditional probability of the target given the source is of the form:
 
@@ -76,16 +109,25 @@ With D being our parallel training corpus.
 
 ##  §3 Overview of attention
 
-Next they provide a recap of the attention mechanism to set thier strating point:
+![page 3](/assets/week2/paper1/page-003.png#sl)
+
+Next they provide a recap of the attention mechanism to set their starting point:
 
 >Specifically, given the target hidden state @h_t@ and the source-side context vector @c_t@, we employ a simple concatenation layer to combine the information from both vectors to produce an attentional hidden state as follows: @@ \bar{h}_t = tanh(W_c[c_t;h_t]) @@
 > The attentional vector @\bar{h}_t@ is then fed through the softmax layer to produce the predictive distribution formulated as: @@p(y_t|y{<t}, x) = softmax(W_s\bar{h}_t)@@
 
 ##  §3.1 Global attention
 
+
+
 This is defined in §3.1 of the paper as:
 
-@@ a_t(s)=align(h_t,\bar{h}_s) = \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} } = softmax(score(h_t,\bar{h}_s)) @@
+@@\begin{align}
+   a_t(s) & = align(h_t,\bar{h}_s)  \newline 
+   & = \frac{ e^{score(h_t,\bar{h}_s)} }{ \sum_{s'} e^{score(h_t,\bar{h}_s)} } \newline
+   & = softmax(score(h_t,\bar{h}_s)) 
+   \end{align}
+@@
 
 where @h_t@ and @h_s@ are the target and source sequences and @score()@ which is referred to as a *content-based* function as one of three alternative forms provided:
 
@@ -115,8 +157,10 @@ location :
 @@ a_t = softmax(W_a h_t) @@ 
 
 which is just a linear transform of the hidden target state @h_t@ 
-
+<hr>
 ## §3.2 Local Attention
+
+![](/assets/week2/paper1/page-004.png#sl)
 
 in §3.2 they consider a local attention mechanism. This is a resource saving modification of global attention using the simple concept of applying the mechanism within a fixed sized  window.
 
@@ -135,24 +179,32 @@ They also talk about *monotonic alignment* where @p_t=t@ and *predictive alignme
 
 with align() as defined above and @@\sigma=\frac{D}{2}@@
 
-the rest of the paper has details about the experiment with one last interesting aspect which are visualization of alignment weights.
-
-![alignment-visulization](/assets/week2/c4w2-22-alignment-visulization.png#hi)
-
 <hr>
 
-So to recap: Luong et all were focused on alignment problem in NMT. When they try to tackle it using attention as function of the content and a function of its location. They came up with a number of to distill and generalize attention mechanism. 
-
-<hr>
-
-
-![](/assets/week2/paper1/page-002.png#sl)
-![](/assets/week2/paper1/page-003.png#sl)
-![](/assets/week2/paper1/page-004.png#sl)
 ![](/assets/week2/paper1/page-005.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-006.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-007.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-008.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-009.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-010.png#sl)
+
+<hr>
+
 ![](/assets/week2/paper1/page-011.png#sl)
+
+the rest of the paper has details about the experiment with one last interesting aspect which are visualization of alignment weights.
