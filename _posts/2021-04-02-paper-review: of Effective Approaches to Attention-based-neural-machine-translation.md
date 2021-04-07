@@ -8,7 +8,8 @@ tags:
    - deep learning
    - literature review
    - paper
-img: literature-review.jpg
+img: literature-review-open-book.jpg
+lastmod: 2021-04-07T13:24:37.743Z
 ---
 <style>
 hr { 	clear:both;  }
@@ -36,9 +37,13 @@ img[src*='#logo'] {
 
 **Dot-Product attention** is the first of three attention mechanisms covered in the course and the simplest covered in this paper. Dot-Product Attention is a good fit, in an engineering sense, for a encoder-decoder architecture with tasks where the source source sequence is fully available at the start and the tasks is mapping or transformation the source sequence to an output sequence like in alignment, or translation. 
 
-The first assignment in the course using encoder decoder LSTM model with attention is so  similar to the setup disused in this paper, it may well have inspired it. 
+![rnn](/assets/week2/paper-eata-01-nmt.png#sl) 
+
+The first assignment in the course using encoder decoder LSTM model with attention is so  similar to the setup disused in this paper, I would not be surprised if it may well have inspired it. 
+<hr>
 
 This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based). In this paper they tried to take the attention mechanism being used in other tasks and to distill it to its essence and at the same time to also find a more general form.
+
 <center>
 
 |Global Attention|Local Attention|
@@ -47,14 +52,13 @@ This is a review of the paper in which scaled dot product attention was introduc
 
 </center>
 
+They also came up with a interesting way to visualize the alignment's attention mechanism.
 
 ![alignment-visulization](/assets/week2/c4w2-22-alignment-visulization.png#hi)
 
 <hr>
 
-![rnn](/assets/week2/paper-eata-01-nmt.png#hi) 
-
-So to recap: Luong et all were focused on alignment problem in NMT. When they try to tackle it using attention as function of the content and a function of its location. They came up with a number of to distill and generalize attention mechanism. 
+So to recap: Luong et all were focused on alignment problem in NMT. When they try to tackle it using attention as function of the content and a function of its location. They came up with a number of ways to distill and generalize the attention mechanism. 
 
 <hr>
 
@@ -183,6 +187,7 @@ with align() as defined above and @@\sigma=\frac{D}{2}@@
 
 ![](/assets/week2/paper1/page-005.png#sl)
 
+The rest of the paper has details about the experiment and is of less interest 
 <hr>
 
 ![](/assets/week2/paper1/page-006.png#sl)
@@ -191,20 +196,28 @@ with align() as defined above and @@\sigma=\frac{D}{2}@@
 
 ![](/assets/week2/paper1/page-007.png#sl)
 
+
 <hr>
 
 ![](/assets/week2/paper1/page-008.png#sl)
 
+In §5.4 In alignment quality
 <hr>
 
 ![](/assets/week2/paper1/page-009.png#sl)
+
+some sample translations
 
 <hr>
 
 ![](/assets/week2/paper1/page-010.png#sl)
 
+the references
+
 <hr>
 
 ![](/assets/week2/paper1/page-011.png#sl)
 
-the rest of the paper has details about the experiment with one last interesting aspect which are visualization of alignment weights.
+This is appendix A which shows the visualization of alignment weights.
+
+<hr>
