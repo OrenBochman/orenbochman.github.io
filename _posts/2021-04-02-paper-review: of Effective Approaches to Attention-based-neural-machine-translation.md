@@ -19,6 +19,8 @@ img: literature-review.jpg
 
 The first assignment in the course using encoder decoder LSTM model with attention is so  similar to the setup disused in this paper, it may well have inspired it. 
 
+This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based). In this paper they tried to take the attention mechanism being used in other tasks and to distill it to its essence and at the same time to also find a more general form.
+
 |Global Attention|Local Attention|
 |--|--|
 |![](/assets/week2/paper-eata-02-attention-global.png)|![](/assets/week2/paper-eata-03-attention-local.png)|
@@ -27,15 +29,13 @@ The first assignment in the course using encoder decoder LSTM model with attenti
 
 {:toc}
 
-This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based). In this paper they tried to take the attention mechanism being used in other tasks and to distill it to its essence and at the same time to also find a more general form.
+<hr>
 
-![](/assets/week2/paper1/page-001.png#sl)
+![page 1](/assets/week2/paper1/page-001.png#sl)
 
 Attention was just another engineering technique to improve alignment and it had not yet taken center stage in the models, as it would in [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017).I find it useful to garner the concepts and intuition which inspired these researchers to adapt attention and how they come up with this form of attention.
 
-
-
-They abstract starts with:
+The abstract begins with:
 
 >  "An attentional mechanism has lately been used to improve neural machine translation (NMT) by selectively focusing on parts of the source sentence during translation."
 
@@ -43,7 +43,11 @@ which was covered in last lesson. The abstract continues with:
 
 > "This paper examines two simple and effective classes of attentional mechanism: a **global** approach which always attends to **all** source words and a **local** one that only looks at a **subset** of source words at a time."
 talks about 
+
 <hr>
+
+![page 1](/assets/week2/paper1/page-002.png#sl)
+
 ## §2 Neural Machine Translation:
 
 This section provides a summary of the the NMT task using 4 equations:
@@ -62,12 +66,13 @@ Here, @h_j@ is the RNN hidden unit, abstractly computed as:
 
 @@ h_j = f(h_{j-1},s) @@
 
-
 Our training objective is formulated as follows
 
 @@ J_t=\sum_{(x,y)\in D} -log \space p(x \vert y) @@
 
 With D being our parallel training corpus.
+
+<hr>
 
 ##  §3 Overview of attention
 
