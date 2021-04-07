@@ -43,7 +43,7 @@ which was covered in last lesson. The abstract continues with:
 
 > "This paper examines two simple and effective classes of attentional mechanism: a **global** approach which always attends to **all** source words and a **local** one that only looks at a **subset** of source words at a time."
 talks about 
-
+<hr>
 ## §2 Neural Machine Translation:
 
 This section provides a summary of the the NMT task using 4 equations:
