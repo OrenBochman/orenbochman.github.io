@@ -10,7 +10,7 @@ tags: [Productivity, Workflow, Blogging] # add tag
 
 This was a place holder page but I do have some input here - perhaps not specifically 10 tips.
 
-I use to keep nots with MS OneNote. Before that I used some other software. OneNote works well on windows and after I moved to a mac I started to get more and more friction. Another of the down sides of using OneNote is how hard it is to publish anything. This got worse when it migrated to the cloud. Eventually I realized I need to move to a more flexible platform
+I use to keep nots with MS OneNote. Before that I used some other software. OneNote works well on windows and after I moved to a mac I started to get more and more friction. Another of the down sides of using OneNote is how hard it is to publish anything. This got worse when it migrated to the cloud. Eventually I realized I need to move to a more flexible platform. However the move would only work if it would reduce the overall time and work required to do this work.
 
 ## Setup your spell checker
 
@@ -57,4 +57,12 @@ It takes forever to fix 100 of typos once you realize you have been typing blind
 - that a test first idea 
 - basically you get more of a flow going when the work result cycles are shorter
 - think 'Pommadoro technique'.
+
+## Find ways to bring your content to MD format.
+- MD :heart: charts.
+- MD :heart: code 
+- MD :heart: math
+- Jupyter notebooks are easily exported.
+- Embedding videos is a challenge.
+
 

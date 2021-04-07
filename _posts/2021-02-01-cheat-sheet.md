@@ -9,8 +9,6 @@ img : cheat-sheets.jpg
 
 # Math
 
-- source: [stackexchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
-
 ## Inline, display, square root and fraction
 
 When @a \ne 0@, there are two solutions to @ax^2 + bx + c = 0@ and they are:
@@ -135,6 +133,7 @@ n/2,  & \text{if $n$ is even} \\
   \mathfrak{abcdefghijklmnopqrstuvwxyz}
 \end{equation}@@
 
+<!--
 ## Commutative Diagram
 @@
 \require{AMScd}
@@ -144,6 +143,7 @@ A @>a>> B\\
 C @>>d> D
 \end{CD}
 @@
+-->
 
 ## Matrix
 
@@ -252,8 +252,12 @@ Andrew->>China: I am good thanks!
 Bob -> Alice : hello world
 ```
 
-## Mermaids
+## Mermaids charts
+
 
 ## See also
 
+- [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
 - [railroad fiagram generator](https://www.bottlecaps.de/rr/ui)
+- [tex stackexchange tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
+
