@@ -29,9 +29,9 @@ The first assignment in the course using encoder decoder LSTM model with attenti
 
 This is a review of the paper in which scaled dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based). In this paper they tried to take the attention mechanism being used in other tasks and to distill it to its essence and at the same time to also find a more general form.
 
+![](/assets/week2/paper1/page-001.png#sl)
+
 Attention was just another engineering technique to improve alignment and it had not yet taken center stage in the models, as it would in [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017).I find it useful to garner the concepts and intuition which inspired these researchers to adapt attention and how they come up with this form of attention.
-
-
 
 
 
@@ -137,3 +137,17 @@ the rest of the paper has details about the experiment with one last interesting
 <hr>
 
 So to recap: Luong et all were focused on alignment problem in NMT. When they try to tackle it using attention as function of the content and a function of its location. They came up with a number of to distill and generalize attention mechanism. 
+
+<hr>
+
+
+![](/assets/week2/paper1/page-002.png#sl)
+![](/assets/week2/paper1/page-003.png#sl)
+![](/assets/week2/paper1/page-004.png#sl)
+![](/assets/week2/paper1/page-005.png#sl)
+![](/assets/week2/paper1/page-006.png#sl)
+![](/assets/week2/paper1/page-007.png#sl)
+![](/assets/week2/paper1/page-008.png#sl)
+![](/assets/week2/paper1/page-009.png#sl)
+![](/assets/week2/paper1/page-010.png#sl)
+![](/assets/week2/paper1/page-011.png#sl)
