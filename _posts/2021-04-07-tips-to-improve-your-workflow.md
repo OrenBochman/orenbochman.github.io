@@ -41,18 +41,20 @@ It takes forever to fix 100 of typos once you realize you have been typing blind
 - I set the save as destination these in the browser.
 - I set it also as the target of the scripts I use.
 
-## lacking a image preview + drag and drop adding lots of images is one of the biggest pains. I do it in three steps
+## Do image insertions wholesale prices.
+- lacking a image preview + drag and drop adding lots of images is one of the biggest pains. I do it in three steps
 - screen caps to the img folder - as mentioned above.
 - select each and add a meaningful name.
 - move to a target folder for the post.
 - copy all the files relative paths
 - run a regex to convert them to md format.
 
-## drafts & a Todo List
+## Drafts & a Todo List
 - keep draft and a todo list around.
 - it can help kep you on point and avoid missing those good moments of inspiration.
 
-## push changes quickly and often
+## Push changes quickly and often
 - that a test first idea 
 - basically you get more of a flow going when the work result cycles are shorter
 - think 'Pommadoro technique'.
+
