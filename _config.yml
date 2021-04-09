@@ -39,6 +39,7 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-mermaid
 paginate: 8
 paginate_path: "/page/:num"
 defaults:
@@ -49,3 +50,12 @@ defaults:
       use_math: true
       author: "Oren Bochman"
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "vendor"]
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+#https://github.com/mermaid-js/mermaid
+mermaid:
+  src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js'
