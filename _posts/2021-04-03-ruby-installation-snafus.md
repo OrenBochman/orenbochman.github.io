@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Jekyll take 3 
-date: 2021-04-04 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: ruby.jpg # Add image post (optional)
-tags: [blogging, ruby] # add tag
+title: Jekyll take 3
+date: '2021-04-04 00:00:00 +0300'
+description: My attempts to get this site to also build localy.
+img: ruby.jpg
+tags:
+    - blogging
+    - ruby
 comments: true
+lastmod: 2021-04-09T07:30:55.578Z
 ---
 
 ## Ruby installation pains on Mac Os
@@ -72,8 +75,49 @@ I did update to BigSur some months back - am I still paying dues?
 Someone suggested ensuring I have latest version. 
 Its a pain to install so hungry for space and won't use it on another drive.
 
+
 ```zsh
 sudo rm -rf /Library/Developer/CommandLineTools
 xcode-select --install
 sudo xcode-select -s /Library/Developer/CommandLineTools
 ```
+
+- remove all gems 
+
+```zsh
+for x in `gem list --no-versions`; do sudo gem uninstall $x -a -x -I; done
+
+gem install bundler jekyll --user-install
+
+```
+
+- installing jekyll breaks while building local extension sassc-2.4.0
+- SO [sassc bundler error: Gem::Ext::BuildError: ERROR: Failed to build gem native extension](https://stackoverflow.com/questions/54520459/sassc-bundler-error-gemextbuilderror-error-failed-to-build-gem-native-ext)
+- @\implies @ `gcc` is the culprit
+
+```zsh
+
+sudo chown -R $(whoami) $(brew --prefix)/*
+brew upgrade gcc
+bundle install
+```
+- `Warning: gcc 10.2.0_4 already installed` @\implies @ `gcc` is the up to date
+
+many of the errors a xcode related.
+
+- brew doctor says: `Warning: Your Xcode (12.2) is outdated.`
+- cleared up 50GB of space 
+- updated xcode
+- removed some pesky os extensions
+- cleaned up .zshrc
+- reordered the path to get ruby3.0 first
+- discovered I should add ['vendor'] to excludes
+- should move csv file out of _data and into assets/data
+- I may be using Ruby 3 no longer comes wit `webrick`s and how can you build a web page without web bricks :wink:
+    - found this [issue](https://github.com/github/pages-gem/issues/752) by [Krinkle](https://github.com/Krinkle) always neat to meet a familiar face.
+    - `bundle add webrick`
+
+I'm shocked to see the site rebuilding as I type.
+Guess my troubles are now over - perhaps I should have prayed for less Dr Hyde (in the command line ) and more Mr Jekyll.
+
+I guess I'll be back here again when github pages upgrades to Jekyll 4.

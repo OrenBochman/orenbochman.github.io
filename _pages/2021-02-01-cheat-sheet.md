@@ -260,4 +260,4 @@ Bob -> Alice : hello world
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
 - [railroad fiagram generator](https://www.bottlecaps.de/rr/ui)
 - [tex stackexchange tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
-
+- [https://maxodnovolyk.com/jekyll-cheat-sheet/]
