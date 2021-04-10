@@ -1,4 +1,3 @@
----
 "reference.jpg":
   source: "https://pixabay.com/en/bookshelf-books-reading-learning-791011/"
   copyright: "Steve Buissinne"
@@ -63,4 +62,24 @@
   source: "https://pixabay.com/photos/computer-retro-old-privacy-policy-1895383/"
   copyright: "andreas160578"
   link: "https://pixabay.com/users/andreas160578-2383079/"
+  license: "CC0 Creative Commons"
+"literature-review-open-book.jpg":
+  source: "https://pixabay.com/photos/book-book-open-book-pages-wind-3720292/"
+  copyright: "auricadina75"
+  link: "https://pixabay.com/users/auricadina75-4932251/"
+  license: "CC0 Creative Commons"
+"artificial-neural-network.png":
+  source: "https://pixabay.com/illustrations/neural-network-3637503/"
+  copyright: "ahmedgad"
+  link: "https://pixabay.com/users/ahmedgad-9403351/"
+  license: "CC0 Creative Commons"
+"neural-network.png":
+  source: "https://pixabay.com/illustrations/artificial-neural-network-ann-3501528/"
+  copyright: "ahmedgad"
+  link: "https://pixabay.com/users/ahmedgad-9403351/"
+  license: "CC0 Creative Commons"
+"vitruvian-man-collage.jpg":
+  source: "https://pixabay.com/illustrations/collage-leonard-da-vinci-2231082/"
+  copyright: "Verbera"
+  link: "https://pixabay.com/users/verbera-4015848/"
   license: "CC0 Creative Commons"
