@@ -2,18 +2,19 @@
 layout: post
 title: Jekyll take 3
 date: '2021-04-04 00:00:00 +0300'
-description: My attempts to get this site to also build localy.
+description: My attempts to get this site to also build locally.
 img: ruby.jpg
 tags:
     - blogging
     - ruby
+    - jekyll
 comments: true
 lastmod: 2021-04-09T07:30:55.578Z
 ---
 
 ## Ruby installation pains on Mac Os
 
-Jekyll is proving true to his name. I could not get the theme to work decently. I tried a third reboot of the site.
+Jekyll is once again proving too be a trouble some fellow. I could not get the theme to work decently and I wanted to have a working local copy to see how things progress before upoading to git. I tried a third reboot of the site.
 
 I forked a new and promising theme called [flexible jekyll](http://artemsheludko.com/flexible-jekyll/). 
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 'Paper Review: Effective Approaches to Attention-based NMT'
-date: 2021-04-02T10:50:09.040Z
+title: 'Review of Deep contextualized word representations'
+description: review of the 2018 paper "Deep contextualized word representations" on dot product attention for the deeplearning.ai NLP specialization.
+date: 2021-04-12 10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
    - attention

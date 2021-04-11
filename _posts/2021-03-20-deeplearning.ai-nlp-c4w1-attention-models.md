@@ -1,14 +1,14 @@
 ---
 layout: post
 title: NLP with Attention Models Week 1 NLP with Attention Models
-date: '2021-03-30T18:16:16.956Z
+date: '2021-03-20T18:16:16.956Z
 categories: nlp coursera notes
 tags:
     - deeplearning.ai
     - deep learning
     - '#DeepLearningAlgorithems'
 lastmod: 2021-04-01T11:13:20.956Z
-img: notes-from-coursera-deep-learning-courses.jpg
+img: notes-formulas.jpg
 ---
 
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
@@ -235,7 +235,7 @@ We then would multiply the output by V. Remember V in this example was the same 
 @@ softmax(QK^T )V  @@
 	
 In the matrix, the lighter square shows where the model is actually looking when making the translation of that word. This mapping should not necessarily be one to one. The lighting just tells you to what extent is each word contributing to the input that will be fed into the decoder. As you can see several words can contribute to translating another word, depending on the weights (output) of the softmax that will be used to create the new input. 
-a picture of attention in translation with English to German	  An important thing to keep in mind is that the model should be flexible enough to connect each English word with its relevant German word, even if they do not appear in the same position in their respective sentences. In other words, it should be flexible enough to handle differences in grammar and word ordering in different languages.
+a picture of attention in translation with English to German An important thing to keep in mind is that the model should be flexible enough to connect each English word with its relevant German word, even if they do not appear in the same position in their respective sentences. In other words, it should be flexible enough to handle differences in grammar and word ordering in different languages.
 	In a situation like the one I just mentioned, where the grammar of foreign language requires a difference word order than the other, the attention is so flexible enough to find the connection. The first four tokens, the agreements on the, are pretty straightforward, but then the grammatical structure between French and English changes. Now instead of looking at the corresponding fifth token to translate the French word zone, the attention knows to look further down at the eighth token, which corresponds to the English word area, glorious and necessary. It's pretty amazing, was a little matrix multiplication can do.
 	So attention is a layer of calculations that let your model focus on the most important parts of the sequence for each step. Queries, values, and keys are representations of the encoder and decoder hidden states. And they're used to retrieve information inside the attention layer by calculating the similarity between the decoder queries and the encoder key- value pairs. 
 	
@@ -244,8 +244,8 @@ a picture of attention in translation with English to German	  An important thin
 ### BLEU
 
 - The BLEU score was by Kishore Papineni, et al. In their 2002 paper titled [BLEU: a Method for Automatic Evaluation of Machine Translation][BLEU: a Method for Automatic Evaluation of Machine Translation]
-- The closer the BLEU score is to one, the better your model is. 
-- The closer to zero, the worse it is. 	
+- The closer the BLEU score is to 1, the better a model preforms. 
+- The closer to 0, the worse it does. 	
 
 To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. For example using uni-grams:
 
@@ -284,7 +284,7 @@ Rouge also allows you to compute precision as follows:
 
 The ROUGE-N refers to the overlap of N-grams between the actual system and the reference summaries. 
 
-Reacall and precision can be combined using the  [F-score](https://en.wikipedia.org/wiki/F-score) metric.
+Recall and precision can be combined using the [F-score](https://en.wikipedia.org/wiki/F-score) metric.
 
 @@ F_{score}= 2 *\frac{(precision * recall)}{(precision + recall)} @@
 
@@ -310,7 +310,7 @@ def logsoftmax_sample(log_probs, temperature=1.0):
 
 ## Beam Search
 
-The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithem is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/week1/c4w1_screenshot_15.png#sl)
+The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithm is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/week1/c4w1_screenshot_15.png#sl)
 
 ## Minimum Bayes Risk (MBR)
 

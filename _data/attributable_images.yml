@@ -8,6 +8,31 @@
   copyright: "Pexels"
   link: "https://pixabay.com/en/users/Pexels-2286921/"
   license: "CC0 Creative Commons"
+"analysis-reports.jpg":
+  source: "https://pixabay.com/photos/analysis-analytics-business-charts-1841158/"
+  copyright: "Pexels"
+  link: "https://pixabay.com/en/users/Pexels-2286921/"
+  license: "CC0 Creative Commons"
+"code.jpg":
+  source: "https://pixabay.com/photos/code-coding-computer-data-1839406/"
+  copyright: "Pexels"
+  link: "https://pixabay.com/en/users/Pexels-2286921/"
+  license: "CC0 Creative Commons"
+"apple-desktop.jpg":
+  source: "https://pixabay.com/photos/apple-computer-desk-workspace-1868496/"
+  copyright: "Pexels"
+  link: "https://pixabay.com/en/users/Pexels-2286921/"
+  license: "CC0 Creative Commons"
+"hummingbird":
+  source: "https://pixabay.com/photos/hummingbird-bird-flight-avian-1854225/"
+  copyright: "Pexels"
+  link: "https://pixabay.com/en/users/Pexels-2286921/"
+  license: "CC0 Creative Commons"
+"star-river":
+  source: "https://pixabay.com/photos/canyon-night-stars-outdoors-2178786/"
+  copyright: "Pexels"
+  link: "https://pixabay.com/en/users/Pexels-2286921/"
+  license: "CC0 Creative Commons"
 "whyblog.jpg":
   source: "https://pixabay.com/en/idea-empty-paper-pen-light-bulb-1876659/"
   copyright: "Qimono"
@@ -82,4 +107,298 @@
   source: "https://pixabay.com/illustrations/collage-leonard-da-vinci-2231082/"
   copyright: "Verbera"
   link: "https://pixabay.com/users/verbera-4015848/"
+  license: "CC0 Creative Commons"
+"global-map.png":
+  source: "https://pixabay.com/vectors/earth-world-map-globe-line-art-5932372/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"vortex.png":
+  source: "https://pixabay.com/vectors/vortex-whirlpool-line-art-eddy-5273023/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"singularity.png":
+  source: "https://pixabay.com/vectors/vortex-maelstrom-whirlpool-cyclone-5171430/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"spiral-binary.png":
+  source: "https://pixabay.com/vectors/binary-digital-vortex-computers-5389555/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"mandala-vortex.png":
+  source: "https://pixabay.com/vectors/vortex-mandala-line-art-maelstrom-5279579/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"rooster.png":
+  source: "https://pixabay.com/vectors/rooster-animal-line-art-chicken-4811648/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"coronavirus-disease-anthropomorphic.png":
+  source: "https://pixabay.com/vectors/coronavirus-disease-anthropomorphic-4993235/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"network-trace-blue.jpg":
+  source: "https://pixabay.com/illustrations/network-board-circuit-trace-5987786/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"binary-explosion.jpg":
+  source: "https://pixabay.com/illustrations/binary-explosion-universe-null-5930637/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"eye-biometrics.jpg":
+  source: "https://pixabay.com/illustrations/eye-iris-biometrics-face-detection-5814965/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"event-questions.jpg":
+  source: "https://pixabay.com/illustrations/questions-font-who-what-how-why-2245264/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"sentiment-analysis.jpg":
+  source: "https://pixabay.com/illustrations/museum-man-smileys-portraits-5972692/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"social-media-network.jpg":
+  source: "https://pixabay.com/illustrations/icons-network-social-media-internet-6152191/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"epicycles.png":
+  source: "https://pixabay.com/vectors/constellations-celestial-moon-earth-5921039/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"books-many.jpg":
+  source: "https://pixabay.com/illustrations/books-library-education-knowledge-5430104/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"social-network-analysis.png":
+  source: "https://pixabay.com/vectors/social-media-connections-networking-3846597/"
+  copyright: "GDJ"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"nlp-brain-wordcloud.jpg":
+  source: "https://pixabay.com/illustrations/brain-mind-mindfulness-conscious-998996/"
+  copyright: "John Hain"
+  link: "https://pixabay.com/users/johnhain-352999/"
+  license: "CC0 Creative Commons"
+
+
+
+"human-machine-interface.jpg":
+  source: "https://pixabay.com/illustrations/web-network-digitization-4687386/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"digitization.jpg":
+  source: "https://pixabay.com/photos/digitization-transformation-hand-4667371/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+
+"letter-a.webp":
+  source: "https://pixabay.com/vectors/social-media-connections-networking-3846597/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-b.webp":
+  source: "https://pixabay.com/vectors/letter-b-alphabet-typography-font-5569125/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-c.webp":
+  source: "https://pixabay.com/vectors/letter-c-alphabet-typography-font-5569119/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-d.webp":
+  source: "https://pixabay.com/vectors/letter-d-alphabet-typography-font-5569124/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-e.webp":
+  source: "https://pixabay.com/vectors/letter-e-alphabet-typography-font-5569131/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-f.webp":
+  source: "https://pixabay.com/vectors/letter-font-text-alphabet-line-art-5569137/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-g.webp":
+  source: "https://pixabay.com/vectors/letter-g-alphabet-typography-font-5569122/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-h.png":
+  source: "https://pixabay.com/vectors/letter-h-alphabet-typography-font-5569117/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-i.png":
+  source: "https://pixabay.com/vectors/letter-i-alphabet-typography-font-5569126/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-k.png":
+  source: "https://pixabay.com/vectors/letter-k-alphabet-typography-font-5569121/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-l.png":
+  source: "https://pixabay.com/vectors/letter-l-alphabet-typography-font-5569128/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-m.webp":
+  source: "https://pixabay.com/vectors/letter-m-alphabet-typography-font-5569132/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-n.webp":
+  source: "https://pixabay.com/vectors/letter-font-text-alphabet-line-art-5569134/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-o.webp":
+  source: "https://pixabay.com/vectors/letter-font-text-alphabet-line-art-5569138/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-p.webp":
+  source: "https://pixabay.com/vectors/letter-p-alphabet-typography-font-5569118/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-q.webp":
+  source: "https://pixabay.com/vectors/q-alphabet-line-art-english-letter-5299722/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-r.webp":
+  source: "https://pixabay.com/vectors/letter-r-alphabet-typography-font-5569133/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-s.webp":
+  source: "https://pixabay.com/vectors/social-media-connections-networking-3846597/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-t.webp":
+  source: "https://pixabay.com/vectors/letter-font-text-alphabet-line-art-5569141/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-u.webp":
+  source: "https://pixabay.com/vectors/social-media-connections-networking-3846597/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-v.webp":
+  source: "https://pixabay.com/vectors/letter-font-text-alphabet-line-art-5569135/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-w.png":
+  source: "https://pixabay.com/vectors/letter-w-alphabet-typography-font-5569123/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-x.png":
+  source: "https://pixabay.com/vectors/letter-x-alphabet-typography-font-5569116/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-y.png":
+  source: "https://pixabay.com/vectors/social-media-connections-networking-3846597/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"letter-z.png":
+  source: "https://pixabay.com/vectors/letter-z-alphabet-typography-font-5569129/"
+  copyright: "Gordon Johnson"
+  link: "https://pixabay.com/users/gdj-1086657/"
+  license: "CC0 Creative Commons"
+"notes-formulas.jpg":
+  source: "https://pixabay.com/photos/school-book-science-physics-683552/"
+  copyright: "sandid"
+  link: "https://pixabay.com/users/sandid-356019/"
+  license: "CC0 Creative Commons"
+"notes-formula_2.jpg":
+  source: "https://pixabay.com/photos/school-book-science-physics-maths-683550/"
+  copyright: "Adrian Schweiz"
+  link: "https://pixabay.com/users/athree23-6195572/"
+  license: "CC0 Creative Commons"
+"notes-ai.jpg":
+  source: "https://pixabay.com/photos/board-mathematics-school-learn-4855963/"
+  copyright: "sandid"
+  link: "https://pixabay.com/users/sandid-356019/"
+  license: "CC0 Creative Commons"
+"numbers-white.jpg":
+  source: "https://pixabay.com/illustrations/pay-digit-number-fill-count-mass-1036470/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"numbers-red.jpg":
+  source: "https://pixabay.com/illustrations/pay-digit-number-fill-count-mass-1036470/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"transformer-robot.png":
+  source: "https://pixabay.com/illustrations/robot-machine-technology-cyborg-5519571/"
+  copyright: "Yazril Tri Mulyana"
+  link: "https://pixabay.com/users/yazriltri-14541239/"
+  license: "CC0 Creative Commons"
+"attention.png":
+  source: "https://pixabay.com/illustrations/banner-header-attention-caution-1165979/"
+  copyright: "Gerd Altmann"
+  link: "https://pixabay.com/users/geralt-9301/"
+  license: "CC0 Creative Commons"
+"wormhole.png":
+  source: "https://pixabay.com/illustrations/wormhole-space-time-light-tunnel-739872/"
+  copyright: "Johnson Martin"
+  link: "https://pixabay.com/users/johnsonmartin-724525/"
+  license: "CC0 Creative Commons"
+"probabilty-dice.jpg":
+  source: "https://pixabay.com/illustrations/wormhole-space-time-light-tunnel-739872/"
+  copyright: "adriano7492"
+  link: "https://pixabay.com/users/adriano7492-6485549/"
+  license: "CC0 Creative Commons"
+"dragon.jpg":
+  source: "https://pixabay.com/photos/dragon-golden-dragon-statue-238931/"
+  copyright: "Josch13"
+  link: "https://pixabay.com/users/josch13-48777/"
+  license: "CC0 Creative Commons"
+"poker-face.jpg":
+  source: "https://pixabay.com/photos/poker-dice-shutter-priority-casino-1061051//"
+  copyright: "Jeff Juit"
+  link: "https://pixabay.com/users/jeffjuit-1576455/"
+  license: "CC0 Creative Commons"
+"long-shot.jpg":
+  source: "https://pixabay.com/photos/hand-dice-throw-stairs-steps-1209417/"
+  copyright: "Free-Photos"
+  link: "https://pixabay.com/users/free-photos-242387/"
+  license: "CC0 Creative Commons"
+"puzzle.webp":
+  source: "https://pixabay.com/photos/puzzle-icon-blue-sky-ecology-2198142/"
+  copyright: "drvr"
+  link: "https://pixabay.com/users/drvr-1553432/"
+  license: "CC0 Creative Commons"
+"dice-distribution.jpg":
+  source: "https://pixabay.com/photos/dice-roll-gambling-red-poker-win-5517550/"
+  copyright: "taintedtextures"
+  link: "https://pixabay.com/users/taintedtextures-2128391/"
   license: "CC0 Creative Commons"

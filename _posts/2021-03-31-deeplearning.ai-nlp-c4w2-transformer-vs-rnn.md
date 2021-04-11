@@ -13,7 +13,7 @@ tags:
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
-img: notes-from-coursera-deep-learning-courses.jpg
+img: notes-formulas.jpg
 ---
 <style>
 
@@ -47,30 +47,26 @@ img[src*='#logo'] {
 # Transformers vs RNNs
 Course notes for: NLP with Attention Models Week 2 
 
-::: danger
-Spoiler: ;-) Transformers win.]]
-:::
+{% include warning.html content="Spoiler:Transformers win :wink:" %}
 
 <!--more-->
 
 **Contents**
+
 * This will become a table of contents (this text will be scrapped).
+
 {:toc}
 
 # Learning Objectives:
 
-1. Describe the three basic types of attention
-   1. scaled dot product attention, 
-   2. causal attention
-   3. multi-head attention
-2. Name the two types of layers in a Transformer
+ 1. [x] Describe the three basic types of attention
+2. [ ] Name the two types of layers in a Transformer
    1. feed forward
    2. multi-headed attention
-   
-3. Define three main matrices in attention
-4. Interpret the math behind scaled dot product attention, causal attention, and multi-head attention
-5. Use articles and their summaries to create input features for training a text summarizer
-6. Build a Transformer decoder model (GPT-2)
+3. [ ] Define three main matrices in attention
+4. [ ] Interpret the math behind scaled dot product attention, causal attention, and multi-head attention
+5. [ ] Use articles and their summaries to create input features for training a text summarizer
+6. [ ] Build a Transformer decoder model (GPT-2)
 
 
    
@@ -277,7 +273,8 @@ T5 can do a number of tasks with a single model.
 While the earlier transformer models were able to score high in many different tasks without specific training. T5 is setup to handle different inputs and respond with output that is relevant to the requested task.
 
 ## Classification tasks using T5 
-are selected using the initial string:
+
+These tasks are selected using the initial string:
 - Translate English into German
 - Cola sentence
 - Question
@@ -296,7 +293,8 @@ are selected using the initial string:
 
 ![transformers quiz](/assets/week2/c4w2-21-quiz.png#sl)
 
-I found this one a little confusing. 
+
+{% include warning.html content="I found this one a little confusing" %}
 
 We are told that the transformers can do in one operation what RNN needed to do in many steps. Also when querying transformers it does one task at a time. It seem that this question is about the ability of multiple heads to do several tasks at once could not do this is not well understood. 
 <hr>
@@ -307,19 +305,12 @@ We are told that the transformers can do in one operation what RNN needed to do 
 
 # Video 3: Dot-Product Attention
 
-In the master class linked bellow Dr. Łukasz Kaiser talks about attention and here he is talking about solving the problem of retrieving information from a long sequence. This is essentially what alignment was also trying to do. So if we think about retrieving information from a memory:
-
-- The **Query** is the embedding for a token in the *target* sequence we wish to process. 
-- The **Key** is our the embedding of the token from the source sequence.
-- The **Value** will become a factor which corresponds to the likelihood of the key being significant for decoding the input.
-
-<hr>
-
 ![outline-of-dot-product-attention](/assets/week2/c4w2-22-outline-of-dot-product-attention.png#sl)
 
 Dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
 
-I have summarized this paper in the  blog post available here [link](url).
+Look at [Review of Effective Approaches to Attention-based NMT]({% post_url 2021-03-21-review-of-effective-approaches-to-attention-based-neural-machine-translation %})
+
 
 <hr>
 
@@ -329,36 +320,37 @@ I have summarized this paper in the  blog post available here [link](url).
 - It is more of less a dot product between the embedding of source and target sequences.
 - The embedding are trained to make equivalent words close together across languages.
 
-<hr>
-
-![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
-
 Dot product attention could be summarized as follows:
 
 - we encode the source and target as Query, Key & Value matrices
 - we take product @(Q K^T)@ which gives us weights for the relative importance of keys to queries - they can be thought as alignment or content scores.
 - we apply the @softmax(Q K^T)@ to normalize these weights into probabilities.
 - we apply these to @V@ to get a weighed sum of the input.
+<hr>
+{% include important.html content="course objective!" %}
 
 ### Query, Key & Value
+
+![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
+
+Attention uses three matrices which are formed as shown in the figure.  The **Query**, **Key** and **Value** are formed from the source and target (if there is no target then just from the source). Each word is converted into an embedding column vector and these are placed into the matracies as thier columns. 
+
+In the master class embedded bellow Dr. Łukasz Kaiser talks about attention and here he is talking about solving the problem of retrieving information from a long sequence. At around 16 minutes in he call Q a query vector and K and V a memory, of all the words we have seen, which we want to access.
+
+- The **Query** is the embedding for a token in the *target* sequence we wish to process. 
+- The **Key** is our the embedding of the token from the source sequence.
+- The **Value** will become a factor which corresponds to the likelihood of the key being significant for decoding the input.
 
 The input and output sequences are mapped to an embedding layer to become the @Q@, @K@ and @V@ matrices.
 each word in the input corresponds to a column these matrices.
 
 the input and output sequences are mapped to an embedding layer become the Q, K and V matrices.
 
-In the master class linked bellow Dr. Łukasz Kaiser talks about attention and here he is talking about solving the problem of retrieving information from a long sequence. This is essentially what alignment was also trying to do. So if we think about retrieving information from a memory:
-
-- The **Query** is the embedding for a token in the *target* sequence we wish to process. 
-- The **Key** is our the embedding of the token from the source sequence.
-- The **Value** will become a factor which corresponds to the likelihood of the key being significant for decoding the input.
 <hr>
 
-[Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass](https://www.youtube.com/watch?v=rBCqOTEfxvg&ab_channel=PiSchool#hi)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rBCqOTEfxvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr>
-
-![concept-of-attention](/assets/week2/c4w2-25-concept-of-attention.png#sl)
 
 Given an input, you transform it into a new representation or a column vector. Depending on the task you are working on, you will end up getting queries, keys, and values. Each column corresponds to a word in the figure above. Hence, when you compute the following: 
 <hr>
@@ -385,6 +377,7 @@ Queries are the German words and the keys are the English words. Once you have t
 
 ![summary-for-dot-product-attention](/assets/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
 
+another interstring point made in the talk above is that while dot product attention has a @O(n^2 *d)@  complexity - @d >> n@ when working with a sentence and embedding dimension of 1000 so it performs better then an RNN whose complexity is @O(n*d^2)@  
 <hr>
 
 # V4: Causal Attention
@@ -394,9 +387,7 @@ Queries are the German words and the keys are the English words. Once you have t
 - We'll discover some mathematical foundations behind the causal attention. 
 <hr>
 
-::: alert
-course objective
-:::
+{% include important.html content="course objective!" %}
 
 ![three forms of attention](/assets/week2/c4w2-30-three-ways-of-attention.png#sl)
 
@@ -476,6 +467,27 @@ Q. What are multiple attention heads?
 <hr>
 
 ![overview of muti-head attention](/assets/week2/c4w2-42-overview-of-muti-head-attention.png#sl)
+
+This is perhaps the most important slide - but it fails to show the critical part of the algorithm.
+Let's suppose we have @k@ attention heads. We see at the lowest level the @K@, @Q@ and @V@ being passed into passing through k linear layers. How is this accomplished and more important why. What is actually happening here is the opposite of concatenation. Instead of processing a query embedding from a space of @d@-dimensions we first split the embedding into @k@ vectors of length @D/k@. We have now k vectors from a k @D/k@-dimensional subspace. We now perform a dot product attention on each of these subspaces.
+
+Each of these dot product attention is operating on a difference subspace. It sees different subsets of the data and therefore specializes. How do these heads specializes is anybody's guess - unless we have a special embedding which has been processed using PCA or some other algorithm to ensure that each subspace corresponds to some interpretable subset of features.
+
+For example if we used a 1024 dimension embedding which concatenates 4 representations.
+  1 [0:256] is an embedding trained on a *phonological* task
+  2 [256:512] is an embedding trained on a *morphological* task
+  3 [513:768] is an embedding trained on a *syntactical* task
+  4 [769:1024] is an embedding trained on a *semantic* task
+
+We could devise a number of subspace sampling schemes to give the k different attention heads different areas of specializations.
+
+1. sample from a single sub-space
+1. 4 heads sample from one subspace and 4 heads sample from 3 different sub-spaces
+1. 5 heads sampling from 2 subspaces different sub-spaces and 3 from 1
+1. 5 heads sampling from 2 subspaces different sub-spaces and 3 from three
+
+Each would specialize on a domain or on a interface between two domain or on all data but one domain.
+Language is rather redundant so they may be able to reconstruct most of the missing data - but at least they would specialize in a linguistically meaningful way.
 
 <hr>
 
