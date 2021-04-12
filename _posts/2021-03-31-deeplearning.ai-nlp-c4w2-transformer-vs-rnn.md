@@ -59,17 +59,13 @@ Course notes for: NLP with Attention Models Week 2
 
 # Learning Objectives:
 
- 1. [x] Describe the three basic types of attention
-2. [ ] Name the two types of layers in a Transformer
-   1. feed forward
-   2. multi-headed attention
-3. [ ] Define three main matrices in attention
-4. [ ] Interpret the math behind scaled dot product attention, causal attention, and multi-head attention
-5. [ ] Use articles and their summaries to create input features for training a text summarizer
-6. [ ] Build a Transformer decoder model (GPT-2)
-
-
-   
+1. [x] Describe the three basic types of attention
+2. [x] Name the two types of layers in a Transformer
+3. [x] Define three main matrices in attention
+4. [x] Interpret the math behind scaled dot product attention, causal attention, and multi-head attention
+5. [x] Use articles and their summaries to create input features for training a text summarizer
+6. [x] Build a Transformer decoder model (GPT-2)
+  
 # TLDR: Neural Network engineering
 
 For the impatient future self - We will start with  NLP engineering insights from this week.
@@ -81,8 +77,6 @@ For the impatient future self - We will start with  NLP engineering insights fro
 - It provides a linear transformation which filters the relevant parts of the source for predicting the each item in the target.
 
 @@ attention(h_t,\bar{h}_s)= softmax(h_t^T\bar{h}_s)@@
-
-  
 
 ## What is dot-product attention ?
 
