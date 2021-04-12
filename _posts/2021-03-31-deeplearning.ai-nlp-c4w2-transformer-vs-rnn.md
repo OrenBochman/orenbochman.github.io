@@ -116,12 +116,12 @@ def DotProductAttention(query,key,value,mask,scale=True):
 
 ## What is Causal Attention ?
 
-- Causal attention is also called self attention.
+- Causal attention is also called *self attention*.
 - It used to generate a sequence based on previous tokens.
-- A mask is used to enforce ignoring of future values in training.
+- It requires a mask @M@ to enforce ignoring 'future' values during training.
 
 @@ attention_{self}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}}+M)V@@  
-where n is the embedding dimension the
+where @n@ is the embedding dimension.
 
 ```python
 def SelfAttention(query,key,value,scale=True):                  
@@ -143,7 +143,7 @@ def SelfAttention(query,key,value,scale=True):
 
 # What is multi-headed attention?
 
-- multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
+Multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
   
 @@ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@
 
@@ -272,7 +272,7 @@ T5 can do a number of tasks with a single model.
 
 While the earlier transformer models were able to score high in many different tasks without specific training. T5 is setup to handle different inputs and respond with output that is relevant to the requested task.
 
-## Classification tasks using T5 
+## T5 Classification tasks  
 
 These tasks are selected using the initial string:
 - Translate English into German
@@ -282,7 +282,7 @@ These tasks are selected using the initial string:
 
 ![text-to-text-transformer](/assets/week2/c4w2-19-text-to-text-transformer.png#sl)
 
-## Regression tasks using T5:
+## T5 regression tasks
 
 - Stbs Sentence1 ... Stbs Sentence2 ...
 - Summarize: 
@@ -309,43 +309,44 @@ We are told that the transformers can do in one operation what RNN needed to do 
 
 Dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
 
-Look at [Review of Effective Approaches to Attention-based NMT]({% post_url 2021-03-21-review-of-effective-approaches-to-attention-based-neural-machine-translation %})
+Look at [Review of Effective Approaches to Attention-based NMT]( {% post_url 2021-03-21-review-of-effective-approaches-to-attention-based-neural-machine-translation %})
 
+Dot product attention is the main operation in transformers. It is the dot product between the embedding of source and target sequences. The embedding used is a cross language embedding in which distance between equivalent across languages are minimized. This facilitates finding the cosine similarity using the dot product between words.
 
 <hr>
 
 ![intro-to-attention](/assets/week2/c4w2-23-intro-to-attention.png#sl)
 
-- Dot product attention is the main operation in transformers. 
-- It is more of less a dot product between the embedding of source and target sequences.
-- The embedding are trained to make equivalent words close together across languages.
+Lets try to understand *dot product attention* intuitively by walking over its operations at the word level. The actual algorithm  uses linear algebra to perform many operations at once which is fast but more abstract and therefore difficult to understand.
 
-Dot product attention could be summarized as follows:
-
-- we encode the source and target as Query, Key & Value matrices
-- we take product @(Q K^T)@ which gives us weights for the relative importance of keys to queries - they can be thought as alignment or content scores.
-- we apply the @softmax(Q K^T)@ to normalize these weights into probabilities.
-- we apply these to @V@ to get a weighed sum of the input.
+1. Using a pre-trained  **cross-language** embedding encode:
+   - each German word vector @q_i@ is placed as a column vector to form the query matrix @Q@,
+   - each English word once as @k_i@ and once as @v_i@, column vectors in the key @K@ and value @V@ matrices. This is more of a preprocessing step.
+1. For each German word we want to derive a continuous filter function on the English sequence to pick the most relevant words for translation. We build this filter for word @q_i@ by taking its dot product @q_i \cdot k_i@ with every word vector from the english sequence these products are called the the attention weights.
+1. next we convert the rudimentary filter to a probabilistic one by applying a @softmax()@ which is just a differentiable function that converts the *attention weights* to *probabilities* by keeping them at the same relative sizes while ensuring they add to one.
+1. now that we have a @q@-filter we want to apply it. This is done by taking the weighed sum of the english words using the attention weights. @@\hat q_i = \sum_{i} softmax(q_i \cdot k_i) \times v_i =  \sum w_a(q_i) * v_i @@ 
 <hr>
+
 {% include important.html content="course objective!" %}
 
 ### Query, Key & Value
 
 ![queries-keys-values](/assets/week2/c4w2-24-queries-keys-values.png#sl)
 
-Attention uses three matrices which are formed as shown in the figure.  The **Query**, **Key** and **Value** are formed from the source and target (if there is no target then just from the source). Each word is converted into an embedding column vector and these are placed into the matracies as thier columns. 
+Attention uses three matrices which are formed as shown in the figure.  The **Query** @Q@, **Key** @K@ and **Value** @V@ are formed from the source and target (if there is no target then just from the source). Each word is converted into an embedding column vector and these are placed into the matracies as their columns. 
 
 In the master class embedded bellow Dr. Łukasz Kaiser talks about attention and here he is talking about solving the problem of retrieving information from a long sequence. At around 16 minutes in he call Q a query vector and K and V a memory, of all the words we have seen, which we want to access.
 
-- The **Query** is the embedding for a token in the *target* sequence we wish to process. 
-- The **Key** is our the embedding of the token from the source sequence.
-- The **Value** will become a factor which corresponds to the likelihood of the key being significant for decoding the input.
+- The ***Q**uery* is the matrix formed from the column word vector for the German words. 
+- The ***K**ey* is the matrix formed from the column word vector for the English words. 
+- The ***V**alue* is the matrix formed from the column word vector for the English words.
 
-The input and output sequences are mapped to an embedding layer to become the @Q@, @K@ and @V@ matrices.
-each word in the input corresponds to a column these matrices.
+{% include note.html content="K and V are the same" %}
 
-the input and output sequences are mapped to an embedding layer become the Q, K and V matrices.
+Once these are called keys since we use them to are we doing a similarity lookup. 
+Wand the second time they are called value because we use them in the activation when we apply the weights to them.
 
+The input and output sequences are mapped to an embedding layer to become the @Q@, @K@ and @V@ matrices. 
 <hr>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rBCqOTEfxvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -355,19 +356,34 @@ the input and output sequences are mapped to an embedding layer become the Q, K 
 Given an input, you transform it into a new representation or a column vector. Depending on the task you are working on, you will end up getting queries, keys, and values. Each column corresponds to a word in the figure above. Hence, when you compute the following: 
 <hr>
 
+![attention-formula](/assets/week2/c4w2-26-dot-product-attention-math.png#sl)
+
+1. multiply @Q@ by @V@.
+1. apply the @softmax()@ to transform to a probability.
+1. multiply the softmax by @V@
+
+<hr>
+
 ![attention-math](/assets/week2/c4w2-26-attention-math.png#sl)
+
+This is restating the above in a very confusing way. I looked at it many times before I figured out that the square brackets are the dimensions and that we have the following two formulas indicated schematically above:
+
+@@ Z = W_A V @@
+where
+- Z has size of is a 'Q length' @\times@ 'Embedding size' matrix 
+- or for coders @[len(Q),D]@ dimensional array 
+
+@@ W_A = softmax(QK^T) @@
 
 This concept implies that similar vectors are likely to have a higher score when you dot them with one another. You transform that score into a probability by using a softmax function. You can then multiply the output by 
 
-You can think of the **keys** and the **values** as being the same. 
+You can think of the **keys** and the **values** as being the same. Note that both @K@,@V@ are of dimension @L_k, D@. Each query @q_i@ picks the most similar key @k_j@.
 
 <hr>
 
 ![attention-formula](/assets/week2/c4w2-27-attention-formula.png#sl)
 
-Note that both @K@,@V@ are of dimension @L_k, D@. Each query @q_i@ picks the most similar key @k_j@
-
-Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by VV to get a weighted combination of the input. 
+Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by @V@ to get a weighted combination of the input. 
 
 <hr>
 
@@ -377,10 +393,15 @@ Queries are the German words and the keys are the English words. Once you have t
 
 ![summary-for-dot-product-attention](/assets/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
 
-another interstring point made in the talk above is that while dot product attention has a @O(n^2 *d)@  complexity - @d >> n@ when working with a sentence and embedding dimension of 1000 so it performs better then an RNN whose complexity is @O(n*d^2)@  
+another interesting point made in the talk above is that while dot product attention has a @O(n^2 *d)@  complexity - @d >> n@ when working with a sentence and embedding dimension of 1000 so it performs better then an RNN whose complexity is @O(n*d^2)@  
+
+However the latest results show a an idea of training big transformers and then converting them to RNN to improve performance. (One get an RNN by training a transformer.)
+
 <hr>
 
 # V4: Causal Attention
+
+
 
 - We are interested in three main types of attention. 
 - We'll see a brief overview of causal attention. 
@@ -471,7 +492,11 @@ Q. What are multiple attention heads?
 This is perhaps the most important slide - but it fails to show the critical part of the algorithm.
 Let's suppose we have @k@ attention heads. We see at the lowest level the @K@, @Q@ and @V@ being passed into passing through k linear layers. How is this accomplished and more important why. What is actually happening here is the opposite of concatenation. Instead of processing a query embedding from a space of @d@-dimensions we first split the embedding into @k@ vectors of length @D/k@. We have now k vectors from a k @D/k@-dimensional subspace. We now perform a dot product attention on each of these subspaces.
 
+{% include note.html content="place here a better image of the splitting mechanism !" %}
+
 Each of these dot product attention is operating on a difference subspace. It sees different subsets of the data and therefore specializes. How do these heads specializes is anybody's guess - unless we have a special embedding which has been processed using PCA or some other algorithm to ensure that each subspace corresponds to some interpretable subset of features.
+
+{ }
 
 For example if we used a 1024 dimension embedding which concatenates 4 representations.
   1 [0:256] is an embedding trained on a *phonological* task
