@@ -57,5 +57,5 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 #https://github.com/mermaid-js/mermaid
-mermaid:
-  src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js'
+# mermaid:
+#   src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js'

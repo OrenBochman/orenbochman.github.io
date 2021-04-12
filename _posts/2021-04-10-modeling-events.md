@@ -22,7 +22,7 @@ Events are the atoms of a story's narrative structure. Stories also have exposit
 
 An event can be modelled as a classic A.I. Frame. We could start with the 6 W:
 
-{% mermaid %}
+<div class="mermaid">
 classDiagram
     class BasicEvent
     BasicEvent : +int what # the action
@@ -31,7 +31,7 @@ classDiagram
     BasicEvent : +int how
     BasicEvent : +int where
     BasicEvent : +int why
-{% endmermaid %}
+</div>
 
 The parts seem self explanatory. However when it comes to who one might want to more clearly specify between subject and object. Also if the subject was passive or active. There may also be an instrument required to carry out the action.
 
@@ -66,7 +66,8 @@ Story value is best viewed as generalization of sentiment. For each event in the
  
  As I mentioned earlier most of what we know and feel about the characters is due to their actions in different circumstances. The development of a character over the story is called a character arc and the primary method of establishing an idiosyncratic characterization is how an individual picks different choices in what may appear to the viewer as rather similar situations.
 
-{% mermaid %}
+<div class="mermaid">
+
 classDiagram
     class Event
     Event : +int what
@@ -116,7 +117,8 @@ classDiagram
     Action : +int valueChange
     Action : +int informationSet
     Action : +int presentationOrder
-{% endmermaid %}
+
+</div>
 
 
 

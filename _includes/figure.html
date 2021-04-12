@@ -1,0 +1,28 @@
+<figure class="{{ include.class }} border">
+
+    <a href=
+    {% if include.image_path contains "://" %}
+      "{{ include.image_path }}"
+    {% else %}
+      "{{ include.image_path | absolute_url }}"
+    {% endif %}
+      data-lightbox="{{page.title}}"
+      data-title="{% if include.caption %}{{ include.caption }}{% endif %}"
+      data-alt="{% if include.alt %}{{ include.alt }}{% endif %}">
+    
+      <img src=
+        {% if include.image_path contains "://" %}
+          "{{ include.image_path }}"
+        {% else %}
+          "{{ include.image_path | absolute_url }}"
+        {% endif %}
+        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+        title="{% if include.alt %}{{ include.alt }}{% endif %}"
+        width="100%">
+    
+    </a>
+    
+      {% if include.caption %}
+        <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+      {% endif %}
+    </figure>
