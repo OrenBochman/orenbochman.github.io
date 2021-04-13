@@ -1,0 +1,18 @@
+<h3>Papers</h3>
+<ol>
+{% for paper in site.data.papers %}
+{% for tag  in page.tags %}
+{% if  paper.tags contains tag %}
+<li>[{{paper.id}}] by {{ paper.authors }};
+    "{{ paper.title }}", 
+    {% if paper.journal %} <em>{{ paper.journal }}</em>, {% endif %} 
+    {% if paper.year %} {{ paper.year }},{% endif %} 
+    {% if paper.volume %} <strong>{{ paper.volume }}</strong>,{% endif %} 
+    {{ paper.pages }}. <a href="http://dx.doi.org/{{ paper.doi }}">[DOI]</a>
+    {% if paper.pdf == true %}<a href="paper" src="{{ paper.pdf.url}}">[PDF]</a>{% endif %}
+    {% if paper.openaccess == true %}<img height="14" src="/assets/img/oa.svg" class="oa" alt="open access logo" /> {% endif %}
+</li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ol>

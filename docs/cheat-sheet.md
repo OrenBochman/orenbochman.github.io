@@ -7,6 +7,10 @@ tags: [code, tests]
 img : cheat-sheets.jpg
 ---
 
+**Contents**
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
 # Math
 
 ## Inline, display, square root and fraction
@@ -44,7 +48,6 @@ some other text:
 ### Alignment
 
   place am `&` before `=` to align and break lines using \newline 
-
 
 @@\begin{align}
   \phi(x,y) & = \phi (\sum_{i=1}^n x_ie_i, \sum_{j=1} ^n y_je_j)  \newline
@@ -218,6 +221,39 @@ You can find a demo of a site[^Demo] built with PostCSS in our footnotes, or you
 
 # Mermaids charts
 
+## flowchart
+
+```mermaid
+graph TD;
+    A((A))-->B>B];
+    A-->C{C};
+    B-->D{{D}};
+    C-->D;
+    C-->E;
+    D-->E[/E/];
+    E-->F[\F/];
+    E-->G[\G\];
+    G-->H[(Database)];
+    F-->H
+    H--some-text-->A
+```
+
+<div class="mermaid">
+graph TD;
+    A((A))-->B>B];
+    A-->C{C};
+    B-->D{{D}};
+    C-->D;
+    C-->E;
+    D-->E[/E/];
+    E-->F[\F/];
+    E-->G[\G\];
+    G-->H[(Database)];
+    F-->H
+    H--some-text-->A
+</div>
+
+
 ## Sequence diagrams
 
 ```mermaid
@@ -334,6 +370,20 @@ erDiagram
     }
 </div>
 
+
+## User Journey Diagram
+
+<div class="mermaid">
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+</div>
 
 ## See also
 
