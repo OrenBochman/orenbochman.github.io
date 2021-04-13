@@ -527,7 +527,7 @@ gantt
 
 </div>
 
-## See also
+# See also
 
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
 - [railroad fiagram generator](https://www.bottlecaps.de/rr/ui)
