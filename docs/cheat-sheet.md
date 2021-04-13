@@ -216,43 +216,123 @@ You can find a demo of a site[^Demo] built with PostCSS in our footnotes, or you
 [Demo](http://iviewsource.com/exercises/postcsslayouts)
 [Github Repo](https://github.com/planetoftheweb/postcsslayouts)
 
-```sequence
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
+# Mermaids charts
+
+## Sequence diagrams
+
+```mermaid
+sequenceDiagram
+  Andrew->China: Says Hello
+  Note right of China: China thinks\nabout it
+  China-->Andrew: How are you?
+  Andrew->>China: I am good thanks!
 ```
 
-```sequence{theme=hand}
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
+<div class="mermaid">
+sequenceDiagram
+  Andrew->China: Says Hello
+  Note right of China: China thinks\nabout it
+  China-->Andrew: How are you?
+  Andrew->>China: I am good thanks!
+</div>
+
+a more complex example:
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
 ```
 
-```wavedrom
-{ signal: [
-  { name: 'A', wave: '01........0....',  node: '.a........j' },
-  { name: 'B', wave: '0.1.......0.1..',  node: '..b.......i' },
-  { name: 'C', wave: '0..1....0...1..',  node: '...c....h..' },
-  { name: 'D', wave: '0...1..0.....1.',  node: '....d..g...' },
-  { name: 'E', wave: '0....10.......1',  node: '.....ef....' }
-  ],
-  edge: [
-    'a~b t1', 'c-~a t2', 'c-~>d time 3', 'd~-e',
-    'e~>f', 'f->g', 'g-~>h', 'h~>i some text', 'h~->j'
-  ]
-}
-```
+yields:
+
+<div class="mermaid">
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+</div>
 
 
-## Plantuml charts 
+## State Diagram
 
-```plantuml
-Bob -> Alice : hello world
-```
+~~~mermaid
+stateDiagram-v2
+  [*] --> Still
+  Still --> [*]
+  Still --> Moving
+  Moving --> Still
+  Moving --> Crash
+  Crash --> [*]
+~~~
 
-## Mermaids charts
+<div class="mermaid">
+stateDiagram-v2
+  [*] --> Still
+  Still --> [*]
+  Still --> Moving
+  Moving --> Still
+  Moving --> Crash
+  Crash --> [*]
+</div>
+
+## Entity Relationship Diagram
+
+~~~mermaid
+
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
+    ORDER ||--|{ LINE-ITEM : contains
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    LINE-ITEM {
+        string productCode
+        int quantity
+        float pricePerUnit
+    }
+~~~
+
+<div class="mermaid">
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
+    ORDER ||--|{ LINE-ITEM : contains
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    LINE-ITEM {
+        string productCode
+        int quantity
+        float pricePerUnit
+    }
+</div>
 
 
 ## See also
