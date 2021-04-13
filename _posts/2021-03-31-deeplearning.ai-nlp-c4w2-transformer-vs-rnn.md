@@ -9,7 +9,7 @@ categories:
 tags:
     - #deeplearning.ai
     - '#DeepLearningAlgorithms'
-    - 
+    - transformer
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
@@ -52,9 +52,7 @@ Course notes for: NLP with Attention Models Week 2
 <!--more-->
 
 **Contents**
-
 * This will become a table of contents (this text will be scrapped).
-
 {:toc}
 
 # Learning Objectives:
@@ -490,7 +488,8 @@ Let's suppose we have @k@ attention heads. We see at the lowest level the @K@, @
 
 Each of these dot product attention is operating on a difference subspace. It sees different subsets of the data and therefore specializes. How do these heads specializes is anybody's guess - unless we have a special embedding which has been processed using PCA or some other algorithm to ensure that each subspace corresponds to some interpretable subset of features.
 
-{ }
+<hr>
+![muti-head attention scaled dot-product](/assets/week2/c4w2-43-muti-head-attention-scaled-dot-product.png#sl)
 
 For example if we used a 1024 dimension embedding which concatenates 4 representations.
   1 [0:256] is an embedding trained on a *phonological* task
@@ -508,9 +507,9 @@ We could devise a number of subspace sampling schemes to give the k different at
 Each would specialize on a domain or on a interface between two domain or on all data but one domain.
 Language is rather redundant so they may be able to reconstruct most of the missing data - but at least they would specialize in a linguistically meaningful way.
 
-<hr>
 
-![muti-head attention scaled dot-product](/assets/week2/c4w2-43-muti-head-attention-scaled-dot-product.png#sl)
+
+
 
 <hr>
 
@@ -586,17 +585,6 @@ Hence, the more heads you have, the more @Z@s you will end up concatenating and 
 1. [The Transformer Family] (Lilian Weng, 2020)
 1. [Finetuning Pretrained Transformers into RNNs] (Kasai et all 2021)
 
-[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer]: https://arxiv.org/abs/1910.10683
-[Reformer: The Efficient Transformer]: https://arxiv.org/abs/2001.04451
-[Attention Is All You Need]: https://arxiv.org/abs/1706.03762 
-[Deep contextualized word representations]: https://arxiv.org/pdf/1802.05365.pdf
-[The Illustrated Transformer]: http://jalammar.github.io/illustrated-transformer/
-[The Illustrated GPT-2]: http://jalammar.github.io/illustrated-gpt2/
-[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]: https://arxiv.org/abs/1810.04805
-[How GPT3 Works - Visualizations and Animations]: http://jalammar.github.io/how-gpt3-works-visualizations-animations/
-[Attention? Attention!]: https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html (Lilian Weng, 2018)
-[The Transformer Family]: https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html "(Lilian Weng, 2018)"
-[Finetuning Pretrained Transformers into RNNs]: https://arxiv.org/abs/2103.13076 "(Kasai et all 2021)"
 
 # Lab1 : Attention
 
@@ -618,3 +606,16 @@ run search and replace:
  to get them as images get all the names
 
 -->
+
+
+[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer]: https://arxiv.org/abs/1910.10683
+[Reformer: The Efficient Transformer]: https://arxiv.org/abs/2001.04451
+[Attention Is All You Need]: https://arxiv.org/abs/1706.03762 
+[Deep contextualized word representations]: https://arxiv.org/pdf/1802.05365.pdf
+[The Illustrated Transformer]: http://jalammar.github.io/illustrated-transformer/
+[The Illustrated GPT-2]: http://jalammar.github.io/illustrated-gpt2/
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]: https://arxiv.org/abs/1810.04805
+[How GPT3 Works - Visualizations and Animations]: http://jalammar.github.io/how-gpt3-works-visualizations-animations/
+[Attention? Attention!]: https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html (Lilian Weng, 2018)
+[The Transformer Family]: https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html "(Lilian Weng, 2020)"
+[Finetuning Pretrained Transformers into RNNs]: https://arxiv.org/abs/2103.13076 "(Kasai et all 2021)"
