@@ -20,8 +20,9 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
-      
-      {% include references.html %}      
+      {% if false %}
+        {% include references.html %}      
+      {% endif %}
       {% include image_license.html %}
       <div class="page-footer">
         <div class="page-share">

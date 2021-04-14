@@ -81,18 +81,19 @@ classDiagram
     Event : +int valueChange
     Event : +int informationSet
     Event : +int presentationOrder
+    
     Event <|-- Dialog
     Dialog : +int what
     Dialog : +int when
     Dialog : +int where
-    Dialog : +int subject
-    Dialog : +int object
-    Dialog : +int instrument    
+    Dialog : +int speaker
+    Dialog : +int audience
+    Dialog : +int instrument
     Dialog : +int how    
     Dialog : +int why
     Dialog : +int valueChange
     Dialog : +int informationSet
-    Dialog : +int presentationOrder
+ 
     Event <|-- Exposition
     Exposition : +int what
     Exposition : +int when
@@ -105,6 +106,7 @@ classDiagram
     Exposition : +int valueChange
     Exposition : +int informationSet
     Exposition : +int presentationOrder
+
     Event <|-- Action
     Action : +int what
     Action : +int when
@@ -117,10 +119,71 @@ classDiagram
     Action : +int valueChange
     Action : +int informationSet
     Action : +int presentationOrder
-
 </div>
 
+the next step would be to see how this level of events would be annotated in a document
 
+```python
+    #lets drop info_set and presentation order
+    Event = namedtuple('Event', ['action', 'when', 'where', 'subject','object','instrument','how','why','value_change'])
+    Event(action='', when='when', where='where', subject='subject',object='object',instrument='instrument',how='how',why='why',value_change='life to death')
+```
 
+to annotate we can use a tag like
+```html
+    <annotation payload="Event(action='', when='next', where='', subject='',object='',instrument='',how='',why='',value_change='')
+```
 
+```html
+<u><t where>THE DOOR</t></u>
+
+As <t person>the boy</t> <t action>begins to bar</t> <t>the door</t>, <t subject co_ref='the door'>it</t> <t action>bursts open flinging</t> <t subject co_ref='the boy'>him</t> <t destination>aside</t>.
+<annotation payload="Event(
+    when='as he begins to bar the door', 
+    where='THE DOOR', 
+    subject='the door',
+    action='flings', 
+    object='the boy',
+    instrument='',
+    how='bursting open',
+    value_change='safety to danger')"/>
+  
+<t action>Standing</t> in <t where>the doorway</t>, surrounded by his men, is <t who>the BARBARIAN LEADER</t>.
+<annotation payload="Event(action='standing', when='next', where='the door', subject='barbarian leader',object='',instrument='',how='surrounded by his men',why='',value_change='')"/>
+
+With a laugh, <t subject>he</t> raises <t instrument>a Medieval-looking multiple cross-bow<t>
+and <t action>fires</t> a burst of arrows into <t object>the boy's</t> chest, as the crazed
+troops rush in around him.<annotation payload="Event(action='fire', when='next', where='the door', subject='BARBARIAN LEADER',object='the boy',instrument='cross-bow',how='with a laugh',why='entertainment',value_change='life to death')"/>
+```
+Notice how in the first sentence there are multiple actions. The boy who is active subject becomes a passive subject as we progress. Also there true subject and object are it and him and need to be resolved. To do this it seems necessary to parse or at least chunk it to find the main and subordinate clause.
+
+Setting the issue of chunking/parsing aside the task can be broken down into:
+1. tag the subordinate named entities. 
+1. resolve the co-references 
+1. assemble different event options.
+1. assign a value to each using a pre-trained model for story value sentiment analysis.
+1. rank the assignment by saliency or using a Bayesian Game
+1. score using a heuristic metric
+    1. favour the verbs in upper levels of the parse tree for the action.
+    1. fitting with prior information 
+    1. value assignment requires its own model
+1. revise saliency as future info comes into focus.
+
+unless a suitable dataset miraculously makes an appearance some different approaches might be used to produce this.
+
+1. build a datasets by annotating events like above - the problem is that it is labour intensive and that a bench mark would need to be developed as well. 
+1. use a reduced number of actions
+1. bootstrap using a heuristic.
+1. use frame net to generate frames sentence templates.
+    - generate samples.
+    - train a siamese model to assign sentences to frames.
+1. generate fake events, possibly by sampling events sentences ranked by lower ambiguity or by existing events
+1. augment existing events using a word model.
+1. build a generator/parser adversarial model scored on perplexity of unsupervised dataset.
+
+## References
+
+- "for February 13. 2020, the Daily Script is: [Heavy Metal](https://www.dailyscript.com/scripts/Heavy-Metal.htm) - 7/18/1980 draft by Dan Goldberg & Len Blum" retrieved on February 13. 2020.
+- frame net
+- thematic roles
 

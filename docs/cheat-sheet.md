@@ -176,10 +176,9 @@ In order to refer to an equation, just use `\eqref{eq1}` to get \eqref{eq1}
 ## Limits
 @@\lim\limits_{x \to 1} \frac{x^2-1}{x-1}@@
 
-
 # Alerts	
 
-this is how I'd alerts to be coded - infact
+this is how I'd alerts to be coded - in fact
 
 ```
 ::: Note 
@@ -493,7 +492,6 @@ gantt
     Add another diagram to demo page    :48h
 ```
 
-
 <div class="mermaid">
 gantt
     dateFormat  YYYY-MM-DD
@@ -527,9 +525,45 @@ gantt
 
 </div>
 
-# See also
+## Pie Chart
 
+<div class="mermaid">
+pie
+    title: Pets adopted by volunteers
+    "Cats" : 85
+    "Dogs" : 386
+    "Rats" : 35
+</div>
+
+## Git graph
+
+<div class="mermaid">
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+</div>
+
+
+# See also
+- [jekyll-diagrams](https://github.com/zhustec/jekyll-diagrams#state-machine-cat) provides support for
+  - PlanetUML charts requires a jvm to run.
+  - [state-machine-cat](https://github.com/sverweij/state-machine-cat)
+  - many more - currently crashes jekyll so not implemented.
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
-- [railroad fiagram generator](https://www.bottlecaps.de/rr/ui)
-- [tex stackexchange tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
+- [syntrax](https://kevinpt.github.io/syntrax/) is python based
+- [railroad diagram generator](https://www.bottlecaps.de/rr/ui)
+- [tex stack exchange tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
 - [https://maxodnovolyk.com/jekyll-cheat-sheet/]

@@ -87,26 +87,22 @@
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
 <script>
-  window.MathJax = {
+  MathJax = {
     loader: {
-      source: {
-        '[tex]/amsCd': '[tex]/amscd'
-      },
-      load: ['[tex]/ams','[tex]/amsCd'] ,     
+      source: { '[tex]/AMScd': '[tex]/amscd'         },
+      load: [  '[tex]/ams','[tex]/amscd' ] 
     },
     tex: {
       inlineMath: [['@', '@']],
       displayMath: [['@@', '@@'],],
       tags: 'ams',
       multlineWidth: '85%',      // width of multline environment
-      packages: {'[+]': ['ams']}},
-      formatError:               // function called when TeX syntax errors occur
-        (jax, err) => jax.formatError(err),
+      packages: {'[+]': ['ams']}
+    },
+    formatError:               // function called when TeX syntax errors occur
+      (jax, err) => jax.formatError(err)
   };
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js"></script>
 
 <!-- Use Jekyll SEO plugin -->
   {% seo %}

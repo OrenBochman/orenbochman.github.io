@@ -19,12 +19,9 @@ img: todo.jpg
   
   - [ ] assignment 2
   - [ ] notes for weeks 2-4 of course.
-  - [ ] get meds.
   </td><td> 
   
   - [ ] weekend shopping.
-  - [ ] fix replace d3.js post
-  - [ ] fix cheat sheet
   - [ ] process 2 more paper for quick review
 </td></tr><tr><td>   
 
@@ -37,25 +34,30 @@ img: todo.jpg
 - [ ] Crop avatar
 - [ ] Favicon fix
 - [ ] add pages in the side bar.
-- [ ] add [navigation](https://jekyllrb.com/tutorials/navigation/) & utilities 
 - [ ] add jupyter notebooks posts.
-- [ ] add planet UML, Mermaid Vegalight charts
+- [ ] add planet UML Vegalight charts
 - [ ] maps via leaflet
 
 </td><td>  
 
 - [ ] script to optimize images so they load faster.
-- [ ] migrate citations to bibtex.
 
 - [ ] modifying skin: 
   - [] toggle dark mode...
   - [] support for disabilities
 - [ ] check about adding polymer widgets to rely less kramdown & friends.
-- [ ] organize mac resources into a coherent post
-- [ ] organize android resources into a coherent post
+coherent post
   
 </td></tr></table>
 
 <hr>
  
 
+use data list and generate the table from a list.
+
+the list could be like:
+- task
+  - description
+  - done
+  - important [0.0-1.0]
+  - urgent    [0.0-1.0]
