@@ -8,9 +8,10 @@ group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "jemoji"
     gem "jekyll-seo-tag"
-    gem "jekyll-mermaid"
+   # gem "jekyll-mermaid"
+    gem "jekyll-diagrams"
+
     gem "jekyll-tagging"
     #gem "jekyll-plantuml"
 end
-
 gem "webrick", "~> 1.7"

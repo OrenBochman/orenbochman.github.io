@@ -39,7 +39,8 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-mermaid
+  - jekyll-diagrams
+
 paginate: 8
 paginate_path: "/page/:num"
 defaults:
@@ -56,6 +57,5 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-#https://github.com/mermaid-js/mermaid
-# mermaid:
-#   src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js'
+liquid:
+  error_mode: 'lax'
