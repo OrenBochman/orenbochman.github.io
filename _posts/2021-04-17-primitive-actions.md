@@ -4,8 +4,8 @@ title: Primitive Actions Ontology
 description: Knowledge based AI note on Primitive Actions.
 img:  KBAI-overview.png
 date: 2021-04-17 00:00:00 +0300
-img: event-questions.jpg 
-fig-caption: Knowledge Based AI
+img: nlp-brain-wordcloud.jpg
+fig-caption: Knowledge Based AI - Primitive Actions
 tags: [modelling, artificial intelligence, AI] 
 ---
 
