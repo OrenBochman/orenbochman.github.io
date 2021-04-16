@@ -5,7 +5,7 @@ date: 2021-04-07 00:00:00 +0300
 description: How to blog like a life-hacker. # Add post description (optional)
 img: workflow.jpg 
 fig-caption: # Add figcaption (optional)
-tags: [Productivity, Workflow, Blogging] # add tag
+tags: [productivity, workflow, blogging] # add tag
 ---
 
 This was a place holder page but I do have some input here - perhaps not specifically 10 tips.

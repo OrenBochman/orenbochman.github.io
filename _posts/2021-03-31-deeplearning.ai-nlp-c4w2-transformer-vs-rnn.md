@@ -4,7 +4,7 @@ title: NLP with Attention Models Week 2 Transformers vs RNNs
 date: 2021-04-01T10:49:23.948Z
 categories: 
    - NLP 
-   - Coursera 
+   - coursera 
    - notes
 tags:
     - #deeplearning.ai

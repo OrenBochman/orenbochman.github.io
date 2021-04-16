@@ -5,7 +5,7 @@ date: 2021-04-10 00:00:00 +0300
 description: Modeling Events. 
 img: event-questions.jpg 
 fig-caption: # Add figcaption (optional)
-tags: [modelling, datascience] 
+tags: [modelling, data science] 
 ---
 
 One of the entities captured by named entity resolution task are events. However events have a complex structure which I would like to outline here.

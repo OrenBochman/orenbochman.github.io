@@ -1,5 +1,4 @@
 <figure class="{{ include.class }} border">
-
     <a href=
     {% if include.image_path contains "://" %}
       "{{ include.image_path }}"
@@ -23,6 +22,8 @@
     </a>
     
       {% if include.caption %}
-        <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+        <figcaption>
+          {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }} 
+          {% if include.credit %} by {{include.credit | markdownify | remove: "<p>" | remove: "</p>" }} {% endif %} </figcaption>
       {% endif %}
     </figure>
