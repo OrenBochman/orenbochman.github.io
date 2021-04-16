@@ -3,7 +3,7 @@ layout: post
 title: Thematic Roles Systems
 description: Knowledge based AI note on Primitive Actions.
 img:  KBAI-overview.png
-date: 2021-04-16 00:00:00 +0300
+date: 2021-04-08 00:00:00 +0300
 img: nlp-brain-wordcloud.jpg
 fig-caption: Knowledge Based AI - Thematic Roles Systems 
 tags: [modelling, artificial intelligence, AI] 
