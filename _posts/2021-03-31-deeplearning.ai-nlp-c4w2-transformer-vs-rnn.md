@@ -133,13 +133,16 @@ def SelfAttention(query,key,value,scale=True):
     return attention
 ```
 
-# What is multi-headed attention?
+## What is multi-headed attention?
 
 Multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
   
 @@ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@
 
-# What is teacher forcing ?
+## What is positional encoding
+
+
+## What is teacher forcing ?
 
 > An interesting technique that is frequently used in dynamical supervised learning tasks is to replace the actual output y(t) of a unit by the teacher signal d(t) in subsequent computation of the behavior of the network, whenever such a value exists. We call this technique teacher forcing.
 >— [A Learning Algorithm for Continually Running Fully Recurrent Neural Networks, 1989](http://ieeexplore.ieee.org/document/6795228/).
