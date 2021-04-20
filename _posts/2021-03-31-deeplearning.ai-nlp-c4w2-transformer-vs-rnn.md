@@ -567,8 +567,54 @@ Hence, the more heads you have, the more @Z@s you will end up concatenating and 
 
 # V6: Transformer Decoder
 
+![outline](/assets/week2/c4w2-60-outline.png#sl)
+
+<hr>
+
+![transformer-decoder-overview](/assets/week2/c4w2-62-transformer-decoder-overview.png#sl)
+
+<hr>
+
+![transformer-decoder-explaination](/assets/week2/c4w2-63-transformer-decoder-explaination.png#sl)
+
+<hr>
+
+![transformer-decoder-ff](/assets/week2/c4w2-64-transformer-decoder-ff.png#sl)
+
+<hr>
+
+![transformer-decoder-explaination](/assets/week2/c4w2-65-transformer-decoder-explaination.png#sl)
+
+<hr>
+
+![transformer-decoder-summary](/assets/week2/c4w2-68-transformer-decoder-summary.png#sl)
+
 
 # V7: Transformer Summarizer
+
+![outline](/assets/week2/c4w2-70-outline.png#sl)
+
+<hr>
+
+![transformer-for-summeriazation](/assets/week2/c4w2-71-transformer-for-summeriazation.png#sl)
+
+<hr>
+
+![loss-weights](/assets/week2/c4w2-72-loss-weights.png#sl)
+
+<hr>
+
+![cost-function](/assets/week2/c4w2-73-cost-function.png#sl)
+
+<hr>
+
+![inference](/assets/week2/c4w2-74-inference.png#sl)
+
+<hr>
+
+![summary](/assets/week2/c4w2-75-summary.png#sl)
+
+<hr>
 
 
 # V8: Reading: Content Resource
@@ -591,7 +637,24 @@ Hence, the more heads you have, the more @Z@s you will end up concatenating and 
 
 # Lab2 : The Transformer Decoder
 
+I'd like to take this project to the next level.
 
+## extra features 
+1. visualize the concepts/sentences/paragraphs/sections covered in the summary.
+2. establish a hierarchy of what would go into a longer outline.
+3. develop a f-score metric combining precision and recall for the summary of the abstract.
+4. in academic writing one sentence per paragraphs should capture the main concept and it is generally the first second or the last. Is such a sentence is available identify it. This would be done by comparing each sentence with the rest of the paragraph.
+
+## more data
+
+train it on additional material:
+- papers and abstracts. 
+- wikipedia articles (with good first paragraphs. )
+- books and book summaries (may be problematic due to length)
+- movie scripts and outlines from imdb
+    - a Storyline
+    - summary (paragraph)
+    - a synopsis (longer)
 # Assignment: Transformer Summarizer
 
 <!-- 
@@ -606,6 +669,7 @@ run search and replace:
  to get them as images get all the names
 
 -->
+
 
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer]: https://arxiv.org/abs/1910.10683
