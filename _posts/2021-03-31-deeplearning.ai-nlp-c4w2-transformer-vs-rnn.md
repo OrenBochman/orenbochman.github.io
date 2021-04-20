@@ -57,18 +57,18 @@ Course notes for: NLP with Attention Models Week 2
 
 # Learning Objectives:
 
-1. [x] Describe the three basic types of attention
-2. [x] Name the two types of layers in a Transformer
-3. [x] Define three main matrices in attention
-4. [x] Interpret the math behind scaled dot product attention, causal attention, and multi-head attention
-5. [x] Use articles and their summaries to create input features for training a text summarizer
-6. [x] Build a Transformer decoder model (GPT-2)
+- [x] Describe the three basic types of attention.
+- [x] Name the two types of layers in a Transformer.
+- [x] Define three main matrices in attention.
+- [x] Interpret the math behind scaled dot product attention, causal attention, and multi-head attention.
+- [x] Use articles and their summaries to create input features for training a text summarizer.
+- [x] Build the GPT-2 transformer-decoder model.
   
 # TLDR: Neural Network engineering
 
-For the impatient future self - We will start with  NLP engineering insights from this week.
+For the impatient  - We will start with  NLP engineering insights from this week.
 
-## What is dot-product attention ?
+## What is attention ?
 
 - Attention is a general solution for the sequence alignment problem.
 - Attention does not reorder the input sequence.
@@ -139,6 +139,10 @@ Multi-headed attention replicates the attention mechanism analogously to the mul
   
 @@ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@
 
+# What is teacher forcing ?
+
+> An interesting technique that is frequently used in dynamical supervised learning tasks is to replace the actual output y(t) of a unit by the teacher signal d(t) in subsequent computation of the behavior of the network, whenever such a value exists. We call this technique teacher forcing.
+>— [A Learning Algorithm for Continually Running Fully Recurrent Neural Networks, 1989](http://ieeexplore.ieee.org/document/6795228/).
 
 # Additional coding notes:
 
