@@ -7,7 +7,7 @@ categories:
    - coursera 
    - notes
 tags:
-    - #deeplearning.ai
+    - deeplearning.ai
     - course notes
     - '#DeepLearningAlgorithms'
     - transformer
@@ -87,15 +87,19 @@ Course notes for: NLP with Attention Models Week 2
 For the impatient  - We will start with  NLP engineering insights from this week.
 
 ### What is attention ?
-<details><summary>Details</summary>
+
+The latest version of {{ site.product_name }} is now available.
+
 - Attention is a general solution for the sequence alignment problem.
 - Attention does not reorder the input sequence.
 - It provides a linear transformation which filters the relevant parts of the source for predicting the each item in the target.
 
 @@ attention(h_t,\bar{h}_s)= softmax(h_t^T\bar{h}_s)@@
-</details>
+
+
 ### What is dot-product attention ?
-<details><summary>Details</summary>
+
+
 - Dot Product attention is the most common form of attention.
 - In the engineering sense it is suited for a encoder-decoder architecture 
 - It is the best fit for tasks where the source source sequence is fully available at the start and the tasks is mapping or transformation the source sequence to an output sequence like 
@@ -123,11 +127,9 @@ def DotProductAttention(query,key,value,mask,scale=True):
     attention = np.matmul(dots, value)
     return attention
 ```
-</details>
 
 ### What is causal attention ?
 
-<details><summary>Details</summary>
 - Causal attention is also called *self attention*.
 - It is used to generate a sequence based on previous tokens.
 - It requires a mask @M@ to enforce ignoring 'future' values during training.
@@ -152,11 +154,8 @@ def SelfAttention(query,key,value,scale=True):
     attention = np.matmul(dots, value)
     return attention
 ```
-</details>
 
 ### What is multi-headed attention?
-
-<details><summary>Details</summary>
 
 Multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
   
@@ -165,11 +164,8 @@ Multi-headed attention replicates the attention mechanism analogously to the mul
 The different attention heads are given different subspaces of the embeddings to work with. This causes them to specialize on different areas. More so if the embedding is also structured to store different data in subspaces say by concatenating different embeddings for morphology, semantics etc in those sub spaces.)
 
 After input is processed by the heads their output is concatenated and processed by a big feed forward layer which uses most of the parameters in the model. 
-</details>
 
 ### What is positional encoding
-
-<details><summary>Details</summary>
 
 unlike the RNN which process information sequentially transforms need to provide the model with extra information to explicitly describe the order if the input sequences. 
 
@@ -189,15 +185,12 @@ this is achieved using a special purpose layer.
         tl.PositionalEncoding(max_len=max_len)
     ]
 ```
-</details>
 
 ### What is teacher forcing ?
 
-<details><summary>Details</summary>
 > An interesting technique that is frequently used in dynamical supervised learning tasks is to replace the actual output y(t) of a unit by the teacher signal d(t) in subsequent computation of the behavior of the network, whenever such a value exists. We call this technique teacher forcing.
 >— [A Learning Algorithm for Continually Running Fully Recurrent Neural Networks, 1989](http://ieeexplore.ieee.org/document/6795228/).
 
-</details>
 
 ## Additional coding notes:
 
@@ -205,7 +198,6 @@ Here are some notable code snippets.
 
 ### How to use Numpy to reshape a test tensor so it has a (size 0) batch dimension at the front?
 
-<details><summary>Details</summary>
 This is needed when inspecting single test inputs instead of working with a batch. The model is expecting to process batches of inputs like it saw during training - we therefore need to add a dimension at the start.
 
 ~~~python
@@ -217,11 +209,9 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 # get log probabilities from the last token output
 log_probs = output[0,-1,:] 
 ~~~
-</details>
 
 ### How to make trax take in string date as a stream ?
 
-<details><summary>Details</summary>
 
 ~~~python
 
@@ -230,11 +220,9 @@ inputs =  next(trax.data.tokenize(iter([input_str]),
                 vocab_file='summarize32k.subword.subwords'))
 ~~~
 
-</details>
 
 ### How to transpose batched tensors ?
 
-<details><summary>Details</summary>
 
 ~~~python
 
@@ -242,11 +230,9 @@ inputs =  next(trax.data.tokenize(iter([input_str]),
   x = jnp.transpose(x, (0, 2, 1, 3))
 ~~~
 
-</details>
 
 ### How to de-structure tensors for use with multihead attention ?
 
- <details><summary>Details</summary>
 
 ~~~python
 
@@ -290,7 +276,6 @@ output tensor shape: (6, 2, 3)
  [[1 0 0]
   [0 1 0]]]
 </pre>
-</details>
 
 # Video 1: Transformers vs RNNs
 
