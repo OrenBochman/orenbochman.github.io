@@ -61,6 +61,10 @@ img[src*='#logo'] {
 # Transformers vs RNNs
 Course notes for: NLP with Attention Models Week 2 
 
+- I immersed myself in this material so I could real understand it.
+- I treated the assignments like small work or research project thinking how they could be made better and more rigorous.
+-  I been interested in summarization task for many years.
+
 {% include warning.html content="Spoiler:Transformers win :wink:" %}
 
 <!--more-->
@@ -69,7 +73,7 @@ Course notes for: NLP with Attention Models Week 2
 * This will become a table of contents (this text will be scrapped).
 {:toc}
 
-# Learning Objectives:
+## Learning Objectives:
 
 - [x] Describe the three basic types of attention.
 - [x] Name the two types of layers in a Transformer.
@@ -78,20 +82,20 @@ Course notes for: NLP with Attention Models Week 2
 - [x] Use articles and their summaries to create input features for training a text summarizer.
 - [x] Build the GPT-2 transformer-decoder model.
   
-# TLDR: Neural Network engineering
+## TLDR: Neural Network engineering
 
 For the impatient  - We will start with  NLP engineering insights from this week.
 
-## What is attention ?
-
+### What is attention ?
+<details><summary>Details</summary>
 - Attention is a general solution for the sequence alignment problem.
 - Attention does not reorder the input sequence.
 - It provides a linear transformation which filters the relevant parts of the source for predicting the each item in the target.
 
 @@ attention(h_t,\bar{h}_s)= softmax(h_t^T\bar{h}_s)@@
-
-## What is dot-product attention ?
-
+</details>
+### What is dot-product attention ?
+<details><summary>Details</summary>
 - Dot Product attention is the most common form of attention.
 - In the engineering sense it is suited for a encoder-decoder architecture 
 - It is the best fit for tasks where the source source sequence is fully available at the start and the tasks is mapping or transformation the source sequence to an output sequence like 
@@ -119,9 +123,11 @@ def DotProductAttention(query,key,value,mask,scale=True):
     attention = np.matmul(dots, value)
     return attention
 ```
+</details>
 
-## What is causal attention ?
+### What is causal attention ?
 
+<details><summary>Details</summary>
 - Causal attention is also called *self attention*.
 - It is used to generate a sequence based on previous tokens.
 - It requires a mask @M@ to enforce ignoring 'future' values during training.
@@ -146,8 +152,11 @@ def SelfAttention(query,key,value,scale=True):
     attention = np.matmul(dots, value)
     return attention
 ```
+</details>
 
-## What is multi-headed attention?
+### What is multi-headed attention?
+
+<details><summary>Details</summary>
 
 Multi-headed attention replicates the attention mechanism analogously to the multiple filters used in convolutional layers.
   
@@ -156,8 +165,11 @@ Multi-headed attention replicates the attention mechanism analogously to the mul
 The different attention heads are given different subspaces of the embeddings to work with. This causes them to specialize on different areas. More so if the embedding is also structured to store different data in subspaces say by concatenating different embeddings for morphology, semantics etc in those sub spaces.)
 
 After input is processed by the heads their output is concatenated and processed by a big feed forward layer which uses most of the parameters in the model. 
+</details>
 
-## What is positional encoding
+### What is positional encoding
+
+<details><summary>Details</summary>
 
 unlike the RNN which process information sequentially transforms need to provide the model with extra information to explicitly describe the order if the input sequences. 
 
@@ -177,40 +189,118 @@ this is achieved using a special purpose layer.
         tl.PositionalEncoding(max_len=max_len)
     ]
 ```
+</details>
 
-## What is teacher forcing ?
+### What is teacher forcing ?
 
+<details><summary>Details</summary>
 > An interesting technique that is frequently used in dynamical supervised learning tasks is to replace the actual output y(t) of a unit by the teacher signal d(t) in subsequent computation of the behavior of the network, whenever such a value exists. We call this technique teacher forcing.
 >— [A Learning Algorithm for Continually Running Fully Recurrent Neural Networks, 1989](http://ieeexplore.ieee.org/document/6795228/).
 
-# Additional coding notes:
+</details>
+
+## Additional coding notes:
 
 Here are some notable code snippets. 
 
-## How to use Numpy to reshape a test tensor so it has a (size 0) batch dimension at the front?
+### How to use Numpy to reshape a test tensor so it has a (size 0) batch dimension at the front?
 
+<details><summary>Details</summary>
 This is needed when inspecting single test inputs instead of working with a batch. The model is expecting to process batches of inputs like it saw during training - we therefore need to add a dimension at the start.
 
 ~~~python
 padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 ~~~
 
+
 ~~~python
 # get log probabilities from the last token output
 log_probs = output[0,-1,:] 
 ~~~
+</details>
+
+### How to make trax take in string date as a stream ?
+
+<details><summary>Details</summary>
+
+~~~python
+
+inputs =  next(trax.data.tokenize(iter([input_str]),
+                vocab_dir='vocab_dir/',
+                vocab_file='summarize32k.subword.subwords'))
+~~~
+
+</details>
+
+### How to transpose batched tensors ?
+
+<details><summary>Details</summary>
+
+~~~python
+
+  # batch_size, seqlen, n_heads, d_head -> batch_size, n_heads, seqlen, d_head
+  x = jnp.transpose(x, (0, 2, 1, 3))
+~~~
+
+</details>
+
+### How to de-structure tensors for use with multihead attention ?
+
+ <details><summary>Details</summary>
+
+~~~python
+
+  # batch_size, seqlen, n_heads*d_head -> batch_size, seqlen, n_heads, d_head
+  x = jnp.reshape(x,(batch_size, seqlen, n_heads, d_head))
+  # batch_size, seqlen, n_heads, d_head -> batch_size, n_heads, seqlen, d_head
+  x = jnp.transpose(x, (0, 2, 1, 3))
+  # batch_size, n_heads, seqlen, d_head -> batch_size*n_heads, seqlen, d_head
+  x = jnp.reshape(x,( batch_size*n_heads, seqlen, d_head))
+~~~
+
+<pre>
+input tensor shape: (3, 2, 6)
+
+[[[1 0 0 1 0 0]
+  [0 1 0 0 1 0]]
+
+ [[1 0 0 1 0 0]
+  [0 1 0 0 1 0]]
+
+ [[1 0 0 1 0 0]
+  [0 1 0 0 1 0]]]
+
+output tensor shape: (6, 2, 3)
+
+[[[1 0 0]
+  [0 1 0]]
+
+ [[1 0 0]
+  [0 1 0]]
+
+ [[1 0 0]
+  [0 1 0]]
+
+ [[1 0 0]
+  [0 1 0]]
+
+ [[1 0 0]
+  [0 1 0]]
+
+ [[1 0 0]
+  [0 1 0]]]
+</pre>
+</details>
 
 # Video 1: Transformers vs RNNs
 
 RNNs were a big breakthrough and became the state of the art (SOTA) for machine translation (MT).
 
-This illusrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
-
+This illustrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
 ![rnn-non-parallel](/assets/week2/c4w2-04-rnn-non-parallel.png#hi)
 
 <hr>
-
 
 ![lstm](/assets/week2/c4w2-10-lstm.png#sl)
 
@@ -612,6 +702,13 @@ Hence, the more heads you have, the more @Z@s you will end up concatenating and 
 
 ![outline](/assets/week2/c4w2-60-outline.png#sl)
 
+There is a learning objective here!
+
+the transformer decoder has two parts 
+- a decoder block (with multi-head attention) - think feature acquisition.
+- a feed forward block  - think non-parametric regression on the features.
+
+
 <hr>
 
 ![transformer-decoder-overview](/assets/week2/c4w2-62-transformer-decoder-overview.png#sl)
@@ -651,17 +748,19 @@ we are told there is an input and an output but the two are combined into one lo
 
 So to account for concatenating the output to the output we have a mask.
 
-loss weights were created as a masks by the following code:
+
+However we might want to give the input some weights so that we can incorporate it into the language model.
+
+also I don't think I saw anywhere how we feed this loss weighs into the loss function.
+
+Loss weights were created as a masks by the following code:
+
 
 ```python
   mask = [0] * (len(list(article)) + 2) + [1] * (len(list(summary)) + 1) 
   # the +2 Accounting for EOS and SEP
   # and +1 Accounting for the final EOS 
 ```
-
-However we might want to give the input some weights so that we can incorporate it into the language model.
-
-also I don't think I saw anywhere how we feed this loss weighs into the loss function.
 
 <hr>
 
@@ -674,12 +773,16 @@ Cross-entropy loss, or log loss, measures the performance of a classification mo
 
 ![inference](/assets/week2/c4w2-74-inference.png#sl)
 
+After training GPT2 on summarization data we just treat it like a word model and mine it for summaries. We do this by supply it with an input and predicting the output token by token. 
+
+A more sophisticated method might be to use a beam search. 
+An even more sophisticated method might be to use an information metric to reject sentences and back track or better yet to do negative sampling from the prediction distribution (i.e. erase some prediction's probabilities and renormalize)
+
+One could do even better by providing hints, especially if we also head some kind of extractive model with a high level of certainty about the most important sentence and their most significant concepts.
+
 <hr>
 
-
 ![quiz](/assets/week2/c4w2-76-quiz.png#sl)
-
-
 
 We want the model to be penalized if it makes the wrong prediction. In this case it it does not predict the next word in the summary.
 
@@ -699,15 +802,20 @@ I mention these two cases since [Curriculum Learning](https://towardsdatascience
 
 ![summary](/assets/week2/c4w2-75-summary.png#sl)
 
-<hr>
+SO I think these is much missing from this lesson about summerization. However there are a number of good source in papers as well as some lectures on YouTube.
 
+I have quickly summarized one and should link to it from [here]() once it is published.
+
+<hr>
 
 # Lab1 : Attention
 
+This was a numpy based realization of dot product and multi-head attention.
+Some of the main assignment required porting this to Jax.
 
 # Lab2 : The Transformer Decoder
 
-
+this covered the transformer block
 
 # Assignment: Transformer Summarizer
 
@@ -720,14 +828,7 @@ The date as described by:
 > We use the CNN/Daily Mail dataset (Hermann et al., 2015; Nallapati et al., 2016), which contains online news articles (781 tokens on average) paired with multi-sentence summaries (3.75 sentences or 56 tokens on average). 
 >  [Get To The Point §4 (Abigail et all 2017) ](https://arxiv.org/pdf/1704.04368.pdf)
 
-We used the non anatomized version. However the earlier paper used a preprocessed version which replaced the named entities with token like `@entity5`. This is probably ideal in other situations like event processing where each event looks quite different unless one anatomizes them rendering them much more similar and hopefully helping the model generalize better by learning from the partitions induced by the equivalency realation. 
-
-For me the assignment raised an alarming number of  questions about what really going on here during training.
-
-
-
-I'll probably do this assignment again and look for some answers to my many questions. Once I have these I'll add them in the body of these notes.
-
+We used the non anatomized version. However the earlier paper used a preprocessed version which replaced the named entities with token like `@entity5`. This is probably ideal in other situations like event processing where each event looks quite different unless one anatomizes them rendering them much more similar and hopefully helping the model generalize better by learning from the partitions induced by the equivalency relation. 
 
 ## Expanding the lab to a project:
 
@@ -763,7 +864,14 @@ train it on additional material:
   - drop to zero as training progresses.
   - depend on the actual length of source and output.
   - use [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to make holes in the mask surrounding essential concepts.
-  
+
+### Evaluation
+
+  use sammy lib with
+    - rouge-n metric
+    - the pyramid metric
+
+
 ### Better regularization.
 
 - teach the
@@ -774,6 +882,49 @@ train it on additional material:
 2. establish a hierarchy of what would go into a longer outline.
 3. develop a f-score metric combining precision and recall for the summary of the abstract.
 4. in academic writing one sentence per paragraphs should capture the main concept and it is generally the first second or the last. Is such a sentence is available identify it. This would be done by comparing each sentence with the rest of the paragraph.
+
+## Open question
+
+For me the assignment raised a number of questions about what really going on here during training.
+
+I'll probably do this assignment again and look for some answers to my many questions. Once I have these I'll add them in the body of these notes.
+
+### Questions
+
+1. Loading and prepocessing the data:
+   1. What is going on after the dataset is loaded - is there data augmentation?
+   1. What this sub word vocab?
+   1. How to make my own sub word vocab?
+   1. How are out of vocab words being handled?
+   1. Can we query the model about these beside running decode ?
+   1. How are these created - I saw serveral sizes of vocab.
+1. Training
+   1. Training data seems to be a little mangled - there seems to be missing white space after the first token of the summaries, is there some way to fix this?
+   1. In not sure but why do we use teacher forcing during training?
+   - It should speed training up, but the setup is unclear.
+1. Evaluation
+   1. Why are we not looking at a summarization metic like pyramid, rouge5 or good old precision and recall.
+1. Inference
+   1. How can we tell the model thinks its done?
+   - when it output and <eof> token
+   1. How to generate one sentence for each paragraph/section 
+   - Chop up the input and summarise each section.
+   - Create an new dataset that bases it summaries on the last and first sentences of each paragraph. 
+      If that's too long summarize again for each section.
+   - Introduce a timed mask that hides [0:t*len/T] where T is total number of tokens being generated.
+   - make the mask a bayesian search mechanism that hides concepts in the output.
+   1. How to use multiple summaries like in IMDB?
+   - score using the pyramid scheme or rogue.
+   1. How to make the model avoid repeating /rephrasing themselves?
+   - use a metric on new information. e.g. Maximal marginal relevance. @MMR = argmax[\lambda(Sim_1(s_i,Q)-(1-\lambda)maxSim_2(s_i,s_j)@
+     where **Q** is the query and **s** are output sentences
+     and try to bake this into the regularization.
+   - a coverage vector seems to be a recommend method.
+1. Visulization
+  Is there a easy way to see the activation for each word in the output?
+  Is there a easy way to see which concepts are significant (not too common and not too rare)
+  Is there a easy way to see which concepts are salient - aligned to near by concepts.
+
 
 
 # References: 
@@ -799,6 +950,7 @@ train it on additional material:
 1. [A neural attention model for abstractive sentence summarization. (Rush et al.,2015;)](https://arxiv.org/pdf/1509.00685.pdf) abstractive summarization 
 1. [Efficient summarization with read-again and copy mechanism(Zeng et al., 2016)](https://arxiv.org/pdf/1509.00685.pdf) abstractive summarization 
 1. [Get To The Point: Summarization with Pointer-Generator Networks (Abigail et all 2017)](https://arxiv.org/pdf/1704.04368.pdf) Hybrid summarization. Note: **Christopher D. Manning**
+1. [Extractive Summarization as Text Matching (Zhong et all 2020)](https://arxiv.org/pdf/2004.08795v1.pdf)
 
 ## Articles
 
