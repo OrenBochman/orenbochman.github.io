@@ -665,7 +665,7 @@ also I don't think I saw anywhere how we feed this loss weighs into the loss fun
 
 ![cost-function](/assets/week2/c4w2-73-cost-function.png#sl)
 
-## cross entropy loss 
+## Cross entropy loss 
 
 Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.
 <hr>
@@ -700,45 +700,108 @@ I mention these two cases since [Curriculum Learning](https://towardsdatascience
 <hr>
 
 
-# V8: Reading: Content Resource
-
-1. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer] (Raffel et al, 2019)  
-1. [Reformer: The Efficient Transformer] (Kitaev et al, 2020)
-1. [Attention Is All You Need] (Vaswani et al, 2017)
-1. [Deep contextualized word representations] (Peters et al, 2018)
-1. [The Illustrated Transformer] (Alammar, 2018)
-1. [The Illustrated GPT-2] (Alammar, 2019)
-1. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding] (Devlin et al, 2018)
-1. [How GPT3 Works - Visualizations and Animations] (Alammar, 2020)
-1. [Attention? Attention!] (Lilian Weng, 2018)
-1. [The Transformer Family] (Lilian Weng, 2020)
-1. [Finetuning Pretrained Transformers into RNNs] (Kasai et all 2021)
-
-
 # Lab1 : Attention
 
 
 # Lab2 : The Transformer Decoder
 
-I'd like to take this project to the next level.
 
-## extra features 
+
+# Assignment: Transformer Summarizer
+
+This long assignment primarily focused on dot product attention,  multi-head attention and on building the transformer blocks. These were manageable as their theory had been explained in the lectures and their code had already been covered in the labs. It glosses over the parts involving data processing, training, evaluation and the actual summarization task.
+
+The summarization is accomplished using maximum likelihood estimate. A beam search might have yielded better results.
+
+The date as described by:
+
+> We use the CNN/Daily Mail dataset (Hermann et al., 2015; Nallapati et al., 2016), which contains online news articles (781 tokens on average) paired with multi-sentence summaries (3.75 sentences or 56 tokens on average). 
+>  [Get To The Point §4 (Abigail et all 2017) ](https://arxiv.org/pdf/1704.04368.pdf)
+
+We used the non anatomized version. However the earlier paper used a preprocessed version which replaced the named entities with token like `@entity5`. This is probably ideal in other situations like event processing where each event looks quite different unless one anatomizes them rendering them much more similar and hopefully helping the model generalize better by learning from the partitions induced by the equivalency realation. 
+
+For me the assignment raised an alarming number of  questions about what really going on here during training.
+
+
+
+I'll probably do this assignment again and look for some answers to my many questions. Once I have these I'll add them in the body of these notes.
+
+
+## Expanding the lab to a project:
+
+This is one of the main areas I'd like to focus on for a project. I have in mind a tool for improving wikipedia article leads. 
+
+Here is how I'd like to take this project to the next level:
+
+### more data
+
+train it on additional material:
+- papers and abstracts. 
+- wikipedia articles (with good first paragraphs. )
+- books and book summaries (could be problematic due to the book's length)
+- movie scripts and outlines from IMDB
+    - a Storyline
+    - summary (paragraph)
+    - a synopsis (longer)
+
+### More algorithms
+
+- Using a reformer to handle longer texts like books.
+- Better summarization using: 
+  - a `beam search` to build better summaries.
+  - a `bayesian search` to avoid repetitions.
+- use curriculum learning to speed up training with 
+  - easier examples first.
+  - multiple summaries per text.
+  - learning on anonymized NE before graduating to non-anonymized texts
+- use better method for evaluation of summary. 
+  - Perhaps an `f-score` combining *precision* or *recall* on
+  - Attention Activation summed as a Coverage score for each token.
+- use of non zero loss-weights layer
+  - drop to zero as training progresses.
+  - depend on the actual length of source and output.
+  - use [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to make holes in the mask surrounding essential concepts.
+  
+### Better regularization.
+
+- teach the
+
+### extra features 
 1. visualize the concepts/sentences/paragraphs/sections covered in the summary.
 2. establish a hierarchy of what would go into a longer outline.
 3. develop a f-score metric combining precision and recall for the summary of the abstract.
 4. in academic writing one sentence per paragraphs should capture the main concept and it is generally the first second or the last. Is such a sentence is available identify it. This would be done by comparing each sentence with the rest of the paragraph.
 
-## more data
 
-train it on additional material:
-- papers and abstracts. 
-- wikipedia articles (with good first paragraphs. )
-- books and book summaries (may be problematic due to length)
-- movie scripts and outlines from imdb
-    - a Storyline
-    - summary (paragraph)
-    - a synopsis (longer)
-# Assignment: Transformer Summarizer
+# References: 
+
+## Papers
+
+1. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer] (Raffel et al, 2019)  
+1. [Reformer: The Efficient Transformer] (Kitaev et al, 2020)
+1. [Attention Is All You Need] (Vaswani et al, 2017)
+1. [Deep contextualized word representations] (Peters et al, 2018)
+1. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding] (Devlin et al, 2018)
+1. [Finetuning Pretrained Transformers into RNNs] (Kasai et all 2021)
+1. [Get To The Point: Summarization with Pointer-Generator Networks (Abigail et all 2017)](https://arxiv.org/pdf/1704.04368.pdf) Summarization paper by Abigail See, Peter J. Liu, Christopher D. Manning
+
+
+
+## Articles
+
+1. [The Illustrated Transformer] (Alammar, 2018)
+1. [The Illustrated GPT-2] (Alammar, 2019)
+1. [How GPT3 Works - Visualizations and Animations] (Alammar, 2020)
+1. [Attention? Attention!] (Lilian Weng, 2018)
+1. [The Transformer Family] (Lilian Weng, 2020)
+1. [Teacher forcing for RNNs](https://machinelearningmastery.com/teacher-forcing-for-recurrent-neural-networks/)
+
+## Links
+
+- [Jax](https://github.com/google/jax)
+- [Trax](https://trax-ml.readthedocs.io/en/latest/index.html)
+- [Trax community](https://gitter.im/trax-ml/community) on Gitter
+- [CNN daily mail dataset](https://github.com/abisee/cnn-dailymail)
 
 <!-- 
 # all images
@@ -752,8 +815,6 @@ run search and replace:
  to get them as images get all the names
 
 -->
-
-
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer]: https://arxiv.org/abs/1910.10683
 [Reformer: The Efficient Transformer]: https://arxiv.org/abs/2001.04451
