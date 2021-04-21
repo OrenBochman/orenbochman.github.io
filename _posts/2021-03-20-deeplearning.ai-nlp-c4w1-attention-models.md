@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NLP with Attention Models Week 1 NLP with Attention Models
-date: '2021-03-20T18:16:16.956Z
+date: 2021-03-20T18:16:16.956Z
 categories: nlp coursera notes
 tags:
     - deeplearning.ai
