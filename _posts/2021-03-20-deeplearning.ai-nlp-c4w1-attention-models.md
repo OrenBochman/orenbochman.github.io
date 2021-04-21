@@ -5,8 +5,22 @@ date: '2021-03-20T18:16:16.956Z
 categories: nlp coursera notes
 tags:
     - deeplearning.ai
-    - deep learning
-    - '#DeepLearningAlgorithems'
+    - course notes
+    - DeepLearningAlgorithms
+    - transformer
+    - teacher forcing
+    - positional encoding
+    - seq2seq
+    - word alignment
+    - attention
+    - dot product attention
+    - NLP
+    - translation task
+    - bibliography
+    - beam search
+    - MBR
+    - BLEU 
+    - ROUGE
 lastmod: 2021-04-01T11:13:20.956Z
 img: notes-formulas.jpg
 ---
@@ -328,18 +342,15 @@ To implement MBR:
 - Maximal Probability is a baseline - but not a very good one if the data is noisy.
 - Random sampling with temperature is better.
 - Beam search uses conditional probabilities and the parameter.
-- MBR (Minimum Bayes Risk)takes several samples and compares them against each other to find the golden one.
+- MBR (Minimum Bayes Risk) takes several samples and compares them against each other to find the golden one.
+
+note: although not mentioned in the next week's notes Beam Search can be used to improve the summarization task. MBR may be used to extract a golden summary from a number of samples. ROUGE-N is the preferred metric for evaluating summarization
 
 # References
 
-The notes drew from the following resources:
-
 - [BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf) (Kishore Papineni et allm 2002)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) (Raffel et al, 2019)
-- [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451) (Kitaev et al, 2020)
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017)
 -​ [Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf) (Peters et al, 2018)
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) (Alammar, 2018)
-- [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) (Visualizing Transformer Language Models) (Alammar, 2019)
-- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al, 2018)
-- [How GPT3 Works - Visualizations and Animations](http://jalammar.github.io/how-gpt3-works-visualizations-animations/) (Alammar, 2020)
+
+{$ TODO: add citations for rogue, MBR and Beam search. $}
