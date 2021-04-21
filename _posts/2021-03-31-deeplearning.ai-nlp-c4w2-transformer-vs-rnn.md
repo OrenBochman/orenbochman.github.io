@@ -8,8 +8,20 @@ categories:
    - notes
 tags:
     - #deeplearning.ai
+    - course notes
     - '#DeepLearningAlgorithms'
     - transformer
+    - teacher forcing
+    - positional encoding
+    - GPT2
+    - transformer decoder
+    - attention
+    - dot product attention
+    - self attention
+    - causal attention
+    - multi-head attention
+    - NLP
+    - summarization task
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
@@ -106,10 +118,10 @@ def DotProductAttention(query,key,value,mask,scale=True):
     return attention
 ```
 
-## What is Causal Attention ?
+## What is causal attention ?
 
 - Causal attention is also called *self attention*.
-- It used to generate a sequence based on previous tokens.
+- It is used to generate a sequence based on previous tokens.
 - It requires a mask @M@ to enforce ignoring 'future' values during training.
 
 @@ attention_{self}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}}+M)V@@  
@@ -139,8 +151,30 @@ Multi-headed attention replicates the attention mechanism analogously to the mul
   
 @@ attention_{mh}(Q,V,K) = softmax(\frac{QK^T}{\sqrt{n}})V@@
 
+The different attention heads are given different subspaces of the embeddings to work with. This causes them to specialize on different areas. More so if the embedding is also structured to store different data in subspaces say by concatenating different embeddings for morphology, semantics etc in those sub spaces.)
+
+After input is processed by the heads their output is concatenated and processed by a big feed forward layer which uses most of the parameters in the model. 
+
 ## What is positional encoding
 
+unlike the RNN which process information sequentially transforms need to provide the model with extra information to explicitly describe the order if the input sequences. 
+
+you might think this is added as an index but positional embedding is added as a low dimensional wave which can be added to an high dimensional embedding. (or concatenated)
+
+this is achieved using a special purpose layer.
+
+```python
+
+    # Embedding inputs and positional encoder
+    positional_encoder = [ 
+        # Add embedding layer of dimension (vocab_size, d_model)
+        tl.Embedding(vocab_size, d_model),
+        # Use dropout with rate and mode specified
+        tl.Dropout(rate=dropout,mode=mode),
+        # Add positional encoding layer with maximum input length and mode specified
+        tl.PositionalEncoding(max_len=max_len)
+    ]
+```
 
 ## What is teacher forcing ?
 
@@ -596,27 +630,69 @@ Hence, the more heads you have, the more @Z@s you will end up concatenating and 
 
 ![transformer-decoder-summary](/assets/week2/c4w2-68-transformer-decoder-summary.png#sl)
 
+<hr>
 
 # V7: Transformer Summarizer
 
 ![outline](/assets/week2/c4w2-70-outline.png#sl)
 
+In this video we move on from attention and transformer blocks to the actual nlp task of text summarization. I noticed that the assignment put most of the focus on the coding of attention and the transformer block. Once it worked I started to really wonder what was going on under the hood and realized that while the notebooks it said we were building this from scratch, the reality was that `trax` framework was hiding lots of the implementation details from us
 <hr>
 
-![transformer-for-summeriazation](/assets/week2/c4w2-71-transformer-for-summeriazation.png#sl)
+![transformer-for-summarization](/assets/week2/c4w2-71-transformer-for-summarization.png#sl)
+
+we are told there is an input and an output but the two are combined into one long sequence.
 
 <hr>
 
 ![loss-weights](/assets/week2/c4w2-72-loss-weights.png#sl)
 
+So to account for concatenating the output to the output we have a mask.
+
+loss weights were created as a masks by the following code:
+
+```python
+  mask = [0] * (len(list(article)) + 2) + [1] * (len(list(summary)) + 1) 
+  # the +2 Accounting for EOS and SEP
+  # and +1 Accounting for the final EOS 
+```
+
+However we might want to give the input some weights so that we can incorporate it into the language model.
+
+also I don't think I saw anywhere how we feed this loss weighs into the loss function.
+
 <hr>
 
 ![cost-function](/assets/week2/c4w2-73-cost-function.png#sl)
 
+## cross entropy loss 
+
+Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.
 <hr>
 
 ![inference](/assets/week2/c4w2-74-inference.png#sl)
 
+<hr>
+
+
+![quiz](/assets/week2/c4w2-76-quiz.png#sl)
+
+
+
+We want the model to be penalized if it makes the wrong prediction. In this case it it does not predict the next word in the summary.
+
+This may not be ideal for a number of reasons:
+
+1. the **Big world view**  *"we are interested in a summary not the next word"* what if the model is generating a semantically equivalent summary, in such a case it should not be penalized at all.
+  In a previous assignment we used a **siamese network** to check if two queries were equivalent. I think that allowing the network would be beneficial. (A loss that examines a generated sequence and compares it to the output.) But I don't really know how to back-propagate the outcome for all the words. Well not exactly
+  As we are using **teacher forcing** we can take a position that we ignore all the mistakes the model made and give it a good output sequence and ask it for the next word. This then allows us to back prop the last word's loss all by itself.
+  If we do this for each word in the output in sequence we should be able to reuse most of the calculations.
+
+There are cases we have multiple summaries:
+- For a wikipedia article we often have all version from  inception to the current day. This can provide multiple summaries and text along with an a golden version (the current summary). Oh and we may have a better summary in other languages but that is a different story.
+- For IMDB movie plots we often have a long synopsis and multiple shorter summaries. Also we may also have the book or screen play.
+
+I mention these two cases since [Curriculum Learning](https://towardsdatascience.com/how-to-improve-your-network-performance-by-using-curriculum-learning-3471705efab4) may be able to assist us in training
 <hr>
 
 ![summary](/assets/week2/c4w2-75-summary.png#sl)
