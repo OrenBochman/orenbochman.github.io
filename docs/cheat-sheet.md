@@ -65,11 +65,12 @@ some other text:
 @@\begin{equation}\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}\end{equation}@@
 <hr>
 @@
-  f(n) =
+f(n) =
 \begin{cases}
-n/2,  & \text{if $n$ is even} \\
+n/2,  & \text{if $n$ is even} \newline
 3n+1, & \text{if $n$ is odd}
-\end{cases}@@
+\end{cases}
+@@
 <hr>
 ### Typography
 
@@ -545,16 +546,17 @@ options
     "nodeRadius": 10
 }
 end
-commit
-branch newbranch
-checkout newbranch
-commit
-commit
-checkout master
-commit
-commit
-merge newbranch
+  commit
+  branch newbranch
+  checkout newbranch
+  commit
+  commit
+  checkout master
+  commit
+  commit
+  merge newbranch
 </div>
+
 
 
 # See also
@@ -566,4 +568,6 @@ merge newbranch
 - [syntrax](https://kevinpt.github.io/syntrax/) is python based
 - [railroad diagram generator](https://www.bottlecaps.de/rr/ui)
 - [tex stack exchange tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/30661#30661)
-- [https://maxodnovolyk.com/jekyll-cheat-sheet/]
+- [jekyll-cheat-sheet](https://maxodnovolyk.com/jekyll-cheat-sheet/)
+- [origin for this page](https://raymondc.net/docs/cheat_sheet.html)
+- [emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
