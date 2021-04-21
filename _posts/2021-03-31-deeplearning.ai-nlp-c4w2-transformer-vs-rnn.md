@@ -22,6 +22,8 @@ tags:
     - multi-head attention
     - NLP
     - summarization task
+    - bibliography
+    - literature review
 slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
@@ -766,7 +768,8 @@ train it on additional material:
 
 - teach the
 
-### extra features 
+### Extra features 
+
 1. visualize the concepts/sentences/paragraphs/sections covered in the summary.
 2. establish a hierarchy of what would go into a longer outline.
 3. develop a f-score metric combining precision and recall for the summary of the abstract.
@@ -777,15 +780,25 @@ train it on additional material:
 
 ## Papers
 
+### Transformers
+
 1. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer] (Raffel et al, 2019)  
 1. [Reformer: The Efficient Transformer] (Kitaev et al, 2020)
 1. [Attention Is All You Need] (Vaswani et al, 2017)
 1. [Deep contextualized word representations] (Peters et al, 2018)
 1. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding] (Devlin et al, 2018)
 1. [Finetuning Pretrained Transformers into RNNs] (Kasai et all 2021)
-1. [Get To The Point: Summarization with Pointer-Generator Networks (Abigail et all 2017)](https://arxiv.org/pdf/1704.04368.pdf) Summarization paper by Abigail See, Peter J. Liu, Christopher D. Manning
 
+### Summarization:
 
+1. [A trainable document summarizer. (Kupiec et al., 1995)](http://www.csie.ntnu.edu.tw/~g96470318/A_trainable_document_summarizer_.pdf) extractive
+1. [Constructing literature abstracts by computer: techniques and prospects. (Paice, 1990)]() extractive
+1. [Automatic text summarization: Past, present and future (Saggion and Poibeau, 2013)](https://hal.archives-ouvertes.fr/hal-00782442/document) extractive
+1. [Abstractive sentence summarization with attentive recurrent neural networks. (Chopra et al., 2016)](https://www.aclweb.org/anthology/N16-1012.pdf) abstractive summarization 
+1. [Pointing the unknown words. (Nallapati et al., 2016)](https://arxiv.org/pdf/1603.08148.pdf) abstractive summarization 
+1. [A neural attention model for abstractive sentence summarization. (Rush et al.,2015;)](https://arxiv.org/pdf/1509.00685.pdf) abstractive summarization 
+1. [Efficient summarization with read-again and copy mechanism(Zeng et al., 2016)](https://arxiv.org/pdf/1509.00685.pdf) abstractive summarization 
+1. [Get To The Point: Summarization with Pointer-Generator Networks (Abigail et all 2017)](https://arxiv.org/pdf/1704.04368.pdf) Hybrid summarization. Note: **Christopher D. Manning**
 
 ## Articles
 
