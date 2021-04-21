@@ -661,18 +661,18 @@ There is an image include html snippet that comes with some syntactic sugar:
 
 
 ```
-{%raw%}{% include figure image_path="/assets/img/linuxacademy.jpg" \ 
+{%raw%}{% include figure.html image_path="/assets/img/bert1.png" \ 
 alt="This is a smart looking penguin." \
 class="image-small image-centre" \
 caption="Linux Academy" %}{%endraw%}
-
 ```
 
 This looks like:
 
-{% include figure image_path="/assets/img/linuxacademy.jpg" alt="This is a smart looking penguin." class="image-small  image-centre" caption="Linux Academy" %}
+{% include figure.html image_path="/assets/img/bert1.png" alt="This is a smart looking penguin." class="image-small  image-centre" caption="Linux Academy" %}
 
 # See also
+
 - [jekyll-diagrams](https://github.com/zhustec/jekyll-diagrams#state-machine-cat) provides support for
   - PlanetUML charts requires a jvm to run.
   - [state-machine-cat](https://github.com/sverweij/state-machine-cat)
