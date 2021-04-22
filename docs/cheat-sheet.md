@@ -671,6 +671,12 @@ This looks like:
 
 {% include figure.html image_path="/assets/img/bert1.png" alt="This is a smart looking penguin." class="image-small  image-centre" caption="Linux Academy" %}
 
+# Giphy
+
+
+{% include giphy.html id="theid" %}
+
+
 # See also
 
 - [jekyll-diagrams](https://github.com/zhustec/jekyll-diagrams#state-machine-cat) provides support for

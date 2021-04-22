@@ -24,5 +24,26 @@
 |![thinking](https://media.giphy.com/media/dsZKnC2KigetvBLZ1F/source.gif)| thinking |
 |![surprised](https://media.giphy.com/media/69ANOgLaUxjtPH12ul/source.gif)| surprised |
 |![recursion](https://media.giphy.com/media/2tKzCHl9qNWqKRZ1OT/source.gif)| recursion loop|
-![probability](https://media.giphy.com/media/xUn3CftPBajoflzROU/source.gif)|probability |
-![unicorn](https://media.giphy.com/media/IhPI8zzxVTXKO3NJfl/source.gif)|unicorn |
+|![probability](https://media.giphy.com/media/xUn3CftPBajoflzROU/source.gif)|probability |
+|![unicorn](https://media.giphy.com/media/IhPI8zzxVTXKO3NJfl/source.gif)|unicorn |
+
+Gestures:
+|image| caption |
+|--|--|
+|![thank you](https://media.giphy.com/media/l4JyRrHKOMWTbwQEM/source.gif)| thank you |
+|![nope](https://media.giphy.com/media/l4JyM5JHonkI7Em1W/giphy.gif)| nope |
+|![disapprove](https://media.giphy.com/media/l4JzbnfJUFzYGPXlS/giphy.gif)| disapprove |
+|![face-palm](https://media.giphy.com/media/26FKVGUu76Y166sXS/giphy.gif)| face-palm |
+|![shaka](https://media.giphy.com/media/l4Jz8MIOdbaE1VmdW/giphy.gif)| shaka |
+|![plotting](https://media.giphy.com/media/26FLcmeTQ0vP4nHH2/giphy.gif)| plotting |
+|![hi](https://media.giphy.com/media/l4JyLAuoyTr3dDpcY/giphy.gif)| hi |
+|![bye](https://media.giphy.com/media/l4Jz9p8izCf34EQ3m/giphy.gif)| bye |
+|![wink](https://media.giphy.com/media/26FKSM1O99r2VkmMo/giphy.gif)| wink |
+|![calculating](https://media.giphy.com/media/c7PcKQlOqZ8Ws/giphy.gif)| deep thought |
+|![insight](https://media.giphy.com/media/AXorq76Tg3Vte/giphy.gif)| insight |
+|![nash equilibrium](https://media.giphy.com/media/G4Fbv0dS9RvJS/giphy.gif)| nash |
+|![sum](https://media.giphy.com/media/WOIC1JWxAd9cY/giphy-downsized-large.gif)| sum |
+|![mind blown](https://media.giphy.com/media/OK27wINdQS5YQ/giphy.gif)| mind blown kramer |
+|![mind blown tim and eric](https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif)| mind blown  |
+|![genius](https://media.giphy.com/media/l46C7X7h54JXm23YY/giphy.gif)| genius|
+|![eon flux](https://media.giphy.com/media/Mu9IgOL71k6zu/giphy.gif)|flux|
