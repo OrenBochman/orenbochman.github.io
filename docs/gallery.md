@@ -13,4 +13,4 @@ img : cover/cheat-sheets.jpg
 
 # logos
 
-{% include image-gallery.html folder="/assets/logos" %}
+{% include image-gallery.html folder="/assets/img/logos" %}
