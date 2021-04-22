@@ -19,7 +19,7 @@
           <span>{{ filename }}</span>
         </a>
       {% endif %}
-      {% if file.extname == '.png' or file.extname == '.svg' %}  
+      {% if file.extname == '.png' or file.extname == '.gif' or file.extname == '.svg' %}  
         {% assign filenameparts = file.path | split: "/" %}
         {% assign filename = filenameparts | last | replace: file.extname,"" %}  
         <a href="{{ file.path }}" title="{{ filename }}">
