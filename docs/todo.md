@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Todo List"
-img: todo.jpg
+img: cover/todo.jpg
 ---
 <style>table tr td {  vertical-align:top;}</style>
 

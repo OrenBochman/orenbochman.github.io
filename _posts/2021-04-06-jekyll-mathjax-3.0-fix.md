@@ -3,7 +3,7 @@ layout: post
 title: MathJax 3 fix for Jekyll hosted on Github pages  
 date: 2021-04-04 00:00:00 +0300
 description: Issues and workarounds for MatchJax 3.0. # Add post description (optional)
-img: Jekyll-and-Hyde.jpg
+img: cover/Jekyll-and-Hyde.jpg
 fig-caption: hopefully less Jekyll and more Dr. Hyde 
 tags: [blogging, jekyll, kramdown, mathjax] # add tag
 comments: true

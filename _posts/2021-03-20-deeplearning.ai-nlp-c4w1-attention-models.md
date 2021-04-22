@@ -1,8 +1,12 @@
 ---
 layout: post
 title: NLP with Attention Models Week 1 NLP with Attention Models
+description: Concepts, code snippets, slide commentaries for this week's lesson of the  Course notes from the deeplearning.ai natural language programming specialization.
 date: 2021-03-20T18:16:16.956Z
-categories: nlp coursera notes
+categories: 
+   - NLP 
+   - coursera 
+   - notes
 tags:
     - deeplearning.ai
     - course notes
@@ -22,11 +26,12 @@ tags:
     - BLEU 
     - ROUGE
 lastmod: 2021-04-01T11:13:20.956Z
-img: notes-formulas.jpg
+author: Oren Bochman
+img: cover/notes-formulas.jpg
+fig-caption: Notes about ... Attention Models
+
 ---
-
 ![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
-
 
 # Natural Language Processing with Attention Models
 Notes for: NLP with Attention Models Week 1

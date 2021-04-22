@@ -1,14 +1,43 @@
 ---
 layout: post
-title: "Course 4 Week 3 Question Answering"
-date:   2021-03-30 18:16:16 +0300
-categories: nlp coursera notes
-tags: ["deeplearning.ai", "deep learning","#DeepLearningAlgorithems"]
+title: NLP with Attention Models Week 3 Question Answering
+description: Concepts, code snippets, slide commentaries for this week's lesson of the  Course notes from the deeplearning.ai natural language programming specialization.
+date: 2021-03-30 18:16:16 +0300
+categories:
+    - NLP 
+    - coursera 
+    - notes
+tags:
+    - deeplearning.ai
+    - course notes
+    - DeepLearningAlgorithms
+    - transformer
+    - teacher forcing
+    - positional encoding
+    - BERT
+    - T5
+    - transformer decoder
+    - attention
+    - dot product attention
+    - self attention
+    - causal attention
+    - multi-head attention
+    - NLP
+    - question answering task
+    - bibliography
+    - literature review
+lastmod: 2021-04-01T10:49:27.772Z
+author: Oren Bochman
+img: cover/notes-formulas.jpg
+fig-caption: Notes about ... Question Answering
 ---
 ![deeplearning.ai](/assets/logo_deeplearning.ai.png){: style="float: right"}
 
+# Natural Language Processing with Attention Models
 Notes for: NLP with Attention Models Week 3
 Natural Language Processing with Attention Models
+
+<!--more-->
 
 **Contents**
 * This will become a table of contents (this text will be scrapped).

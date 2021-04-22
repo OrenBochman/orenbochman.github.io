@@ -3,7 +3,7 @@ layout: post
 title: Modeling Events
 date: 2021-04-09 00:00:00 +0300
 description: Modeling Events. 
-img: event-questions.jpg 
+img: cover/event-questions.jpg 
 fig-caption: # Add figcaption (optional)
 tags: [modelling, data science] 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 10 Tips To Improve Your Workflow
 date: 2021-04-07 00:00:00 +0300
 description: How to blog like a life-hacker. # Add post description (optional)
-img: workflow.jpg 
+img: cover/workflow.jpg 
 fig-caption: # Add figcaption (optional)
 tags: [productivity, workflow, blogging] # add tag
 ---

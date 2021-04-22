@@ -3,7 +3,7 @@ layout: post
 title: Jekyll take 3
 date: '2021-04-04 00:00:00 +0300'
 description: My attempts to get this site to also build locally.
-img: ruby.jpg
+img: cover/ruby.jpg
 tags:
     - blogging
     - ruby

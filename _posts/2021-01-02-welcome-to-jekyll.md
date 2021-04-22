@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Jekyll!
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
-img: Jekyll-and-Hyde.jpg
+img: cover/Jekyll-and-Hyde.jpg
 fig-caption: hopefully less Jekyll and more Dr. Hyde
 categories: jekyll update
 date: 2021-01-02 00:00:00 +0300

@@ -4,16 +4,23 @@ title: Thematic Roles Systems
 description: Knowledge based AI note on Primitive Actions.
 img:  KBAI-overview.png
 date: 2021-04-08 00:00:00 +0300
-img: nlp-brain-wordcloud.jpg
+img: cover/nlp-brain-wordcloud.jpg
 fig-caption: Knowledge Based AI - Thematic Roles Systems 
 tags: [modelling, artificial intelligence, AI] 
 ---
 
-Thematic Roles Systems were introduces by the Indian	grammarian Panini between the 7th and 4th centuries BCE. The modern	formulation	is due to Fillmore (1966,1968).
+Thematic Roles Systems were introduces by the Indian	grammarian Panini between the 7th and 4th centuries BCE. The modern	formulation	is due to Professor Charles Fillmore (1966,1968). 
+
+Thematic roles are semantic labels for representing sentences as frames based on the verb and its complements. They alow us to understand that a sentences
+
+> "Alice sold a car to Bob" [1] 
+> "Bob bought a car from Alice" [2]
+
+are semantically equivalent.
 
 # Thematic Roles System
 
-The thematic Roles System is a structured knowledge representation scheme for natural language based on frames. If one can query the frame and get accurate answers than we can claim to represent and even understand a sentence.
+The Thematic Roles System is a structured knowledge representation scheme for natural language based on frames. If one can query the frame and get accurate answers than we can claim to represent and even understand a sentence.
 
 
 > Alice made tea for Bob with a kettle
@@ -101,6 +108,8 @@ c.f. §3.3 in [Introducing Transformational Grammar]
 
 For verbs and other categories on features like @\lbrace \pm abstract \rbrace@ or @ \lbrace \pm animate \rbrace@
 
+## The big picture
+
 {% include figure.html 
 image_path="/assets/KBAI-thematic-roles.svg"
 alt="Thematic Roles" 
@@ -129,49 +138,109 @@ erDiagram
     }
 </div>
 
-##Thematic Role Definition
+### Thematic Role Definition
 
 AGENT
 : The volitional causer of an event.
+  @[+animate]@
+  
+  >The *waiter* spilled the soup.
+
+  > *Alice* smashed the waiter on the head.
+
+  > *Bob* killed the lobster
+
+
+
+BENEFICIARY 
+: The entity that benefits from the event.
+
+CAUSE
+: Entity that produces or causes another entity to exist .
+@[-animate]@
+
+CREATION
+: The entity produced by a creator
+
+
+CONTENT 
+: The proposition or content of a propositional event.
 
 EXPERIENCER 
 : The experiencer of an event.
+  > *Alice* has a headache."
+  > *Alice* loves Bob
+  > *Alice* objects to this line of questioning.
+  > *Alice* annoys Bob.
 
 FORCE 
 : The non-volitional causer of the event
-
-THEME 
-: The participant most directly affected by an event
-
-RESULT 
-: The end product of an event
-
-CONTENT 
-: The proposition or content of a propositional event
-
-INSTRUMENT 
-: An instrument used in an event
-
-BENEFICIARY 
-: The beneficiary of an event
-
-SOURCE 
-: The origin of the object of a transfer event
+  > "*The wind* blows debris from the mall into our yards."
 
 GOAL 
-: The destination of an object of a transfer event
+: The destination of an object of a transfer event.
 
+INSTRUMENT 
+: The medium by which the action in the event is carried out.
+
+LOCATIVE
+: The specification of the place where the event is situated.
+
+PATIENT
+: the underegoer of the event
+  @[+animate]@
+
+RESULT 
+: The end product of an event that is not a creation.
+
+SOURCE 
+: The origin of the object of a transfer event.
+
+THEME
+: The participant most directly affected by an event.
+
+USER
+: Entity that employs an instrument to perform an action
+
+note  that this "typical" set is different to the one depicted in the picture.
+
+## FrameNet
 
 ## Alternation
-verbnet
+
+some verbs can be put into 
+
+
+
+
+Alternation is a property of some verbs that can.
+
+## Challenges:
+
+1. Hard to define a standard set of roles for annotation and processing.
+1. roles may need to be fragmented say by splitting or combining by subcategorization constraints.
+
+
+> The cook opened the jar with the new gadget
+> The new gadget opened the jar
+
+> Alice ate the sliced banana with a fork
+> @*@ The fork ae the sliced banana
 
 # References
 
 - [Introducing Transformational Grammar (J. Ouhalla 1999)] 
 - [Aspects of the theory of syntax (Chomsky N. 1965)]
-- https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf
-- verbnet
-- framenet
+- [SRL slides](https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf) (Jurafsky)
+- [Verbnet](https://verbs.colorado.edu/verbnet/)
+- Professor Charles Fillmore's [Framenet](https://framenet.icsi.berkeley.edu/fndrupal/) has more roles
+- [PropBank]() has fewer roles
+- [Framenet annotation  manual](https://framenet2.icsi.berkeley.edu/docs/r1.7/book.pdf)
+- [framenet via NLTK](http://www.nltk.org/howto/framenet.html)
+- http://www.jfsowa.com/ontology/thematic.htm
+- [The Syntax-Semantics Interface: Semantic Roles and Syntactic Arguments]() (Levin and Rappaport Hovav 2015)
+
+<hr>
 
  [Introducing Transformational Grammar (J. Ouhalla 1999)]: 
  (https://www.amazon.com/Introducing-Transformational-Grammar-Principles-Parameters/dp/0340740361) (J. Ouhalla 1999)

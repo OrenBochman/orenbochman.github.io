@@ -1,15 +1,17 @@
 ---
 layout: post
 title: NLP with Attention Models Week 2 Transformers vs RNNs
+description: Concepts, code snippets, slide commentaries for this week's lesson of the  Course notes from the deeplearning.ai natural language programming specialization.
+date:   2021-03-30 18:16:16 +0300
 date: 2021-04-01T10:49:23.948Z
 categories: 
-   - NLP 
-   - coursera 
-   - notes
+    - NLP 
+    - coursera 
+    - notes
 tags:
     - deeplearning.ai
     - course notes
-    - '#DeepLearningAlgorithms'
+    - DeepLearningAlgorithms
     - transformer
     - teacher forcing
     - positional encoding
@@ -24,10 +26,10 @@ tags:
     - summarization task
     - bibliography
     - literature review
-slug: c4-week-2-transformers-rnns
 lastmod: 2021-04-01T10:49:27.772Z
 author: Oren Bochman
-img: notes-formulas.jpg
+img: cover/notes-formulas.jpg
+fig-caption: Notes about ... Transformers vs RNNs
 ---
 <style>
 

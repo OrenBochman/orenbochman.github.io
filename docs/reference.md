@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reference Materials"
-img: reference.jpg
+img: cover/reference.jpg
 tags: [jekyll] # add tag
 toc: True
 ---

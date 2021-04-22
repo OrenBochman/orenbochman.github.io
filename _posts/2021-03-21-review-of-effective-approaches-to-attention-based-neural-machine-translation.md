@@ -9,7 +9,7 @@ tags:
    - deep learning
    - literature review
    - paper
-img: literature-review-open-book.jpg
+img: cover/literature-review-open-book.jpg
 lastmod: 2021-04-07T13:24:37.743Z
 ---
 <style>
