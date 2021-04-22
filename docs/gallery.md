@@ -6,4 +6,11 @@ categories: [cheat-sheets, blogging]
 tags: [code, tests]
 img : cover/cheat-sheets.jpg
 ---
+
+# Cover Images
+
 {% include image-gallery.html folder="/assets/img/cover" %}
+
+# logos
+
+{% include image-gallery.html folder="/assets/logos" %}
