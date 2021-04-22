@@ -23,6 +23,25 @@
           <span>{{ filename }}</span>
         </a>
       {% endif %}
+      {% if file.extname == '.png' %}  
+        {% assign filenameparts = file.path | split: "/" %}
+        {% assign filename = filenameparts | last | replace: file.extname,"" %}
+  
+        <a href="{{ file.path }}" title="{{ filename }}">
+          <img src="//images.weserv.nl/?url={{site.url}}/{{ file.path }}&w=300&h=300&output=png&q=50&t=square" alt="{{ filename }}" />
+          <span>{{ filename }}</span>
+        </a>
+      {% endif %}
+      {% if file.extname == '.svg' %}  
+        {% assign filenameparts = file.path | split: "/" %}
+        {% assign filename = filenameparts | last | replace: file.extname,"" %}  
+        <a href="{{ file.path }}" title="{{ filename }}">
+          <img style="width:300px;height:300px;border:0;position:relative;margin-bottom:-19px;top:-19px"
+               src="{site.url}}/{{ file.path }}" alt="{{ filename }}" />
+          <span>{{ filename }}</span>
+        </a>
+      {% endif %}
+
     {% endif %}
   {% endfor %}
   </div>
