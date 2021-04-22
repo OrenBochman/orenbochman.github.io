@@ -50,10 +50,6 @@ defaults:
     values:
       image: true
   - scope:
-      path: "assets/img/cover"
-    values:
-      image: true
-  - scope:
       path: "" # an empty string here means all files in the project
     values:
       use_math: true

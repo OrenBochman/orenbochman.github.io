@@ -31,7 +31,7 @@ img: cover/notes-formulas.jpg
 fig-caption: Notes about ... Attention Models
 
 ---
-![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
+![deeplearning.ai](/assets/img/logos/logo_deeplearning.ai.png#logo)
 
 # Natural Language Processing with Attention Models
 Notes for: NLP with Attention Models Week 1
@@ -180,7 +180,7 @@ When it comes to modern deep learning, there's a sort of new normal, which is to
 
 The sequential nature of models you learned in the previous course (RNNs, LSTMs, GRUs) does not allow for speed ups within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. (because you can run different batches or examples in parallel or even different directions)
 
-![screenshot_of_outline_slide](/assets/articles/week1/c4w1_screenshot_01.png#sl)
+![screenshot_of_outline_slide](c4w1_screenshot_01.png#sl)
 
 In other words, if you rely on sequences and you need to know the beginning of a text before being able to compute something about the ending of it, then you can not use parallel computing. You would have to wait until the initial computations are complete. This is not good, because if your text is too long, then 
 
@@ -192,7 +192,7 @@ In other words, if you rely on sequences and you need to know the beginning of a
 - Maps variable-length sequences to fixed-length memory
 - LSTMs and GRUs are typically used to overcome the vanishing gradient problem 
 
-![encoder decoder architecture](/assets/articles/week1/c4w1_screenshot_03.png#sl)
+![encoder decoder architecture](/assets/img/articles/week1/c4w1_screenshot_03.png#sl)
 
 Therefore, attention mechanisms have become critical for sequence modeling in various tasks, allowing modeling of dependencies without caring too much about their distance in the input or output sequences. 
 
@@ -268,7 +268,7 @@ a picture of attention in translation with English to German An important thing 
 
 To get the BLEU score, the candidates and the references are usually based on an average of uni, bi, tri or even four-gram precision. For example using uni-grams:
 
-![screenshot_of_outline_slide](/assets/articles/week1/c4w1_screenshot_10.png#HL)
+![screenshot_of_outline_slide](/assets/img/articles/week1/c4w1_screenshot_10.png#HL)
 
 You would sum over the unique n-gram counts in the candidate and divide by the total number of words in the candidate.
 
@@ -291,13 +291,13 @@ where:
 ## ROUGE 	
 
 Another similar method for evaluation is the ROUGE score which calculates precision and recall for machine texts by counting the n-gram overlap between the machine texts and a reference text.  Here is an example that calculates recall: 
-![recall in ROUGE](/assets/articles/week1/c4w1_screenshot_11.png#HL)
+![recall in ROUGE](/assets/img/articles/week1/c4w1_screenshot_11.png#HL)
 
 @@ Rouge_{recall} = \sum  \frac{(\{prediction \space ngrams\} \cap \{ test \space ngrams\})}{\vert{ test \space unigrams}\vert } @@
 
 Rouge also allows you to compute precision as follows: 
 
-![precision in ROUGE](/assets/articles/week1/c4w1_screenshot_12.png#HL)
+![precision in ROUGE](/assets/img/articles/week1/c4w1_screenshot_12.png#HL)
 
 @@ ROUGE_{precision} = \sum \frac{(\{prediction  ngrams\} \cap \{ test ngrams\})}{\vert\{ vocab\}\vert} @@
 
@@ -329,7 +329,7 @@ def logsoftmax_sample(log_probs, temperature=1.0):
 
 ## Beam Search
 
-The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithm is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/articles/week1/c4w1_screenshot_15.png#sl)
+The [beam search](https://en.wikipedia.org/wiki/Beam_search) algorithm is a  limited (best-first search). The parameter for the beam width limits the choices considered at each step. ![Beam Search](/assets/img/articles/week1/c4w1_screenshot_15.png#sl)
 
 ## Minimum Bayes Risk (MBR)
 
@@ -340,7 +340,7 @@ To implement MBR:
 - Compare each sample against all the others and assign a similarity score (e.g. ROUGE).
 - Select the sample with the highest similarity: the golden one.
 
-![MBR](/assets/articles/week1/c4w1_screenshot_16.png#sl)
+![MBR](/assets/img/articles/week1/c4w1_screenshot_16.png#sl)
 
 ## Summary
 

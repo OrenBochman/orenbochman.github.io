@@ -38,7 +38,7 @@ img[src*='#logo'] {
 
 **Dot-Product attention** is the first of three attention mechanisms covered in the course and the simplest covered in this paper. Dot-Product Attention is a good fit, in an engineering sense, for a encoder-decoder architecture with tasks where the source source sequence is fully available at the start and the tasks is mapping or transformation the source sequence to an output sequence like in alignment, or translation. 
 
-![rnn](/assets/articles/week2/paper-eata-01-nmt.png#sl) 
+![rnn](/assets/img/articles/week2/paper-eata-01-nmt.png#sl) 
 
 The first assignment in the course using encoder decoder LSTM model with attention is so  similar to the setup disused in this paper, I would not be surprised if it may well have inspired it. 
 <hr>
@@ -49,13 +49,13 @@ This is a review of the paper in which scaled dot product attention was introduc
 
 |Global Attention|Local Attention|
 |:---:|:---:|
-|![](/assets/articles/week2/paper-eata-02-attention-global.png)|![](/assets/articles/week2/paper-eata-03-attention-local.png)|
+|![](/assets/img/articles/week2/paper-eata-02-attention-global.png)|![](/assets/img/articles/week2/paper-eata-03-attention-local.png)|
 
 </center>
 
 They also came up with a interesting way to visualize the alignment's attention mechanism.
 
-![alignment-visulization](/assets/articles/week2/c4w2-22-alignment-visulization.png#hi)
+![alignment-visulization](/assets/img/articles/week2/c4w2-22-alignment-visulization.png#hi)
 
 <hr>
 
@@ -69,7 +69,7 @@ So to recap: Luong et all were focused on alignment problem in NMT. When they tr
 
 <hr>
 
-![page 1](/assets/articles/week2/paper1/page-001.png#sl)
+![page 1](/assets/img/articles/week2/paper1/page-001.png#sl)
 
 Attention was just another engineering technique to improve alignment and it had not yet taken center stage in the models, as it would in [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al, 2017).I find it useful to garner the concepts and intuition which inspired these researchers to adapt attention and how they come up with this form of attention.
 
@@ -84,7 +84,7 @@ talks about
 
 <hr>
 
-![page 2](/assets/articles/week2/paper1/page-002.png#sl)
+![page 2](/assets/img/articles/week2/paper1/page-002.png#sl)
 
 ## §2 Neural Machine Translation:
 
@@ -114,7 +114,7 @@ With D being our parallel training corpus.
 
 ##  §3 Overview of attention
 
-![page 3](/assets/articles/week2/paper1/page-003.png#sl)
+![page 3](/assets/img/articles/week2/paper1/page-003.png#sl)
 
 Next they provide a recap of the attention mechanism to set their starting point:
 
@@ -165,7 +165,7 @@ which is just a linear transform of the hidden target state @h_t@
 <hr>
 ## §3.2 Local Attention
 
-![](/assets/articles/week2/paper1/page-004.png#sl)
+![](/assets/img/articles/week2/paper1/page-004.png#sl)
 
 in §3.2 they consider a local attention mechanism. This is a resource saving modification of global attention using the simple concept of applying the mechanism within a fixed sized  window.
 
@@ -186,38 +186,38 @@ with align() as defined above and @@\sigma=\frac{D}{2}@@
 
 <hr>
 
-![](/assets/articles/week2/paper1/page-005.png#sl)
+![](/assets/img/articles/week2/paper1/page-005.png#sl)
 
 The rest of the paper has details about the experiment and is of less interest 
 <hr>
 
-![](/assets/articles/week2/paper1/page-006.png#sl)
+![](/assets/img/articles/week2/paper1/page-006.png#sl)
 
 <hr>
 
-![](/assets/articles/week2/paper1/page-007.png#sl)
+![](/assets/img/articles/week2/paper1/page-007.png#sl)
 
 
 <hr>
 
-![](/assets/articles/week2/paper1/page-008.png#sl)
+![](/assets/img/articles/week2/paper1/page-008.png#sl)
 
 In §5.4 In alignment quality
 <hr>
 
-![](/assets/articles/week2/paper1/page-009.png#sl)
+![](/assets/img/articles/week2/paper1/page-009.png#sl)
 
 some sample translations
 
 <hr>
 
-![](/assets/articles/week2/paper1/page-010.png#sl)
+![](/assets/img/articles/week2/paper1/page-010.png#sl)
 
 the references
 
 <hr>
 
-![](/assets/articles/week2/paper1/page-011.png#sl)
+![](/assets/img/articles/week2/paper1/page-011.png#sl)
 
 This is appendix A which shows the visualization of alignment weights.
 

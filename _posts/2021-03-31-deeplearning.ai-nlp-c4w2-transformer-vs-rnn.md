@@ -285,18 +285,18 @@ RNNs were a big breakthrough and became the state of the art (SOTA) for machine 
 
 This illustrates a typical RNN that is used to translate the English sentence "How are you?" to its German equivalent, "Wie sind Sie?".
 
-![rnn-non-parallel](/assets/articles/week2/c4w2-04-rnn-non-parallel.png#hi)
+![rnn-non-parallel](/assets/img/articles/week2/c4w2-04-rnn-non-parallel.png#hi)
 
 <hr>
 
-![lstm](/assets/articles/week2/c4w2-10-lstm.png#sl)
+![lstm](/assets/img/articles/week2/c4w2-10-lstm.png#sl)
 
 The LSTM which goes a long way to solving the vanishing gradient problems requires three times the memory and cpu steps a the vanilla RNN.
 
 However, as time went by and models got longer and deeper the biggest challenge with improving RNNs, became  their use of sequential computation. 
 <hr>
 
-![seq2seq-steps](/assets/articles/week2/c4w2-11-seq2seq-steps.png#sl)
+![seq2seq-steps](/assets/img/articles/week2/c4w2-11-seq2seq-steps.png#sl)
 
 Which entailed that to process the word "you", the RNN it has to first go through "are" and then "you". 
 
@@ -307,7 +307,7 @@ Two other issues with RNNs are the:
 It becomes harder to keep track of whether the subject is singular or plural as you move further away from the subject.
 <hr>
 
-![Transformer](/assets/articles/week2/c4w2-12-transformer.png#hl)
+![Transformer](/assets/img/articles/week2/c4w2-12-transformer.png#hl)
 
 transformer architecture:
 
@@ -326,12 +326,12 @@ When gradients you back-propagate, the gradients can become really small and as 
 With small gradient the model will learn very little.
 
 
-![positional-encoding](/assets/articles/week2/c4w2-14-positonal-encoding.png#sl)
+![positional-encoding](/assets/img/articles/week2/c4w2-14-positonal-encoding.png#sl)
 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 <hr>
 
-![summary](/assets/articles/week2/c4w2-13-summary.png#sl)
+![summary](/assets/img/articles/week2/c4w2-13-summary.png#sl)
 
 Additionally, the gradient steps that need to be taken from the last output to the first input in a transformer is just one. 
 
@@ -340,12 +340,12 @@ For RNNs, the number of steps increases with longer sequences. Finally, transfor
 
 # Video 2: Transformer Applications
 
-![application](/assets/articles/week2/c4w2-15-application.png#sl)
+![application](/assets/img/articles/week2/c4w2-15-application.png#sl)
 Transformers have essentially replaced RNN,LSTM and GRUs in sequence processing.
 
 <hr>
 
-![application-NLP](/assets/articles/week2/c4w2-16-application-NLP.png#sl)
+![application-NLP](/assets/img/articles/week2/c4w2-16-application-NLP.png#sl)
 ### Applications:
 - Text summarization
 - Autocomplete
@@ -361,7 +361,7 @@ Transformers have essentially replaced RNN,LSTM and GRUs in sequence processing.
 
 <hr>  
 
-![sota](/assets/articles/week2/c4w2-17-sota.png#sl)
+![sota](/assets/img/articles/week2/c4w2-17-sota.png#sl)
 
 ### SOTA Transformers
 
@@ -374,11 +374,11 @@ Transformers Time Line:
 
 ## T5 - Text-To-Text Transfer Transformer
 
-![t5](/assets/articles/week2/c4w2-18-t5.gif#hl)
+![t5](/assets/img/articles/week2/c4w2-18-t5.gif#hl)
 
 <hr>
 
-![t5](/assets/articles/week2/c4w2-18-t5.png#sl)
+![t5](/assets/img/articles/week2/c4w2-18-t5.png#sl)
 
 T5 can do a number of tasks with a single model. 
 
@@ -392,7 +392,7 @@ These tasks are selected using the initial string:
 - Question
 <hr>
 
-![text-to-text-transformer](/assets/articles/week2/c4w2-19-text-to-text-transformer.png#sl)
+![text-to-text-transformer](/assets/img/articles/week2/c4w2-19-text-to-text-transformer.png#sl)
 
 ## T5 regression tasks
 
@@ -403,7 +403,7 @@ These tasks are selected using the initial string:
 
 <hr>
 
-![transformers quiz](/assets/articles/week2/c4w2-21-quiz.png#sl)
+![transformers quiz](/assets/img/articles/week2/c4w2-21-quiz.png#sl)
 
 
 {% include warning.html content="I found this one a little confusing" %}
@@ -411,13 +411,13 @@ These tasks are selected using the initial string:
 We are told that the transformers can do in one operation what RNN needed to do in many steps. Also when querying transformers it does one task at a time. It seem that this question is about the ability of multiple heads to do several tasks at once could not do this is not well understood. 
 <hr>
 
-![summary of transformers](/assets/articles/week2/c4w2-20-summary-of-transformers.png#sl)
+![summary of transformers](/assets/img/articles/week2/c4w2-20-summary-of-transformers.png#sl)
 
 <hr>
 
 # Video 3: Dot-Product Attention
 
-![outline-of-dot-product-attention](/assets/articles/week2/c4w2-22-outline-of-dot-product-attention.png#sl)
+![outline-of-dot-product-attention](/assets/img/articles/week2/c4w2-22-outline-of-dot-product-attention.png#sl)
 
 Dot product attention was introduced in 2015 by *Minh-Thang Luong, Hieu Pham, Christopher D. Manning* in [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025v5.pdf) which is available at [papers with code](https://paperswithcode.com/paper/effective-approaches-to-attention-based).
 
@@ -427,7 +427,7 @@ Dot product attention is the main operation in transformers. It is the dot produ
 
 <hr>
 
-![intro-to-attention](/assets/articles/week2/c4w2-23-intro-to-attention.png#sl)
+![intro-to-attention](/assets/img/articles/week2/c4w2-23-intro-to-attention.png#sl)
 
 Lets try to understand *dot product attention* intuitively by walking over its operations at the word level. The actual algorithm  uses linear algebra to perform many operations at once which is fast but more abstract and therefore difficult to understand.
 
@@ -443,7 +443,7 @@ Lets try to understand *dot product attention* intuitively by walking over its o
 
 ### Query, Key & Value
 
-![queries-keys-values](/assets/articles/week2/c4w2-24-queries-keys-values.png#sl)
+![queries-keys-values](/assets/img/articles/week2/c4w2-24-queries-keys-values.png#sl)
 
 Attention uses three matrices which are formed as shown in the figure.  The **Query** @Q@, **Key** @K@ and **Value** @V@ are formed from the source and target (if there is no target then just from the source). Each word is converted into an embedding column vector and these are placed into the matracies as their columns. 
 
@@ -468,7 +468,7 @@ The input and output sequences are mapped to an embedding layer to become the @Q
 Given an input, you transform it into a new representation or a column vector. Depending on the task you are working on, you will end up getting queries, keys, and values. Each column corresponds to a word in the figure above. Hence, when you compute the following: 
 <hr>
 
-![attention-formula](/assets/articles/week2/c4w2-26-dot-product-attention-math.png#sl)
+![attention-formula](/assets/img/articles/week2/c4w2-26-dot-product-attention-math.png#sl)
 
 1. multiply @Q@ by @V@.
 1. apply the @softmax()@ to transform to a probability.
@@ -476,7 +476,7 @@ Given an input, you transform it into a new representation or a column vector. D
 
 <hr>
 
-![attention-math](/assets/articles/week2/c4w2-26-attention-math.png#sl)
+![attention-math](/assets/img/articles/week2/c4w2-26-attention-math.png#sl)
 
 This is restating the above in a very confusing way. I looked at it many times before I figured out that the square brackets are the dimensions and that we have the following two formulas indicated schematically above:
 
@@ -493,17 +493,17 @@ You can think of the **keys** and the **values** as being the same. Note that bo
 
 <hr>
 
-![attention-formula](/assets/articles/week2/c4w2-27-attention-formula.png#sl)
+![attention-formula](/assets/img/articles/week2/c4w2-27-attention-formula.png#sl)
 
 Queries are the German words and the keys are the English words. Once you have the attention weights, you can just multiply it by @V@ to get a weighted combination of the input. 
 
 <hr>
 
-![attention-quiz](/assets/articles/week2/c4w2-28-attention-quizz.png#sl)
+![attention-quiz](/assets/img/articles/week2/c4w2-28-attention-quizz.png#sl)
 
 <hr>
 
-![summary-for-dot-product-attention](/assets/articles/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
+![summary-for-dot-product-attention](/assets/img/articles/week2/c4w2-29-summary-for-dot-product-attention.png#sl)
 
 another interesting point made in the talk above is that dot product attention has @O(n^2 *d)@ complexity but typically @d >> n@ since d ~ 1000 while for n ~ 70. So transformers should perform better then an RNN whose complexity is @O(n*d^2)@. And this is before the advantages of using an eficent transformer like reformer.
  
@@ -522,7 +522,7 @@ another interesting point made in the talk above is that dot product attention h
 
 {% include important.html content="course objective!" %}
 
-![three forms of attention](/assets/articles/week2/c4w2-30-three-ways-of-attention.png#sl)
+![three forms of attention](/assets/img/articles/week2/c4w2-30-three-ways-of-attention.png#sl)
 
 
 
@@ -552,12 +552,12 @@ In terms of use cases there are three types of attention mechanisms:
      - question answering
 <hr>
 
-![causal attention](/assets/articles/week2/c4w2-31-causal-attention.png#sl)
+![causal attention](/assets/img/articles/week2/c4w2-31-causal-attention.png#sl)
 
 In causal attention, **queries** and **keys** come from the same sentence. That is why it is often referred to as **self-attention**.  In general, causal attention allows words to attend to other words that are related in various ways. 
 <hr>
 
-![causal attention mask](/assets/articles/week2/c4w2-32-causal-attention-mask.png#sl)
+![causal attention mask](/assets/img/articles/week2/c4w2-32-causal-attention-mask.png#sl)
 
 At a high level
 We have K Q V matrices.  corresponding
@@ -567,29 +567,29 @@ Therefore the future token's data is masked by adding a big negative number.
 <hr>
 
 
-![causal-attention-math-](/assets/articles/week2/c4w2-33-causal-attention-math-.png#sl)
+![causal-attention-math-](/assets/img/articles/week2/c4w2-33-causal-attention-math-.png#sl)
  
  Mathematically, it looks like this: 
 
 <hr>
 
-![causal-attention-quiz](/assets/articles/week2/c4w2-34-causal-attention-quiz.png#sl)
+![causal-attention-quiz](/assets/img/articles/week2/c4w2-34-causal-attention-quiz.png#sl)
 
 <hr>
 
-![summary-for-causal-attention](/assets/articles/week2/c4w2-35-summary-for-causal-attention.png#sl)
+![summary-for-causal-attention](/assets/img/articles/week2/c4w2-35-summary-for-causal-attention.png#sl)
 
 <hr>
 
 # V5: Multi-head Attention
 
-![outline-of-muti-head-attention](/assets/articles/week2/c4w2-40-outline-of-mutihead-attention.png#sl)
+![outline-of-muti-head-attention](/assets/img/articles/week2/c4w2-40-outline-of-mutihead-attention.png#sl)
 
 Let's summarize the intuition behind **multi-head attention** and **scaled dot product attention**.
 
 <hr>
 
-![muti-head-attention](/assets/articles/week2/c4w2-41-muti-head-attention.png#sl)
+![muti-head-attention](/assets/img/articles/week2/c4w2-41-muti-head-attention.png#sl)
 
 Q. What are multiple attention heads?
 
@@ -599,7 +599,7 @@ Q. What are multiple attention heads?
   
 <hr>
 
-![overview of muti-head attention](/assets/articles/week2/c4w2-42-overview-of-muti-head-attention.png#sl)
+![overview of muti-head attention](/assets/img/articles/week2/c4w2-42-overview-of-muti-head-attention.png#sl)
 
 This is perhaps the most important slide - but it fails to show the critical part of the algorithm.
 Let's suppose we have @k@ attention heads. We see at the lowest level the @K@, @Q@ and @V@ being passed into passing through k linear layers. How is this accomplished and more important why. What is actually happening here is the opposite of concatenation. Instead of processing a query embedding from a space of @d@-dimensions we first split the embedding into @k@ vectors of length @D/k@. We have now k vectors from a k @D/k@-dimensional subspace. We now perform a dot product attention on each of these subspaces.
@@ -609,7 +609,7 @@ Let's suppose we have @k@ attention heads. We see at the lowest level the @K@, @
 Each of these dot product attention is operating on a difference subspace. It sees different subsets of the data and therefore specializes. How do these heads specializes is anybody's guess - unless we have a special embedding which has been processed using PCA or some other algorithm to ensure that each subspace corresponds to some interpretable subset of features.
 
 <hr>
-![muti-head attention scaled dot-product](/assets/articles/week2/c4w2-43-muti-head-attention-scaled-dot-product.png#sl)
+![muti-head attention scaled dot-product](/assets/img/articles/week2/c4w2-43-muti-head-attention-scaled-dot-product.png#sl)
 
 For example if we used a 1024 dimension embedding which concatenates 4 representations.
   1 [0:256] is an embedding trained on a *phonological* task
@@ -643,32 +643,32 @@ Here's one way to look at it:
 
 <hr>
 
-![muti-head-attention-concatenation](/assets/articles/week2/c4w2-44-muti-head-attention-concatenation.png#sl)
+![muti-head-attention-concatenation](/assets/img/articles/week2/c4w2-44-muti-head-attention-concatenation.png#sl)
 
 <hr>
 
 
-![muti-head-attention-math](/assets/articles/week2/c4w2-46-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/img/articles/week2/c4w2-46-muti-head-attention-math.png#sl)
 
 <hr>
 
 
-![muti-head-attention-fotmula](/assets/articles/week2/c4w2-47-muti-head-attention-fotmula.png#sl)
+![muti-head-attention-fotmula](/assets/img/articles/week2/c4w2-47-muti-head-attention-fotmula.png#sl)
 
 <hr>
 
 
-![muti-head-attention-quiz](/assets/articles/week2/c4w2-48-muti-head-attention-quiz.png#sl)
+![muti-head-attention-quiz](/assets/img/articles/week2/c4w2-48-muti-head-attention-quiz.png#sl)
 
 <hr>
 
-![muti-head-attention-math](/assets/articles/week2/c4w2-50-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/img/articles/week2/c4w2-50-muti-head-attention-math.png#sl)
 
-![muti-head-attention-math](/assets/articles/week2/c4w2-51-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/img/articles/week2/c4w2-51-muti-head-attention-math.png#sl)
 
-![muti-head-attention-math](/assets/articles/week2/c4w2-52-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/img/articles/week2/c4w2-52-muti-head-attention-math.png#sl)
 
-![muti-head-attention-math](/assets/articles/week2/c4w2-53-muti-head-attention-math.png#sl)
+![muti-head-attention-math](/assets/img/articles/week2/c4w2-53-muti-head-attention-math.png#sl)
 
 <hr>
 - Next, you feed it to the linear layer, once you go through the linear layer for each word, you need to calculate a score. After that, you end up having an embedding for each word. But you still need to get the score for how much of each word you are going to use. For example, this will tell you how similar two words are @q_1@ and @k_1@or even @q_1@ and @k_2@  by doing a simple @q_1 \dot k_1@. You can take the softmax of those scores (the paper mentions that you have to divide by @\sqrt(d)@ to get a probability and then you multiply that by the value. That gives you the new representation of the word.
@@ -681,13 +681,13 @@ Note that the computation above was done for one head. If you have several heads
 
 Hence, the more heads you have, the more @Z@s you will end up concatenating and as a result, that will change the inner dimension of @W_O@, which will then project the combined embeddings into one final embedding. 
 
-![summary-muti-head-attention](/assets/articles/week2/c4w2-49-summary-muti-head-attention.png#sl)
+![summary-muti-head-attention](/assets/img/articles/week2/c4w2-49-summary-muti-head-attention.png#sl)
 
 <hr>
 
 # V6: Transformer Decoder
 
-![outline](/assets/articles/week2/c4w2-60-outline.png#sl)
+![outline](/assets/img/articles/week2/c4w2-60-outline.png#sl)
 
 There is a learning objective here!
 
@@ -698,40 +698,40 @@ the transformer decoder has two parts
 
 <hr>
 
-![transformer-decoder-overview](/assets/articles/week2/c4w2-62-transformer-decoder-overview.png#sl)
+![transformer-decoder-overview](/assets/img/articles/week2/c4w2-62-transformer-decoder-overview.png#sl)
 
 <hr>
 
-![transformer-decoder-explaination](/assets/articles/week2/c4w2-63-transformer-decoder-explaination.png#sl)
+![transformer-decoder-explaination](/assets/img/articles/week2/c4w2-63-transformer-decoder-explaination.png#sl)
 
 <hr>
 
-![transformer-decoder-ff](/assets/articles/week2/c4w2-64-transformer-decoder-ff.png#sl)
+![transformer-decoder-ff](/assets/img/articles/week2/c4w2-64-transformer-decoder-ff.png#sl)
 
 <hr>
 
-![transformer-decoder-explaination](/assets/articles/week2/c4w2-65-transformer-decoder-explaination.png#sl)
+![transformer-decoder-explaination](/assets/img/articles/week2/c4w2-65-transformer-decoder-explaination.png#sl)
 
 <hr>
 
-![transformer-decoder-summary](/assets/articles/week2/c4w2-68-transformer-decoder-summary.png#sl)
+![transformer-decoder-summary](/assets/img/articles/week2/c4w2-68-transformer-decoder-summary.png#sl)
 
 <hr>
 
 # V7: Transformer Summarizer
 
-![outline](/assets/articles/week2/c4w2-70-outline.png#sl)
+![outline](/assets/img/articles/week2/c4w2-70-outline.png#sl)
 
 In this video we move on from attention and transformer blocks to the actual nlp task of text summarization. I noticed that the assignment put most of the focus on the coding of attention and the transformer block. Once it worked I started to really wonder what was going on under the hood and realized that while the notebooks it said we were building this from scratch, the reality was that `trax` framework was hiding lots of the implementation details from us
 <hr>
 
-![transformer-for-summarization](/assets/articles/week2/c4w2-71-transformer-for-summarization.png#sl)
+![transformer-for-summarization](/assets/img/articles/week2/c4w2-71-transformer-for-summarization.png#sl)
 
 we are told there is an input and an output but the two are combined into one long sequence.
 
 <hr>
 
-![loss-weights](/assets/articles/week2/c4w2-72-loss-weights.png#sl)
+![loss-weights](/assets/img/articles/week2/c4w2-72-loss-weights.png#sl)
 
 So to account for concatenating the output to the output we have a mask.
 
@@ -751,14 +751,14 @@ Loss weights were created as a masks by the following code:
 
 <hr>
 
-![cost-function](/assets/articles/week2/c4w2-73-cost-function.png#sl)
+![cost-function](/assets/img/articles/week2/c4w2-73-cost-function.png#sl)
 
 ## Cross entropy loss 
 
 Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.
 <hr>
 
-![inference](/assets/articles/week2/c4w2-74-inference.png#sl)
+![inference](/assets/img/articles/week2/c4w2-74-inference.png#sl)
 
 After training GPT2 on summarization data we just treat it like a word model and mine it for summaries. We do this by supply it with an input and predicting the output token by token. 
 
@@ -769,7 +769,7 @@ One could do even better by providing hints, especially if we also head some kin
 
 <hr>
 
-![quiz](/assets/articles/week2/c4w2-76-quiz.png#sl)
+![quiz](/assets/img/articles/week2/c4w2-76-quiz.png#sl)
 
 We want the model to be penalized if it makes the wrong prediction. In this case it it does not predict the next word in the summary.
 
@@ -787,7 +787,7 @@ There are cases we have multiple summaries:
 I mention these two cases since [Curriculum Learning](https://towardsdatascience.com/how-to-improve-your-network-performance-by-using-curriculum-learning-3471705efab4) may be able to assist us in training
 <hr>
 
-![summary](/assets/articles/week2/c4w2-75-summary.png#sl)
+![summary](/assets/img/articles/week2/c4w2-75-summary.png#sl)
 
 SO I think these is much missing from this lesson about summerization. However there are a number of good source in papers as well as some lectures on YouTube.
 
