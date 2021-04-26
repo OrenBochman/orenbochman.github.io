@@ -1,7 +1,7 @@
 ---
 layout: post
-title: NLP with Attention Models Week 2 Transformers vs RNNs
-description: Concepts, code snippets, slide commentaries for this week's lesson of the  Course notes from the deeplearning.ai natural language programming specialization.
+title: Polymer Test
+description: adding web components to Jekyll.
 date:   2021-03-30 18:16:16 +0300
 date: 2021-04-01T10:49:23.948Z
 categories: 
@@ -58,7 +58,7 @@ img[src*='#logo'] {
 }
 </style>
 
-![deeplearning.ai](/assets/logos/logo_deeplearning.ai.png#logo)
+![deeplearning.ai](/assets/img/logos/logo_deeplearning.ai.png#logo)
 
 # Transformers vs RNNs
 Course notes for: NLP with Attention Models Week 2 
@@ -325,9 +325,9 @@ in the decoder side
 When gradients you back-propagate, the gradients can become really small and as a result.
 With small gradient the model will learn very little.
 
-
-![positional-encoding](/assets/img/articles/week2/c4w2-14-positonal-encoding.png#sl)
-
+ 
+! [positional-encoding](/assets/img/articles/week2/c4w2-14-positonal-encoding.png#sl)
+ 
 Transformers which are based on attention and don't require any sequential computation per layer, only a single step is needed. 
 <hr>
 

@@ -11,8 +11,6 @@ tags: [modelling, artificial intelligence, AI]
 
 # Primitive Actions
 
-Note based Common Sense reasoning from lesson 15 of the Udacity course Cognitive Agents 
-
 **Primitive Actions** were proposed by *Roger Shank*  in [The Primitive ACTs of Conceptual Dependency] circa 1972-5. These were supposed to represent statements in everyday discourse. Shank decided these on these by noting similarities of sentence placed into an actor-action-object framework.
 
 for example: 
@@ -267,20 +265,18 @@ For a continuous learning paradigm one may try an algorithm which balances betwe
 
 <hr>
 
-
-
-
 ![Thematic Roles](/assets/KBAI-thematic-roles.png)
 
 # References
 
+- these Notes are based in part on "Common Sense reasoning", lesson 15 of the "Cognitive Agents" Udacity course.
 - [The Primitive ACTs of Conceptual Dependency] (Roger Shank)retrieved 13th of July 2017.
-- Winston, P. (1993). Artificial Intelligence (3rd ed.). Addision-Wesley.
 - [Primitive action](https://computersciencewiki.org/index.php/Primitive_action)
-
-[The Primitive ACTs of Conceptual Dependency]: https://www.aclweb.org/anthology/T75-2008 (retrieved 13th of July.)
-
-- [Crowdsourcing a Parallel Corpus for
-Conceptual Analysis of Natural Language](https://www.aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/viewFile/15924/15270) (Jamie C. Macbeth, Sandra Grandic 2017)
-
+- [The Primitive ACTs of Conceptual Dependency](https://www.aclweb.org/anthology/T75-2008) (retrieved 13th of July.)
+- [Crowdsourcing a Parallel Corpus for Conceptual Analysis of Natural Language](https://www.aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/viewFile/15924/15270) (Jamie C. Macbeth, Sandra Grandic 2017)
 - [A survey of Top-Level Ontologies](https://www.cdbb.cam.ac.uk/files/a_survey_of_top-level_ontologies_lowres.pdf)
+- [Understanding the Natural and Artificial Worlds](http://courses.washington.edu/thesisd/documents/Kun_Herbert%20Simon_Sciences_of_the_Artificial.pdf)
+- Stefik, M. (1995). Knowledge Systems. Morgan Kauffman: San Fransisco.
+- Rich, E., & Knight, K. (1991). Artificial intelligence. McGraw-Hill, New York.
+- Russell, S. & Norvig, P. (1995). Artificial Intelligence: A modern approach. Prentice-Hall: Englewood Cliffs.
+- Winston, P. (1993). Artificial Intelligence (3rd ed.). Addision-Wesley.

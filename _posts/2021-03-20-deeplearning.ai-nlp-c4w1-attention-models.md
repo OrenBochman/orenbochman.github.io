@@ -31,6 +31,33 @@ img: cover/notes-formulas.jpg
 fig-caption: Notes about ... Attention Models
 
 ---
+
+<style>
+
+hr { 	
+  clear:both;  
+}
+
+img[src*='#sl'] { 
+  float: right; 
+  width:55%; 
+  margin:10px 10px 10px 0px; 
+  border: 2px solid gold;
+  display: block;
+}
+
+img[src*='#hi'] { 
+  width:85%; 
+  display: block;
+  margin: 10px auto 10px auto;
+  border: 2px solid gold;
+}
+
+img[src*='#logo'] {
+      width: 20%;
+      float: right
+}
+</style>
 ![deeplearning.ai](/assets/img/logos/logo_deeplearning.ai.png#logo)
 
 # Natural Language Processing with Attention Models
