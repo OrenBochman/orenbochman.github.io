@@ -2,7 +2,7 @@
 layout: post
 title: NLP with Attention Models Week 3 Question Answering
 description: Concepts, code snippets, slide commentaries for this week's lesson of the  Course notes from the deeplearning.ai natural language programming specialization.
-date: 2021-03-30 18:16:16 +0300
+date: 2021-04-14 18:16:16 +0300
 categories:
     - NLP 
     - coursera 

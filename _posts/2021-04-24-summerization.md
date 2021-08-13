@@ -207,7 +207,7 @@ Select sentences with highest concentrations of salient content terms
 
 ## Edmundson's method 
 
-Introduced by H. P. Edmundson in 1968 [New Methods in Automatic Extracting](https://courses.ischool.berkeley.edu/i256/f06/papers/edmonson69.pdf)
+Introduced by  [New Methods in Automatic Extracting(H. P. Edmundson in 1968)](https://courses.ischool.berkeley.edu/i256/f06/papers/edmonson69.pdf)
 
 - Position (P) 
 - Word frequency (F) 

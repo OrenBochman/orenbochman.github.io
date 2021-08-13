@@ -2,7 +2,7 @@
 layout: post
 title: Polymer Test
 description: adding web components to Jekyll.
-date:   2021-03-30 18:16:16 +0300
+date:   2021-03-31 18:16:16 +0300
 date: 2021-04-01T10:49:23.948Z
 categories: 
     - NLP 

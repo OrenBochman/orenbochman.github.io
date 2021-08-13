@@ -157,27 +157,30 @@ in this case:
 
 Actions often imply an implicit state change and a cause and effect relations. We can also capture the outcome in a state change frame:
 
-> "Robbie enjoyed putting the wedge on the red block
-
-| Action frame     |   Value        |                        |
-|-----------------:|:---------------|:-----------------------|
-|**primitive**:    | move-object    |                        |
-|agent:            | Robbie         |                        |
-|object:           | Wedge          |                        |
-|destination:      | block          |                        |
-|result-link:      | RF1            |                        |
+> "Alice enjoyed putting the wedge on the red block
 
 
-| State-change frame  |   Value        |                        |
-|--------------------:|:--------------:|:-----------------------|
-| **id**:             | RF1            |                        |
-| **object**:         | Robbie mood    |                        |
-| **destination**:    | happy          |                        |
+<div class="mermaid">
+erDiagram    
+    Thematic-Role-Frame {
+    verb move-object
+    agent Alice
+    object wedge
+    destination block
+    }    
+    Thematic-Role-Frame ||--|| State-Change-Frame : induces     
+
+    State-Change-Frame {
+    object alice
+    destination happy
+    }
+</div>
 
 This looks like this might be a great job for an attention mechanism. We can try to learn using say 14 heads to specialize so as to match different parts of the sentence into each slot in the frame, then we would pick the best match as the frame. This may be even more powerful when looking at complex sentences where getting a full set of constraints would be more difficulty to encode manually.
 
 > "John fertilized the field"
-is difficult to encode but
+
+is difficult to encode but the equivalent:
 
 > "John put fertilizer on the field"
 
