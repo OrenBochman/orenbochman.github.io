@@ -32,6 +32,8 @@ The main organizers for the Wikimania 2021 hackathon are Elfego Solares (WMF), S
 - [Resources, tools, and recommendations](https://meta.wikimedia.org/wiki/Small_wiki_toolkits/Starter_kit) in technical areas relevant to smaller wikis that are just getting started
 # mwSQLDump
 
+https://mwsql.readthedocs.io/en/latest/index.html
+
 
 # [Olympics data-thon and edit-a-thon](https://phabricator.wikimedia.org/T288171)
 
@@ -43,9 +45,40 @@ Show working with openrefine!
 
 Jane says:Nice use of string use to reconcile metadata but of course the weak link is when the spelling is slightly different in titles. I guess a carry-over of the same problem in Wikipedia versus Wikidata
 
-- [cc0 dataset from kaggle] https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+- [120 years of Olympic history: athletes and results](https://www.kaggle.com/heesoo37/) kaggle dataset cc0 dataset (includes a scraper for https://www.sports-reference.com/) which could help with handling other data like world cup, winter games, summer games, etc.
 
 ## Listeria
+- [listeria bot](https://listeria.toolforge.org/)
 - https://en.wikipedia.org/wiki/Template:Wikidata_list
 - [Magnus Manske made Listeria to create lists on Wikimedia projects]
 
+# The Best Wikidata Gadgets - 1Veertje (30 min)	
+
+- shortcuts to prevent RSI
+- https://reasonator.toolforge.org/?q=Q108067400&lang=en
+- [Ranker](https://www.wikidata.org/wiki/User:Lucas_Werkmeister/Ranker)
+- https://www.wikidata.org/w/index.php?search=.js&title=Special%3ASearch&profile=advanced&fulltext=1&ns2=1
+
+# [Wikidata Pink Pony Session](https://phabricator.wikimedia.org/T288331) [Etherpad](https://etherpad.wikimedia.org/p/WikimaniaPinkPony2021) 
+
+Orgenized by:
+
+- Mohammed Sadat, 
+- Lydia Pintscher,
+- Léa Lacroix 
+- Zybszko Papierski - WMF search platform 
+- query service short urls
+- http://shtooka.net/
+- https://bodh.toolforge.org/
+
+## Paws + Pywikibot
+
+- https://wikitech.wikimedia.org/wiki/PAWS/PAWS_and_Pywikibot
+- https://public.paws.wmcloud.org/User:SRodlund_(WMF)/Using-Pywikibot-with-Paws.ipynb
+
+- https://meta.wikimedia.org/wiki/Abstract_Wikipedia
+- cloud vps
+- ORES it has its own project but it runs on the  production cloud.
+- https://public.paws.wmcloud.org/User:99of9/Covid-19.ipynb
+
+- [Deep Speech](https://github.com/mozilla/DeepSpeech)
