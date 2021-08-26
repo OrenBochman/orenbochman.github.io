@@ -3,7 +3,7 @@ layout: post
 title: Algorithmic Intuition
 date: 2021-08-13 00:00:00 +0300
 description: Algorithmic Intuition for Isolation Forest
-img: dice-distribution.jpg 
+img: cover/dice-distribution.jpg 
 fig-caption: # Add figcaption (optional)
 tags: [modelling, chat bot, wikipedia, support] 
 ---
