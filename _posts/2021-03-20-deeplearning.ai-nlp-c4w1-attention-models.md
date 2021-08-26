@@ -161,7 +161,7 @@ padded_with_batch = fastnp.expand_dims(fastnp.array(padded),axis=0)
 # get log probabilities from the last token output
 log_probs = output[0,-1,:] 
 ~~~
-### How to use calculate jaccard_similarity which is the intersection over union?
+### How to use calculate `Jaccard Similarity ` which is the intersection over union?
 
 ~~~python
 def jaccard_similarity(candidate, reference):
