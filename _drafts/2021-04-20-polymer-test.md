@@ -7,15 +7,11 @@ categories:
     - NLP 
     - notes
 tags:
-    - summarization task
-    - lecture notes
-    - bibliography
-    - literature review
-    - video
+    - web components
 lastmod: 2021-04-24 12:16:16 +0300
 author: Oren Bochman
 img: cover/notes-formulas.jpg
-fig-caption: Notes about ... Question Answering
+fig-caption: web components
 ---
 
 <style>

@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <script type="module" src="https://unpkg.com/@polymer/paper-checkbox@next/paper-checkbox.js?module" type="module" ></script>
+    <script type="module" src="https://unpkg.com/@polymer/paper-card@next/paper-card.js?module" type="module" ></script>
+    <script type="module" src="https://unpkg.com/@polymer/paper-button@next/paper-button.js?module" type="module" ></script>
+    <script type="module" src="https://unpkg.com/@polymer/iron-input@next/iron-input.js?module" type="module" ></script>
+    <script type="module" src='/assets/scripts/ratings-element.js'></script>
+    <style>
+        span {
+          border: 1px solid red;
+        }
+      </style>
+</head>
+  <body>
+      start
+      <hr>
+    <paper-card heading="Emmental" image="http://placehold.it/350x150/FFC107/000000" alt="Emmental">
+      <div class="card-content">
+        Emmentaler or Emmental is a yellow, medium-hard cheese that originated in the area around Emmental, Switzerland. It is one of the cheeses of Switzerland, and is sometimes known as Swiss cheese.
+      </div>
+      <div class="card-actions">
+        <paper-button>Share</paper-button>
+        <paper-button>Explore!</paper-button>
+      </div>
+    </paper-card>
+  <hr>
+  <rating-element rating="5">
+    <div>This is the light DOM!</div>
+</rating-element>
+<hr>
+
+the middle 
+
+<style is="custom-style">
+  paper-card.bio { @apply(--layout-horizontal); }
+  .bio-image {
+    width: 150px;
+    height: 300px;
+    background: url('//images.weserv.nl/?url=https://d3i71xaburhd42.cloudfront.net/8f33b743af5f7e141a6525beadb9396f2b28866a/3-Figure1-1.png&w=180&h=300&q=50');
+    background-size: cover;
+  }
+  .bio-content {
+    @apply(--layout-flex);
+    float: left;
+  }
+  .bio-header { @apply(--paper-font-headline); }
+  .bio-name { color: var(--paper-grey-600); margin: 10px 0; }
+  paper-icon-button.rate-icon {
+    --iron-icon-fill-color: white;
+    --iron-icon-stroke-color: var(--paper-grey-600);
+  }
+</style>
+<paper-card class='bio' heading="Hans Peter Luhn Bio" >
+ <div class="bio-content">
+   <div class="card-content">
+    <div class="bio-header">Rate this album</div>
+    <div class="bio-name">Mac Miller</div>
+    <div>Live from space</div>
+    <marked-element>
+     <div slot="markdown-html"></div><script type="text/markdown">Hans Peter Luhn (July 1, 1896 – August 19, 1964) was a researcher in the field of computer science and Library & Information Science for **IBM**, and creator of the **Luhn algorithm**, **KWIC** (Key Words In Context) indexing, and **Selective dissemination of information** ("SDI"). He was awarded over 80 patents. - Wikipedia article for [Hans Peter Luhn](https://en.wikipedia.org/wiki/Hans_Peter_Luhn) </script></marked-element>
+   </div>
+   <div class="card-actions">
+      <paper-icon-button class="rate-icon" icon="star"></paper-icon-button>
+      <paper-icon-button class="rate-icon" icon="star"></paper-icon-button>
+      <paper-icon-button class="rate-icon" icon="star"></paper-icon-button>
+      <paper-icon-button class="rate-icon" icon="star"></paper-icon-button>
+      <paper-icon-button class="rate-icon" icon="star"></paper-icon-button>
+   </div>
+ </div>
+ <div class="bio-image" alt="Hans Peter Luhn" ></div>
+</paper-card>
+
+</body>
+</html>

@@ -3,13 +3,16 @@ layout: post
 title: 'Review of Integrated Marketing Communications'
 description: review Integrated Marketing Communications
 date: 2021-04-12 10:50:09.040Z
-categories: nlp coursera notes paper
+categories: nlp coursera notes paper review
 tags:
    - attention
    - deep learning
    - literature review
    - paper
-img: literature-review-open-book.jpg
+img: cover/dice-distribution.jpg 
+#img: cover/literature-review-open-book.jpg
+fig-caption: # Add figcaption (optional)
+
 lastmod: 2021-04-07T13:24:37.743Z
 ---
 

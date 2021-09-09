@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Marketing Models
-date: 2021-04-10 00:00:00 +0300
 description: Marketing Books
 img: dice-distribution.jpg 
 fig-caption: # Add figcaption (optional)

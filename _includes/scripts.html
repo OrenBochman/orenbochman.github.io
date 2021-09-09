@@ -1,3 +1,42 @@
+<!-- my own web components -->
+<script type="module" src="/assets/scripts/simple-greeting.js"></script>
+<script type="module" src="/assets/scripts/ratings-element.js"></script>
+
+<!-- polymer components -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="module" src="https://unpkg.com/@polymer/paper-checkbox@next/paper-checkbox.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/paper-card@next/paper-card.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/paper-button@next/paper-button.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/iron-input@next/iron-input.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/marked-element@next/marked-element.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/paper-icon-button@next/paper-icon-button.js?module" type="module" ></script>
+<script type="module" src="https://unpkg.com/@polymer/iron-image@next/iron-image.js?module" type="module" ></script>
+
+<script>
+  MathJax = {
+    loader: {
+      source: {'[tex]/AMScd': '[tex]/amscd'},
+      load: ['[tex]/ams','[tex]/amscd' ] 
+    },
+    tex: {
+      inlineMath: [['@', '@']],
+      displayMath: [['@@', '@@'],],
+      tags: 'ams',
+      multlineWidth: '85%',      // width of multline environment
+      packages: {'[+]': ['ams']}
+    },
+    formatError:               // function called when TeX syntax errors occur
+      (jax, err) => jax.formatError(err)
+  };
+</script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- tikz & mermaid charts -->
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js"></script>
+
+<!-- check this file is loaded -->
+<script>
+    console.log("Ok Robot!?")
+</script>

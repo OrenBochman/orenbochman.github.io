@@ -1,6 +1,7 @@
 ---
 layout: main
 ---
+
 <article class="article-page">
   <div class="page-content">
     {% if page.img %}
@@ -18,7 +19,10 @@ layout: main
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-      </header>
+        {% if page.ipynb %}
+      <a href={{page.ipynb}} >Jupyter notebook</a>
+      {% endif %}
+      </header>      
       {% include breadcrumbs.html %}
       {{content | markdownify}}
       {% if false %}
