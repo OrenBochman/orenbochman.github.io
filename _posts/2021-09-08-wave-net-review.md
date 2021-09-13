@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
 ---
 
-The WaveNet paper is a few years old. But it seems to come up in various contexts - mostly in the area of sound synthesis. It was the first paper to do waveform generation directly from a neural net instead of modeling vocoder parameters, used an innovative convolutional net technique.
+The WaveNet paper is a few years old. But it seems to come up in various contexts - mostly in the area of sound synthesis. It was the first paper to do waveform generation directly from a neural net instead of modeling vocoder parameters, used an innovative convolutional net technique and to top it all is an autoregressive model which was some years before probabilistic neural networks were being used.
 
 Here is some info on it and some follow up papers.
 
@@ -52,7 +52,6 @@ Typically a vocoder parameter vector @o_n@ is extracted at every 5 ms. It often 
 
 Then a set of generative models, such as a HMM [Yoshimura, 2002](), feed-forward neural network [Zen et al., 2013](); RNN [Tuerk & Robinson, 1993](); [Karaali et al., 1997](); [Fan et al., 2014](), is trained from the extracted vocoder parameters and linguistic features.
 
-But Wavenet is a generative model that does both linguitic analysis and 
 
 
 # Resources
