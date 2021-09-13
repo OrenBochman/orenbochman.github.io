@@ -3,8 +3,8 @@ layout: post
 title: Wikipedia Tea House chatbot
 date: 2021-08-13 00:00:00 +0300
 description: Wikipedia Tea House chatbot
-img: cover/how-to-start.jpg
-fig-caption: # Add figcaption (optional)
+img: cover/tea-house-exterior.jpg
+fig-caption: the tea house 
 tags: [modelling, chat bot, wikipedia, support] 
 ---
 

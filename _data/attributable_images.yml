@@ -533,7 +533,17 @@
   copyright: "Monica Melton"
   link: "https://unsplash.com/photos/oc_XTqWezp4"
   license: "CC0 Creative Commons"
-
+"tea-house-exterior.jpg": 
+  source:  "https://pixabay.com/photos/japanese-garden-tea-house-1748992/"
+  copyright: "Ulrich Dregler"
+  link: "https://pixabay.com/users/reverent-69167/"
+  license: "CC0 Creative Commons"
+"bridge-ecology.jpg": 
+  source:  "https://pixabay.com/photos/bridge-park-garden-japanese-garden-53769/"
+  copyright: "JamesDeMers"
+  link: "https://pixabay.com/users/jamesdemers-3416/"
+  license: "CC0 Creative Commons"
+source:  "https://pixabay.com/photos/bridge-park-garden-japanese-garden-53769/"
 # "start-golden.png":
 #   source: "https://pixabay.com/photos/christmas-poinsettia-star-1829710/"
 #   copyright: "Gerhard G."
