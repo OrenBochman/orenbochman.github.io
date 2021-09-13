@@ -3,7 +3,7 @@ layout: post
 title:  Transfer learning in NLP
 date: 2021-08-13 00:00:00 +0300
 description: Transfer learning in NLP
-img: cover/dice-distribution.jpg 
+img: cover/neural-network.png
 fig-caption: # Add figcaption (optional)
 tags: [modelling, chat bot, wikipedia, support] 
 ---

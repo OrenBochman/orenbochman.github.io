@@ -3,7 +3,7 @@ layout: post
 title: Inlining Citations for Wikipedia articles
 date: 2021-08-13 00:00:00 +0300
 description: An algorithm for Inlining Citations for Wikipedia articles.
-img: cover/dice-distribution.jpg 
+img: cover/neural-network.png
 fig-caption: # Add figcaption (optional)
 tags: [modelling, chat bot, wikipedia, support] 
 ---
