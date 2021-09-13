@@ -3,7 +3,7 @@ layout: post
 title: Kelly Criterion
 date: 2021-08-29 00:00:00 +0300
 description: PPC Hacks - Kelly Criterion
-img: cover/dice-distribution.jpg 
+img: cover/long-shot.png
 fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, ] 
 ---

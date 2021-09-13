@@ -3,7 +3,7 @@ layout: post
 title: Stochastic Gradient Descent - The good parts
 date: 2021-08-29 00:00:00 +0300
 description: Stochastic Gradient Descent - The good parts
-img: cover/dice-distribution.jpg 
+img: cover/sisipus.png 
 fig-caption: # Add figcaption (a mountain trail )
 tags: [data science, deep learning, algorithms, optimization, unfinished, needs more love] 
 ---
