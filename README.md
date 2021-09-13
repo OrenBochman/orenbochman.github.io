@@ -34,3 +34,15 @@ GNU General Public License v3.0
 
 <p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
 <p align="center"><b>Thank you for your support ❤️</b></p>
+
+
+## adding a web component
+
+to enable using <citation-element/> for example
+
+add:
+
+`<script type="module" src="https://unpkg.com/@lrnwebcomponents/citation-element/citation-element.js?module" type="module"></script>`
+
+
+<citation-element creator="Bryan Ollendyke" scope="parent" license="by" title="The btopro blog" source="https://btopro.com/" date="02/01/2018"></citation-element>

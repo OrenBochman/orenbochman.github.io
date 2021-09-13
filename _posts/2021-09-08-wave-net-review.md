@@ -8,11 +8,13 @@ fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
 ---
 
-The WaveNet paper is kind of old. Yet it seems to come up in various contexts. Though mostly in the area of sound synthesis. Here is some info on it and some follow up papers. (Perhaps I'll split them up later.)
+The WaveNet paper is a few years old. But it seems to come up in various contexts - mostly in the area of sound synthesis. It was the first paper to do waveform generation directly from a neural net instead of modeling vocoder parameters, used an innovative convolutional net technique.
+
+Here is some info on it and some follow up papers.
+
+(Perhaps I'll split them up later.)
 
 # WaveNet
-
-
 
 Is a fully probabilistic and autoregressive CNN model for the for TTS synthesis task. At this point CNN were mostly used for Image processing and RNN which are much harder to train were used for Sequence to Sequence modeling. The main WaveNet innovation is that it was a CNN that could handle contexts over lone term sequences (it needed to handle 16,000 samples per second over serval second).
 

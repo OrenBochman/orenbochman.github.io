@@ -1,22 +1,33 @@
 ---
 layout: post
-title: 'Review of Integrated Marketing Communications'
-description: review Integrated Marketing Communications
+title: marketing models - a list
+description: A list of ml/statistical models used in marketing
 date: 2021-04-12 10:50:09.040Z
-categories: nlp coursera notes paper review
+categories: marketing models
 tags:
-   - attention
-   - deep learning
+   - marketing
+   - data science
    - literature review
-   - paper
-img: cover/dice-distribution.jpg 
-#img: cover/literature-review-open-book.jpg
-fig-caption: # Add figcaption (optional)
-
-lastmod: 2021-04-07T13:24:37.743Z
+   - books
+img: cover/literature-review-open-book.jpg
+fig-caption: literature review
 ---
 
-## Integrated Marketing Communications
+# TLDR
+
+What kind of ml/statistical models  are used in marketing?
+
+All types are used in marketing but they may be called something else.
+
+
+**Contents**
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
+# Integrated Marketing Communications
+
+
 
 ### Promotional Mix
  - Advertising 
@@ -26,25 +37,27 @@ lastmod: 2021-04-07T13:24:37.743Z
  - Publicity / public relations
  - Personal selling
 
-### Classifications of advertising
-- ADVERTISING TO CONSUMER MARKETS
-    - National Advertising
-        - Advertising done by large companies on a nationwide basis or in most regions of the country. Most of the ads for well-known companies and brands that are seen on prime-time TV or in other major national or regional media are examples of national advertising. The goals of national advertisers are to inform or remind consumers of the company or brand and its features, benefits, advantages, or uses and to create or reinforce its image so that consumers will be predisposed to purchase it.
-    - Retail/Local Advertising
-        - Advertising done by retailers or local merchants to encourage consumers to shop at a specific store, use a local service, or patronize a particular establishment. Retail or local advertising tends to emphasize specific patronage motives such as price, hours of operation, service, atmosphere, image, or merchandise assortment. Retailers are concerned with building store traffic, so their promotions often take the form of direct-action advertising designed to produce immediate store traffic and sales.
-    - Primary- versus Selective-Demand Advertising
-        - Primary-demand advertising is designed to stimulate demand for the general product class or entire industry. Selective-demand advertising focuses on creating demand for a specific company’s brands. Most advertising for products and services is concerned with stimulating selective demand and emphasizes reasons for purchasing a particular brand.
-        An advertiser might concentrate on stimulating primary demand when, for example, its brand dominates a market and will benefit the most from overall market growth. Primary-demand advertising is often used as part of a promotional strategy to help a new product gain market acceptance, since the challenge is to sell customers on the product concept as much as to sell a particular brand. Industry trade associations also try to stimulate primary demand for their members’ products, among them cotton, milk, orange juice, pork, and beef.
-- ADVERTISING TO BUSINESS AND PROFESSIONAL MARKETS
-    - Business-to-Business Advertising
-        - Advertising targeted at individuals who buy or influence the purchase of industrial goods or services for their companies. Industrial goods are products that either become a physical part of another product (raw material or component parts), are used in manufacturing other goods (machinery), or are used to help a company conduct its business (e.g., office supplies, computers). Business services such as insurance, travel services, and health care are also included in this category.
-    - Professional Advertising
-        - Advertising targeted to professionals such as doctors, lawyers, dentists, engineers, or professors to encourage them to use a company’s product in their business operations. It might also be used to encourage professionals to recommend or specify the use of a company’s product by end-users.
-    - Trade Advertising
-        - Advertising targeted to marketing channel members such as wholesalers, distributors, and retailers. The goal is to encourage channel members to stock, promote, and resell the manufacturer’s branded products to their customers.
+## Classifications of advertising
+
+### B2C
+- National Advertising
+    : Advertising done by large companies on a nationwide basis or in most regions of the country. Most of the ads for well-known companies and brands that are seen on prime-time TV or in other major national or regional media are examples of national advertising. The goals of national advertisers are to inform or remind consumers of the company or brand and its features, benefits, advantages, or uses and to create or reinforce its image so that consumers will be predisposed to purchase it.
+- Retail/Local Advertising
+    : Advertising done by retailers or local merchants to encourage consumers to shop at a specific store, use a local service, or patronize a particular establishment. Retail or local advertising tends to emphasize specific patronage motives such as price, hours of operation, service, atmosphere, image, or merchandise assortment. Retailers are concerned with building store traffic, so their promotions often take the form of direct-action advertising designed to produce immediate store traffic and sales.
+- Primary v.s. Selective Demand Advertising
+    : *Primary-demand* advertising is designed to stimulate demand for the general product class or entire industry. *Selective-demand* advertising focuses on creating demand for a specific company’s brands. Most advertising for products and services is concerned with stimulating selective demand and emphasizes reasons for purchasing a particular brand.
+    An advertiser might concentrate on stimulating primary demand when, for example, its brand dominates a market and will benefit the most from overall market growth. Primary-demand advertising is often used as part of a promotional strategy to help a new product gain market acceptance, since the challenge is to sell customers on the product concept as much as to sell a particular brand. Industry trade associations also try to stimulate primary demand for their members’ products, among them cotton, milk, orange juice, pork, and beef.
+
+### B2B
+- Business-to-Business Advertising
+    : Advertising targeted at individuals who buy or influence the purchase of industrial goods or services for their companies. Industrial goods are products that either become a physical part of another product (raw material or component parts), are used in manufacturing other goods (machinery), or are used to help a company conduct its business (e.g., office supplies, computers). Business services such as insurance, travel services, and health care are also included in this category.
+- Professional Advertising
+    : Advertising targeted to professionals such as doctors, lawyers, dentists, engineers, or professors to encourage them to use a company’s product in their business operations. It might also be used to encourage professionals to recommend or specify the use of a company’s product by end-users.
+- Trade Advertising
+    : Advertising targeted to marketing channel members such as wholesalers, distributors, and retailers. The goal is to encourage channel members to stock, promote, and resell the manufacturer’s branded products to their customers.
 
 
-An integrated marketing communications planning model
+## An integrated marketing communications planning model
 
 - Review of Marketing Plan
     - Examine overall marketing plan and objectives 
@@ -155,3 +168,8 @@ Areas covered in the situation analysis
     - What message and media strategies are competitors using? 
 - Environmental Analysis
     - Are there any current trends or developments that might affect the promotional program?
+
+# Bibliography
+
+1. <citation-element creator="George Edward Belch & Michael A. Belch & Michael Angelo Guolla" title="Advertising and Promotion: An Integrated Marketing Communications Perspective" date="2011-10-10" displayMethod="visible"   source="https://www.worldcat.org/title/advertising-promotion-an-integrated-marketing-communications-perspective/oclc/891028876" ></citation-element> 
+2. <cite-element creator="George Edward Belch & Michael A. Belch & Michael Angelo Guolla" title="Advertising and Promotion: An Integrated Marketing Communications Perspective" date="2011-10-10" displayMethod="visible"   source="https://www.worldcat.org/title/advertising-promotion-an-integrated-marketing-communications-perspective/oclc/891028876" ></cite-element>

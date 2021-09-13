@@ -1,4 +1,35 @@
-"reference.jpg":
+"cover/AB-Test-Analytics.png":
+  source: "https://commons.wikimedia.org/wiki/File:SectionEditing-A-Btest-Results.png"
+  copyright: "Peter Pelberg"
+  link: "https://commons.wikimedia.org/wiki/User:PPelberg_(WMF)"
+  license: "CC by SA4"
+"cover/AB-Test-Cat.jpg":
+  source: "https://pixabay.com/photos/sparrows-two-birds-few-plumage-2763553/"
+  copyright: "Susanne Jutzeler, Schweiz"
+  link: "https://pixabay.com/users/suju-foto-165106/"
+  license: "CC0 Creative Commons"
+"cover/AB-Test-Sparrows.jpg":
+  source: "https://pixabay.com/photos/cat-domestic-cat-ekh-cute-dear-83329/"
+  copyright: "Andreas Roth"
+  link: "https://pixabay.com/users/andiroth-22263/"
+  license: "CC0 Creative Commons"
+"cover/sun_tzu.jpg":
+  source: "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+  copyright: "wikipedia commons"
+  link: "https://commons.wikimedia.org/wiki/File:%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+  license: "public domain"
+"cover/AB-testing-example.png":
+  source: "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+  copyright: "wikipedia commons"
+  link: "https://commons.wikimedia.org/wiki/File:%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+  license: "public domain"
+"cover/AB-Testing.png":
+  source: "https://www.seobility.net/en/wiki/images/2/24/AB-Testing.png"
+  copyright: "www.seobility.net"
+  link: "https://www.seobility.net/en/wiki/AB_Testing"
+  license: "CC BY-SA 4.0"
+  caption: "A/B tests ( referred to as split tests) compare two versions of a website to determine which version is better suited to achieving a defined goal. Such a goal could be, for example, increasing conversion rates or improving other performance indicators (KPIs). An A/B test compares two website versions by randomly redirecting visitors to one of the two variants and measuring user behavior. This allows webmasters and companies to test how user behavior is affected by changing a particular variable."
+"cover/reference.jpg":
   source: "https://pixabay.com/en/bookshelf-books-reading-learning-791011/"
   copyright: "Steve Buissinne"
   link: "https://pixabay.com/en/users/stevepb-282134/"
