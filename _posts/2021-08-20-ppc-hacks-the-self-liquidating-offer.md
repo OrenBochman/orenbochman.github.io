@@ -2,7 +2,7 @@
 layout: post
 title: Kelly Criterion
 date: 2021-08-29 00:00:00 +0300
-description: PPC Hacks - Kelly Criterion
+description: PPC Hacks - The Self liquidating proposition
 img: cover/dice-distribution.jpg 
 fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, ] 
@@ -16,5 +16,5 @@ One key strategy when you stats is to create a positive feedback loop. A method 
 
 The key ideas behind this strategy is that 
 1. it allows you to grow your audiences for remarketing. And in this case remarketing should cost far less than the original acquisition. 
-1. Your main profit making activities will be in scondery action: up-sale, down-sale and cross sale to your audience.
+1. Your main profit making activities will be in secondary action: up-sale, down-sale and cross sale to your audience.
 
