@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hackton session link dumps & notes
+title: Hackathon session link dumps & notes
 date: 2021-08-13 00:00:00 +0300
-description: Wikipedia hackathon nores
-img: cover/dice-distribution.jpg 
+description: Wikipedia Hackathon notes
+img: cover/how-to-start.jpg
 fig-caption: # Add figcaption (optional)
 tags: [modelling, chat bot, wikipedia, support] 
 ---
