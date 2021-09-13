@@ -3,7 +3,7 @@ layout: post
 title: WaveNet
 date: 2021-08-29 00:00:00 +0300
 description: The WaveNet paper is kind of old. Yet it seems to come up in various contexts. Some thoughts on this. 
-img: cover/dice-distribution.jpg 
+img: cover/chaotic-time-series.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
 ---

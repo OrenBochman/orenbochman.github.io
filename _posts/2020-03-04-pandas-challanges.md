@@ -3,7 +3,7 @@ layout: post
 title: Pandas Challenged?
 date: 2020-03-04 00:00:00 +0300
 description:Just a  little rant on Pandas various contexts. Some thoughts on this. 
-img: cover/dice-distribution.jpg 
+img: cover/python-bg.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [data-science,#python,#data-wrangling,] 
 ---
