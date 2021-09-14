@@ -3,7 +3,7 @@ layout: post
 title: Competitive analysis
 date: 2021-08-29 00:00:00 +0300
 description: PPC Hacks - Competitive analysis as part of a prescriptive model.
-img: cover/dice-distribution.jpg 
+img: cover/ppc-the-competition.jpg 
 fig-caption: # Add figcaption (optional)
 tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
 ---
