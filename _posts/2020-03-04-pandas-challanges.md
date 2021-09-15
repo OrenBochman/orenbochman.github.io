@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Pandas Challenged?
 date: 2020-03-04 00:00:00 +0300
-description: Just a  little rant on Pandas various contexts. 
+title: Pandas Challenged?
+description: Just a  little rant on Pandas various contexts
 img: cover/python-bg.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [data-science,#python,#data-wrangling,] 
@@ -10,7 +10,7 @@ tags: [data-science,#python,#data-wrangling,]
 
 # TLDR
 
-Just a little rant on Pandas. Since pandas is a replacement for excell and sql I'd hope it lets us be more productive than using these. It can be but there is a learning curve and all to often it only saves time on tasks you need to do many times over 
+Just a little rant on Pandas. Since pandas is the primerily a data scientist replacement for Excel and SQL I'd hope it lets one be more productive than an analyst using these. It can be but there is a learning curve and all to often it only saves time on tasks you need to do many times over 
 
 # Pandas Challenged ?
 
