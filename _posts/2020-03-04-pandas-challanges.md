@@ -2,15 +2,15 @@
 layout: post
 date: 2020-03-04 00:00:00 +0300
 title: Pandas Challenged?
-description: Just a  little rant on Pandas various contexts
+description: Just a little rant on Pandas various contexts
 img: cover/python-bg.jpeg
 fig-caption: # Add figcaption (optional)
-tags: [data-science,#python,#data-wrangling,] 
+tags: [data-science, python, data-wrangling] 
 ---
 
 # TLDR
 
-Just a little rant on Pandas. Since pandas is the primerily a data scientist replacement for Excel and SQL I'd hope it lets one be more productive than an analyst using these. It can be but there is a learning curve and all to often it only saves time on tasks you need to do many times over 
+Just a little rant on Pandas. Since pandas is the primarily a data scientist replacement for Excel and SQL I'd hope it lets one be more productive than an analyst using these. It can be but there is a learning curve and all to often it only saves time on tasks you need to do many times over 
 
 # Pandas Challenged ?
 
@@ -19,7 +19,7 @@ As time goes by I hope to update some of these challenges with solutions I find 
 I find myself using Pandas more frequently these days here are a few thoughts. I expect that in 2020 certain task should be much easier to do than on 2010 or 2000 but many are still easier in point and click software with minimal coding like Excel, Google sheet or Tableau and this is both a shame and a reason many projects fail to get to production.
 
 Pandas or Point and Click
-Pandas is Python's programmatic spreadsheet based on R's DataFrames. R community is very pragmatic and the dataframes have evolved to improve performance and increase agility. They have a tidyverse package and tribbles. Pandas lags behind and while easier to code then R it often requires more code to get things done and the code can get pretty ugly. 
+Pandas is Python's programmatic spreadsheet based on R's DataFrames. R community is very pragmatic and the data frames have evolved to improve performance and increase agility. They have a tidyverse package and tribbles. Pandas lags behind and while easier to code then R it often requires more code to get things done and the code can get pretty ugly. 
 * subsetting by column type
 * printing subset rows by criteria of several columns
 The first thing I expected is to be able to do tasks I did with excel or google sheets faster and better. What I mean is that I expected to map most tasks from one to the other and to be able to automate faster. Some tasks map better then others.

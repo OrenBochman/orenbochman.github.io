@@ -10,7 +10,6 @@ tags: [PPC, data science, digital marketing, quantitative marketing, intelligenc
 
 [toc] 
 
-
 Some tricks collected from the SO and the web
 # Images
 
