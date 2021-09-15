@@ -46,36 +46,87 @@ tags: [PPC, data science, digital marketing, quantitative marketing, intelligenc
 
 ## Overview
 
-### Excel Models    
-Advisor
-Assessor
-Callplan
-Choice-based segmentation
-Competitive advertising
-Competitive bidding
-Conglomerate, Inc. promotional analysis
-GE: Portfolio analysis
-Generalized Bass Model
-Learning curve pricing
-PIMS:Strategy model
-Promotional spending analysis
-Sales resource allocation model
-Value-in-use pricing
-Visual response modeling
-Yield management for hotels
+### List of models
 
-### Non-Excel Models
-- ADCAD: Ad copy design
+General Models and Methods
+
 - Cluster Analysis
 - Conjoint Analysis
-- Multinomial logit analysis
-- Positioning Analysis
-- Analytic hierarchy process
 - Decision tree analysis
-- Geodemographic site planning
+- Logit
+    - Multinomial Logit
+    - Nested Logit, 88
+- Probit
+    - Multinomial Probit
 - Neural net for forecasting
 - Text analytics
 - Sentiment analysis
+- Regression
+    - Censored regression (Tobit) 134
+    - Truncated Regression, 133
+    - Type-1 Tobit 
+    - Type-2 Tobit
+- Time series
+    AR (Autoregressive)
+    ARMA (Auto regressive moving average)
+    ARIMA
+
+
+Specific Models
+
+- ADCAD: Ad copy design
+- Advisor
+- Analytic hierarchy process
+
+- Choice-based segmentation
+- Competitive advertising
+- Competitive bidding
+- Conglomerate, Inc. promotional analysis
+- GE: Portfolio analysis
+- Geodemographic site planning
+- Generalized Bass Model
+- Learning curve pricing
+- PIMS:Strategy model
+- Positioning Analysis
+- Promotional spending analysis
+- Sales resource allocation model
+- Value-in-use pricing
+- Visual response modeling
+- Yield management for hotels
+
+
+
+From Quantitative Models in Marketing Research
+- ASSESSOR
+- Averaged ideal point
+- BASES
+- CALLPLAN
+- GE/McKinsy portfolio
+- Ideal point
+- Interactive decision
+- Market Share
+- Market response
+- MDSS
+- NEWS
+- SPRINTER
+- TRACKER
+- response
+- realocator
+
+### From Quantitative Models in Marketing Research
+
+- Accelerated Lifetime, 166
+- Adjacent Categories, 125, 130
+- attraction, 47
+- duration, 158
+- factor, 27
+- multivariate, 27
+- panel, 27
+- Proportional Hazard, 167
+- simultaneous-equations, 47
+- single-equation, 27
+- stereotype, 130
+- two-part, 140
 
 ## Market Response Models
 
@@ -359,10 +410,9 @@ It is bounded between b (lower bound) and a (upper bound).
 - Little, John D. C. (1970) [Models and managers: The concept of a decision calculus](), Management Science, Vol. 16, No. 8 (April), pp. B466–B485.
 - Saunders, John, (1987) [The specification of aggregate market models]() European Journal of Marketing, Vol. 21, No. 2, pp. 1–47.
 
-# Mahajan and Muller (1986)
+## Pulsing Policies by Mahajan and Muller (1986)
 
 - Vijay Mahajan, Eitan Muller [Advertising Pulsing Policies for Generating Awareness for New Products](). Marketing Science 5 (2) 89-106 https://doi.org/10.1287/mksc.5.2.89
-
 
 This paper tries to model the answer to the question: What should be the the optimal schedule of a campaign to maximize awareness ? 
 
@@ -387,8 +437,6 @@ b | decay or forgetting parameter
 
 - Ebbinghaus, H., 1913. Memory:  A contribution to experimental psychology, Memory:  A contribution to experimental psychology. Teachers College Press, New York, NY, US. https://doi.org/10.1037/10011-000
 
-
-
 ## Attribution models
 
 The attribution problem is:
@@ -402,17 +450,17 @@ An example A customer:
 4. A few hours later, she returns again directly and makes a purchase.
 
 - Last Interaction model:
-    : Assumes users have no memory so the last touchpoint in the customer journey would receive 100% of the credit for the sale. The problem is that last interaction is not due to an advert.
+    : Assumes users have no memory so the last [[touchpoint]] in the customer journey would receive 100% of the credit for the sale. The problem is that last interaction is not due to an advert.
 - Last Non-Direct attribution model, 
-    :  Assumes users have no memory but recognizes that direct traffic (using a bookmark) should be attributed to the previous toch point in the customer journey. So all direct traffic is ignored, and 100% of the credit for the sale goes to the last channel that the customer clicked through from before converting.
+    :  Assumes users have no memory but recognizes that direct traffic (using a bookmark) should be attributed to the previous [[touchpoint]] in the customer journey. So all direct traffic is ignored, and 100% of the credit for the sale goes to the last channel that the customer clicked through from before converting.
  - Last Google Ads Click attribution model
     : Assumes users have no memory except the last google ad resulting in the click leading to conversion. Same as before before but only google ads matter.
 - First Interaction attribution model
-    : Assumes that the first touchpoint in the customer journey matters and would receive 100% of the credit for the sale.
+    : Assumes that the first [[touchpoint]] in the customer journey matters and would receive 100% of the credit for the sale.
 - Linear attribution model:
-    : Each touchpoint in the customer journey path would share equal credit for the sale. 
+    : Each [[touchpoint]] in the customer journey path would share equal credit for the sale. 
 - Time Decay attribution model
-    : This assumes memory decays exponetialy and so the touchpoints closest in time to the sale or conversion get most of the credit.
+    : This assumes memory decays exponentially and so the [[touchpoint]]s closest in time to the sale or conversion get most of the credit.
 - Position Based attribution model
     : Assumes the first and last interactions are the most important and the rest not so much. 40% credit is assigned to each the first and last interaction, and the remaining 20% credit is distributed evenly to the middle interactions.
 
@@ -433,11 +481,41 @@ These five factors must be taken into account in pricing decisions:
 4. Competition
 5. Changes in 2,3, and 4 over time
 
+# Product development
+
+# New product pre-test/post-test models
+
+Much of the expenditure on new products occurs after the firm has developed the product in small batches including it packaging and commercials. 
+
+New product pretest models is used in marketing decision support systems (MDSS). The model involves estimating functional relations between buyer states of awareness, trial, and repurchase based on consumer preferences and actions in a pretest situation of the marketing offer and campaign. 
+
+It involves enrolling 300+ paid test subject to evaluate the new product/service and its commercials in setting that simulates buying in a competitive environment:
+- A pretest survey assess competing brands and their products and advertising.
+- People are shown a shuffled set of commercials for the different products.
+- People are given money and opportunity to buy their choice from the products.
+- If they don't but they are given some samples of the product
+- Later once they have had a chance to sample the product at home there is a post test  survey or interview and an opportunity to order more of the product by mail.
+
+Several new product pre test models are proprietary but some are described in academic papers.
+
+- NEWS
+- TRACKER
+- SPRINTER
+- BASES
+- ASSESSOR
+- LTM
+
+Classically since the data is viewed as to waves - the pretest and post test and these are analysed at a group level using ANOVA. In (Alessandri et al., 2017) second order multiple group latent curve modeling `SO-MG-LCM` could represent a useful methodological tool to have a more realistic and informative assessment of intervention programs with two waves of data. 
+
+## ASSESSOR 
+
 # Competition Models
 
 These arise in economics and are while the provide interesting strategic and general results about competition, they are of little practical application in marketing. 
 
 I list these for completeness and in the hope that I can add more useful models here in the future.
+
+Some uses of competition is in modeling market share for brands and pretest models for 
 
 ## Monopoly
 
@@ -456,7 +534,7 @@ In Israel there are many examples: Banks, Cellphone, Foreign Calls, Fuel, TV, Re
 • Barriers to entry are high. Regulation favor existing firms
 • Small number of firms so that each firms action influences the others
 • Long run profits 
-• Perfect knowledge (internal) interfirm knowldge mat be incomplete
+• Perfect knowledge (internal) interfirm knowledge mat be incomplete
 
 
 Oligopoly theory makes heavy use of game theory to model the behavior of oligopolies:
@@ -503,7 +581,7 @@ The solution concept used is a sub perfect nash equilibrium.
 
 # Terms
 
-- [Touch Point][Touch Point]
+- [TouchPoint][TouchPoint]
     : Touch Point
 - Market Intelligence
 	: inputs that determine the market opportunity, surface key trends and shape the market development strategy.
@@ -547,42 +625,7 @@ The solution concept used is a sub perfect nash equilibrium.
 
 # Bibliography (Franses and Pap 2001 Augmented)
 
-- Agresti, A. (1999), Modelling Ordered Categorical Data: Recent Advances and Future Challenges, Statistics in Medicine, 18, 2191–2207.
-- Akaike, H. (1969), Fitting Autoregressive Models for Prediction, Annals of the Institute of Statistical Mathematics, 21, 243–247.
-- Allenby, G. M. and P. E. Rossi (1999), Marketing Models of Consumer Heterogeneity, Journal of Econometrics, 89, 57–78.
-- Allenby, G. M., R. P. Leone, and L. Jen (1999), A Dynamic Model of Purchase Timing with Application to Direct Marketing, Journal of the American Statistical Association, 94, 365–374.
-- Amemiya, T. (1981), Qualitative Response Models: A Survey, Journal of Economic Literature, 19, 483–536. (1985), Advanced Econometrics, Blackwell, Oxford.
-- Ben-Akiva, M. and S. R. Lerman (1985), Discrete Choice Analysis: Theory and Application to Travel Demand, vol. 9 of MIT Press Series in Transportation Studies, MIT Press, Cambridge, MA.
-- Bera, A. K. and C. M. Jarque (1982), Model Specification Tests: A Simultaneous Approach, Journal of Econometrics, 20, 59–82.
-- Berndt, E. K., B. H. Hall, E. Hall, and J. A. Hausman (1974), Estimation and Inference in Non-linear Structural Models, Annals of Economic and Social Measurement, 3, 653–665.
-- Bigné, J.E., (1995) Advertising Budget Practices: A Review. Journal of Current Issues & Research in Advertising 17, 17–31. https://doi.org/10.1080/10641734.1995.10505030
-- Bolduc, D. (1999), A Practical Technique to Estimate Multinomial Probit Models, Transportation Research B, 33, 63–79.
-- Bolton, R. N. (1998), A Dynamic Model of the Duration of the Customer’s Relationship with a Continuous Service Provider: The Role of Satisfaction, Marketing Science, 17, 45–65.
-- Borsch-Supan, A. and V. A. Hajivassiliou (1993), Smooth Unbiased Multivariate Probability Simulators for Maximum Likelihood Estimation of Limited Dependent Variable Models, Journal of Econometrics, 58, 347–368.
-- Bowman, K. O. and L. R. Shenton (1975), Omnibus Test Contours for Departures from Normality Based on b1=2 1 and b2, Biometrika, 62, 243–250.
-- Brant, R. (1990), Assessing Proportionality in the Proportional Odds Model for Ordinal Logistic Regression, Biometrika, 46, 1171–1178.
-- Bult, J. R. (1993), Semiparametric versus Parametric Classification Models: An Application to Direct Marketing, Journal of Marketing Research, 30, 380–390. 
-- Bunch, D. S. (1991), Estimatibility in the Multinomial Probit Model, Transportation Research B, 25B, 1–12.
-- Chintagunta, P. K. and A. R. Prasad (1998), An Empirical Investigation of the ‘‘Dynamic McFadden’’ Model of Purchase Timing and Brand Choice: Implications for Market Structure, Journal of Business & Economic Statistics, 16, 2–12.
-- Chintagunta, P. K., D. C. Jain, and N. J. Vilcassim (1991), Investigating Heterogeneity in Brand Preferences in Logit Models for Panel Data, Journal of Marketing Research, 28, 417–428.
-- Cooper, L. G. (1993), Market-Share Models, in J. Eliashberg and G. L. Lilien (eds.), Handbooks in Operations Research and Management Science, vol. 5, ch. 6, North-Holland, Amsterdam, pp. 259–314.
-- Cooper, L. G. and M. Nakanishi (1988), Market Share Analysis: Evaluating Competitive Marketing Effectiveness, Kluwer Academic Publishers, Boston.
-- Cramer, J. S. (1991), The Logit Model: An Introduction for Economists, Edward Arnold, NewYork.
-- Cramer, J. S. and G. Ridder (1991), Pooling States in the Multinomial Logit Model, Journal of Econometrics, 47, 267–272.
-- Cramer, J. S., P. H. Franses, and E. Slagter (1999), Censored Regression Analysis in Large Samples with Many Zero Observations, Econometric Institute Report 9939/A, Erasmus University Rotterdam.
-- Daganzo, C. (1979), Multinomial Probit: The Theory and Its Application to Demand Forecasting, Academic Press, NewYork.
-- Davidson, R. and J. G. MacKinnon (1993), Estimation and Inference in Econometrics, Oxford University Press, Oxford.
-- Dekimpe, M. G. and D. M. Hanssens (1995), The Persistence of Marketing Effects on Sales, Marketing Science, 14, 1–21.
-- DeSarbo, W. S. and J. Choi (1999), A Latent Structure Double Hurdle Regression Model for Exploring Heterogeneity in Consumer Search Patterns, Journal of Econometrics, 89, 423–455.
-- Doney, P. M. and J. P. Cannon (1997), An Examination of the Nature of Trust in Buyer–Seller Relationships, Journal of Marketing, 61, 35–51.
-- [Ebbinghaus, H., (1913)][ Memory:  A contribution to experimental psychology, Memory:  A contribution to experimental psychology. Teachers College Press, New York, NY, US. https://doi.org/10.1037/10011-000]
-- Elbers, E. and G. Ridder (1982), True and Spurious Duration Dependence: The Identifiability of the Proportional Hazard Model, Reviewof Economic Studies, 49, 403–411.
-- Erdem, T. and M. P. Keane (1996), Decision-making under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Good Markets, Marketing Science, 15, 1–20.
-- Fok, D., P. H. Franses, and J. S. Cramer (1999), Ordered Logit Analysis for Selectively Sampled Data, Econometric Institute Report 9933/A, Erasmus University Rotterdam.
-- Franses, P. H. (1998), Time Series Models for Business and Economic Forecasting, Cambridge University Press, Cambridge.
-- Geweke, J. F., M. P. Keane, and D. E. Runkle (1994), Alternative Computation Approaches to Statistical Inference in the Multinomial Probit Model, Review of Economic Studies, 76, 609–632. 
-- (1997), Statistical Inference in the Multinomial Multiperiod Probit Model, Journal of Econometrics, 80, 125–165.
-- Goldberger, A. S. (1964), Econometric Theory, Wiley, NewYork.
+
 - Gonul, F. and K. Srinivasan (1993), Modeling Multiple Sources of Heterogeneity in Multinomial Logit Models: Methodological and Managerial Issues, Marketing Science, 12, 213–229.
 - Gonul, F., B.-D. Kim, and M. Shi (2000), Mailing Smarter to Catalog Customers, Journal of Interactive Marketing, 14, 2–16.
 - Gourieroux, C. and A. Monfort (1995), Statistics and Econometric Models, vol. 2, Cambridge University Press, Cambridge.
@@ -652,7 +695,3 @@ The solution concept used is a sub perfect nash equilibrium.
 - Windmeijer, F. A. G. (1995), Goodness-of-Fit Measures in Binary Response Models, Econometric Reviews, 14, 101–116.
 - Wooldridge, J. M. (2000), Introductory Econometrics: A Modern Approach, SouthWestern College, Cincinnati.
 - Zemanek, J. E. (1995), HowSalespersons Use of a Power Base can Affect Customers’ Satisfaction in a Social System – An Empirical Examination, Psychological Reports, 76, 211–217.
-
-
-
-
