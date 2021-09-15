@@ -8,18 +8,19 @@ fig-caption: # Marketing Research models
 tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
 ---
 
-{{TOC}}
+[toc] 
 
-# What are the more common types of research ?
+
+# What are the areas of research ?
 	
 1. [Customer decision journey](https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/the-consumer-decision-journey) 2009 article. 
-    Terms: [touch points],[digital channels], [customer loyalty], [Integrated marketing]
 2. Pricing.
 3. Competitive Analysis.
 4. Brand awareness.
 5. Marketing message testing.
 6. Market segmentation.
 7. Product development.
+8. Advertising budgeting, planning and attribution.
 
 # What are the main research methods ?
 
@@ -33,38 +34,19 @@ tags: [PPC, data science, digital marketing, quantitative marketing, intelligenc
 1. Analyze sales data
 1. Augmenting from Commercial and Public domain databases
 
-# Software 
 
-- Excel
-- LIMDEP
-- SAS
-- SPSS
-- R
-- Python
+## Why Don't More Managers Use Decision Models?
+-  Mental models are often good enough.
+-  Models are incomplete.
+-  Models require precision.
+-  Models emphasize analysis whereas managers prefer action.
+-  Many managers don't have marketing engineering background
 
-# Terms
+# Models
 
-- [Touch Point][Touch Point]
-    : Touch Point
-- Market Intelligence
-	: inputs that determine the market opportunity, surface key trends and shape the market development strategy.
-- Go-To-Market
-	: a plan for launching products into a new market.
-- Total Addressable Market
-	: the amount of revenue potentially available to a product or service.
-- Serviceable Available Market
-	: the percentage of the market that can realistically be served by your product or service.
-- Market Share
-	: The percentage of the total addressable market you can realistically target, based on the number of competitors in the category.
+## Overview
 
-
-
-Models
-
-Overview
-
-
-Adbudg
+### Excel Models    
 Advisor
 Assessor
 Callplan
@@ -82,66 +64,98 @@ Value-in-use pricing
 Visual response modeling
 Yield management for hotels
 
-Non-Excel Models
-ADCAD: Ad copy design
-Cluster Analysis
-Conjoint Analysis
-Multinomial logit analysis
-Positioning Analysis
+### Non-Excel Models
+- ADCAD: Ad copy design
+- Cluster Analysis
+- Conjoint Analysis
+- Multinomial logit analysis
+- Positioning Analysis
+- Analytic hierarchy process
+- Decision tree analysis
+- Geodemographic site planning
+- Neural net for forecasting
+- Text analytics
+- Sentiment analysis
 
-Non-Excel Models by Commercial Vendors
-Analytic hierarchy process
-Decision tree analysis
-Geodemographic site planning
-Neural net for forecasting
+## Market Response Models
 
-Why Don't More Managers Use Decision Models?
--  Mental models are often good enough.
--  Models are incomplete.
--  Models require precision.
--  Models emphasize analysis; Managers prefer actions.
--  They haven't been exposed to Marketing Engineering.
-
-Market Response Models
 Inputs:
-	Price
-	Advertising spending
-	Promotional spending
-Outputs:
-	 Sales
-	 Market Share
-	 Profit
-	 Awareness, etc.
+- Price
+- Advertising spending
+- Promotional spending
 
-## Fractional Root response model
+Outputs:
+
+- Sales
+- Market Share
+- Profit
+- Awareness, etc.
+
+Properties
+- Threshold 
+- Saturation (assymptotic maximum)
+- Super saturation (drop after maximum)
+- Shape
+    - linear
+    - concave (decreasing returns)
+    - convex (increasing returns)
+    - s-shaped (increasing followed by decreasing returns)
+
+
+### The power series model: 
+
+If we are uncertain what the relationship is between X and Y, we can use a power series model. Here the response model is 
+
+@@ Y = a + bX + cX^2 + dX^3 @@
+which can take many shapes.
+The power series model may fit well within the range of the data but will
+normally behave badly (becoming unbounded) outside the data range.
+
+### Fractional Root response model
 
 @@Y= a + bX^C@@
 
-## Exponential response model
+### Exponential response model
 
 @@Y= ae^{bx}@@
 
-## Modified Exponential response model
+### Modified Exponential response model
 
 @@Y= a(1+e^{bx})+c @@
 
-## Logistic Aggregate response model
+### Logistic Aggregate response model
 
 @@Y = \frac{a}{1+e^{-(b+cx)}} +d @@
 
-## Logistic response model
+### Logistic response model
 
 @@ Y = b+ (a-b)\frac{X^c}{d+X^c} +d @@
 
-The model is S-shaped for c>1 and concave for 0 < c < 1. It is bounded between b (lower bound) and a (upper bound). The model is widely used to model response to advertising and sales. 
+The model is S-shaped for c>1 and concave for 0 < c < 1.
+It is bounded between b (lower bound) and a (upper bound). 
+The model is widely used to model response to advertising and sales. 
 
-## The Gompertz Aggregate response model
+### The Gompertz aggregate response model
 
 @@Y = ab^{cx} + d, a > 0, 1 > b > 0, c <1, @@
 
 A less widely used S-shaped function is the following
 
-Both the Gompertz and logistic curves lie between a lower bound and an upper bound; the Gompertz curve involves a constant ratio of successive first differences of log Y, whereas the logistic curve involves a constant ratio of successive first differences of 1/Y. (The better known logistic function is used more often than the Gompertz because it is easier to estimate.)
+Both the `Gompertz` and `logistic` curves lie between a lower bound and an upper bound; the Gompertz curve involves a constant ratio of successive first differences of log Y, whereas the logistic curve involves a constant ratio of successive first differences of 1/Y. (The better known logistic function is used more often than the Gompertz because it is easier to estimate.)
+
+
+## Brand level response
+
+One of the limits of the simple response models is that they only look at a single firm without considering the effects of competition in the market. WE can make more sophisticted models by looking at response for each brands. This aboth increase the response model's granularity and incorporates information on the competition. 
+
+
+@@ \text{Brand Sales} = \text{Market Sales} \times \text{Market Share}@@
+
+Since market share depends on other brands this incorporates the data on the competition as follows:
+
+@@ \text{Market Share} = \frac{Attractiveness_0 } 
+   {\Sigma_{i \in brands} Attractiveness_i} @@
+
 
 ## Individual response models
 
@@ -217,9 +231,29 @@ demand analysis of brands
 
 # Advertising
 
-## Advertising Response model (1957)
+## Vidale-Wolfe Advertising Response model (1957)
+ 
+Developed by M.Vidal and H.Wolf. this classical advertising response model explains the rate of change of sales when advertising had both immediate and lagged effects:
 
-Vidale and Wolfe (1957) developed a classical advertising response model to explain the rate of change of sales when advertising had both immediate and lagged effects:
+In this model change of the goods sales volume at time t is the function of four factors: 
+1. Advertising expenses
+2. Constants expressing sales
+3. Reaction to advertising
+4. Market saturation levels with the advertised goods
+and constants expressing the reduction of sales volume.
+
+The basic equation of the model (advertising budget according to Vidal-Wolf formula) is :
+
+@@ R_b = \frac{(\Delta S + k_2 · S_0)}{ k_1} \cdot \frac{S_{max}}{(S_{max} - S_0)}@@
+
+where      | is
+-----------|---
+@R_b@      | advertising budget volume
+@\delta S@ | change of sales volume level in comparison with the current one;
+@k_1@      | reaction constant of advertising turnover
+@S_{max}@  | market saturation level of the good (job, service)
+@S_0@      | current sales volume
+@k_2@      | constant of the reduction of sales volume in the absence of advertising expenses
 
 @@ \frac{ds}{dt} = \rho u(M-s)- \delta s@@
 
@@ -231,25 +265,31 @@ r | ad effectiveness parameter |
 d | sales decay parameter |
 M |  total market size |
 
+During an advertising campaign of duration T during which spending effort is constant, sales increase, showing a concave response. When advertising ceases sales decline gradually, at a different rate than they
+increased.
+
+
 ## Sethi model (1983)
 
 [Sethi model](https://en.wikipedia.org/wiki/Sethi_model)
 
-extensions:
+### Extensions:
 
-	• Competitive extensions-Nash differential games
-	• Empirical testing of the Sethi model and extensions
-	• Stackelberg differential games 
-	• The Sethi durable goods model
-
-
-AdBudg
+• Competitive extensions-Nash differential games
+• Empirical testing of the Sethi model and extensions
+• Stackelberg differential games 
+• The Sethi durable goods model
 
 
+
+
+## Mahajan and Muller (1986)
 
 https://faculty.biu.ac.il/~fruchtg/829/lec/7.pdf
 
 # Advertising Budgeting in Practice
+
+Based on (Bigné, J.E., 1995)
 
 ## Affordable method 
 Easy to apply. 
@@ -290,21 +330,93 @@ Criticism:
 
 # Model-based approaches
 
-## ADBUDG (1970)
+## ADBUDG by Little (1970)
 
-assumptions
+ADBUDG is an advertising budgeting procedure which is applicable to brands which have considerable history of advertising and market share response to advertising, including the media and creative effectiveness of that advertising. Budgets are determined quarterly for one fiscal year
+
+ADBUDG is designed to:
+1. Decide the level of the annual advertising budget
+2. Allocate the advertising budget across time periods.
+
+It models a market's sales response to different levels of advertising.
+
+### Assumptions
 
 - If advertising is cut to zero, brand share will decrease, but there is a floor (min), on how much share will fall from its initial value by the end of the period 
 - If advertising is increased, say to something that could be called saturation, brand share will increase but there is a ceiling (max), on how much can be achieved by the end of one period.
 - There is some advertising rate that will maintain initial share.
 - An estimate can be made by data analysis or managerial judgement of the effect on share by the end of one period of a 20% increase in advertising over the maintenance rate.
 
+Share Response vs. Advertising in one Period
 
-Mahajan and Muller (1986)
+@@ Share \space Response = b + (a - b)\frac{X^c}{d + X^c }@@
 
-ADBUDG is an advertising budgeting procedure which is applicable to brands which have considerable history of advertising and market share response to advertising, including the media and creative effectiveness of that advertising. Budgets are determined quarterly for one fiscal year
+The model is S-shaped for c > 1 and concave for 0 < c < 1. 
+It is bounded between b (lower bound) and a (upper bound).
 
-Pricing Decisions
+- Cooper, Robert G. (1993) [Winning at New Products](), second edition, Addison Wesley Longman, Reading, Massachusetts, p. 310.
+- Lilien, Gary L.; Kotler, Philip; and Moorthy, K. Sridhar (1992) [Marketing Models](), Prentice Hall, Englewood Cliffs, New Jersey.
+- Little, John D. C. (1970) [Models and managers: The concept of a decision calculus](), Management Science, Vol. 16, No. 8 (April), pp. B466–B485.
+- Saunders, John, (1987) [The specification of aggregate market models]() European Journal of Marketing, Vol. 21, No. 2, pp. 1–47.
+
+# Mahajan and Muller (1986)
+
+- Vijay Mahajan, Eitan Muller [Advertising Pulsing Policies for Generating Awareness for New Products](). Marketing Science 5 (2) 89-106 https://doi.org/10.1287/mksc.5.2.89
+
+
+This paper tries to model the answer to the question: What should be the the optimal schedule of a campaign to maximize awareness ? 
+
+Building on psychologist [Ebbinghaus (1913)][Ebbinghaus, H., 1913.] research on memory as well as their prior work on Awareness the authors have trie to find a model which can optimise advertising campaigns. In the 1986 mass media dominated advertising and most campaigns being looked were in print. The paper looks at five advertising strategies :
+
+1. blitz - single uniform pulse 
+1. pulsed - shorter evenly spaced bursts
+1. chattering - at each moment randomly switch from high to low 
+1. even policy - long sustained campaign
+1. pulsing/maintenance policy - combines the pulse and even.
+
+@@ \frac{dA}{dt} = f(u) (1 - A) - bA @@
+where |is
+------|--
+f | is the advertising response function
+A | is the fraction of Awareness at time t
+u | level of advertising spending at time t
+b | decay or forgetting parameter
+
+
+
+
+- Ebbinghaus, H., 1913. Memory:  A contribution to experimental psychology, Memory:  A contribution to experimental psychology. Teachers College Press, New York, NY, US. https://doi.org/10.1037/10011-000
+
+
+
+## Attribution models
+
+The attribution problem is:
+
+when a user has seen K-ads prior to `converting` how to allocate the conversion to the ads. This attribution is then used to update each ads CTR and revenue share which are might then impact ad cost and budget.
+
+An example A customer:
+1.  finds your site by clicking one of your Google Ads ads. 
+2. She returns one week later by clicking over from a social network. 
+3. That same day, she comes back a third time via one of your email campaigns, 
+4. A few hours later, she returns again directly and makes a purchase.
+
+- Last Interaction model:
+    : Assumes users have no memory so the last touchpoint in the customer journey would receive 100% of the credit for the sale. The problem is that last interaction is not due to an advert.
+- Last Non-Direct attribution model, 
+    :  Assumes users have no memory but recognizes that direct traffic (using a bookmark) should be attributed to the previous toch point in the customer journey. So all direct traffic is ignored, and 100% of the credit for the sale goes to the last channel that the customer clicked through from before converting.
+ - Last Google Ads Click attribution model
+    : Assumes users have no memory except the last google ad resulting in the click leading to conversion. Same as before before but only google ads matter.
+- First Interaction attribution model
+    : Assumes that the first touchpoint in the customer journey matters and would receive 100% of the credit for the sale.
+- Linear attribution model:
+    : Each touchpoint in the customer journey path would share equal credit for the sale. 
+- Time Decay attribution model
+    : This assumes memory decays exponetialy and so the touchpoints closest in time to the sale or conversion get most of the credit.
+- Position Based attribution model
+    : Assumes the first and last interactions are the most important and the rest not so much. 40% credit is assigned to each the first and last interaction, and the remaining 20% credit is distributed evenly to the middle interactions.
+
+# Pricing Decisions
 
 Profit = Revenue -Total cost P = R-TC
 Directly: Revenue = Unit price x Quantity sold R=P x q
@@ -387,12 +499,41 @@ The solution concept used is a sub perfect nash equilibrium.
 
 - [Bertrand–Edgeworth model](https://en.wikipedia.org/wiki/Bertrand%E2%80%93Edgeworth_model)
 
+
+
+# Terms
+
+- [Touch Point][Touch Point]
+    : Touch Point
+- Market Intelligence
+	: inputs that determine the market opportunity, surface key trends and shape the market development strategy.
+- Go-To-Market
+	: a plan for launching products into a new market.
+- Total Addressable Market
+	: the amount of revenue potentially available to a product or service.
+- Serviceable Available Market
+	: the percentage of the market that can realistically be served by your product or service.
+- Market Share
+	: The percentage of the total addressable market you can realistically target, based on the number of competitors in the category.
+- Digital channels
+    : 
+- Customer loyalty
+    : 
+- Integrated marketing
+    : 
+- Response function
+    : 
+- Awereness
+    :
+- Top of Mind
+    :
+
 # Journals
 
-• Marketing Science 
-• Journal of Marketing research
-• Journal of Consumer research
-• International journal of research in marketing
+• [Marketing Science](https://pubsonline.informs.org/journal/mksc)
+• [Journal of Marketing research](https://journals.sagepub.com/home/mrj)
+• [Journal of Consumer research](https://academic.oup.com/jcr)
+• [International journal of research in marketing](https://www.journals.elsevier.com/international-journal-of-research-in-marketing)
 
 # Books
 
@@ -404,9 +545,7 @@ The solution concept used is a sub perfect nash equilibrium.
 - Farris, Paul W.; Neil T. Bendle; Phillip E. Pfeifer; David J. Reibstein (2010). [Marketing Metrics: The Definitive Guide to Measuring Marketing Performance](). Upper Saddle River, NJ: Pearson Education, Inc. ISBN 0137058292. 
 - [Marketing Dictionary](https://marketing-dictionary.org/)
 
-# Bibliography  
-
-(based on  Franses and Pap 2001)
+# Bibliography (Franses and Pap 2001 Augmented)
 
 - Agresti, A. (1999), Modelling Ordered Categorical Data: Recent Advances and Future Challenges, Statistics in Medicine, 18, 2191–2207.
 - Akaike, H. (1969), Fitting Autoregressive Models for Prediction, Annals of the Institute of Statistical Mathematics, 21, 243–247.
@@ -416,6 +555,7 @@ The solution concept used is a sub perfect nash equilibrium.
 - Ben-Akiva, M. and S. R. Lerman (1985), Discrete Choice Analysis: Theory and Application to Travel Demand, vol. 9 of MIT Press Series in Transportation Studies, MIT Press, Cambridge, MA.
 - Bera, A. K. and C. M. Jarque (1982), Model Specification Tests: A Simultaneous Approach, Journal of Econometrics, 20, 59–82.
 - Berndt, E. K., B. H. Hall, E. Hall, and J. A. Hausman (1974), Estimation and Inference in Non-linear Structural Models, Annals of Economic and Social Measurement, 3, 653–665.
+- Bigné, J.E., (1995) Advertising Budget Practices: A Review. Journal of Current Issues & Research in Advertising 17, 17–31. https://doi.org/10.1080/10641734.1995.10505030
 - Bolduc, D. (1999), A Practical Technique to Estimate Multinomial Probit Models, Transportation Research B, 33, 63–79.
 - Bolton, R. N. (1998), A Dynamic Model of the Duration of the Customer’s Relationship with a Continuous Service Provider: The Role of Satisfaction, Marketing Science, 17, 45–65.
 - Borsch-Supan, A. and V. A. Hajivassiliou (1993), Smooth Unbiased Multivariate Probability Simulators for Maximum Likelihood Estimation of Limited Dependent Variable Models, Journal of Econometrics, 58, 347–368.
@@ -435,6 +575,7 @@ The solution concept used is a sub perfect nash equilibrium.
 - Dekimpe, M. G. and D. M. Hanssens (1995), The Persistence of Marketing Effects on Sales, Marketing Science, 14, 1–21.
 - DeSarbo, W. S. and J. Choi (1999), A Latent Structure Double Hurdle Regression Model for Exploring Heterogeneity in Consumer Search Patterns, Journal of Econometrics, 89, 423–455.
 - Doney, P. M. and J. P. Cannon (1997), An Examination of the Nature of Trust in Buyer–Seller Relationships, Journal of Marketing, 61, 35–51.
+- [Ebbinghaus, H., (1913)][ Memory:  A contribution to experimental psychology, Memory:  A contribution to experimental psychology. Teachers College Press, New York, NY, US. https://doi.org/10.1037/10011-000]
 - Elbers, E. and G. Ridder (1982), True and Spurious Duration Dependence: The Identifiability of the Proportional Hazard Model, Reviewof Economic Studies, 49, 403–411.
 - Erdem, T. and M. P. Keane (1996), Decision-making under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Good Markets, Marketing Science, 15, 1–20.
 - Fok, D., P. H. Franses, and J. S. Cramer (1999), Ordered Logit Analysis for Selectively Sampled Data, Econometric Institute Report 9933/A, Erasmus University Rotterdam.
