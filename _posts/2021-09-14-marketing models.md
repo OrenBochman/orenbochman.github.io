@@ -242,6 +242,37 @@ also when studing market share
 Logit and Probit models for estimating a binomeial dependent variable
 
 
+Let's start with the plain logit model under independence of irrelevant alternatives (IIA). In this model (indirect) utility is given by
+
+@@U_{jti}=\alpha_pj_t+x_{jt}\beta^x+\xi_{jt}+\epsilon_{jti}@@
+
+where @ϵ_{jti}@ is distributed IID with the Type I Extreme Value (Gumbel) distribution. It is common to normalize the mean utility of the outside good to zero so that U_0t_i=ϵ_0t_i. This gives us aggregate market shares
+
+@@ s_jt= \frac{e^\left(αp{jt}+x_{jt}β^x+ξ_{jt}\right)}
+     {1 + \sum_k e^\left(αp_{jt}+x_{kt}β^x+ξ_{kt}\right)}@@
+ 
+taking logs we get:
+
+@@log(s_{jt})= αp_{jt}+xjtβx+ξjt−0−log 
+∑
+k
+ exp(αpjt+xktβx+ξkt)@@
+
+and
+
+logs0t=0−log 
+∑
+k
+ exp(αpjt+xktβx+ξkt).
+
+By differencing the above we get a linear estimating equation:
+
+logsjt−logs0t=αpjt+xjtβx+ξjt.
+
+Because the left hand side is data, we can estimate this model using linear IV GMM.
+
+
+
 
 ## Bass diffusion model
 
@@ -330,8 +361,6 @@ increased.
 • Empirical testing of the Sethi model and extensions
 • Stackelberg differential games 
 • The Sethi durable goods model
-
-
 
 
 ## Mahajan and Muller (1986)
@@ -431,9 +460,6 @@ f | is the advertising response function
 A | is the fraction of Awareness at time t
 u | level of advertising spending at time t
 b | decay or forgetting parameter
-
-
-
 
 - Ebbinghaus, H., 1913. Memory:  A contribution to experimental psychology, Memory:  A contribution to experimental psychology. Teachers College Press, New York, NY, US. https://doi.org/10.1037/10011-000
 
@@ -626,10 +652,7 @@ The solution concept used is a sub perfect nash equilibrium.
 # Bibliography (Franses and Pap 2001 Augmented)
 
 
-- Gonul, F. and K. Srinivasan (1993), Modeling Multiple Sources of Heterogeneity in Multinomial Logit Models: Methodological and Managerial Issues, Marketing Science, 12, 213–229.
-- Gonul, F., B.-D. Kim, and M. Shi (2000), Mailing Smarter to Catalog Customers, Journal of Interactive Marketing, 14, 2–16.
-- Gourieroux, C. and A. Monfort (1995), Statistics and Econometric Models, vol. 2, Cambridge University Press, Cambridge.
-- Greene, W. H. (1995), LIMDEP, Version 7.0: User’s Manual, Econometric Software, Bellport, NewYork. (2000), Econometric Analysis, 4th edn., Prentice Hall, NewJersey.
+
 - Guadagni, P. E. and J. D. C. Little (1983), A Logit Model of Brand Choice Calibrated on Scanner Data, Marketing Science, 2, 203–238.
 - Gupta, S. (1991), Stochastic Models of Interpurchase Time with Time-Dependent Covariates, Journal of Marketing Research, 28, 1–15.
 - Hausman, J. A. and D. McFadden (1984), Specification Tests for the Multinomial Logit Model, Econometrica, 52, 1219–1240. 
