@@ -558,8 +558,72 @@
   copyright: "JamesDeMers"
   link: "https://pixabay.com/users/jamesdemers-3416/"
   license: "CC0 Creative Commons"
-
-# "start-golden.png":
+"cover/pessimistic-outlook-does-not-outcomes.jpg":
+  source: "https://unsplash.com/photos/902zFXUwBAM/"
+  copyright: "Abbat"
+  link: "https://unsplash.com/@abbat/"
+  license: "CC0 Creative Commons"
+"cover/optimistic-outlook-does-not-outcomes.jpg":
+  source: "https://unsplash.com/photos/xdx5hIHGt4A/"
+  copyright: "Dayne Topkin"
+  link: "https://unsplash.com/@dtopkin1/"
+  license: "CC0 Creative Commons"
+"cover/racetrack.jpg":
+  source: "https://unsplash.com/photos/HgoKvtKpyHA/"
+  copyright: "Jonathan Chng"
+  link: "https://unsplash.com/@jon_chng/"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_01.jpg":
+  source: "https://unsplash.com/photos/PdJGFcYk7g0/"
+  copyright: "Matthew Fournier"
+  link: "https://unsplash.com/@mattyfours"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_02.jpg":
+  source: "https://unsplash.com/photos/kKWcOwioewA/"
+  copyright: "Photoholgic"
+  link: "https://unsplash.com/@photoholgic"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_03.jpg":
+  source: "https://unsplash.com/photos/Js5GfAWPxgI"
+  copyright: "2 Bro’s Media"
+  link: "https://unsplash.com/@dandrew"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_04.jpg":
+  source: "https://unsplash.com/photos/RQit3qXh7Vs/"
+  copyright: "Margot RICHARD"
+  link: "https://unsplash.com/@mrgt_richd"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_05.jpg":
+  source: "https://unsplash.com/photos/a2g3LM0cGFg"
+  copyright: "Marc Schulte"
+  link: "https://unsplash.com/@marc_schulte"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_06.jpg":
+  source: "https://unsplash.com/photos/gBreBxlcR4g"
+  copyright: "Joshua Woroniecki"
+  link: "https://unsplash.com/@joshua_j_woroniecki"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_07.jpg":
+  source: "https://unsplash.com/photos/45sFSKai4Q4/"
+  copyright: "Error 420"
+  link: "https://unsplash.com/@error420"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_08.jpg":
+  source: "https://unsplash.com/photos/qDG7XKJLKbs"
+  copyright: "Michael Dziedzic"
+  link: "https://unsplash.com/@lazycreekimages"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_09.jpg":
+  source: "https://unsplash.com/photos/5tutkWiAW5E"
+  copyright: "Elijah Hiett"
+  link: "https://unsplash.com/@dandrew"
+  license: "CC0 Creative Commons"
+"cover/crystal-ball_10.jpg":
+  source: "https://unsplash.com/photos/2ta8OjluZuI/"
+  copyright: "Alvin Lenin"
+  link: "https://unsplash.com/@alenin99"
+  license: "CC0 Creative Commons"
+# "cover/start-golden.png":
 #   source: "https://pixabay.com/photos/christmas-poinsettia-star-1829710/"
 #   copyright: "Gerhard G."
 #   link: "https://pixabay.com/users/blende12-201217/"
