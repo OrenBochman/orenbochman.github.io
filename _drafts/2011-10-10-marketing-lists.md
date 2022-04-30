@@ -5,19 +5,20 @@ description: A list of ml/statistical models used in marketing
 date: 2021-04-12 10:50:09.040Z
 categories: marketing models
 tags:
-   - marketing
-   - data science
-   - literature review
-   - books
+  - marketing
+  - data science
+  - literature review
+  - books
 img: cover/literature-review-open-book.jpg
 fig-caption: literature review
+lastmod: 2022-04-30T09:30:41.247Z
 ---
 
 # TLDR
 
-What kind of ml/statistical models  are used in marketing?
+What kind of ml/statistical models are used in marketing?
 
-All types are used in marketing but they may be called something else.
+All types are used in marketing, but they may be called something else.
 
 
 **Contents**
