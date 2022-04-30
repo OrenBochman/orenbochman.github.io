@@ -1,0 +1,1 @@
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QNeural Networks have great capacity they give good results but they are slow in both inference and in training.\\E$"}
