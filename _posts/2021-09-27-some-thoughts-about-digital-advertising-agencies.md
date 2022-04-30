@@ -1,11 +1,18 @@
 ---
 layout: post
-title: How to get more from your agency? some thoughts about digital marketing agencies.
+title: How to get more from your agency?
+subtitle: Some thoughts about digital marketing agencies.
 date: 2021-09-27 12:43
-category: 
+category: null
 author: Oren Bochman
 tags: []
 summary: some thoughts about digital marketing agencies.
+keywords:
+  - digital marketing
+lastmod: 2022-04-30T09:56:36.904Z
+slug: agency-thoughts-digital-marketing-agencies
+description: How to get more from your agency? some thoughts about digital marketing
+  agencies.
 ---
 
 # How to get more from your agency: my five cents on digital marketing agencies.
@@ -24,11 +31,17 @@ So I think that Burger is a little conflicted on the role of the agency. In one 
 
 In reality digital marketing agencies become privy to strategic marketing secrets. In data driven settings agencies are more efficient when given access to sensitive data beginning with sales data and even access to CRM database.
 
-To avoid getting sued for conflicts of interests an agency will avoid representing competing clients. But in many of the bigger firms there is a convoluted holding structure to allow the same staff to service possibly conflicting clinets of  multiple agencies. And there are also well documented cases where an agency dropped a client to pursue a bigger account. 
+To avoid getting sued for conflicts of interests an agency will avoid representing competing clients. But in many of the bigger firms there is a convoluted holding structure to allow the same staff to service possibly conflicting clients of multiple agencies. And there are also well documented cases where an agency dropped a client to pursue a bigger account. 
 
-Today data analytics and technology are becoming more important than creative in picking agencies. This means  ability 
+Today data analytics and technology are becoming more important than creative in picking agencies. 
 
-### Use more than one ad agency.
+### Using more than one ad agency.
+
+This is common practice for many big clients. It has the advantage of fostering a spirit of competition and not allowing any one agency to rest on its laurels of recent success. 
+
+This is going to be problematic for two main reasons.
+
+But In the age of digital marketing where data is increasingly important this may be a mistake. 
 
 ### Test creative executions against one another.
 
@@ -43,9 +56,9 @@ While agencies are always on the lookout for good "talent" they have a greater p
  - to sooth angry clients when a campaign goes awry which they often do on such complicated platforms.
 Initiative is rewarded and can lead to promotion to manage the account or the client but sooner rather than later experienced staff will get better jobs elsewhere.
 
-The more traditional creative advertising firms were bigger and had some better trained staff but at the end of the day they operated along similar lines. And when your agency lacks deeper knowledge of marketing and quantitative analysis they tend to compete on their levels of service and how they shmooze their clients with very little ability to innovate or advise beyond what the platform recommends. While knowledge of marketing platforms which are continuously evolving and rapidly increasing in complexity is essential it is simply not enough to do good marketing or advertising for the clients.
+The more traditional creative advertising firms were bigger and had some better trained staff but at the end of the day they operated along similar lines. And when your agency lacks deeper knowledge of marketing and quantitative analysis they tend to compete on their levels of service and how they schmooze their clients with very little ability to innovate or advise beyond what the platform recommends. While knowledge of marketing platforms which are continuously evolving and rapidly increasing in complexity is essential it is simply not enough to do good marketing or advertising for the clients.
 
-Digital marketing is not something that happens in a vacuum. It is intimately intertwined with all of the marketing, software engineering, and statistics.
+Digital marketing is not something that happens in a vacuum. It is intimately intertwined with all the marketing, software engineering, and statistics.
 What I found most astonishing the almost universal state of ignorance that these companies operate within when it comes to the decades of research used in modeling. It is even more surprising when looking at some surveys from the 80, 90 we can see that the majority of firms trying to use advanced techniques to plan and budget their advertising and even more so when it comes to their marketing efforts.
 
 The following table based on (Funke & Beckmann, 1976) shows the growth in the literature on marketing models up to about 1976.
