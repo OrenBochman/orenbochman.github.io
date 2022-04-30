@@ -9,7 +9,7 @@ tags: []
 summary: some thoughts about digital marketing agencies.
 keywords:
   - digital marketing
-lastmod: 2022-04-30T09:56:36.904Z
+lastmod: 2022-04-30T09:59:21.387Z
 slug: agency-thoughts-digital-marketing-agencies
 description: How to get more from your agency? some thoughts about digital marketing
   agencies.
@@ -41,7 +41,7 @@ This is common practice for many big clients. It has the advantage of fostering 
 
 This is going to be problematic for two main reasons.
 
-But In the age of digital marketing where data is increasingly important this may be a mistake. 
+It means more decisions and communication on the managers which are going to be stretched to the limit with one agency. And perhaps more important, in the age of digital marketing where data is increasingly important this will silo important data and information. 
 
 ### Test creative executions against one another.
 
