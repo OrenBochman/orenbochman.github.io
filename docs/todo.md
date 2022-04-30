@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Todo List"
+title: Todo List
 img: cover/todo.jpg
+lastmod: 2022-04-30T09:10:01.865Z
 ---
 <style>table tr td {  vertical-align:top;}</style>
 
@@ -17,12 +18,12 @@ img: cover/todo.jpg
  </tr>
  <tr><td>
   
-  - [ ] assignment 2
+  - [ ] Assignment 2
   - [ ] notes for weeks 2-4 of course.
   </td><td> 
   
-  - [ ] weekend shopping.
-  - [ ] process 2 more paper for quick review
+  - [ ] Weekend shopping.
+  - [ ] Process 2 more paper for quick review
 </td></tr><tr><td>   
 
 ## Important & Not urgent
@@ -31,22 +32,22 @@ img: cover/todo.jpg
 ## Unimportant & Not urgent
 </td></tr><tr><td>
   
-- [ ] Crop avatar
-- [ ] Favicon fix
-- [ ] add pages in the side bar.
-- [ ] add jupyter notebooks posts.
-- [ ] add planet UML Vegalight charts
+- [ ] Crop avatar.
+- [ ] Favicon fix.
+- [x] add pages in the sidebar.
+- [ ] Add Jupyter notebooks posts.
+- [ ] Add planet UML Vega light charts
 - [ ] maps via leaflet
 
 </td><td>  
 
-- [ ] script to optimize images so they load faster.
+- [ ] Script to optimize images so they load faster.
 
-- [ ] modifying skin: 
+- [ ] Modifying skin: 
   - [] toggle dark mode...
-  - [] support for disabilities
-- [ ] check about adding polymer widgets to rely less kramdown & friends.
-coherent post
+  - [] Support for disabilities
+- [ ] check about adding polymer widgets to avoid relying on kramdown & friends.
+Coherent post
   
 </td></tr></table>
 

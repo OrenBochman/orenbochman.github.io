@@ -1,37 +1,38 @@
 ---
 layout: post
 title: CRO - Classification rules
-description: Constructing classification rules from historical lead data 
+description: Constructing classification rules from historical lead data
 date: 2021-04-24 12:16:16 +0300
 categories:
-    - NLP 
-    - notes
+  - NLP
+  - notes
 tags:
-    - CRO task
-    - lecture notes
-    - bibliography
-    - Client ranking
-    - Lead ranking
-    - automatic extraction of rules
-    - Online Marketing
-    - Transactions
-    - Tabular Date
-    - Naive Bayes classifier
-    - Decision rules
-    - programmatic campaigns
-    - Web Analytics
-    - Analytics
-    - Conversions
-    - Lead
-    - CRO
-    - Bayesian Methods
-    - Multiple Bandit problem
-    - Cost-Sensitive Decision Trees
-    - Imbalanced Data
-lastmod: 2021-04-24 12:16:16 +0300
+  - CRO task
+  - lecture notes
+  - bibliography
+  - Client ranking
+  - Lead ranking
+  - automatic extraction of rules
+  - Online Marketing
+  - Transactions
+  - Tabular Date
+  - Naive Bayes classifier
+  - Decision rules
+  - programmatic campaigns
+  - Web Analytics
+  - Analytics
+  - Conversions
+  - Lead
+  - CRO
+  - Bayesian Methods
+  - Multiple Bandit problem
+  - Cost-Sensitive Decision Trees
+  - Imbalanced Data
+lastmod: 2022-04-30T09:07:02.994Z
 author: Oren Bochman
 img: cover/notes-formulas.jpg
 fig-caption: Notes about ... Question Answering
+draft: true
 ---
 
 

@@ -1,0 +1,2271 @@
+# BIBLIOGRAPHY 
+
+\item Barnard, Neil (1978), "On Advertising Effectiveness Measurement: An Idiosyncratic View," ADMAP, (July), 361-69.
+\item Barnard, Neil and Gerald Smith (1990), "‘Professional and Amateur Econometrics: A Reply to Stewart," Journal of the Market Research Society, 32:4 (October), 583-84.
+\item Bass, Frank M. (1969), "A New Product Growth Model for Consumer Durables," Management Science, 15 (January), 215-27.
+\item Bass, Frank M. (1971), "Decomposition Regression Models in Analysis of Market Potentials," Management Science, 17 (April), 485-94.
+
+\item Bass, Frank M. and Robert P. Leone (1983), "Estimation of Bimonthly Relations from Annual Data," Management Science, 29 (January), 1-11.
+\item Bass, Frank M. and (1986), "Estimating Micro Relationships from Macro Data: A Comparative Study of Two Approximations of the Brand Loyal Model under Temporal Aggregation," Journal of Marketing Research, 23 (August), 291-79.
+\item Bass, Frank M. and Leonard J. Parsons (1969), "A Simultaneous Equation Regression Analysis of Sales and Advertising," Applied Economics, 1 (May), 103-24.
+\item Bass, Frank M. and Thomas L. Pilon (1980), "A Stochastic Brand Choice Framework for Econometric Modeling of Time Series Market Share Behavior," Journal of Marketing Research, 17 (November), 486-97.
+\item Bass, Frank M. and Jerry Wind (1995), "Introduction to the Special Issue: Empirical Generalizations in Marketing," Marketing Science, 14, G1-G5.
+\item Bass, Frank M. and Dick R. Wittink (1975), "Pooling Issues and Methods in Regression Analysis with Examples in Marketing Research," Journal of Marketing Research, 12 (November), 414-25.
+\item Bass, Frank M. and Dick R. Wittink (1978), "Pooling Issues and Methods in Regression Analysis: Some Further Reflections," Journal of Marketing Research, 15 (May), 277-79.
+Basu, Amiya.K. and Rajeev Batra (1988), "ADSPLIT: A Multi-Brand Advertising Budget Allocation Model," Journal of Advertising Research, 30:7, 68-82.
+Atasi Basu, and Rajeev Batra (1995), "Modeling the Response Pattern to Direct Marketing Campaigns," Journal of Marketing Research, 32:2 (May), 204-12.
+Batra, Rajeev and Wilfried R. Vanhonacker (1988), "Falsifying Laboratory Results Through Field Tests: A Time-Series Methodology and Some Results," Journal of Business Research, 16 (June), 281-300.
+Battese, George E. (1997), "A Note on the Estimation of Cobb-Douglas Production Functions When Some of Explanatory Variables Have Zero Values," Journal of Agricultural Economics, 48:2, 250-52.
+Baye, Michael R., Dennis W. Jansen, and Jae-Woo Lee (1992), "Advertising Effects in Complete Demand Systems," Applied Economics, 24 (October), 1087-96.
+Beckwith, Neil E. (1972), "Multivariate Analysis of Sales Responses of Competing Brands to Advertising," Journal of Marketing Research, 9 (May), 168-76.
+(1973), "Concerning Logical Consistency of Multivariate Market Share Models," Journal of Marketing Research, 10 (August), 341-44.
+Beggs, John J. (1988), "Diagnostic Testing in Applied Econometrics," Economic Record, 64 (June), 81-101.
+Beguin, Jean-Mare, Christian Gourieroux, and Alain Monfort (1980), Identification of a Mixed Autoregressive-Moving Average Process: The Corner Method," in Time Series, O. D. Anderson, ed. Amsterdam: North-Holland, 423-36.
+Bell, David E., Ralph E. Keeney, and John D. C. Little (1975), "A Market Share Theorem," Journal of Marketing Research, 12 (May), 136-41.
+Bell, David R., Jeongwen Chiang, and V. Padmanabhan (1999), "The Decomposition of Promotional Response: An Empirical Generalization," Marketing Science, 18:4, 504-26.
+Belsley, David A. (1988), "Conditioning in Models with Logs," Journal of Econometrics, 38 (May-June), 127-43.
+(1991), Conditioning Diagnostics: Collinearity and Weak Data in Regression. New York: John Wiley.
+Bemmaor, Albert C. (1984), "Testing Alternative Econometric Models on the Existence of Advertising Threshold Effect," Journal of Marketing Research 21 (August), 298-308.
+and Dominique Mouchoux (1991), "Measuring the Short-term Effect of In-store Promotion and Retail Advertising on Brand Sales: A Factorial Experiment," Journal of Marketing Research, 28:2 (May), 202-14.
+Bender, J. Dennis and Ross Link (1994), "Measuring Marketing-Mix Sales Effectiveness Using Continuous Ad-Awareness Data and Automated Scanner-Data Modeling Software", Marketing Science Conference, Tucson, AZ, March 19.
+Bernard John C. and Lois Shertz Willett (1996), "Asymmetric Price Relationships in the U.S. Boiler Industry," Journal of Agricultural and Applied Economics, 28:2 (December), 279-89.
+Berndt, Ernst R, Linda Bui, David R. Reiley, and Glen L. Urban (1995), "Information, Marketing, and Pricing in the U.S. Antiulcer Drug Market," American Economic Review, 85:2 (May), 100-105.
+
+Berry, Michael, and Gordon Linoff (1997). Data Mining Techniques for Marketing, Sales, and Customer Support. New York: John Wiley.
+Bertrand, Joseph (1883), "Review of Cournot’s Recherches sur les Principes Mathematiques de la Theorie des Richesses," Journal des Savants, 499-508.
+Besanko, David, Sachin Gupta, and Dipak C. Jain (1998), "Logit Demand Estimation Under Competitive Pricing Behavior: An Equilibrium Framework," Management Science, 44:11 (November, Part 1), 1533-47.
+Bewley, Ronald (1986), Allocation Models: Specification, Estimation, and Applications. Cambridge: Ballinger.
+Bewley, Ronald and Tran Van Hoa, eds. (1992), Contributions to Consumer Demand and Econometrics. New York: St. Martins Press.
+Bharadwaj, S. and C. B. Bhattacharya (1996), "The Role of the Marketing Mix in Determining Persistence in Marketing Performance," paper presented at the Marketing Science Conference, Gainesville.
+Bhattacharya, Chitrabhanu and Leonard M. Lodish (1994), "An Advertising Evaluation System for Retailers," Journal of Retailing and Consumer Services, 1:2, 90-100.
+Bjørndal, Trond, Kjell G. Salvanes, and Jorun H. Andressen (1992), "The Demand for Salmon in France: The Effects of Marketing and Structural Change," Applied Economics, 24, 1027-34.
+Blattberg, Robert C., Richard Briesch, and Edward J. Fox (1995), "How Promotions Work," Marketing Science, 14:3 (Part 2 of 2), G122-32.
+and John Deighton (1996), "Manage Marketing by the Customer Equity Test," Harvard Business Review, (July-August), 136-44.
+and E. I. George (1991), "Shrinkage Estimation of Price and Promotion Elasticities: Seemingly Unrelated Equations," Journal of the American Statistical Association, 86:414 (May), 304-15.
+Rashi Glazer, and John D. C. Little, eds. (1994), The Marketing Information Revolution. Boston: Harvard Business School Press.
+and Steven Hoch (1990), "Database Models and Managerial Intuition: 50 % Model and 50% Managers," Management Science, 36:8 (August), 887-99.
+and Abel Jeuland (1981a), "An Assessment of the Contribution of Log-Linear Models to Marketing Research," Journal of Marketing, 45 (Spring), 89-97.
+and (1981b), "A Micromodeling Approach to Investigate the AdvertisingSales Relationship," Management Science, 9 (September), 988-1005.
+Byung-Do Kim, and Jianming Ye (1994), "Large-Scale Databases: The New Marketing Challenge" in The Marketing Information Revolution. Robert C. Blattberg,
+Rashi Glazer, and John D. C. Little, eds. Boston: Harvard Business School Press, 173-203.
+and Alan Levin (1987), "Modeling the Effectiveness and Profitability of Trade Promotions," Marketing Science, 6 (Spring), 124-46.
+and Scott A. Neslin (1989), "Sales Promotion: The Long and Short of It," Marketing Letters, 1:1 (December), 81-97.
+and (1990), Sales Promotion: Concepts, Methods, and Strategies. Engelwood Cliffs, NJ: Prentice-Hall.
+and (1993), "Sales Promotion Models," in Handbooks in Operations Research and Management Science: Volume 5: Marketing, Joshua Eliashberg and Gary
+Lilien, eds. New York: Elsevier, 553-609.
+and Kenneth J. Wisniewski (1989), "Price-Induced Patterns of Competition,"
+Marketing Science, 8:4 (Fall), 291-309.
+Blizzard, Noel and James R. Blaylock (1992), "A Double-Hurdle Approach to Advertising: The Case of Cheese," Agribusiness, 8:2, 109-120.
+
+Bloom, Derek (1990), "‘Modelling Beyond the Blip’—Rejoinder," Journal of the Market Research Society, 32:3 (July), 465-67.
+(1991), "Beyond the Blip: Comment," Journal of the Market Research Society, 33:1 (January), 59-60.
+Bolton, Ruth N. (1989a), "The Relationship Between Market Characteristics and Promotional Price Elasticities," Marketing Science, 8:2 (Spring), 153-69.
+(1989b), "The Robustness of Retail-Level Price Elasticity Estimates," Journal of Retailing, 65:2 (Summer), 193-219.
+(1989c), "Sales Response Modeling: Gains in Efficiency from System Estimation," Journal of Business Research, 18:2 (March), 107-25.
+Bond, Ronald S. and David F. Lean (1977), "Sales Promotion and Product Differentiation in Two Prescription Drug Markets," Federal Trade Commission—Staff Report, Washington, DC: U.S. Government Printing Office.
+Bordley, Robert F. (1985), "Relating Elasticites to Changes in Demand," Journal of Business & Economic Statistics, 3:2 (April), 156-58.
+Borin, Norm, Cynthia Van Vranken and Paul W. Farris (1991), "A Pilot Test of Discrimination in the Japanese Distribution System," Journal of Retailing, 67:1 (Spring), 93-106.
+Boswijk, H. P. (1994), "Testing for an Unstable Root in Conditional and Structural Error Correction Models," Journal of Econometrics, 63, 37-60.
+Bowley, A. L. (1924), The Mathematical Groundwork of Economics. Oxford: Oxford University Press.
+Bowman, Douglas and Hubert Gatignon (1996), "Order of Entry as a Moderator of the Effect of the Marketing Mix on Market Share," Marketing Science, 15:3, 222-42.
+Bowman, Russell (1980), Couponing and Rebates: Profit on the Dotted Line. New York: Lebhar-Freeman Books.
+Box, George E. P. and D. R. Cox (1964), "An Analysis of Transformations," Journal of the Royal Statistical Society, Series B. 26:2, 211-52.
+and G. M. Jenkins (1976), Time Series Analysis: Forecasting and Control, second edition. San Francisco: Holden-Day.
+and D. A. Pierce (1970), "Distribution of Residual Autocorrelations in Autoregressive-Integrated Moving Average Time Series Models," Journal of the American Statistical Association, 65 (December), 1509-26.
+and George C. Tiao (1975), "Intervention Analysis with Applications to Economic and Enviromental Problems," Journal of the American Statistical Association, 70 (March), 70-79.
+and George C. Tiao (1976), "Comparison of Forecast and Actuality," Applied Statistics, 25:3, 195-200.
+Boyer, Kenneth D. and Kent M. Lancaster (1986), "Are There Scale Economies in Advertising?" Journal of Business, 59 (July) 509-526.
+Brandenburger, Adam M. and Barry J. Nalebuff (1996), Co-opetition. New York: DoubleDay.
+Brester, Gary W. and Ted C. Schroeder (1995), "The Impacts of Brand and Generic Advertising on Meat Demand," American Journal of Agricultural Economics, 77 (November), 969-79.
+Brewer, K.R.W. (1973), "Some Consequences of Temporal Aggregation and Systematic Sampling for ARMA and ARMAX Models" Journal of Econometrics, 1, 133-54.
+Briesch, Richard A. (1997), "Does It Matter How Price Promotions Are Operationalized?" Marketing Letters, 8:2 (April), 167-181.
+Broadbent, Simon (1979), "One-Way TV Advertisements Work," Journal of the Market Research Society, 21:3, 139-65. 434 BIBLIOGRAPHY
+(1980), "Price and Advertising: Volume and Profit," ADMAP, 16:11, 532-40. 
+ed. (1981), Advertising Works, London: Holt, Rinehart, and Winston.
+ed. (1983), Advertising Works 2, London: Holt, Rinehart, and Winston.
+(1984), "Modeling with Adstock," Journal of the Market Research Society, 26
+(October), 295-312.
+(1986), "Two OTS in a Purchase Interval," Admap, (November), 12-16.
+(1988), "Advertising Effects: More Methodological Issues," Journal of the Market Research Society, 30:2 (April), 225-27.
+(1989), "What is a ‘Small’ Advertising Elasticity?" Journal of Advertising Research,
+29:4 (August/September), 37-39, 44.
+(1990a), "Modelling Beyond the Blip," Journal of the Market Research Society, 32:1
+(January), 61-102.
+(1990b), "Reply," Journal of the Market Research Society, 32:3 (July), 462-65.
+(1992), "Using Data Better," Admap, (January), 48-54.
+(1997a), Accountable Advertising: A Handbook for Managers and Analysts. Henleyon-Thames, UK: NTC Publications.
+(1997b), "Single Source—New Analyses," Journal of the Market Research Society,
+39:2 (April), 363-79.
+(1999), When to Advertise. Henley-on-Thames, UK: Admap Publications.
+and Stephen Colman (1986), "Advertising Effectiveness: Across Brands," Journal of the Market Research Society, 28 (January), 15-24.
+and T. Fry (1995), "Adstock Modelling for the Longer Term," Journal of the Market Research Society, 37:4, 385-403.
+Brobst, Robert and Roger Gates (1977), "Comments on Pooling Issues and Methods in Regression Analysis," Journal of Marketing Research, 14 (November), 598-600.
+Brodie, Roderick J. and Andre Bonfrer (1994), "Conditions When Market Share Models are Useful for Forecasting: Further Empirical Results," International Journal of Forecasting, 10:2 (September), 277-85.
+and (1995), "Do Marketing Managers Focus Too Much on Competition," in Proceedings of the Annual Conference of the European Marketing Academy, Michelle Bergadaà, Cergy-Pontoise, France: ESSEC (Ecole Supérieure des Sciences Economiques et Commerciales), 197-207.
+and (1996), "Do Managers Overreact to Each Other’s Promotional Activity," International Journal of Research in Marketing, 13:4 (October), 379-87.
+Peter J. Danaher, V. Kumar, and Peter S. H. Leeflang (2000), "Econometric Models for Forecasting Market Share," in Principles of Forecasting, J. S. Armstrong, ed. Norwell, MA: Kluwer.
+and Cornelius A. de Kluyver (1984), "Attraction Versus Linear and Multiplicative
+Market Share Models: A Empirical Evaluation," Journal of Marketing Research, 21 (May), 194-201.
+and (1987), "A Comparison of the Short-Term Forecasting Accuracy of Econometric and Naive Extrapolation Models of Market Share," International Journal of Forecasting, 3:3/4, 423-37.
+Bronnenberg, Bart J., Vijay Mahajan, and Wilfried R. Vanhonacker (2000), "The Emergence of Market Structure in New Repeat-Purchase Categories: A Dynamic Approach and an Empirical Application," Journal of Marketing Research, 37:1 (February) 16-31.
+Brown, Gordon (1986), "The Link Between Ad Content and Sales Effects," ADMAP, March, 151-53.
+Brown, Mark G. (1994), "Levels Versions of the Rotterdam Demand Model and Incorporation of Demographic, Stock, and Other Nonprice, Nonincome Variables," Canadian Journal of Agricultural Economics, 42:3, 355-66.
+
+Jonq-Ying Lee, and James L. Seale, Jr. (1994), "Demand Relationships Among Juice Beverages: A Differential Demand System Approach," Journal of Agricultural and Applied Economics, 26:2 (December), 417-29.
+Brown, R. J., J. Durbin, and J. Evans (1975), "Techniques for Estimating the Constancy of Regression Relationships over Time," Journal of the Royal Statistical Society, Series B, 37, 149-63.
+Brown, Randall S. (1978), "Estimating Advantages to Large-Scale Advertising," Review of Economics and Statistics, 60, 428-37.
+Brunner, Karl (1973), "Review of Econometric Models of Cyclical Behavior," Journal of Economic Literature, 11 (September), 926-33.
+Bucklin, Randolph E. and Sunil Gupta (1999), "Brand Choice, Purchase Incidence, and Segmentation: An Integrated Modeling Approach," Journal of Marketing Research, 29, 201-15.
+and (1999), "Commercial Use of UPC Scanner Data: Industry and Academic Perspectives," Marketing Science, 18:3, 247-73.
+Donald R. Lehmann, and John D.C. Little (1998), "From Decision Support to Decision Automation: A 2020 Vision," Marketing Letters, 9:3, 235-46.
+Gary J. Russell, and V. Srinivasan (1998), "A Relationship Between Price Elasticities and Brand Switching Probabilities in Heterogeneous Markets," Journal of Marketing Research, 35:1 (February), 99-113.
+Bultez, Alain V. (1978), "Econometric Specification and Estimation of Market Share Models: The State of the Art," in Marketing: Neue Ergebnisse Ausforschung Und Praxis, E. Topritzhofer, ed. Weisbaden: Betriebswirschaftlicher Verlag Dr. Th. Gaber K. G., 239-63.
+Els Gijsbrechts, Philippe Naert, and Piet Vanden Abeele (1989), "Asymmetric Cannibalism in Retail Assortments," Journal of Retailing, 65:2 (Summer), 153-92.
+and Philippe A. Naert (1975), "Consistent Sum-Constrained Models," Journal of the American Statistical Association, 70 (September), 529-35.
+and (1979), "Does Lag Structure Really Matter in Optimizing Advertising Expenditures?" Management Science, 25 (May), 454-65.
+and (1985), "Control of Advertising Expenditures Based on Aggregate Models of Carryover Effects," in New Challenges for Management Research, A. H. G.
+Rinnooy Kan, ed. New York: Elsevier Science, 31-43.
+and (1988a), "S.H.A.R.P.: Shelf Allocation for Retailers’ Profit," Marketing Science, 7 (Summer), 211-31.
+and (1988b), "When Does Lag Structure Really Matter ... Indeed?" Management Science, 34 (July), 909-16.
+and Randall L. Schultz (1979), "Decision Rules for Advertising Budgeting and Media Allocation," Krannert Graduate School of Management, Purdue University, Institute Paper No. 694, May.
+Bunn, Derek and George Wright (1991), "Interaction of Judgmental and Statistical Methods: Issues and Analysis," Management Science, 37 (May), 501-18.
+Buse, Adolf (1994), "Evaluating the Linearized Almost Ideal Demand System," American Journal of Agricultural Economics, 76 (November), 781-93.
+Bustos, Oscar H. and Victor J. Yohai (1986), "Robust Estimates for ARMA Models," Journal of the American Statistical Association, 81 (March), 155-68.
+
+Buzzell, Robert D. (1964a), Mathematical Models and Marketing Management. Boston: Harvard University, Division of Research, 136-56.
+(1964b), "Predicting Short-Term Changes in Market Share as a Function of Advertising Strategy," Journal of Marketing Research, 1 (August), 27-31.
+Marshall Kolin, and Malcolm P. Murphy (1965), "Television Commercial Test Scores and Short-Term Changes in Market Shares," Journal of Marketing Research, 2 (August), 307-3.
+Caines, P. E., S. P. Sethi, and T. W. Brotherton (1977), "Impulse Response Identification and Causality Detection For the Lied-Pinkham Data," Annals of Economic and Social Measurement, 6:2, 147-63.
+Campbell, J. Y. and N. G. Mankiw (1987), "Are Output Fluctuations Transitory," Quarterly Journal of Economics, 102, 857-80.
+Campbell, Mike and Bruce Dove (1998), "Evaluating the Impact of Advertising on Sales," Admap, 33:2 (February), 14-16.
+Capps, Oral, Jr. and Daniel S. Moen (1992), "Assessing the Impact of Generic Advertising of Fluid Milk Products in Texas" in Commodity Advertising and Promotion, Henry
+Kinnucan, Stanley R. Thompson, and Hui-Shung Chang, eds. Ames, IA: Iowa State University Press, 24-39.
+and John D. Schmitz (1991), "Effect of Generic Advertising on the Demand for Fluid Milk: The Case of the Texas Market Order," Southern Journal of Agricultural Economics, 23:2 (December), 131-40.
+Cardwell, John J. (1968), "Marketing and Management Science A Marriage on the Rocks?" California Management Review, 10 (Summer), 3-12.
+Carlin, Bradley P. and Thomas A. Louis (1996), Bayes and Empirical Bayes Methods for Data Analysis. London: Chapman & Hall.
+Carlson, Rodney L. (1978), "Seemingly Unrelated Regression and the Demand for Automobiles of Different Sizes, 1965-75: A Disaggregate Approach," Journal of Business, 51:2, 343-62.
+Carpenter, Gregory S. (1987), "Modeling Competitive Marketing Strategies: The Impact of Marketing-Mix Relationships and Industry Structure," Marketing Science, 6 (Spring), 208-21.
+Lee G. Cooper, Dominique M. Hanssens, and David F. Midgley (1988), "Modeling Asymmetric Competition," Marketing Science, 7 (Fall), 393-412.
+and Dominique M. Hanssens (1994), "Market Expansion, Cannibalization, and International Airline Pricing Strategy," International Journal of Forecasting, 10:2 (September), 313-26.
+Carroll, Vincent P., Ambar G. Rao, Hau L. Lee, Arthur Shapiro and Barry L. Bayus (1985), "The Navy Enlistment Marketing Experiment," Marketing Science, 4:4, 352-374.
+Case, James H. (1974), "On the Form of Market Demand Models," Econometrica, 42 (January), 207-13.
+Case, Kenneth E. and James E. Shamblin (1972), "The Effects of Advertising Carryover," Journal of Advertising Research, 12 (June), 37-44.
+Casella, George and Edward I. George (1992), "Explaining the Gibbs Sampler," American Statistician, 46, 167-74.
+Cashin, Paul (1991), "A Model of the Disaggregated Demand for Meat in Australia," Australian Journal of Agricultural Economics, 35:3 (December), 263-83.
+Chakravarti, Dipankar, Andrew Mitchell, and Richard Staelin (1979), "Judgment Based Marketing Decision Models: An Experimental Investigation of the Decision Calculus Approach," Management Science, 25 (March), 251-63.
+Chandrashekaran, Murali and Beth Walker (1993), "Meta-Analysis with Heteroscedastic Effects," Journal of Marketing Research, 30:2 (May), 246-55.
+
+Channon, Charles, ed. (1985), Advertising Works 3. London: Holt, Rinehart, and Winston. ed. (1987), Advertising Works 4. London: Cassell Educational Limited.
+Chapman, Simon (1989), "The Limitations of Econometric Analyses in Cigarette Advertising
+Studies," British Journal of Addiction, 84:11, 1267-74.
+Chatfield, Christopher (1974), "Some Comments on Spectral Analysis in Marketing," Journal
+of Marketing Research, 11, 97-101.
+(1979), "Inverse Autocorrelations," Journal of the Royal Statistical Society, Series A,
+142 (3), 363-77.
+and D. L. Prothero (1973), Pox-Jenkins Seasonal Forecasting: Problems and a Case
+Study," Journal of the Royal Statistical Society, Series A, 136 (3), 295-352.
+Chatterjee, Kalyan and Gary L. Lilien (1986), "Game Theory in Marketing Science: Uses and
+Limitations," International Journal of Research in Marketing, 3 (2), 79-93.
+Chen, Youhua, Vinay Kanetkar, and Doyle L. Weiss (1994), "A Forecasting Market Shares
+with Disaggregate or Pooled Data," International Journal of Forecasting, 10:2
+(September), 263-76.
+Chevalier, Michel (1975), "Increase in Sales Due to In-Store Display," Journal of Marketing
+Research, 12 (November), 426-31.
+and Ronald Curhan (1976), "Retailer Promotions as a Function of Trade Promotions:
+A Descriptive Analysis," Sloan Management Review, 18 (Fall), 19-32.
+Chintagunta, Pradeep K. (1993a), "Investigating Purchase Incidence, Brand Choice and
+Purchase Quantity Decisions of Households," Marketing Science, 12, 184-208.
+(1993b), "Investigating the Sensitivity of Equilibrium Profits to Advertising Dynamics
+and Competitive Effects," Management Science, 39, 1146-62.
+and Naufel J. Vilcassim (1992), "An Empirical Investigation of Advertising Strategies
+in a Dynamic Duopoly," Management Science, 38 (September), 1230-44.
+Chow, Gregory C. and A. Lin (1971), "Best Linear Unbiased Interpolation, Distribution,
+Extrapolation of Time Series By Related Series," Review of Economics and Statistics, 53,
+372-75.
+Chowdhury, A.R. (1994), "Advertising Expenditures and the Macro-Economy: Some New
+Evidence," International Journal of Advertising, 13, 1-14.
+Christen, Markus, Sachin Gupta, John C. Porter, Richard Staelin, and Dick R. Wittink (1997),
+"Using Market Level Data to Understand Promotional Effects in a Nonlinear Model,"
+Journal of Marketing Research, 34:3 (August), 322-34.
+Chu, Chia-Shang James, Maxwell Stinchcombe, and Halbert White (1996), "Monitoring
+Structural Change," Econometrica, 64:5 (September), 1045-65.
+Churchill, Gilbert A., Jr., Niel M. Ford, Steven W. Hartley, and Orville C. Walker (1985),
+"The Determinants of Salesforce Performance: A Meta-Analysis," Journal of Marketing
+Research, 22 (May), 103-18.
+Clarke, Darral G. (1973), "Sales-Advertising Cross-Elasticities and Advertising Competition,"
+Journal of Marketing Research, 10 (August), 250-61.
+(1976), "Econometric Measurement of the Duration of Advertising Effect on Sales,"
+Journal of Marketing Research, 13 (November), 345-57.
+(1979), "Measuring the Cumulative Effects of Advertising on Sales: A Response to
+Peles," Journal of Marketing Research, 16 (May), 286-89.
+and John M. McCann (1977), "Cumulative Advertising Effects: The Role of Serial
+Correlation: A Reply," Decision Sciences, 8, 336-43.
+Claycamp, Henry J. (1966), "Dynamic Effects of Short Duration Price Differentials on Retail
+Gasoline Sales," Journal of Marketing Research, 3 (May), 175-78.
+Clemen, Robert T. (1989), "Combining Forecasts: A Review and Annotated Bibliography,"
+International Journal of Forecasting, 5:4, 559-83.
+438 BIBLIOGRAPHY
+Clements, Kenneth W. and E. Antony Selvanathan (1988), "The Rotterdam Demand Model
+and Its Application in Marketing," Marketing Science, 7 (Winter), 60-75.
+Cleveland, William S. (1972), "The Inverse Autocorrelations of a Time Series and Their
+Applications," Technometrics, 14, 277-93.
+Cochrane, J.H. (1988), "How Big is the Random Walk Component in GNP?" Journal of
+Political Economy, 96, 893-920.
+Coleman, Stephen and Gordon Brown (1983), "Advertising Tracking Studies and Sales Effects," Journal of the Market Research Society, 25:2, 165-83.
+Collopy, Fred and J. Scott Armstrong (1992), "Rule-based Forecasting: Development and
+Validation of an Expert System," Management Science, 38 (October), 1394-414.
+Cooil, Bruce and Timothy M. Devinney (1992), "The Return to Advertising Expenditure,"
+Marketing Letters, 3:2 (April), 137-45.
+Cook, R. Dennis and Sanford Weisberg (1999), Applied Regression Including Computing and
+Graphics. New York: John Wiley.
+Cook, Thomas D. and Donald T. Campbell (1979), Quasi-Experimentation: Design and
+Analysis Issues for Field Settings. Boston: Houghton Mifflin.
+Cooley, Thomas F. and Edward C. Prescott (1973), "Varying Parameter Regression: A Theory
+and Some Applications," Annals of Economic and Social Measurement, 2 (October),
+463-73.
+Cooper, Lee G. (1988), "Competitive Maps: The Structure Underlying Asymmetric Cross
+Elasticities," Management Science, 34:6 (June), 707-23.
+(1993), "Market-Share Models," in Handbooks in Operations Research and
+Management Science: Volume 5: Marketing, Joshua Eliashberg and Gary Lilien, eds. New
+York: Elsevier, 259-314.
+Penny Baron, Wayne Levy, Michael Swisher, and Paris Gogos (1999), "PromoCast:
+A New Forecasting Method for Promotion Planning," Marketing Science, 18:3, 301-16.
+and Giovanni Giuffrida (2000), "Turning Data Mining into a Management Science
+Tool: New Algorithms and Empirical Results," Management Science, 46:2 (February),
+249-64.
+Lee G., Jan de Leeuw, and Aram G. Sogomonian (1991), "In Imputation Method for
+Dealing with Missing Data in Regression," Applied Stochastic Models and Data Analysis,
+7:3, 213-35.
+Daniel Klapper, and Akihiro Inoue (1996), "Competitive-Component Analysis: A
+New Approach to Calibrating Asymmetric Market-Share Models, Journal of Marketing
+Research, 33:2 (May), 224-38.
+and Masao Nakanishi (1988), Market Share Analysis: Evaluating Competitive
+Marketing Effectiveness. Boston: Kluwer Academic Publishers.
+Corkindale, David (1984), "Measuring the Sales Effectiveness of Advertising: The Role for an
+ADLAB in the UK," Journal of the Market Research Society, 26 (January), 29-49.
+and John Newall (1978), "Advertising Thresholds and Wearout," European Journal
+of Marketing, 12 (5), 328-78.
+Cournot, Augustin A. (1838), Recherches sur les Principes Mathematiques de la Theorie des
+Richesses. Paris: Hachette.
+Cowling, Keith (1972), "Optimality in Firms’ Advertising Policies: An Empirical Analysis,"
+in Market Structure and Corporate Behavior: Theory and Empirical Analysis of the Firm,
+Keith Cowling, ed. London: Gray-Mills Publishing, 85-103.
+and John Cubbin (1971), "Price, Quality and Advertising Competition: An
+Econometric Investigation of the United Kingdom Car Market," Economica, 38 (November), 378-94.
+and A. J. Rayner (1970), "Price, Quality, and Market Share," Journal of Political
+Economy, 78 (November/December), 1292-309.
+
+Cox, Keith K. (1964), "The Responsiveness of Food Sales to Shelf Space Changes in
+Supermarkets," Journal of Marketing Research, 1 (May), 63-67.
+(1970), "The Effect of Shelf Space Upon Sales of Branded Products," Journal of
+Marketing Research, 7 (February), 55-58.
+Curhan, Ronald C. (1972), "The Relationship Between Shelf Space and Unit Sales in
+Supermarkets," Journal of Marketing Research, 9 (November), 406-12.
+(1974a), "Shelf Space Elasticity: Reply," Journal of Marketing Research, 11 (May),
+221-22.
+(1974b), "The Effects of Merchandising and Temporary Promotional Activities on the
+Sales of Fresh Fruits and Vegetables in Supermarkets," Journal of Marketing Research, 11
+(August), 286-94.
+Dahl, C. (1986), "Gasoline Demand Survey," Energy Journal, 7, 67-82.
+Dalrymple, Douglas J. (1978), "Using Box-Jenkins Techniques in Sales Forecasting," Journal
+of Business Research, 6, 133-145.
+(1987), "Sales Forecasting Practices: Results from a United States Survey,"
+International Journal of Forecasting, 3:3/4, 379-91.
+and George H. Haines, Jr. (1970), "A Study of the Predictive Ability of Market Period
+Demand Supply Relations for a Firm Selling Fashion Products," Applied Economics, 1
+(January), 277-85.
+Danaher, Peter J. (1994), "Comparing Naive with Econometric Market Share Models When
+Competitors’ Actions Are Forecast," International Journal of Forecasting, 10:2 (September), 287-94.
+and Roderick J. Brodie (1992), "Predictive Accuracy of Simple Complex Econometric
+Market Share Models: Theoretical and Empirical Results," International Journal of
+Forecasting, 8, 613-26.
+and Roland T. Rust (1994), "Determining the Optimal Levels of Media Spending,"
+Journal of Advertising Research, 34:1 (January-February), 28-34.
+and (1996), "Determining the Optimal Return on Investment for an
+Advertising Campaign," European Journal of Operational Research, 95:3 (December 20),
+511-21.
+Darling, Charles B. and J. William Semich (1996), "Wal-Mart’s IT Secret: Extreme
+Integration," Datamation, 42 (November), 48-50
+Darmon, René Y. (1987), "A Normative Model of Market Response to Sales Force Activities," European Journal of Operational Research, 32 (December), 415-25.
+(1992), Effective Human Resource Management in the Sales Force. Westport, CT:
+Quorum Books.
+Davidson, Russell and James G. MacKinnon (1993), Estimation and Inference in Econometrics. Oxford: Oxford University Press.
+Davis, Fred D. (1989), "Perceived Usefulness, Perceived Ease of Use, and User Acceptance of
+Information Technology, MIS Quarterly, 13 (September), 319-39.
+Deaton, Anton S. (1978), "Specification and Testing in Applied Demand Analysis," The
+Economic Journal, 88, 524-36.
+and John Muellbauer (1980), "An Almost Ideal Demand System," American
+Economic Review, 70:3 (June), 312-26.
+Deb, P. and M. Sefton (1996), "The Distribution of a Lagrange Multiplier Test of Normality,"
+Economic Letters, 51, 123-30.
+Debertin, David L. and Angelos Pagoulatos (1992), "Research in Agricultural Economics
+1919-1990: Seventy-Two Years of Change," Review of Agricultural Economics, 14:1
+(January), 1-22.
+Dekimpe, Marnik G. (1992), "Long-run Modeling in Marketing," unpublished Ph.D.
+dissertation, Los Angeles, CA: UCLA.
+440 BIBLIOGRAPHY
+Pierre Francois, Srinath Gopalakrishna, Gary L. Lilien, and Christophe Van den
+Bulte (1997), "Generalizing about Trade Show Effectiveness: A Cross-National
+Comparison," Journal of Marketing, 61:4 (October), 55-64.
+and Dominique M. Hanssens (1991), "Assessing the Evolution of Competitive
+Relationships: Do Long-run Market Equilibrium Really Exist?" working paper, Anderson
+Graduate School of Management, UCLA.
+and (1995a), "Empirical Generalizations About Market Evolution and
+Stationarity," Marketing Science, 14:3 (Part 2 of 2), G109-21.
+and (1995b), "The Persistence of Marketing Effects on Sales," Marketing
+Science, 14:1 (Winter), 1-21.
+and (1999), "Sustained Spending and Persistent Response: A New Look at
+Long-Term Marketing Profitability," Journal of Marketing Research, 36:4 (November), 1-
+31.
+and (2000), "Time-Series Models in Marketing: Past, Present and Future,"
+International Journal of Research in Marketing, 17, forthcoming.
+and Jorge Silva-Risso (1999), "Long-Run Effects of Price Promotions in
+Scanner Markets," Journal of Econometrics, 89, 269-91.
+Martin Mellens, Jan-Benedict E.M. Steenkamp and Pierre Vanden Abeele (1997),
+"Decline and Variability in Brand Loyalty," International Journal of Research in Marketing,
+14, 405-20..
+Linda van de Gucht, Dominique M. Hanssens, and Keiko Powers (1998), "Long-Run
+Abstinence after Narcotics Abuse: What Are the Odds?" Management Science, 44:11
+(November), 1478-92.
+de Kluyver, Cornelius A. and Roderick J. Brodie (1987), "Advertising-Versus-Marketing Mix
+Carryover Effects: An Empirical Evaluation," Journal of Business Research, 15 (June),
+269-87.
+and Edgar A. Pessemier (1986), "Benefits of a Marketing Budgeting Model: Two
+Case Studies," Sloan Management Review, 28:1 (Fall), 27-38.
+Denton, James W. (1995), "How Good Are Neural Networks for Causal Forecasting?"
+Journal of Business Forecasting, 14 (Summer), 337-46.
+Desmet, Pierre and Valerie Renaudin (1996), "Estimating Shelf-Space Elasticity for Product
+Categories," paper presented at the European Institute for Advanced Studies in
+Managment/Centre for Research on the Economic Efficiency of Retailing Workshop on
+Channel Productivity, Mons, Begium, October.
+DeSarbo, Wayne S., Vithala R. Rao, Joel H. Steckel, Jerry Wind, and Richard Colombo
+(1987), "A Friction Model for Describing and Forecasting Price Changes," Marketing
+Science, 6 (Fall), 299-319.
+Devinney, Timothy M. (1987), "Entry and Learning," Management Science, 33 (June),
+706-24.
+Diamantos, A. and Brian P. Mathews (1993), "Managerial Perceptions of the Demand Curve:
+Evidence from a Multiproduct Firm," European Journal of Marketing, 27:9, 5-18.
+di Benedetto, C. Anthony (1985), "A Multiplicative Dynamic-Adjustment Model of Sales
+Response to Marketing Mix Variables," Modeling, Simulation, and Control C:
+Environmental, Biomedical, Human & Social Systems, 4 (Autumn), 7-18.
+Dickey, David A., David P. Hasza and Wayne A. Fuller (1984), "Testing for Unit Roots in
+Seasonal Time Series," Journal of the American Statistical Association, 79, 355-67.
+William R. Bell, and Robert B. Miller (1986), "Unit Roots in Time Series Models:
+Tests and Implications," The American Statistician, 40 (February), 12-26.
+Dickson, Peter R. and J. E. Urbany (1994), "Retailer Reactions to Competitive Price
+Changes," Journal of Retailing, 70, 1-22.
+
+
+Didow, Nicholas and George Franke (1984), "Measurement Issues in Time-Series Research:
+Reliability and Validity Assessment in Modeling the Macroeconomic Effects of
+Advertising," Journal of Marketing Research, 21, 12-19.
+Diebold, Francis X. (1989), "Forecast Combination and Encompassing: Reconciling Two
+Divergent Literatures, International Journal of Forecasting, 5 (4), 589-92.
+Dijkstra, Theo K. and Frans W. Platt (1986), "On the Use of Audit Data in Marketing
+Models," paper presented at the Annual EMACS Conference, Helsinki, Finland, June.
+Dodson, Jr., Joe A. and Eitan Muller (1978), "Models of New Product Diffusion Through
+Advertising and Word of Mouth," Management Science, 24 (November), 1568-78.
+Doktor, Robert H. and W. F. Hamilton (1973), "Cognitive Style and the Acceptance of
+Management Science Recommendations," Management Science, 19, 884-94.
+Randall L. Schultz, and Dennis P. Slevin, eds. (1979), The Implementation of
+Management Science. New York: North-Holland.
+Donatos, G.S. and K.E. Kioulafas (1990), "A Quantitative Analysis of New Car Sales and
+Advertising in Greece," European Journal of Operational Research, 48:3 (October), 311-
+17.
+Doran, Howard E. (1989), Applied Regression Analysis in Econometrics. New York: Marcel
+Dekker.
+and J. J. Quilkey (1972), "Harmonic Analysis of Seasonal Data: Some Important
+Properties," American Journal of Agricultural Ecnomics, 54 (1972), 346-51.
+Dorfman, R. and P. O. Steiner (1954), "Optimal Advertising and Optimal Quality," American
+Economic Review, 44 (December), 826-36.
+Doyle, Peter and John Saunders (1985), "The Lead Effect in Marketing," Journal of
+Marketing Research, 22 (February), 54-65.
+and (1990), "Multiproduct Advertising Budgeting," Marketing Science, 9:2
+(Spring), 97-113.
+Drèze, Xavier, Stephen J. Hoch, and Mary E. Purk (1994), "Shelf Management and Space
+Elasticity," Journal of Retailing, 70:4 (Winter), 301-26.
+D’Souza, D. and Arthur Allaway (1995), "An Empirical Examination of the Advertising
+Spending Decisions of a Multiproduct Retailer," Journal of Retailing, 71, 279-96.
+Dubin, Jeffrey A. (1998), Studies in Consumer Demand—Econometric Methods Applied to
+Market Data. Norwell, MA: Kluwer Academic Publishers.
+Michael J. Grantz, Michael A. Udell, and Louis L. Wilde (1992), "The Demand for
+Tax Return Preparation Services," The Review of Economics and Statistics, 75-82.
+Dubin, Robin A. (1988), "Estimation of Regression Coefficients in the Presence of Spatially
+Autocorrelated Error Terms," Review of Economics and Statistics, 70 (August), 466-74.
+Duckworth, Gary, ed. (1997), Advertising Works 9. Henley-on-Thames, UK: NTC Publications.
+Duffy, Martyn H. (1987), "Advertising and the Inter-Product Distribution of Demand: A
+Rotterdam Model Approach," European Economic Review, 31 (July), 1051-70.
+East, Robert (1991), "Beyond the Blip: The 15 Brand Experiment," Journal of the Market
+Research Society, 33:1 (January), 57-59.
+Eastlack, Jr., Joseph O. and Ambar G. Rao (1986), "Modeling Response to Advertising and
+Pricing Changes for ‘V-8’ Cocktail Vegetable Juice," Marketing Science, 5 (Summer),
+245-59.
+Ebbeler, Donald H. (1974), "On the Maximum Choice Criterion," Claremont Economic
+Paper Number 113, The Claremont Colleges, August.
+Edlund, Per-Olov (1984), "Identification of the Multiple-Input Box-Jenkins Transfer Function
+Model," Journal of Forecasting, 3, 297-308.
+Edmunson, Robert H. (1990), "Decomposition: A Strategy for Judgmental Forecasting,"
+Journal of Forecasting, 9 (July-September), 305-14.
+,
+,
+442 BIBLIOGRAPHY
+Ehrenberg, Andrew S. C. (1969a), "The Discovery and Use of Laws of Marketing," Journal of
+Advertising Research, 9:2, 11-17.
+(1969b), "Laws in Marketing," in Current Controversies in Marketing Research, Leo
+Bogart, ed. Chicago: Markham, 141-52.
+(1982). A Primer in Data Reduction. New York: John Wiley.
+(1988), Repeat-Buying: Facts, Theory, and Applications, London: Charles Griffin.
+(1994) "Theory or Well-Based Results: Which Comes First?" in Research Traditions
+in Marketing, Gilles Laurent, Gary L. Lilien, and Bernard Pras, eds. Boston: Kluwer
+Academic Publishers, 79-105.
+(1995), "Empirical Generalizations, Theory, and Method," Marketing Science, 14:3
+(Part 2 of 2), G20-35.
+and J. A. Bound (1993), "Predictability and Prediction," Journal of the Royal
+Statistical Society, 156, 167-206.
+and L. R. England (1990), "Generalizing a Pricing Effect," The Journal of Industrial
+Economics, 39:1 (September), 47-68.
+Kathy Hammond, and G. J. Goodhardt (1994), "The After-Effects of Price-Related
+Consumer Promotions," Journal of Advertising Research, 34 (July/August), 11-21.
+Eliashberg, Jehoshua and Gary L. Lilien (1993), Marketing. Handbooks in Operations
+Research and Management Science. 5. Amsterdam: North-Holland.
+Elms, Sue (1997), "Linking Sales Tracking Data to Television Viewing," Admap, 32:4
+(April), 62-65.
+Elrod, Terry and Russell L. Winer (1979), "Estimating the Effects of Advertising on Individual Household Purchasing Behavior," in Proceedings, Neil Beckwith et al., eds.
+Chicago: American Marketing Association, 83-89.
+Emshoff, J. R. and Alan Mercer (1970), "Aggregated Models of Consumer Purchases,"
+Journal of the Royal Statistical Society, Series A, 133:1, 14-32.
+Enders, Walter (1995), Applied Econometric Time Series. New York: Wiley.
+Engle, Robert F. and C. W. J. Granger (1987), "Co-integration and Error Correction: Representation, Estimation, and Testing," Econometrica, 55:2 (March), 251-76.
+and B.S. Yoo (1987), "Forecasting and Testing in Cointegrated Systems," Journal of
+Econometrics, 35, 143-59.
+Enis, Ben M. and Michael P. Mokwa (1979), "The Marketing Management Matrix: A
+Taxonomy for Strategy Comprehension," in Conceptual and Theoretical Developments in
+Marketing, O. C. Ferrell, Stephen W. Brown, and Charles W. Lamb, eds. Chicago:
+American Marketing Association, 485-500.
+Ephron, Erwin and Simon Broadbent (1999), "Two Views of TV Scheduling—How Far
+Apart?" Admap, 34:1 (January), 22-25.
+Erickson, Gary M. (1981a), "Time-Varying Parameter Estimation as Exploration," Decision
+Sciences, 12 (July), 428-38.
+(1981b), "Using Ridge Regression to Estimate Directly Lagged Effects in Marketing,"
+Journal of the American Statistical Association, 76 (December), 766-73.
+(1985), "A Model of Advertising Competition," Journal of Marketing Research, 22
+(August), 297-304.
+(1987), "Marketing Managers Need More Than Forecasting Accuracy," International
+Journal of Forecasting, 3:3/4, 453-55.
+(1990), "Assessing Response Model Approaches to Marketing Strategy Decisions," in
+The Interface of Marketing and Strategy, George Day, Barton Weitz, and Robin Wensley,
+eds. Greenwich, CT: JAI Press, 353-85.
+(1991), Dynamic Models of Advertising Competition. Boston: Kluwer.
+(1992), "Empirical Analysis of Closed Loop Duopoly Advertising Strartegies,"
+Management Science, 38 (December), 1732-49.
+,
+BIBLIOGRAPHY 443
+(1995), "Advertising Strategies in a Dynamic Oligopoly," Journal of Marketing
+Research, 32:2 (May), 233-37.
+Eskin, Gerald J. (1975), "A Case for Test Market Experiments," Journal of Advertising
+Research, 15 (April), 27-33.
+and Penny H. Baron (1977), "Effect of Price and Advertising in Test-Market
+Experiments," Journal of Marketing Research, 14 (November), 499-508.
+Evans, G. W. (1989), "Output and Unemployment Dynamics in the United States," Journal of
+Applied Econometrics, 4, 213-37.
+and G. Wells (1983), "An Alternative Approach to Simulating VAR Models,"
+Economic Letters, 12, 23-29.
+Fader, Peter S., James M. Lattin, and John D. C. Little (1992), "Estimating Nonlinear
+Parameters in the Multinomial Logit Model," Marketing Science, 11:4 (Fall), 372-385.
+Farley, John U. and Melvin J. Hinich (1970), "A Test for a Shifting Slope Coefficient in a
+Linear Model," Journal of the American Statistical Association, 65 (September), 1320-29.
+and Timothy W. McGuire (1975), "Some Comparisons of Tests for a Shift in
+the Slopes of a Multivariate Linear Time Series Model." Journal of Econometrics, 3
+(August), 297-318.
+and H. J. Leavitt (1968), "A Model of the Distribution of Branded Products in
+Jamaica," Journal of Marketing Research, 5 (November), 362-69.
+and Donald R. Lehmann (1986), Meta-Analysis in Marketing: Generalization of
+Response Models. Lexington, MA: D. C. Heath.
+and (1994), "Cross National ‘Laws’ and Differences in Market Response,"
+Management Science, 40 (January), 111-22.
+and Michael J. Ryan (1981), "Generalizing from Imperfect Replication,"
+Journal of Business, 54 (October), 597-610.
+and Alan Sawyer (1995), "Empirical Marketing Generalization Using MetaAnalysis," Marketing Science, 14:3 (Part 2 of 2), G36-46.
+Farris, Paul W. and Mark S. Albion (1980), "The Impact of Advertising on the Price of
+Consumer Products," Journal of Advertising Research, 44 (Summer), 17-35.
+James Olver, and Cornelis de Kluyver (1989), "The Relationship Between Distribution and Market Share," Marketing Science, 8:2 (Spring), 107-28.
+Mark E. Parry, and Kusum L. Ailawadi (1992), "Structural Analysis of Models with
+Composite Dependent Variables," Marketing Science, 11:2 (Winter), 76-94.
+and David J. Reibstein (1984), "Over Control in Advertising Experiments?" Journal
+of Advertising Research, 24:3, 37-42.
+Feinberg, Fred M. (1992), "Pulsing Policies for Aggregate Advertising Models," Marketing
+Science, 11:3 (Summer), 221-34.
+Feldwick, Paul, ed. (1990), Advertising Works 5, London: Cassell Educational Limited.
+ed. (1991), Advertising Works 6, Henley-on-Thames, United Kingdom: NTC
+Publications.
+Fellner, William (1949), Competition Among the Few. New York: Alfred Knopf.
+Fildes, Robert (1985), "Quantitative Forecasting The State of Art: Econometric Models,"
+Journal of the Operational Research Society, 36 (July), 549-80.
+and Robert Hastings (1994), "The Organization and Improvement of Market
+Forecasting," Journal of the Operational Research Society, 45 (1), 1-16.
+Findley, James J. and J. D. C. Little (1980), "Experiences with Market Response Analysis,"
+working paper, March.
+Foekens, Eijte W. (1995), Scanner Data Based Marketing Modeling: Empirical Applications.
+Ph.D.Thesis, University of Groningen, Faculty of Economics, The Netherlands.
+
+Wim P. Krijnen, and Tom J. Wansbeek (1994), "Efficient Computation for the
+Estimation of the Sales Response Model," Research Memorandum 561, Institute for
+Economic Research, University of Groningen, January.
+and Peter S.H. Leeflang (1992), "Comparing Scanner Data with Traditional Store
+Audit Data," Scandinavian Business Review, 1:1, 71-85.
+and Dick R. Wittink (1994), "A Comparison and Exploration of the
+Forecasting Accuracy of a Loglinear Model at Different Levels of Aggregation," International Journal of Forecasting, 10:2 (September), 245-61.
+and (1997), "Hierarchical Versus Other Market Share Models for
+Markets with Many Items," International Journal of Research in Marketing, 14:4
+(October), 359-78.
+and (1999), "Varying Parameter Models to Accommodate Dynamic
+Promotion Effects," Journal of Econometrics, 89:1-2, 249-68.
+Forker, Olan D. and Ronald W. Ward (1993), Commodity Advertising. New York: Lexington
+Books.
+Fornell, Claes, William T. Robinson, and Birger Wernerfelt (1985), "Consumption Experience
+and Sales Promotion Expenditure," Management Science, 31 (September), 1084-1105.
+Frank, Ronald E. and William F. Massy (1967), "Effects of Short-Term Promotional Strategy
+in Selected Market Segments," in Promotional Decisions Using Mathematical Models,
+Patrick J. Robinson, ed. Boston: Allyn and Bacon, 147-99.
+and (1970), "Shelf Position and Space Effects on Sales," Journal of
+Marketing Research, 7 (February), 59-66.
+and (1971), An Econometric Approach to a Marketing Decision Model.
+Cambridge, MA: MIT Press.
+Franke, George R. (1994), "U.S. Cigarette Demand, 1961-1990: Econometric Issues,
+Evidence, and Implications," Journal of Business Research, 30:1, 33-41.
+and Gary Wilcox (1987), "Alcoholic Beverage Advertising and Consumption in the
+United States, 1964-1984," Journal of Advertising, 16:3, 22-30.
+Franses, Philip H. (1991), "Primary Demand for Beer in the Netherlands: An Application of
+ARMAX Model Specification," Journal of Marketing Research, 28:2 (May), 240-45.
+(1994), "Modeling New Product Sales: An Application of Cointegration Analysis",
+International Journal of Research in Marketing, 11, 491-502.
+and N. Haldrup (1994), "The Effects of Additive Outliers on Tests for Unit Roots and
+Cointegration," Journal of Business and Economic Statistics, 12, 471-78.
+Fraser, Cynthia and Robert E. Hite (1988), "An Adaptive Utility Approach for Improved Use
+of Marketing Models," Journal of Marketing, 52 (October), 96-103.
+Freeland, James R. and Charles B. Weinberg (1980), "S-Shaped Response Functions:
+Implications for Decision Models," Journal of the Operational Research Society, 31:11,
+1001-7.
+Freeman, Paul (1996), "Defending Advertising Through Market Modeling," Admap, 31:8
+(September), 27-29.
+Friedman, James W. (1977a), "Cournot, Bowley, Stackelberg and Fellner, and the Evolution
+of the Reaction Function," in Economic Progress, Private Values, and Public Policy, Bela
+Balassa and Richard Nelson, eds. New York: North-Holland, 139-60.
+(1977b), Oligopoly and the Theory of Games. Amsterdam: North-Holland.
+(1983), "Advertising and Oligopolistic Equilibrium," Bell Journal of Economics, 14
+(Fall), 464-73.
+Fujii, Edwin T. (1980), "The Demand for Cigarettes: Further Empirical Evidence and Its
+Implications for Public Policy," Applied Economics, 12 (December), 479-89.
+Fuller, Wayne A. (1976), Introduction to Statistical Time Series, New York: Wiley.
+,
+, ,
+, ,
+, ,
+BIBLIOGRAPHY 445
+Garland, Ron (1992), "Pricing Errors in Supermarkets: Who Pays?" International Journal of
+Retail and Distribution Management, 20:1, 25-30.
+Garry, Steve (2000), "RE: Advertising Effects," E-mail to AMODLMKT list, January 27.
+Gasmi, Farid and Quang H. Vuong (1988), "An Econometric Analysis of Some Duopolistic
+Games in Prices and Advertising," working paper, Bell Communications Research/
+University of Southern California, May.
+Gasmi, Farid, J.J. Laffont, and Quang H. Voung (1992), "Econometric Analysis of Collusive
+Behavior in a Soft-Drink Market," Journal of Economics and Management Strategy, 1:2,
+277-311.
+Gately, D. (1992), "Imperfect Price-Reversibility of U.S. Gasoline Demand," Energy Journal,
+13, 179-207.
+Gatignon, Hubert (1984), "Competition as a Moderator of the Effect of Advertising on Sales,"
+Journal of Marketing Research, 21 (November), 387-98.
+and Dominique M. Hanssens (1987), "Modeling Marketing Interactions with
+Application to Salesforce Effectiveness," Journal of Marketing Research, 24 (August),
+247-57.
+Gaver, Kenneth M., Dan Horsky, and Chakravarti Narasimhan (1988), "Invariant Estimators
+for Market Share Systems and Their Finite Sample Behavior," Marketing Science, 7
+(Spring), 169-86.
+Gensch, Dennis H. and Ulf Peter Welam (1973), "An Optimal Budget Allocation Model in
+Dynamic, Interacting Market Segments," Management Science, 20 (October), 179-90.
+George, Jennifer, Alan Mercer, and Helen Wilson (1996), "Variations in Price Elasticities,"
+European Journal of Operational Research, 88:1 (January), 13-22.
+Geurts, Michael D. and I.B. Ibrahim (1975), "Comparing the Box-Jenkins Approach with the
+Exponentially Smoothed Forecasting Model: Application to Hawaii Tourists," Journal of
+Marketing Research, 12, 182-88.
+Geweke, John, Richard Meese, and Warren Dent (1983), "Comparing Alternative Tests of
+Causality in Temporal Systems," Journal of Econometrics, 21, 161-94.
+Ghosh, Avijit, Scott A. Neslin, and Robert W. Shoemaker (1983), "Are There Associations
+Between Price Elasticity and Brand Characteristics?" in 1983 Educators’ Conference
+Proceedings, Patrick Murphy et al., eds. Chicago: American Marketing Association, 226-
+30.
+and (1984), " A Comparison of Market Share Models and
+Estimation Procedures,’ Journal of Marketing Research, 21 (May), 202-10.
+Gijsbrechts, Els (1993), "Prices and Pricing Research in Consumer Marketing: Some Recent
+Developments," International Journal of research in Marketing, 10:2 (June), 115-52.
+and Philippe Naert (1984), "Towards Hierarchical Linking of Marketing Resource
+Allocation to Market Areas and Product Groups," International Journal of Research in
+Marketing, 1:2, 97-116.
+Ginsberg, William (1974), "The Multiplant Firm with Increasing Returns to Scale," Journal of
+Economic Theory, 9 (November), 283-92.
+Ginzberg, Michael J. (1979a), "Improving MIS Project Selection," Omega, 7:6, 527-37.
+(1979b), "A Study of the Implementation Process," in The Implementation of
+Management Science, R. Doktor, R. L. Slevin, and D. P. Slevin, eds. New York:
+North-Holland, 85-102.
+(1980), "An Organizational Contingencies View of Accounting and Information
+Systems Implementation," Accounting, Organizations and Society, 5:4, 369-82.
+(1981a), "Early Diagnosis of MIS Implementation Failure: Promising Results and
+Unanswered Questions," Management Science, 27 (April), 459-78.
+(1981b), "Key Recurrent Issues in the Implementation Process," MIS Quarterly, 5
+(June), 47-59.
+, ,
+446 BIBLIOGRAPHY
+(1983), "DSS Success: Measurement and Facilitation," in Data-Base Management:
+Theory and Applications, C. W. Holsapple and A. B. Whinston, eds. Dordrecht, Holland:
+D. Ridel, 367-87.
+Henry C. Lucas, Jr., and Randall L. Schultz (1986), "Testing an Integrated Implementation Model with Data from a Generalized DSS," working paper, Case Western
+Reserve University, March.
+Giuffrida, Giovanni, Lee G.Cooper, and W.W. Chu (1998), "A Scalable Bottom-Up Data
+Mining Algorithm for Relational Databases", paper presented at the 10th International.
+Conference on Scientific and Statistical Database Management, IEEE, Capri, Italy.
+Gius, Mark Paul (1996), "Using Panel Data to Determine the Effect of Advertising on BrandLevel Distilled Spirits Sales," Journal of Studies on Alcohol, (January), 57:1, 73-76.
+Givon, Moshe (1993), "Partial Carryover of Advertising," Marketing Letters, 4:2 (April), 165-
+73.
+and Dan Horsky (1990), "Untangling the Effects of Purchase Reinforcement and Advertising Carryover," Marketing Science, 9:2 (Spring), 171-87.
+and (1994), "Intertemporal Aggregation of Heterogeneous Consumers,"
+European Journal of Operational Research, 76:2 (July 28), 273-82.
+Glaister, Stephen (1974), "Advertising Policy and Returns to Scale in Markets Where
+Information Is Passed Between Individuals," Economica, 41 (May), 138-56.
+Glazer, Rashi (1991), "Marketing in an Information-Intensive Environment: Strategic
+Implications of Knowledge as an Asset," Journal of Marketing, 55 (October), 1-19.
+and Allen M. Weiss (1993), "Marketing in Turbulent Environments: Decision
+Processes and the Time-Sensitivity of Information," Journal of Marketing Research, 30
+(November), 509-21.
+Goddard, Ellen W. and Alex K. Amuah (1989), "Demand for Canadian Fats and Oils: A Case
+Study of Advertising Effectiveness," American Journal of Agricultural Economics, 71:3,
+741-49.
+Gold, Laurence N. (1992), "Let’s heavy Up in St. Louis and See What Happens," Journal of
+Advertising Research, 32:6 (November/December), 31-38.
+Goldberg, L. (1982), "Recruiters, Advertising, and Navy Enlistments," Naval Research
+Logistics Quarterly, 29 (June), 385-98.
+Goodstein, Ronald C. (1994), "UPC Scanner Pricing Systems: Are They Accurate?" Journal
+of Marketing, 58:2 (April), 20-30.
+Goodwin, P. and G. Wright (1993), "Improving Judgmental Time Series Forecasting: A
+Review of the Guidance Provided by Research," International Journal of Forecasting, 9
+(August), 147-61.
+Gopalakrishna, Srinath and Rabikar Chatterjee (1992), "A Communications Response Model
+for a Mature Industrial Product: Application and Implications," Journal of Marketing
+Research, 29:2 (May), 189-200.
+and Gary L. Lilien (1995), "A Three-Stage Model of Trade Show Performance,"
+Marketing Science, (Winter), 22-42.
+and Jerome D. Williams (1992), "Planning and Performance Assessment of Industrial
+Trade Shows: An Exploratory Study," International Journal of Research in Marketing,
+9:3 (August), 207-24.
+Granger, C. W. J. (1969), "Investigating Causal Relations by Econometric Models and
+Cross-Spectral Methods," Econometrica, 37, 424-38.
+(1980), "Long Memory Relationships and the Aggregation of Dynamic Models,"
+Journal of Econometrics, 14, 227-38.
+(1981), "Some Properties of Time Series Data and their Use in Econometric Model
+Specification," Journal of Econometrics, 16, 121-30.
+,
+BIBLIOGRAPHY 447
+(1988), "Some Recent Developments in a Concept of Causality," Journal of
+Econometrics, 39 (September-October), 199-212.
+and J. Hallman (1991), "Nonlinear Transformations of Integrated Time Series,"
+Journal of Time Series Analysis, 12, 207-24.
+and Paul Newbold (1974), "Spurious Regressions in Econometrics," Journal of
+Econometrics, 2, 111-20.
+ and (1986), Forecasting Economic Time Series (Second Edition). New York:
+Academic Press.
+Grapentine, Terry (1997), "Managing Multicollinearity," Market Research, (Fall), 11-21.
+Grass, Robert G. and Wallace H. Wallace (1969), "Satiation Effects of TV Commercials,"
+Journal of Advertising Research, 9 (September), 3-8.
+Gray, H. L., G. D. Kelly, and D. D. McIntire (1978), "A New Approach to ARMA Modeling,"
+Communication in Statistics, B7, 1-77.
+Green, Richard D., Hoy F. Carmen, and Kathleen McManus (1991), "Some Empirical
+Methods for Estimating Advertising Effects in Demand Systems: An Application to Dried
+Fruit," Journal of the Western Agricultural Economics Association, 16:1, 63-71.
+Greenberg, E., W. A. Pollard, and W.T. Alpert (1989), "Statistical Properties of Data
+Stretching," Journal of Applied Econometrics, 4 (October-December), 383-91.
+Greene, William H. (1997), Econometric Analysis, 3rd Edition. Englewood Cliffs, NJ:
+Prentice-Hall.
+Griliches, Zvi (1967), "Distributed Lags: A Survey," Econometrica, 35 (January), 16-49.
+Grover, Rajiv and V. Srinivasan (1987), "A Simultaneous Approach to Market Segmentation
+and Market Structuring," Journal of Marketing Research, 24:2 (May), 139-53.
+and (1992), "Evaluating the Muliple Effects of Retail Promotions on Brand
+Loyal and Brand Switching Segments," Journal of Marketing Research, 29:1 (February),
+76-89.
+Gruca, Thomas S. and Bruce R. Klemz (1998), "Using Neural Networks to Identify
+Competitive Market Structures from Aggregate Market Response Data," Omega, 26:1
+(February), 49-62.
+and D. Sudharshan (1991), "Equilibrium Characteristics of Multinomial Logit Market
+Share Models," Journal of Marketing Research, 28:4 (November), 480-82.
+Guadagni, Peter M. and John D.C. Little (1983), "A Logit Model of Brand Choice Calibrated
+on Scanner Data," Marketing Science, 2 (Summer), 203-38.
+Guerts, Michael D. and David Whitlark (1992/93), "Forecasting Market Share," Journal of
+Business Forecasting, 11 (Winter), 17-32.
+Guilkey, David K. and Michael K. Salemi (1982), "Small Sample Properties of Three Tests
+for Granger-Causal Ordering in a Bivariate Stochastic System," Review of Economics and
+Statistics, 64 (November), 668-80.
+Gupta, Sachin, Pradeep Chintagunta, Anil Kaul, and Dirk R. Wittink (1996), "Do Household
+Scanner Data Provide Representative Inferences from Brand Choices: A Comparison With
+Store Data," Journal of Marketing Research, 33:4 (November), 383-98.
+Gupta, Sunil (1988), "Impact of Sales Promotions on When, What, and How Much to Buy,"
+Journal of Marketing Research, 25 (November), 342-55.
+Hackathorn, Richard (1995), "Data Warehouse Energizes Your Enterprise," Datamation, 41
+(February), 38-45.
+Hagerty, Michael R. (1987), "Conditions Under Which Econometric Models will Outperform
+Naive Models," International Journal of Forecasting, 3:3/4, 457-60.
+, James M. Carman, and Gary Russell (1988), "Estimating Elasticities with PIMS Data:
+Methodological Issues and Substantive Implications," Journal of Marketing Research, 25
+(February), 1-9.
+448 BIBLIOGRAPHY
+Hakkio, C.S. and M. Rush (1991), "Cointegration: How Short is the Long Run," Journal of
+International Money and Finance, 10, 571-81.
+Haley, Russell I. (1978), "Sales Effects of Media Weight," Journal of Advertising Research,
+18 (June), 9-18.
+Hall, Graham and Sidney Howell (1985), "The Experience Curve from the Economist's
+Perspective," Strategic Management Journal, 6, 197-212.
+Hall, Lana and Ingrid Folk (1983), "Generic versus Brand Advertising for Manufactured Milk
+Products: The Case of Yogurt," North Central Journal of Agricultural Economics, 5:1
+(January), 19-24.
+Hamilton, Will, Robert East, and Stavos Kalfatis (1997), "The Measurement of Brand Price
+Elasticities," Journal of Marketing Management, 13:4 (May), 285-98.
+Hanssens, Dominique M. (1977), "An Empirical Study of Time-Series Analysis in Marketing
+Model Building," Unpublished Ph.D. Dissertation, Purdue University, Krannert Graduate
+School of Management.
+(1980a), "Bivariate Time Series Analysis of the Relationship Between Advertising
+and Sales," Applied Economics, 12 (September), 329-40.
+(1980b), "Market Response, Competitive Behavior, and Time Series Analysis,"
+Journal of Marketing Research, 17 (November), 470-85.
+(1982), "Expectations and Shocks in Market Response," working paper, Center for
+Marketing Studies, University of California, Los Angeles, Paper No. 123.
+(1988), "Marketing and the Long Run," working paper, Center for Marketing Studies,
+University of California, Los Angeles, Paper No. 164 (Revised), June.
+(1996), "Customer Information: The New Strategic Asset," Chief Executive, (May),
+66-68.
+(1998). "Order Forecasts, Retail Sales and the Marketing Mix for Consumer
+Durables," Journal of Forecasting, 17:3/4 (June-July), 327-46.
+and Johny K. Johansson (1991), "Synergy or Rivalry? The Japanese Automobile
+Companies’ Export Expansion," Journal of International Business Studies, 22:3, 503-26.
+and Henry A. Levien (1983), "An Econometric Study of Recruitment Marketing in the
+U.S. Navy," Management Science, 29 (October), 1167-84.
+and Lon-Mu Liu (1983), "Lag Specification in Rational Distributed Lag Structural
+Models," Journal of Business and Economic Statistics, 1 (October),316-25.
+and Ming Ouyang (2000), "Modeling Marketing Hysteresis," Working Paper,
+University of California, Los Angeles.
+and Leonard J. Parsons (1993), "Econometric and Time Series Market Response
+Models," in Handbooks in Operations Research and Management Science: Volume 5:
+Marketing, Joshua Eliashberg and Gary Lilien, eds. New York: Elsevier, 409-64.
+and Pierre Vanden Abeele (1987), "A Time-Series Study of the Formation and
+Predictive Performance of EEC Production Survey Expectations," Journal of Business
+and Economic Statistics, 5:4, 507-19.
+Harter, Rachel M. and David F. Cameron (1995), "The Nielsen Survey of Supermarkets,"
+Amstat News, (October), 19.
+Hartwick, Jon and Henri Barki (1994), "Explaining the Role of User Participation in
+Information System Use," Management Science, 40 (April), 440-65.
+Hasza, David P. and Wayne A. Fuller (1982), "Testing for Nonstationary Parameter
+Specifications in Seasonal Time Series Models," The Annals of Statistics, 10, 1209-16.
+Haugh, Larry D. (1976), "Checking the Independence of Two Covariance-Stationary Time
+Series: A Univariate Residual Cross-Correlation Approach," Journal of the American
+Statistical Association, 71 (June), 378-85.
+BIBLIOGRAPHY 449
+and George E. P. Box (1977), "Identification of Dynamic Regression (Distributed
+Lag) Models Connecting Two Time Series," Journal of the American Statistical
+Association, 72 (March), 121-29.
+Hausman, Jerry A. (1978), "Specification Tests in Econometrics," Econometrica, 46 (November), 1251-72.
+and Whitney K. Newey (1995), "Nonparametic Estimation of Exact Consumers
+Surplus and Deadweight Loss," Econometrica, 63:6 (November), 1445-76.
+and W. E. Taylor (1981), "A Generalized Specification Test," Economic Letters, 8,
+239-47.
+Heath, Rebecca Piirto (1996), "Wake of the Flood," Marketing Tools, (November/ December).
+58-63.
+Heckman, James J. (1976), "The Common Structure of Statistical Models of Truncation,
+Sample Selection, and Limited Dependent Variables and a Simple Estimator for Such
+Models," Annals of Economic and Social Measurement, 5 (Fall), 475-92.
+Hegji, Charles E. (1998), "A Spreadsheet Application of Dorfman and Steiner’s Rule for
+Optimal Advertising," Managerial and Decision Economics, 19:1 (February), 59-62.
+Hellofs, Linda L., and Robert Jacobson (1999), "Market Share and Customers’ Perceptions of
+Quality," Journal of Marketing, Vol. 63:1 (January), 16-25.
+Helmer, Richard M. and Johny K. Johansson (1977), "An Exposition of the Box-Jenkins
+Transfer Function Analysis with Application to the Advertising-Sales Relationship,"
+Journal of Marketing Research, 14 (May), 227-39.
+Helmuth, John A. (1987), "Dealership Automobile Demand: Advertising Elasticity and
+Optimality," Akron Business and Economic Review, 18:1 (Spring), 37-44.
+Hendon, Donald W. (1981), "The Advertising-Sales Relationship in Australia," Journal of
+Advertising Research, 21 (February), 37-47.
+Hendry, David, ed. (1986), "Economic Modeling with Cointegrated Variables (Special
+Issue)," Oxford Bulletin of Economics and Statistics, 48 (3).
+Heuts, R. M. J. and J. H. J. M. Bronckers (1988), "Forecasting the Dutch Heavy Truck Market: A Multivariate Approach," International Journal of Forecasting, 4, 47-79.
+Hill, R. Carter and Phillip A. Cartwright (1994), "The Statistical Properties of the Equity
+Estimator," Journal of Busieness & Economic Statistics, 12, 141-7.
+and Julia F. Arbaugh (1990), "Using Aggregate Data to Estimate MicroLevel Parameters with Shrinkage Rules," Proceedings of the Business and Economic
+Statististics Section. American Statististical Association, Washington, DC, 339-44.
+and (1991), "Using Aggregate Data to Estimate Micro-Level
+Parameters with Shrinkage Rules: More Results," Proceedings of the Business and
+Economic Statististics Section. American Statistical Association, Washington, DC.
+Hoch, Stephen J. (1994), "Experts and Models in Combination" in The Marketing Information
+Revolution. Robert C. Blattberg, Rashi Glazer, and John D. C. Little, eds. Boston: Harvard
+Business School Press, 253-69.
+and Shumeet Banerji (1993), "When Do Private Labels Succeed?" Sloan Management
+Review, 54 (Summer), 57-67.
+Byuong-Do Kim, Alan J. Montgomery, and Peter E. Rossi (1995), "Determinants of
+Store-Level Price Elasticity," Journal of Marketing Research, 32 (February), 17-29.
+and David A. Schkade (1996), "A Psychological Approach to Decision Support
+Systems," Management Science, 42 (January), 51-64.
+Hogarty, Thomas F. and Kenneth G. Elzinga (1972), "The Demand for Beer," Review of
+Economics and Statistics, 54 (May), 195-98.
+Hollis, Nigel S. (1990), "Separating Advertising From Promotional Effects with Econometric
+Modeling," Journal of Advertising Research, 30:3 (June/July 1990), RC6-RC12.
+,
+,
+,
+,
+,
+450 BIBLIOGRAPHY
+Holmes, Mike (1990), "‘Modelling Beyond the Blip’—Some Thoughts and Comments,"
+Journal of the Market Research Society, 32:3 (July), 467-89.
+Holthausen, Duncan M., Jr. and Gert Assmus (1982), "Advertising Budget Allocation under
+Uncertainty," Management Science, 28 (May), 487-99.
+Hooley, Graham J. and Nick Wilson (1988), "Advertising Effects: More Methodological
+Issues—A Reply," Journal of the Market Research Society, 30:2 (April), 231-34.
+and P. Wigodsky (1988), "Modeling the Effects of Advertising: Some
+Methodological Issues," Journal of the Market Research Society, 30:1 (January), 45-58.
+Horowitz, Joel L. (1998) Semiparametric Methods in Econometrics. New York: SpringerVerlag.
+Horsky, Dan (1977a), "Market Share Response to Advertising: An Example of Theory
+Testing," Journal of Marketing Research, 14 (February), 10-21.
+(1977b), "An Empirical Analysis of the Optimal Advertising Policy," Management
+Science, 23 (June), 1037-49.
+and Leonard S. Simon (1983), "Advertising and the Diffusion of New Products,"
+Marketing Science, 2 (Winter), 1-17.
+and Karl Mate (1988), "Dynamic Advertising Strategies of Competing Durable Goods
+Producers," Marketing Science, 7 (Fall), 356-67.
+Houston, Franklin S. (1977a), "Aggregated and Disaggregated Cumulative Advertising
+Models," in Proceedings, B. A. Bellenger and D. N. Bellenger, eds. Chicago: American
+Marketing Association.
+(1977b), "An Econometric Analysis of Positioning," Journal of Business Administration, 9 (Fall), 1-12.
+and Leonard J. Parsons (1986), "Modeling Cumulative Advertising as a Continuous
+Function," TIMS/ORSA Marketing Science Conference, University of Texas, Dallas.
+Vinay Kanetkar, and Doyle L. Weiss (1991), "Simplified Estimation Procedures for
+MCI and MNL Models: A Comment," working paper, University of Toronto.
+Vinay Kanetkar, and Doyle L. Weiss (1992), "Estimation Procedures for MCI and
+MNL Models: A Comparison of Reduced Forms," working paper, University of Toronto.
+and Doyle L. Weiss (1974), "An Analysis of Competitive Market Behavior," Journal
+of Marketing Research, 11 (May), 151-55.
+and (1977), "Cumulative Advertising Effects: The Role of Serial Correlation,"
+Decision Sciences, 6, 471-81.
+Hruschka, Harald (1993), "Determining Market Response Functions by Neural Network
+Modeling: A Comparison of Econometric Techniques," European Journal of Operational
+Research, 66, 27-35.
+and Martin Natter (1996), "Specification and Estimation of Nonlinear Models with
+Dynamic Reference Prices," in S. Jorgensen & G. Zaccour, eds., Proceedings of the
+International Workshop on Dynamic Competitive Analysis in Marketing. Berlin: Springer.
+Hunter, John E. and Frank L. Schmidt (1990), Methods of Meta Analysis. Newbury Park, CA:
+Sage.
+Hylleberg, Svend (1986), Seasonality in Regression. Orlando, FL: Academic Press.
+Imhof, J. P. (1961), "Computing the Distribution of Quadratic Forms in Normal Variables,"
+Biometrika, 48, 419-26.
+Ingene, Charles A. and Mark E. Perry (1995), "A Note on Multi-regional Marketing,"
+Management Science, 41 (July), 1194-201.
+Inman, J. Jeffrey and Lee McAlister (1994), "Do Coupon Expiration Dates Affect Consumer
+Behavior?" Journal of Marketing Research, 31:3 (August), 423-28.
+Inmon, W. H., John A. Zachman and Jonathon G. Geiger (1997), Data Stores, Data Warehousing and the Zachman Framework: Managing Enterprise Knowledge. New York:
+McGraw-Hill.
+, ,
+,
+,
+BIBLIOGRAPHY 451
+Jacobson, Robert and David Aaker (1993), "Composite Dependent Variables and the Market
+Share Effect," Marketing Science, 12:2 (Spring), 209-12.
+and Franco M. Nicosia (1981), "Advertising and Public Policy: The Macroeconomic
+Effects of Advertising," Journal of Marketing Research, 18 (February), 29-38.
+Jagpal, Harsharanjeet S. (1981), "Measuring Joint Advertising Effects in Multiproduct Firms,"
+Journal of Advertising Research, 21:1, 65-69.
+(1982), "Multicollinearity in Structural Equation Models with Unobservable
+Variables," Journal of Marketing Research, 19 (November), 431-39.
+and Balwin S. Hui (1980), "Measuring the Advertising-Sales Relationship: A
+Multivariate Time-Series Approach," in Current Issues and Research in Advertising. Ann
+Arbor, MI: Division of Research, Graduate School of Business, 211-28.
+Ephraim F. Sudit, and Hrishikesh D. Vinod (1979), "A Model of Sales Response to
+Advertising Interactions," Journal of Advertising Research, 19 (June), 41-47.
+and (1982), "Measuring Dynamic Maketing Mix Interactions Using
+Translog Functions," Journal of Business, 55 (July), 401-15.
+Jain, Arun K. and Vijay Mahajan (1979), "Evaluating the Competitive Environment in
+Retailing Using Multiplicative Competitive Interactive Model," in Research in Marketing,
+2, Jagdish N. Sheth, ed. Greenwich, CT: JAI Press, 217-57.
+Jain, Dipak C. and Ram C. Rao (1990), "Effect of Price on the Demand for Durables:
+Modeling, Estimation and Findings," Journal of Business & Economic Statistics, 8:2
+(April), 163-70.
+and Naufel J. Vilcassim (1991), "Investigating Household Purchase Timing
+Decisions: A Conditional Hazard Function Approach," Marketing Science, 10, 1-23.
+and Pradeep K. Chintagunta (1994), "A Random-Coefficient Logit Brand
+Choice Model Applied to Panel Data," Journal of Business & Economic Statistics, 12:3
+(July), 317-28.
+Jarvenpaa, Sirkka and Blake Ives (1991), "Executive Involvement and Participation in the
+Management of Information Technology," MIS Quarterly, 15 (June), 205-227.
+Jastram, Roy W. (1955), "A Treatment of Distributed Lags in the Theory of Advertising
+Expenditures," Journal of Marketing, 20 (July), 36-46.
+Jedidi, Kamel, Jehoshua Eliashberg, and Wayne DeSarbo (1989), "Optimal Advertising and
+Pricing for a Three-Stage Time-Lagged Monopolistic Diffusion Model Incorporating
+Income," Optimal Control Applications & Methods, 10 (October-December), 313-31.
+Carl F. Mela, and Sunil Gupta (1999), "Managing Advertising and Promotion for
+Long-Run Productivity," Marketing Science, 18:1, 1-22.
+Jeuland, Abel P. and Robert J. Dolan (1982), "An Aspect of New Product Planning: Dynamic
+Pricing," in Marketing Planning Models, Adris A. Zoltners, ed. Amsterdam: NorthHolland, 1-21.
+Jex, Colin F. (1985), "Short Term Modelling of Advertising Effectiveness: A Confirmation of
+Broadbent’s Model," Journal of the Market Research Society, 27:4 (October), 293-97.
+(1990), "Sequential Estimation of a Time Dependent Advertising Effectiveness
+Model," European Journal of Operational Research, 48:3 (October), 318-331.
+(1994), "Recursive Estimation as an Aid to Exploratory Data Analysis: An
+Application to Market Share Models," International Journal of Forecasting, 10:3
+(November), 445-53.
+Johansen, Soren. (1988), "Statistical Analysis of Cointegration Vectors," Journal of Economic
+Dynamics and Control, 12, 231-254.
+and Katarina Juselius (1990), "Maximum Likelihood Estimation and Inference on
+Cointegration-With Applications to the Demand for Money," Oxford Bulletin of Economics and Statistics, 52:2, 169-210.
+,
+, ,
+, ,
+,
+452 BIBLIOGRAPHY
+Johansson, Johny K. (1973), "A Generalized Logistic Function with an Application to the
+Effect of Advertising," Journal of the American Statistical Association, 68 (December),
+824-27.
+(1974), "Price-Quantity Relationships Varying across Brands and over Time," paper
+presented at the ORSA/TIMS National Meeting, San Juan, Puerto Rico, October.
+(1979), "Advertising and the S-Curve: A New Approach," Journal of Marketing
+Research, 16 (August), 346-54.
+Johnson, J.A., E.H. Oksanen, MR. Veall and D.Fretz (1992), "Short-Run and Long-Run
+Elasticities for Canadian Consumption of Alcoholic Beverages: An Error-Correction
+Mechanism/Cointegration Approach," The Review of Economics and Statistics, 74, 64-74.
+Johnson, L.W. (1985), "Alternative Econometric Estimates of the Effect of Advertising on the
+Demand For Alcohol in the U.K.," International Journal of Advertising, 4, 19-25.
+Johnston, Jack and John DiNardo (1997), Econometric Methods, 4th Edition. New York:
+McGraw-Hill.
+Jonas, Kerry (1997), "European Advertising Monitors," Admap, 32:2 (February), 10-11.
+Jones, Eugene and Ronald W, Ward (1989), "Effectiveness of Generic and Brand Advertising
+on Fresh and Processed Potato Products," Agribusiness, 5:5, 523-36.
+Jones, John P. (1984), "Universal Diminishing Returns: True or False? International Journal
+of Advertising, 3 (1), 27-41.
+(1989), Does It Pay to Advertise? Cases Illustrating Successful Brand Advertising.
+New York: Lexington Books.
+(1990), "Ad Spending: Maintaining Market Share," Harvard Business Review,
+(January-February), 38-42.
+(1992), How Much is Enough? Getting the Most for Your Advertising Dollar. New
+York: Lexington Books.
+(1995a), "Single-Source Research Begins to Fulfill Its Promise," Journal of Advertising Research, 35 (May/June), 9-16.
+(1995b), When Ads Work: New Proof that Advertising Triggers Sales. New York:
+Lexington Books.
+Judge, George G., William E. Griffiths, R. Carter Hill, Helmut Lutkepohl, and Tsoung Chao
+Lee (1985), The Theory and Practice of Econometrics, 2nd Edition. New York: John
+Wiley.
+Jung, C. and B. Seldon (1995), "The Macroeconomic Relationship between Advertising and
+Consumption," Southern Economic Journal, 61, 577-87.
+Kadiyali, Vrinda, Naufel J. Vilcassim, and Pradeep K. Chintagunta (1996), "Empirical
+Analysis of Competitive Product Line Pricing Decisions," Journal of Business, 69:4
+(October), 459-87.
+Kaiser, Henry M., Donald J. Liu, Timothy D. Mount, and Olan D. Forker (1992), "Impacts of
+Dairy Promotion from Consumer Demand to Farm Supply" in Commodity Advertising and
+Promotion, Henry Kinnucan, Stanley R. Thompson, and Hui-Shung Chang, eds. Ames, IA:
+Iowa State University Press, 40-57.
+Kalwani, Manohar U. and Chi Kin Yim (1992), "Consumer Price and Promotion Expectations: An Experimental Study," Journal of Marketing Research, 29:1 (February), 90-100.
+Heikki J.Rinne, and Yoshi Sugita (1990), "A Price Expectations Model of
+Customer Brand Choice," Journal of Marketing Research, 27:3 (August), 251-62.
+Kalyanam, Kirthi (1996), "Pricing Decisions Under Demand Uncertainty: A Bayesian Mixture
+Model Approach," Marketing Science, 15:3, 207-21.
+and Thomas S. Shively (1998), "Estimating Irregular Price Effects: A Stochastice
+Spline Regression Approach," Journal of Marketing Research, 35:1 (February), 16-29.
+Kalyanaram, G. and Rusell S. Winer (1995), "Empirical Generalizations from Reference Price
+Research," Marketing Science, 14:3, G161-69.
+, ,
+BIBLIOGRAPHY 453
+Kamakura, Wagner A. and Gary J. Russell (1989), "A Probabilistic Choice Model for Market
+Segmentation and Elasticity Structure," Journal of Marketing Research, 26:4 (November),
+379-90.
+Kamien, Morton I. and Nancy L. Schwartz (1991), Dynamic Optimization: The Calculus of
+Variations and Optimal Control in Economics and Management. Advanced Textbooks in
+Economics. 31. Amsterdam: North-Holland.
+Kanetkar, Vinay, Charles B. Weinberg, and Doyle L. Weiss (1986a), "Recovering Microparameters from Aggregate Data for the Koyck and Brand Loyal Models," Journal of
+Marketing Research, 23 (August), 298-304.
+and (1986b), "Estimating Parameters of the Autocorrelated Current
+Effects Model from Temporally Aggregated Data," Journal of Marketing Research, 23
+(November), 379-86.
+and (1992), "Price Sensitivity and Television Advertising
+Exposures: Some Empirical Findings," Marketing Science, 11:4 (Fall), 359-371.
+Kapoor, S. G., P. Madhok and A. M. Wu (1981), "Modeling and Forecasting Sales Data by
+Time Series Analysis," Journal of Marketing Research, 18, 94-100.
+Karnani, Aneel (1985), "Strategic Implications of Market Share Attraction Models,"
+Management Science, 31 (May), 536-47.
+Katahira, Hotaka and Shigeru Yagi (1994), "Marketing Information Technologies in Japan" in
+The Marketing Information Revolution. Robert C. Blattberg, Rashi Glazer, and John D. C.
+Little, eds. Boston: Harvard Business School Press, 306-27.
+Kaul, Anil and Dick R. Wittink (1995), "Empirical Generalizations About the Impact of
+Advertising on Price Sensitivity and Price," Marketing Science, 14:3 (Part 2 of 2), G151-
+60.
+Kendall, Maurice and Alan Stuart (1973), The Advanced Theory of Statistics. New York:
+Hafner.
+Kendall, Nick, ed. (1999), Advertising Works 10, Henley-on-Thames, United Kingdom: NTC
+Publications.
+Kennedy, John R. (1970), "The Effect of Display Location on the Sales and Pilferage of
+Cigarettes," Journal of Marketing Research, 7 (May), 210-15.
+Kennedy, Peter (1983), "Logarithmic Dependent Variables and Prediction Bias," Oxford
+Bulletin of Economics & Statistics, 45, 4 (November), 384-92.
+(1998), A Guide to Econometrics, 4th Edition. Cambridge, MA: The MIT Press.
+Kim, Byung-Do (1995), "Incorporating Heterogeneity with Store-Level Aggregate Data,"
+Marketing Letters, 6:2 (April), 158-69.
+Kimball, George E. (1957), "Some Industrial Applications of Military Operations Research
+Methods," Operations Research, 5 (April), 201-4.
+Kinnucan, Henry (1987), "Effect of Canadian Advertising on Milk Demand: The Case of the
+Buffalo, New York Market," Canadian Journal of Agricultural Economics, 35 (March),
+181-96.
+and Deborah Fearon (1986), "Effects of Generic and Brand Advertising of Cheese in
+New York City with Implications for Allocation of Funds," North Central Journal of
+Agricultural Economics, 8:1 (January), 93-107.
+and Olan D. Forker (1986), "Seasonality in Consumer Response to Milk Advertising
+with Implications for Milk Promotion Policy," American Journal of Agricultural
+Economics, 68:3 (August), 563-71.
+and (1988), "Allocation of Generic Advertising Funds Among Products: A
+Sales Maximization Approach," Northeastern Journal of Agricultural and Resource
+Economics, 17:1, 64-71.
+Stanley R. Thompson, and Hui-Shung Chang, eds. (1992), Commodity Advertising
+and Promotion. Ames, IA: Iowa State University Press.
+, ,
+, ,
+,
+454 BIBLIOGRAPHY
+and Meenakshi Venkateswaran (1990), "Effects of Generic Advertising on Perceptions and Behavior: The Case of Catfish," Southern Journal of Agricultural Economics,
+(December), 137-51.
+and (1994), "Generic Advertising and Structural Heterogeneity Hypothesis,"
+Canadian Journal of Agricultural Economics, 42:3, 381-96.
+Klapper, Daniel and Helmut Herwartz (2000), "Forecasting Market Share Using Predicted
+Values of Competitive Behavior," International Journal of Forecasting, 16:3 (JulySeptember), 399-421.
+Kleinbaum, Robert M. (1988), Multivariate Time Series Forecasts of Market Share,
+Marketing Science Institute Report No. 88-102, April.
+Koehler, Gary J. and Albert R. Wildt (1981), "Specification and Estimation of Logically
+Consistent Linear Models," Decision Sciences, 12, 1-31.
+Koerts, J. and A.P.J. Abrahamse (1969), On the Theory and Application of the General Linear
+Model. Rotterdam: Rotterdam University Press.
+Kohn, Meir G. and Yakir Plessner (1973), "An Applicable Model of Optimal Marketing
+Policy," Operations Research, 21 (March-April), 401-12.
+Kondo, Fumiyo N. and Genshiro Kitagawa (2000), "Time Series Analysis of Daily Scanner
+Sales: Extraction of Trend, Day-of-Week Effect, and Price Promotion Effect," Marketing
+Intelligence & Planning, 18:2, 53-66.
+Kopalle, Praveen K., Carl F. Mela, and Lawrence Marsh (1999), "The Dynamic Effects of
+Discounting on Sales: Empirical Analysis and Normative Pricing Implications," Marketing
+Science, 18:3, 317-32.
+Kotler, Philip (1971), Marketing Decision Making: A Model-Building Approach. New York:
+Holt, Rinehart, and Winston.
+and Randall L. Schultz (1970), "Marketing Simulations: Review and Prospects,"
+Journal of Business, 43 (July), 237-95.
+Kotzan, Jeffrey A. and Robert V. Evanson (1969), "Responsiveness of Drug Store Sales to
+Shelf Space Allocation, Journal of Marketing Research, 6 (November), 465-69.
+Koyck, L. M. (1954), Distributed Lags and Investment Analysis. Amsterdam: North-Holland.
+Krishna, Aradhna and Z. John Zhang (1999), "Short- or Long Duration Coupons: The Effect
+of Expiration Date on the Profitability of Coupon Promotions," Management Science, 45:8
+(August), 1041-56.
+Krishnamurthi, Lakshman, Jack Narayan, and S. P. Raj (1986), "Intervention Analysis of a
+Field Experiment to Assess the Buildup Effect of Advertising," Journal of Marketing
+Research, 23 (November), 337-45.
+and S. P. Raj (1985), "The Effect of Advertising on Consumer Price Sensitivity,"
+Journal of Marketing Research, 22 (May), 119-29.
+and Arvind Rangaswamy (1987), "The Equity Estimator for Marketing Research,"
+Marketing Science, 6 (Fall), 336-57.
+and (1994), "Statistical Properties of the Equity Estimator," Journal of
+Business & Economic Statistics, 12:2 (April), 149-53.
+S. P. Raj, and Raja Selvam (1988), "Statistical and Managerial Issues in
+Cross-Sectional Aggregation," working paper, J. L. Kellogg Graduate School of Management, Northwestern University, August.
+Kristensen, Kai (1984), "Hedonic Theory, Marketing Research, and the Analysis of Complex
+Goods," International Journal of Research in Marketing, 1:1, 17-36.
+Kuehn, Alfred A. (1961), "A Model for Budgeting Advertising," in Mathematical Models and
+Methods in Marketing, Frank M. Bass et al., eds. Homewood, IL: Richard D. Irwin,
+315-48.
+(1962), "How Advertising Performance Depends on Other Marketing Factors,"
+Journal of Advertising Research, (March), 2-10.
+,
+BIBLIOGRAPHY 455
+Timothy W. McGuire, and Doyle L. Weiss (1966), "Measuring the Effectiveness of
+Advertising," in Proceedings, R. M. Haas, ed. Chicago: American Marketing Association,
+185-94.
+and Doyle L. Weiss (1965), "Marketing Analysis Training Exercise," Behavioral
+Science, 10 (January), 51-67.
+Kumar, V. (1994), "Forecasting of Market Share Models: An Assessment, Additional Insights,
+and Guidelines," International Journal of Forecasting, 10:2 (September), 294-312.
+and T.B. Heath (1990), "A Comparative Study of Market Share Models Using
+Disaggregate Data," International Journal of Forecasting, 6, 163-74.
+and Robert P. Leone (1988), "Measuring the Effect of Retail Store Promotions on
+Brand and Store Substitution," Journal of Marketing Research, 25:2 (May), 178-185.
+Kvålseth, Tarald O. (1985), "Cautionary Note about The American Statistician, 39
+(November), 279-85.
+Kwiatkowski, D., P. Phillips, P. Schmidt and Y. Shin (1992), "Testing the Null Hypothesis of
+Stationarity against the Alternative of a Unit Root," Journal of Econometrics, 54, 159-78.
+Lal, Rajiv and V. Padmanabhan (1995), "Competitive Response and Equilibria," Marketing
+Science, 14:3 (Part 2 of 2), G101-08.
+and Richard Staelin (1986), "Salesforce Compensation Plans in Environments with
+Asymmetric Information," Marketing Science, 5 (Summer), 179-98.
+Lam, Shunyin, Mark Vandenbosch, and Michael Pierce (1998), "Retail Sales Force
+Scheduling Based on Store Traffic Forecasting," Journal or Retailing, 74:1 (Spring), 61-
+88.
+Lambert, Zarrel V. (1968), Setting the Size of the Sales Force. State College, PA: Pennsylvania State University Press.
+Lambin, Jean-Jacques (1969), "Measuring the Profitability of Advertising: An Empirical
+Study," Journal of Industrial Economics, 17 (April), 86-103.
+(1970a), "Advertising and Competitive Behavior: A Case Study," Applied Economics,
+2 (January), 231-51.
+(1970b), "Optimal Allocation of Competitive Marketing Efforts: An Empirical
+Study," Journal of Business, 17 (October), 468-84.
+(1972a), "A Computer On-Line Marketing Mix Model," Journal of Marketing
+Research, 9 (May), 119-126.
+(1972b), "Is Gasoline Advertising Justified?" Journal of Business, 45 (October),
+585-619.
+(1976), Advertising, Competition, and Market Conduct in Oligopoly over Time.
+Amsterdam: North-Holland.
+Philippe A. Naert, and Alain Bultez (1975), "Optimal Marketing Behavior in
+Oligopoly," European Economic Review, 6, 105-28.
+and Robert Peeters (1982), Anticipating Dynamic Market Response to Brand
+Advertising: The Case of Automobile Advertising in Belgium, CESAM, Louvain-laNeuve,
+Belgium, December.
+Lancaster, Kent M. (1984), "Brand Advertising Competition and Industry Demand," Journal
+of Advertising, 13 (4), 19-24.
+Lattin, James M. and Randolph E. Bucklin (1989), "Reference Effects on Price and Promotion
+on Brand Choice," Journal of Marketing Research, 26:3 (August), 299-310.
+Lawrence, Kenneth, Michael Guerts, and I. Robert Parket (1990), "Forecasting Market Share
+Using a Combination of Time Series Data and Explanatory Variables: A Tutorial," Journal
+of Statistical Computation and Simulation, 36, 247-53.
+Lawrence, Michael and Graham Low (1993), "Exploring Individual User Satisfaction Within
+User-Led Development," MIS Quarterly, 17 (June), 195-208.
+,
+,
+456 BIBLIOGRAPHY
+Lee, H. S. (1994), "Maximum-Likelihood Inference on Cointegration and Seasonal Cointegration," Journal of Econometrics, 54, 1-47.
+Lee, Jonq-Ying (1984), "Demand Interrelationships Among Fruit Beverages," Southern
+Journal of Agricultural Economics, (December), 135-43.
+and Mark G. Brown (1985), "Coupon Redemption and the Demand for Concentrated
+Orange Juice: A Switching Regression," American Journal of Agricultural Economics, 67,
+647-53.
+and (1992), "Lag Structures in Commodity Advertising Research,"
+Agribusiness, 8:2, 143-54.
+Leeflang, Peter S. H. (1977), "A Comparison of Alternative Specifications of Market Share
+Models," in Modeling for Government and Business, C. A. van Bochove, ed. Leiden:
+Martinus Nijhoff, 247-81.
+(1997), "Vertical Competition," Paper presented at the EMAC Conference, Warwick,
+May.
+Karel Jan Alsem, and Jan C. Reuyl (1991), "Diagnosing Competition for Public
+Policy Purposes," working paper no. 207, Marketing Studies Center, John Anderson
+Graduate School of Management, UCLA.
+and Jacob J. van Duyn (1982a), "The Use of Regional Data in Marketing Models: The
+Demand for Beer in the Netherlands, Part 1: Regional Models," European Research, 10,
+2-9.
+and (1982b), "The Use of Regional Data in Marketing Models: The Demand
+for Beer in the Netherlands, Part 2: Pooling Regional Data," European Research, 10,
+64-71.
+Gregory M. Mijatovic, and John Saunders (1992), "Identification and Estimation of
+Complex Multivariate Lag Structures: A Nesting Approach," Applied Economics, 24, 273-
+83.
+and Alex J. Olivier (1985), "Bias in Consumer Panel and Store Audit Data," International Journal of Research in Marketing, 2:1, 27-41.
+and F. W. Platt (1984a), "Linear Structural Relation Market Share Models," European
+Marketing Academy Conference (EMAC), Nijrode, The Netherlands, April.
+and (1984b), "Consumer Response in an Era of Stagflation: Preliminary
+Results," in Advances in Marketing Research in Theory and Practice. (EMAC/ ESOMAR
+Symposium, Copenhagen, October), 195-227.
+and Jan C. Reuyl (1984), "on the Predictive Power of Market Share Attraction
+Models," Journal of Marketing Research, 21 (May), 211-15.
+and (1985a), "Competitive Analysis Using Market Response Functions,"
+Proceedings. Chicago: American Marketing Association, 388-95.
+and (1985b), "Advertising and Industry Sales: An Empirical Study of the
+West German Cigarette Market," Journal of Marketing, 49 (Fall), 92-98.
+and (1986), "Estimating the Parameters of Market Share Models at Different
+Levels of Aggregation with Examples from the West German Cigarette Market," European
+Journal of Operational Research, 23, 14-24.
+and Dick R. Wittink (1992), "Diagnosing Competitive Reactions Using (Aggregated)
+Scanner Data," International Journal of Research in Marketing, 9:1 (March), 39-57.
+and (1996a), " Competitive versus Consumer Response: Do Managers
+Overreact?," International Journal of Research in Marketing, 13:2 (April), 103-19.
+and (1996b), " Explaining Competitive Reaction Effects," working paper,
+Department of Economics, University of Groningen.
+Michel Wedel, and Philippe A. Naert (2000), Building Models for Marketing
+Decisions. Boston: Kluwer.
+
+Lenk. Peter J. and Ambar G. Rao (1990), "New Models from Old: Forecasting Product
+Adoption by Hierarchical Bayes Procedures," Marketing Science, 9:1 (Winter), 42-53.
+Leone, Robert P. (1983), "Modeling Sales-Advertising Relationships: An Integrated Time
+Series-Econometric Approach," Journal of Marketing Research, 20 (August), 291-95.
+(1987), "Forecasting the Effect of an Environmental Change on Market Performance:
+An Intervention Time-Series Approach," International Journal of Forecasting, 3, 463-78.
+(1995), "Generalizing What Is Known of Temporal Aggregation and Advertising
+Carryover," Marketing Science, 14:3 (Part 2 of 2), G141-50.
+and Randall L. Schultz (1980), "A Study of Marketing Generalizations," Journal of
+Marketing, 44 (Winter), 101-18.
+and Srini S. Srinivasan (1996), "Coupon Face Value: Its Impact on Coupon
+Redemptions, Brand Sales, and Brand Profitability," Journal of Retailing, 72:3 (Fall), 273-
+89.
+Lepak, Greg M. and John J. Considine (1994), "Measuring the Effects of Marketing Changes
+in Transit Systems Using Multiple Time Series Modeling, " Journal of Nonprofit & Public
+Sector Marketing, 2:1, 61-73.
+Levy, Haim and Julian L. Simon (1989), "A Generalization That Makes Useful the DorfrnanSteiner Theorem with Respect to Advertising," Managerial and Decision Economics, 10:1
+(March 1989), 85-87.
+Lilien, Gary L. (1979), "ADVISOR 2: Modeling Marketing Mix Decisions for Industrial
+Products," Management Science, 25 (February), 191-204.
+Philip Kotler, and K. Sridhar Moorthy (1992), Marketing Models. Englewood Cliffs,
+NJ: Prentice-Hall.
+and Arvind Rangaswamy (1998), Marketing Engineering. Reading, MA: AddisonWesley.
+and Ambar G. Rao (1976), "A Model for Allocating Retail Outlet Building Resources
+Across Market Areas," Operations Research, 24 (January-February), 1-14.
+and A. Api Ruzdic (1982), "Analyzing Natural Experiments in Industrial Markets," in
+Marketing Planning Models, Andris A. Zoltners, ed. New York: North-Holland, 241-69.
+and Eunsang Yoon (1988), "An Exploratory Analysis of the Dynamic Behavior of
+Price Elasticity over the Product Life Cycle: An Empirical Analysis of Industrial Chemical
+Products," in Issues in Pricing, Timothy M. Devinney, ed. Lexington, MA: Lexington
+Books, 261-87.
+Lim, Joa Sang and Marcus O’Connor (1996), "Judgmental Forecasting with Time Series and
+Causal Information," InternationalJournal of Forecasting, 12 (March), 139-53.
+Lindley, David V. and Adrian P.M. Smith (1972), "Bayes Estimates for the Linear Model,"
+Journal of the Royal Statistical Society, Series B, 34, 1 -41.
+Link, Ross (1995a), "Marketing Mix Model Validation," American Marketing Association’s
+Behavioral Research Conference, Scottsdale, AZ, January.
+(1995b), "Are Aggregate Scanner Data Models Biased?" Journal of Advertising
+Research, 35:5 (September/October), RC-8-12.
+(1996), "Modeling Seasonally," E-mail to AMODLMKT list, February 14.
+(1999), "RE: Weekly Sales Forecasting and Aggregation," E-mail to AMODLMKT
+list, August 26.
+Litterman, Robert B. (1984), "Forecasting and Policy Analysis with Bayesian Vector
+Autoregression Models," Federal Reserve Bank of Minneapolis Quarterly Review, 8 (Fall),
+30-41.
+Little, John D. C. (1966), "A Model of Adaptive Control of Promotional Spending," Operations Research, 14 (November-December), 1975-97.
+(1970), "Models and Managers: The Concept of a Decision Calculus," Management
+Science, 16 (April), 466-85.
+,
+458 BIBLIOGRAPHY
+(1975a), "BRANDAID: A Marketing-Mix Model, Part 1: Structure," Operations
+Research, 23 (July-August), 628-55.
+(1975b),"BRANDAID: A Marketing-Mix Model, Part 2: Implementation, Calibration,
+and Case Study," Operations Research, 23 (July-August), 656-73.
+(1979a), "Aggregate Advertising Models: The State of the Art," Operations Research,
+27 (July-August), 629-67.
+(1979b), "Decision Support Systems for Marketing Managers," Journal of Marketing,
+43 (Summer), 9-26.
+(1994), "Modeling Market Response in Large Customer Panels" in The Marketing
+Information Revolution. Robert C. Blattberg, Rashi Glazer, and John D. C. Little, eds.
+Boston: Harvard Business School Press, 173-203.
+(1998), "Aggregate Measures for Merchandising and Distribution," International
+Journal of Research in Marketing, 15:5 (December), 473-85.
+and Leonard M. Lodish (1981), "Commentary on ‘Judgment-Based Marketing
+Decision Models,’" Journal of Marketing, 45 (Fall), 24-29.
+Little, Roderick J. A. (1992), "Regression with Missing X’s: A Review," Journal of the
+American Statistical Association, 87:420 (December), 1227-37.
+Liu, Donald J. and Olan D. Forker (1988), "Generic Fluid Milk Advertising, Demand
+Expansion, and Supply Response: The Case of New York City," American Journal of
+Agricultural Economics, 70:2 (May), 229-36.
+and (1990), "Optimal Control of Generic Fluid Milk Advertising Expenditures," American Journal of Agricultural Economics, 72:4 (November), 1047-55.
+Harry M. Kaiser, Olan D. Forker, and Timothy D. Mount (1990), "An Economic
+Analysis of the U.S. Generic Advertising Program Using an Industry Model," Northeastern
+Journal of Agricultural and Resource Economiccs, 19:1 (April), 37-48.
+Liu, Lon-Mu and Dominique M. Hanssens (1981), "A Bayesian Approach to Time-Varying
+Cross-Sectional Models," Journal of Econometrics, 15 (April), 341-56.
+and (1982), "Identification of Multiple-Input Transfer Function Models,"
+Communication in Statistics Theory and Methods, 11:3, 297-314.
+Ljung, G. M. and George E. P. Box (1978), "On a Measure of Lack of Fit in Time Series
+Models," Biometrika, 65:2, 297-303.
+Lodish, Leonard M. (1976), "Assigning Salesmen to Accounts to Maximize Profits," Journal
+of Marketing Research, 13 (November), 440-44.
+(1981), "Experience with Decision-Calculus Models and Decision Support Systems,"
+in Marketing Decision Models, Randall L. Schultz and Andris A. Zoltners, eds. New York:
+Elsevier North-Holland, 99-122.
+Magid M. Abraham, Jeanne Livelsberger, Beth Lubetkin, Bruce Richardson, and
+Mary Ellen Stevens (1995), "A Summary of Fifty-Five In-Market Experimental Estimates
+of the Long-Term Effect of TV Advertising," Marketing Science, 14:3 (Part 2 of 2), G133-
+40.
+Longman, Marc and Wifried Pauwels (1998), "Analysis of Marketing Mix Interaction Effects
+and Interdepencies: A Normative Approach," Managerial and Decision Economics, 19:6
+(September), 343-53.
+Lucas, Jr., Henry C., Michael J. Ginzberg, and Randall L. Schultz (1990), Information
+Systems Implementation: Testing a Structural Model. Norwood: NJ: Ablex.
+Lutkepohl, Helmut (1982), "Non-Causality Due to Omitted Variables," Journal of Econometrics, 19, 367-78.
+and H.-E. Reimers (1992), "Impulse-Response Analysis of Cointegrated Systems,"
+Journal of Economic Dynamics and Control," 16, 53-78.
+Lynch, J. E. and G. J. Hooley (1990), "Increasing Sophistication in Advertising Budget
+Setting," Journal of Advertising Research. 30 (February), 67-75.
+,
+,
+BIBLIOGRAPHY 459
+Lynch, Michael (1974), "Comment on Curhan’s ‘The Relationship Between Shelf Space and
+Unit Sales in Supermarkets,’" Journal of Marketing Research, 11 (May), 218-20.
+Lyon, Charles C. and Gary D. Thompson (1993), "Temporal and Spatial Aggregation:
+Alternative Marketing Margin Models," American Journal of Aggricultural Economics,
+75:3 (August), 523-36.
+Maddala, G. S. (1992), Introduction to Econometrics, 2nd Edition. Englewood Cliffs, NJ:
+Prentice-Hall.
+Magat, Wesley A., John M. McCann, and Richard C. Morey (1986), "When Does Lag
+Structure Really Matter in Ooptimizing Advertising Expenditures?" Management Science,
+32 (February), 182-93.
+and (1988), "Reply to ‘When Does Lag Structure Really Matter ...
+Indeed?’" Management Science, 34 (July), 917-18.
+Mahajan, Vijay, Stuart I. Bretsehneider, and John W. Bradford (1980), "Feedback Approaches
+to Modeling Structural Shifts in Market Response," Journal of Marketing, 44 (Winter),
+71-80.
+Arun K. Jain, and Miehel Bergier (1977), "Parameter Estimation in Marketing
+Models in the Presence of Multicollinearity," Journal of Marketing Research, 14
+(November), 586-91.
+and Eitan Muller (1986), "Advertising Pulsing Policies for Generating Awareness for
+New Products," Marketing Science, 5 (Spring), 89-106.
+Subhash Sharma, and Yoram Wind (1984), "Parameter Estimation in Marketing
+Models in the Presence of Influential Response Data: Robust Regression and Applications," Journal of Marketing Research, 21 (August), 268-77.
+Mandese, Joe (1993), "Data from 4A’s Reveal 4% Error in TV Ad Counts," Advertising Age,
+(December 13).
+Mann, Don H. (1975), "Optimal Advertising Stock Models: A Generalization Incorporating
+the Effects of Delayed Response to Promotion Expenditures," Management Science, 21
+(March), 823-32.
+Mantrala, Murali K., Prabhakant Sinha, and Andris A. Zoltners (1992), "Impact of Resource
+Allocation Rules on Marketing Investment-Level Decisions and Profitability," Journal of
+Marketing Research, 29:2 (May), 162-75.
+Maravall, Augustin (1981), "A Note on Identification of Multivariate Time-Series Models,"
+Journal of Econometrics, 16 (June), 237-47.
+Markus, M. Lynne and Daniel Robey (1983), "The Organizational Validity of Information
+Systems," Human Relations, 36:3, 203-26.
+Mason, Charlotte H. and William D. Perreault, Jr. (1991), "Collinearity, Power, and Interpretation of Multiple Regression Analysis," Journal of Marketing Research, 28
+(August), 268-80.
+Massy, William F. and Ronald E. Frank (1965), "Short-Term Price and Dealing Effects in
+Selected Market Segments," Journal of Marketing Research, 2 (May), 171-85.
+Matthews, Brian P. and A. Diamantopoulas (1990), "Judgmental Revision of Sales Forecasts:
+Effectiveness of Forecast Selection," Journal of Forecasting, 9 (July-September), 407-15.
+Mayhew, Glenn E. and Russell S. Winer (1992), "An Empirical Analysis of Internal and
+External Reference Prices Using Scanner Data," Journal of Consumer Research, 19:1
+(June), 62-70.
+McCann, John M. (1974), "Market Response to the Marketing Decision Variables," Journal
+of Marketing Research, 11 (November), 399-412.
+McDonald, Colin (1997), "Short-Term Advertising Effects: How Confident Can We Be?"
+Admap, 32:6 (June), 36-39.
+McGuiness, Tony and Keith Cowling (1975), "Advertising and the Aggregate Demand for
+Cigarettes," European Economic Review, 6:3, 311-28.
+, ,
+,
+,
+460 BIBLIOGRAPHY
+McGuire, Timothy W., John U. Farley, Robert E. Lucas, and Winston J. Ring (1968),
+"Estimation and Inferences for Linear Models in Which Subsets of Dependent Variables
+Are Constrained," Journal of the American Statistical Association, 63 (December),
+1201-13.
+and Richard Staelin (1983), "An Industry Equilibrium Analysis of Downstream
+Vertical Integration," Marketing Science, 2 (Spring), 161-90.
+and Doyle L. Weiss (1976), "Logically Consistent Market Share Models II," Journal
+of Marketing Research, 13 (August), 296-302.
+and Frank S. Houston (1977), "Consistent Multiplicative Market Share
+Models," in Proceedings, Barnett A. Greenberg and Danny N. Bellinger, eds., Chicago:
+American Marketing Association, 129-34.
+McIntyre, Shelby H. (1982), "The Impact of Judgment-Based Marketing Models," Management Science, 28 (January), 17-33.
+David B. Montgomery, V. Srinivasan, and Barton A. Weitz (1983), "Evaluating the
+Statistical Significance of Models Developed by Stepwise Regression," Journal of
+Marketing Research, 20 (February), 1-11.
+McMaster, Derek (1987), "Own Brands and the Cookware Market," European Journal of
+Marketing, 1:21, 83-84.
+McWilliams, G. (1995), "At Compaq, a Desktop Crystal Ball," Business Week, 20 (March),
+96.
+Meade, William K. (1994), "Critical Issues in Baseline Interpretation," Advertising Research
+Foundation Annual Workshop on Scanner Research, New York: March.
+Meissner, F. (1961), "Sales and Advertising of Lettuce," Journal of Advertising Research, 1
+(March), 1-10.
+Mela, Carl F., Sunil Gupta and Donald R. Lehmann (1997), "The Long-Term Impact of Promotion and Advertising on Consumer Brand Choice," Journal of Marketing Research,
+34:2 (May), 248-61.
+and Praveen K. Kopalle (1998), "The Impact of Collinearity on Regression: The
+Asymmetric Effect of Negative and Positive Correlations," working paper, University of
+Notre Dame, May.
+Mentzer, John T. and Carol C. Bienstock (1998), Sales Forecasting Management. Thousand
+Oaks, CA: Sage Publications.
+Mercer, Alan (1991), Implementable Marketing Research, Englewood Cliffs, NJ: Prentice
+Hall.
+(1996), "Non-linear Price Effects," Journal of the Market Research Society, 38:3
+(July), 227-34.
+Metwally, M. M. (1978), "Escalation Tendencies of Advertising," Oxford Bulletin of
+Economics and Statistics, 40 (May), 153-63.
+(1980), "Sales Response to Advertising of Eight Australian Products," Journal of
+Advertising Research, 20 (October), 59-64.
+Mickwitz, Gosta (1959), Marketing and Competition. Helsingfors: Centraltrykeriet, 87-89.
+Miller, Don M. (1984), "Reducing Transformation Bias in Curve Fitting," The American
+Statistician, 38, 2 (May), 124-26.
+Miller, S. E., O. Capps, Jr., and G. J. Wells (1984), "Confidence Intervals for Elasticities and
+Flexibilities from Linear Equations," American Journal Agricultural Economics, 66, 392-
+6.
+Mills, Harland D. (1961), "A Study in Promotional Competition," in Mathematical Models
+and Methods in Marketing, Frank M. Bass et al., eds. Homewood, IL: Richard D. Irwin,
+271-301.
+Millward Brown International (1995), "Is There a Relationship between Television Awareness
+and Sales?" Broader Perspective.
+, ,
+,
+BIBLIOGRAPHY 461
+Mittelhammer, Ron C., George G. Judge, and Douglas J. Miller (2000), Econometric Foundations. Cambridge: Cambridge University Press.
+Mohler, R. R., ed. (1988), Nonlinear Time Series and Signal Processing. Berlin: SpringerVerlag.
+Montgomery, Alan L. (1997a), "Creating Micro-Marketing Pricing Strategies Using
+Supermarket Scanner Data," Marketing Science, 16:4, 315-37.
+(1997b), "Improving Price Elasticity Estimates Using Economic Theory and
+Shrinkage," Marketing Science Conference, Berkeley, CA, March 24.
+and Peter E. Rossi (1999), "Estimating Price Elasticities with Theory-Based Priors,"
+Journal of Marketing Research, 36:4 (November), 413-23.
+Montgomery, David B. and Alvin Silk (1972), "Estimating Dynamic Effects of Market
+Communications Expenditures," Management Science, 18, B485-501.
+and Glen L. Urban (1970), "Marketing Decision Information Systems: An Emerging
+View," Journal of Marketing Research, 7 (May), 226-34.
+and Charles B. Weinberg (1979), "Strategic Intelligence Systems," Journal of
+Marketing, 43 (Fall), 41-53.
+Montgomery, Douglas C. and Ginner Weatherby (1980), "Modeling and Forecasting Time
+Series Using Transfer Function and Intervention Methods," AIEE Transactions,
+(December), 289-307.
+Moore, William L. and Edgar A. Pessemier (1992), Product Planning and Management:
+Designing and Delivering Value. New York: McGraw-Hill.
+and Russell S. Winer (1987), "A Panel-Data-Based Method for Merging Joint Space
+and Market Response Function Estimation," Marketing Science, 6 (Winter), 25-42.
+Moorthy, K. Sridhar (1993), "Competitive Marketing Strategies: Game-Theoretic Models," in
+Handbooks in Operations Research and Management Science: Volume 5: Marketing,
+Joshua Eliashberg and Gary Lilien, eds. New York: Elsevier, 409-64.
+Moran, William T. (1978), "Insights from Pricing Research," in Pricing Practices and
+Strategies, in Earl L. Bailey, ed. New York: The Conference Board, 7-13.
+Morey, Richard C. and John M. McCann (1980), "Evaluating and Improving Resource
+Allocation for Navy Recruiting," Management Science, 26 (December), 1198-1210.
+and (1983), "Estimating the Confidence Interval for the optimal Marketing
+Mix: An Application of Lead Generation," Marketing Science, 2 (Spring), 193-202.
+Moriarty, Mark M. (1975), "Cross-Sectional, Time-Series Issues in the Analysis of Marketing
+Decision Variables," Journal of Marketing Research, 12 (May), 142-50.
+(1983), "Carryover Effects of Advertising on Sales of Durable Goods," Journal of
+Business Research, 11 (March), 127-37.
+(1985a), "Transfer Function Analysis of the Relationship Between Advertising and
+Sales: A Synthesis of Prior Research," Journal of Business Research, 13,247-57.
+(1985b), "Design Features of Forecasting Systems Involving Management Judgments," Journal of Marketing Research, 22 (November), 353-64.
+(1985c), "Retail Promotional Effects on Intra- and Interbrand Sales Performance,"
+Journal of Retailing, 61 (Fall), 27-48.
+and Arthur Adams (1979), "Issues in Sales Territory Modeling and Forecasting Using
+Box-Jenkins Analysis," Journal of Marketing Research, 16 (May), 221-32.
+and G. Salamon (1980), "Estimation and Forecasting Performance of a Multivariate
+Time Series Model of Sales," Journal of Marketing Research, 17, 558-64.
+Moriguchi, C. (1970), "Aggregation Over Time in Macroeconomic Relations," International
+Economic Review, 11 (October), 427-40.
+Morrison, Donald G. and Jorge Silvo-Risso (1995), "A Latent Look at Empirical Generalizations," Marketing Science, 14:3 (Part 2 of 2), G61-70.
+462 BIBLIOGRAPHY
+Morse, Philip M. and George E. Kimball (1951), Methods of Operations Research. New
+York: John Wiley.
+Morwitz, Vicki G. and David C. Schmittlein (1998), "Testing New Direct Marketing
+Offerings: The Interplay of Management Judgment and Statistical Models," Management
+Science, 44 (May), 610-28.
+Moschini, Giancarlo (1995), "Units of Measurement and the Stone Index in Demand System
+Estimation," American Journal of Agricultural Economics, 77 (February), 63-8.
+Mulhern, Francis J. and Robert J. Caprara (1994), "A Nearest Neighbor Model for Forecasting
+Market Response," International Journal of Forecasting, 10:2 (September), 191-207.
+and Robert P. Leone (1990), "Retail Promotional Advertising: Do the Number of Deal
+Items and Size of Deal Discounts Affect Store Performance?" Journal of Business
+Research, 21, 179-94.
+and (1991), "Implicit Price Bundling of Retail Products: A Multiproduct
+Approach to Maximizing Store Profitability," Journal of Marketing, 55:4 (October), 63-
+76.
+Muller, Robert W., George E. Kline, and Joseph J. Trout (1953), "Customers Buy 22% More
+When Shelves Are Well Stocked," Progressive Grocer, 32 (June), 40-48.
+Mundlak, Y. (1961), "Aggregation Over Time in Distributed Lag Models," International
+Economic Review, 2 (May), 154-63.
+Murray, Jane (1984), "Retail Demand for Meat in Australia: A Utility Theory Approach,"
+Economic Record, 60 (March), 45-56.
+Mushkat, Miron (1987), "Improving the Prospects for Plan Acceptance in Public Organizations," Long Range Planning, 20 (February), 52-66.
+Naert, Philippe A. (1971), "Optimizing Consumer, Intermediary Advertising, and Markup in a
+Vertical Market Structure," Management Science, 18 (December), 90-101.
+(1971), "Observations on Applying Marginal Analysis in Marketing: Part I," Journal
+of Business Administration, 4 (Fall), 49-67.
+(1972), "Observations on Applying Marginal Analysis in Marketing: Part II," Journal
+of Business Administration, 4 (Spring), 3-14.
+and Alain V. Bultez (1973), "Logically Consistent Market Share Models," Journal of
+Marketing Research, 10 (August), 334-40.
+and Peter S. H. Leeflang (1978), Building Implementable Marketing Models. Leiden:
+Martinus Nijhoff.
+and Marcel Weverbergh (198la), "On the Predictive Power of Market Share Attraction Models," Journal of Marketing Research, 18 (May), 146-53.
+and (1981b), "Subjective Versus Empirical Decision Models," in Marketing
+Decision Models, Randall L. Schultz and Andris A. Zoltners, eds. New York: Elsevier
+North-Holland, 99-122.
+and (1985), "Market Share Specification, Estimation, and Validation: Toward
+Reconciling Seemingly Divergent Views," Journal of Marketing Research, 22 (November), 453-67.
+Naik, Prasad A. (1999), "Estimating the Half-Life of Advertisements," Marketing Letters,
+10:3 (November), 351-62.
+and Chih-Ling Tsai (2000), "Controlling Measurement Errors in Models of
+Advertising Competition," Journal of Marketing Research, 37:1 (February), 113-124.
+Nakanishi, Masao (1973), "Advertising and Promotional Effects on Consumer Response to
+New Products," Journal of Marketing Research, 10 (August), 242-49.
+and Lee G. Cooper (1974), "Parameter Estimation for a Multiplicative Competitive
+Interaction Model Least Squares Approach," Journal of Marketing Research, 11 (August),
+303-11.
+BIBLIOGRAPHY 463
+and (1982), "Simplified Estimation Procedures for MCI Models," Marketing
+Science, 1 (Summer), 314-22.
+and Hal Kassarjian (1974), "Voting for a Political Candidate Under
+Conditions of Minimal Information," Journal of Consumer Research, 1, 314-22.
+Narasimhan, Chakravarti (1984), "A Price Discrimination Theory of Coupons," Marketing
+Science, 3 (Spring), 128-47.
+Scott A. Neslin, and Subrata Sen (1996), "Promotional Elasticities and Category
+Characteristics," Journal of Marketing, 60:2 (April), 17-30.
+Narayan, J. and J. Considine (1989), "Assessing the Impact of Fare Increases in a Transit
+System by Using Intervention Analysis," Journal of Business Research, 19, 245-54.
+Nelson, Charles R. (1972), "The Prediction Performance of the FRB-MIT-PENN Model of
+the U.S. Economy," American Economic Review, 62, 902- 17.
+and G. William Schwert (1979), "Tests for Granger/Weiner Causality: A Monte Carlo
+Investigation," University of Rochester, Graduate School of Management, working paper
+no. 7905.
+and H. Kang (1984), "Pitfalls in the Use of Time as an Explanatory Variable in
+Regression," Journal of Business and Economic Statistics, 2, 73-82.
+Nelson, Forrest D. (1976), "On a General Computer Algorithm for the Analysis of Models
+with Limited Dependent Variables," Annals of Economic and Social Measurement, 5
+(Fall), 493-509.
+and L. Olson (1978), "Specification and Estimation of a Simultaneous Equation
+Model with Limited Dependent Variables," International Economic Review, 19, 695-710.
+Nerlove, Marc and F. Waugh (1961), "Advertising Without Supply Control: Some Implications for the Study of the Advertising of Oranges," Journal of Farm Economics, 43:4 (Part
+I), 813-37.
+Neslin, Scott A. (1990), "A Market Response Model for Coupon Promotions," Marketing
+Science, 9:2 (Spring), 125-45.
+and Robert W. Shoemaker (1983a), "Using a Natural Experiment to Estimate Price
+Elasticity: The 1974 Sugar Shortage and the Ready-to-Eat Cereal Market," Journal of
+Marketing, 47 (Winter), 44-57.
+and (1983b), "A Model for Evaluating the Profitability of Coupon Promotions," Marketing Science, 2 (Fall), 389-405.
+Newbold, Paul (1974), "The Exact Likelihood Function for a Mixed Autoregressive-Moving
+Average Process," Biometrica, 61:3, 423-26.
+Newell, Allen and Herbert A. Simon (1972), Human Problem Solving. Englewood Cliffs, NJ:
+Prentice-Hall.
+Nguyen, Dung (1985), "An Analysis of Optimal Advertising Under Uncertainty," Management Science, 31 (May), 622-33.
+Nielsen Marketing Research (1992), Category Management. Lincolnwood, IL: NTC Business
+Books.
+Nijs, Vincent R., Marnik G. Dekimpe, Jan-Benedict E.M. Steenkamp and Dominique M.
+Hanssens (2001), "The Category Demand Effects of Price Promotions," Marketing
+Science, forthcoming.
+Nissen, David H. and Armando M. Lago (1975), "Price Elasticity of the Demand for Parcel
+Post Mail," Journal of Industrial Economics, 23:4 (June), 281-99.
+Nguyen, Dung (1997). Marketing Decisions Under Uncertainty. Boston: Kluwer.
+Nuttall, C. (1965), "The Relationship Between Sales and Distribution of Certain Confectionery Lines," Commentary, 7:4, 272-85.
+O’Donnell, Jayne (1998), "Survey Swipes at Scanner Pricing," USA Today, (December 17),
+p. 3B.
+, ,
+,
+464 BIBLIOGRAPHY
+Ofir, Chezy and Andre Khuri (1986), "Multicollinearity in Marketing Models: Diagnostics
+and Remedial Measures," International Journal of esearch in Marketing, 3:3, 181-205.
+Ogawa, Kosuke (1996), "Measuring Brand Power by Pricing Experiment," Chain Store Age
+(Japan), February 15.
+Shigeru Kido, and Shhigeru Yagi (1996), "Measuring the Short-Term Efffect of TV
+Advertising on Consumer Purchase Using Scanner Data," INFORMS Marketing Science
+Conference, University of Florida (March).
+O’Herlihy, Callaghan (1988), "A Commercial Perspective on Advertising Modeling as
+Presented by Dr. Hooley et al.," Journal of the Market Research Society, 30:2 (April),
+227-31.
+Openshaw, S. and P. J. Taylor (1979), "A Million or So Correlation Coefficients: Three
+Experiments on the Modified Areal Unit Problem," in Statistical Applications in the
+Spatial Sciences, N. Wrigley, ed. London: Pion, 127-44.
+Ornstein, Stanley I. and Dominique M. Hanssens (1987), "Resale Price Maintenance: Output
+Increasing or Restricting? The Case of Retail Liquor Stores," Journal of Industrial Economics, 36, 1, 1-18.
+Ottesen, Otto (1981), "A Theory of Short-Run Response to Advertising," in Research in
+Marketing, 4, Jagdish N. Sheth, ed. Greenwich, CT: JAI Press, 181-222.
+Pagoulatos, Emilio and Robert Sorensen (1986), "What Determines the Elasticity of Industry
+Demand?" International Journal of Industrial Organization, 4, 237-50.
+Palda, Kristian S. (1964), The Measurement of Cumulative Advertising Effects. Englewood
+Cliffs, NJ: Prentice-Hall.
+(1969), Economic Analysis for Marketing Decisions. Englewood Cliffs, NJ:
+Prentice-Hall.
+and Larry M. Blair (1970), "A Moving Cross-Section Analysis of the Demand for
+Toothpaste," Journal of Marketing Research, 7 (November), 439-49.
+Papadopoloulos, Socrates (1987), "Strategic Marketing Techniques in International Tourism,"
+International Marketing Review (Summer), 71-84.
+Papatla, Purushhottam and Lakshman Krishnamurthi (1996), "Measuring the Dynamic Effects
+of Promotions on Brand Choice," Journal of Marketing Research, 33:1, 20-35.
+Park, Sehoon and Minhi Hahn (1991), "Pulsing in a Discrete Model of Advertising Competition," Journal of Marketing Research, 28:4 (November), 397-405.
+Parker, Philip M. (1992), "Price Elasticity Dynamics Over the Adoption Life Cycle," Journal
+of Marketing Research, 29:2 (August), 358-67.
+(1994), "Aggregate Diffusion Forecasting Models in Marketing: A Critical Review,"
+International Journal of Forecasting, 10:2 (September), 353-80.
+and Ramya Neelamegham (1997), "Price Elasticity Dynamics over the Product Life
+Cycle," Marketing Letters, 8:2 (April), 205-16.
+and Lars-Hendrik Roller (1997), "Collusive Conduct in Duopolies: Multimarket Contact and Cross-Ownership in the Mobile Telephone Industry," Rand Journal of Economics,
+28:2 (Summer), 304-22.
+Parker, Thomas H. and Ira J. Dolich (1986), "Toward Understanding Retail Bank Strategy:
+Seemingly Unrelated Regression Applied to Cross-Sectional Data," Journal of Retailing,
+62 (Fall), 298-321.
+Parsons, Leonard J. (1968), "Predictive Testing: A Simultaneous Equations Model of Sales
+and Advertising," Unpublished Ph.D. Dissertation, Purdue University, 1968.
+(1974), "An Econometric Analysis of Advertising, Retail Availability, and Sales of a
+New Brand," Management Science, 20 (February), 938-47.
+(1975a), "Econometric Approaches to Integrating Marketing Information from
+Diverse Sources," in Proceedings. Chicago: American Marketing Association, 49-53.
+,
+BIBLIOGRAPHY 465
+(1975b), "The Product Life Cycle and Time-Varying Advertising Elasticities,"
+Journal of Marketing Research, 12 (November), 476-80.
+(1976), "A Rachet Model of Advertising Carryover Effects," Journal of Marketing
+Research, 13 (February), 76-79.
+(1981), "Models of Market Mechanisms," in Marketing Decision Models, Randall L.
+Schultz and Andris A. Zoltners, eds. New York: North-Holland, 77-98.
+and Frank M. Bass (1971), "Optimal Advertising Expenditure Implications of a
+Simultaneous-Equation Regression Analysis," Operations Research, 19 (May-June),
+822-31.
+Els Gijsbrechts, Peter S. H. Leeflang, and Dick R. Wittink (1994) "Marketing
+Science, Econometrics, and Managerial Contributions" in Research Traditions in Marketing, Gilles Laurent, Gary L. Lilien, and Bernard Pras, eds. Boston: Kluwer Academic
+Publishers, 52-78.
+and Randall L. Schultz (1976), Marketing Models and Econometric Research. New
+York: North-Holland.
+and (1994), "Forecasting Market Response," Introduction to Forecasting with
+Market Response Models, Special Issue of the International Journal of Forecasting, 10
+(1994), 181-89.
+and Piet Vanden Abeele (1981), "Analysis of Sales Call Effectiveness," Journal of
+Marketing Research, 18 (February), 107-13.
+Pauli, Hans and R. W. Hoecker (1952), Better Utilization of Selling Space in Food Stores:
+Part I: Relation of Size of Shelf Display to Sales of Canned Fruits and Vegetables,
+Marketing Research Report No. 30, Washington, DC: United States Government Printing
+office.
+Pauwels, Koen, Dominique M. Hanssens and S. Siddarth (1999), "The Long-Term Effects of
+Pricing and Promotion on Category Traffic, Brand Choice and Purchase Quantity,"
+working paper, University of California, Los Angeles, December.
+Pedrick, James H. and Fred S. Zufryden (1993), Measuring Competitive Effects of
+Advertising," Journal of Advertising Research, 33:6 (November-December), 11-20.
+Peles, Yoram C. (197la), "Economies of Scale in Advertising Beer and Cigarettes," Journal
+of Business, 44 (January), 32-37.
+(1971b), "Rates of Amortization of Advertising Expenditures," Journal of Political
+Economy, 79 (September-October), 1032-58.
+(1979), "Econometric Measurement of the Duration of Advertising Effect on Sales,"
+Journal of Marketing Research, 16 (August), 286-89.
+Perron, Pierre and Timothy J. Vogelsang (1992), "Testing for a Unit Root in a Time Series
+with a Changing Mean: Corrections and Extensions," Journal of Business and Economic
+Statistics, 10, 467-70.
+Pesaran, M.H., R.G. Pierse and K.C. Lee (1993), "Persistence, Cointegration and Aggregation: A Disaggregated Analysis of Output Fluctuations in the U.S. Economy," Journal of
+Econometrics, 56, 57-88.
+Peterson, Robert A. and James W. Cagley (1973), "The Effect of Shelf Space Upon Sales of
+Branded Products: An Appraisal," Journal of Marketing Research, 10 (February), 103-4.
+Phillips, P. C. B. and Pierre Perron (1988), "Testing for Unit Roots in Time Series Regressions," Biometrica, 75, 335-46.
+Picconi, Mario J. and Charles L. Olson (1978), "Advertising Decision Rules in a Multibrand
+Environment: Optimal Control Theory and Evidence," Journal of Marketing Research, 15
+(February), 82-92.
+Pierce, David A. (1972), "Residual Correlations and Diagnostic Checking in DynamicDisturbance Time Series Models," Journal of the American Statistical Association, 67
+(September), 636-40.
+,
+466 BIBLIOGRAPHY
+(1977), "Relationships—and the Lack Thereof Between Economic Time Series, with
+Special Reference to Money and Interest Rates," Journal of the American Statistical
+Association, 72 (March), 11-22.
+and Larry D. Haugh (1977), "Causality in Temporal Systems," Journal of
+Econometrics, 5, 265-93.
+Piggott, Nicholas E., James A. Chatfant, Julian M. Alston, and Garry R. Griffith (1996),
+"Demand Response to Advertising in the Australian Meat Industry," American Journal of
+Agricultural Economics, 78:3 (May), 268-79.
+Piggott, Roley R., Nicholas E. Piggott, and Vic E. Wright (1995), "Approximating FarmLevel Returns to Incremenetal Advertising Expenditure: Methods and Application to
+Australian Meat Industry," American Journal of Agricultural Economics, 77 (August),
+497-511.
+Pilz, Jurgen (1991), Bayesian Estimation and Experimental Design in Linear Regression
+Models, 2nd Edition. New York: John Wiley.
+Pindyck, Robert S. and Daniell L. Rubinfeld (1998), Econometric Models and Economic
+Forecasts, 4th Edition. New York: McGraw-Hill.
+Plat, F. W. and Peter S. H. Leeflang (1986a), "Competitive Analysis in Segmented Markets,"
+Research Memorandum, Institute of Economic Research, Faculty of Economics, University
+of Groningen, The Netherlands.
+and Peter S. H. Leeflang (1986b), "Decomposing Sales Elasticities in Segmented
+Markets," Research Memorandum, Institute of Economic Research, Faculty of Economics,
+University of Groningen, The Netherlands.
+Plosser, Charles I. and G. William Schwert (1977), "Estimation of Non-Invertible Moving
+Average Processes: The Case of Overdifferencing," Journal of Econometrics, 6, 199-224.
+Poirier, Dale J. (1973), "Piecewise Regression Using Cubic Splines," Journal of the American
+Statistical Association, 68 (September), 515-24.
+Pollak, Robert A. and Terence J. Wales (1992), Demand System Specification and Estimation.
+Oxford: Oxford University Press.
+Pollard, Lisa (1998), "Measuring the Effectiveness of Magazine Advertising," Admap, 33:1
+(January), 22-25.
+Pollay, Richard W. (1979), "Lydiametrics: Applications of Econometrics to the History of
+Advertising," Journal of Advertising History, 1 (January), 3-18.
+S, Siddath, Michael Siegel, Anne Haddix, Robert K. Merritt, Gary A. Giovino, and
+Michael P. Eriksen (1996), "The Last Straw? Cigarette Advertising and Realized Shares
+Among Youths and Adults, 1979-1993," Journal of Marketing, 60:2 (April), 1-16.
+Popkowski-Leszczyc, Peter T.L. (1996), "Tests of Stationarity and Equilibrium," paper
+presented at the Marketing Science Conference, Gainesville.
+and Ram C. Rao (1990), "An Empirical Analysis of National and Local Advertising
+Effect on Price Elasticity," Marketing Letters, 1:2, 149-60.
+Powers, Keiko I. and Dominique M.Hanssens (1997), "Long-Term Time-Series Analysis for
+Psychological Research," working paper, Anderson School at UCLA, May.
+Yih-Ing Hser, and M. Douglas Anglin (1991), "Measuring the Long-Term
+Effects of Public Policy: The Case of Narcotics Use and Property Crime," Management
+Science, 37:6, (June), 627-44.
+and (1993), "Policy Analysis with a Long-Term Time Series
+Model: Controlling Narcotics Use and Property Crime," Mathematical and Computer
+Modeling, 17:2, 89-107.
+Prasad, V. Kanti and L. Winston Ring (1976), "Measuring Sales Effects of Some Marketing
+Mix Variables and Their Interactions," Journal of Marketing Research, 13 (November),
+391-96.
+,
+, ,
+,,,
+BIBLIOGRAPHY 467
+Pratt, John W. and Robert Schlaifer (1988), "On the Interpretation and Observation of Laws,"
+Journal of Econometrics, 39 (September-October), 23-54.
+Progressive Grocer (1963-1964), "The Colonial Study," 42 (September), 43 (March).
+Radfar, Mehran (1985), "The Effect of Advertising on Total Consumption of Cigarettes in the
+U.K.," European Economic Review, 29 (November), 225-31.
+Raju, Jagmohan S. (1992), "The Effect of Price Promotions on Variability in Product
+Category Sales," Marketing Science, 11:3 (Summer), 207-220.
+Raj Sethuraman and Sanjay K. Dhar (1995), "The Introduction and Performance of
+Store Brands," Management Science, 41:6 (June), 957-78.
+Ramsey, James B. (1969), "Tests for Specification Errors in Classical Least-Squares Regression Analysis," Journal of the Royal Statistical Society, Series B. 21, 350-71.
+(1972), "Limiting Functional Forms for Market Demand Curves," Econometrica, 40
+(March), 327-41.
+(1974), "Classical Model Selection Through Specification Error Tests," in Frontiers
+in Econometrics, Paul Zarembka, ed. New York: Academic Press, 13-48.
+Rangan. V. Kasturi (1987), "The Channel Design Decision: A Model and an Application,"
+Marketing Science, 6 (Spring), 156-74.
+Rangaswamy, Arvind and Lakshman Krisnamurthi (1991), "Response Function Estimation
+Using the Equity Estimator," Journal of Marketing Research, 28 (February), 72-83.
+and (1995), "Equity Estimation and Assessing Market Response: A
+Rejoinder," Journal of Marketing Research, 32:4 (November), 480-5.
+Prabhakant Sinha, and Andris Zoltners (1990), An Integrated Model-Based Approach
+for Sales Force Structuring, Marketing Science, 9:4 (Fall), 279-98.
+Rao, Ambar G. (1970), Quantitative Theories in Advertising. New York: John Wiley.
+and Peter B. Miller (1975), "Advertising/Sales Response Functions," Journal of
+Advertising Research, 15 (April), 7-15.
+Rao, Ram C. (1984), "Advertising Decisions in Oligopoly: An Industry Equilibrium
+Analysis," Optimal Control Applications & Methods, 5 (October-December), 331-44.
+(1986), "Estimating Continuous Time Advertising-Sales Models," Marketing Science,
+5 (Spring), 125-42.
+and Frank M. Bass (1985), "Competition, Strategy, and Price Dynamics: Theoretical
+and Empirical Investigation," Journal of Marketing Research, 22 (August), 283-96.
+and Ronald E. Turner (1984), "Organization and Effectiveness of the Multiproduct
+Salesforce," Journal of Personal Selling and Sales Management, (May), 24-30.
+Rao, Vithala R. (1972), "Alternative Econometric Models of Sales-Advertising Relationships," Journal of Marketing Research, 9 (May), 177-81.
+Jerry Wind, and Wayne S. DeSarbo (1988), "A Customized Market Response Model:
+Development, Estimation, and Empirical Testing," Journal of the Academy of Marketing
+Science, 16 (Spring), 128-40.
+Rasmussen, A. (1952), "The Determination of Advertising Expenditure," Journal of Marketing, 16 (April), 439-46.
+Reekie, W. Ducan (1994), "Consumers’ Surplus and the Demand for Cigarettes," Managerial
+and Decision Economics, 15:3 (May-June), 223-34.
+Reibstein, David J. and Paul W. Farris (1995), "Market Share and Distribution: A Generalization, a Speculation, and Some Implications," Marketing Science, 14:3 (Part 2 of 2),
+G190-202.
+and Hubert Gatignon (1984), "Optimal Product Line Pricing: The Influence of
+Cross-Elasticities," Journal of Marketing Research, 21 (August), 259-67.
+Reuijl, Jan C. (1982), On the Determination of Advertising Effectiveness. Boston: Kluwer
+Academic Publishers.
+468 BIBLIOGRAPHY
+Riddington, G. L. (1993), "Time Varying Coefficient Models and Their Forecasting
+Performance," OMEGA, 21:5 (September), 573-83.
+Riskey, Dwight W. (1997), "How Advertising Works: An Industry Response," Journal of
+Marketing Research, 34:2 (May), 292-93.
+Roberts, David L. and Stephen Nord (1988), "Causality Tests and Functional Form Sensitivity," Applied Economics, 17, 135-41.
+Robinson, Bruce and Chet Lakhani (1975), "Dynamic Price Models for New-Product
+Planning," Management Science, 21 (June), 1113-22.
+Rosenberg, Barr (1973), "The Analysis of a Cross-Section of Time Series by Stochastically
+Convergent Regression," Annals of Economic and Social Measurement, 2 (October),
+399-428.
+Rosett, Richard N. (1959), "A Statistical Model of Friction in Economics," Econometrica, 27
+(April), 263-67.
+and Forrest D. Nelson (1975), "Estimation of the Two-Limit Regression Model,"
+Econometrica, 43 (January), 141-46.
+Roy, Abhik, Dominique M. Hanssens and Jagmohan S. Raju (1994), "Competitive Pricing by
+a Price Leader," Management Science, 40:7 (July), 809-23.
+Russell, Gary J. (1988), "Recovering Measures of Advertising Carryover from Aggregate
+Data: The Role of the Firm’s Decision Behavior," Marketing Science, 7 (Summer), 252-70.
+(1992), "A Model of Latent Symmetry in Cross Elasticities," Marketing Letters, 3:2
+(April), 157-69.
+and Ruth N. Bolton (1988), "Implications of Market Structure for Elasticity
+Structure," Journal of Marketing Research, 25 (August), 229-41.
+Randoph E. Bucklin, and V. Srinivasan (1993), "Identifying Multiple Preference
+Segments from Own- and Cross-Price Elasticities," Marketing Letters, 4 (January), 5-18.
+Michael R. Hagerty, and James M. Carman (1991), "Bayesian Estimation of
+Marketing Mix Elasticities Using PIMS Priors," working paper, March.
+and Wagner A. Kamakura (1994), "Understanding Brand Competition Using Micro
+and Macro Scanner Data," Journal of Marketing Research, 31:2 (May), 289-303.
+Rust, Roland T. (1988), "Flexible Regression," Journal of Marketing Research, 25:1 (February), 10-24.
+Donald R. Lehmann, and John U. Farley, (1990), "Estimating Publication Bias in
+Meta-Analysis," Journal of Marketing Research, 27:2 (May), 220-26.
+and David C. Schmittlein (1985), "A Bayesian Cross-Validated Likelihood Method
+for Comparing Alternative Specifications of Quantitative Models," Marketing Science, 4
+(Winter), 20-40.
+Ruud, Paul A. (1984), "Tests of Specification in Econometrics," Econometric Reviews, 3 (2),
+211-42.
+Ryans, Adrian B. and Charles B. Weinberg (1979), "Territory Sales Response," Journal of
+Marketing Research, 16 (November), 453-65.
+Rycroft, Robert S. (1993), "Microcomputer Software of Interest to Forecasters in Comparative
+Review: An Update," International Journal of Forecasting, 9 (December), 531-75.
+Saghafi, Massoud M. (1988), "Optimal Pricing to Maximize Profits and Achieve Market-Share Targets for Single-Product and Multiproduct Companies," in Issues in Pricing,
+Timothy M. Devinney, ed. Lexington, MA: Lexington Books, 239-53.
+Samuels, J. M. (1970/1971), "The Effect of Advertising on Sales and Brand Shares,"
+European Journal of Marketing, 4 (Winter), 187-207.
+Sanders, N. and K. Manrodt (1994), "Forecasting Practices in US Corporations: Survey
+Results, Interfaces, 24, 92-100.
+BIBLIOGRAPHY 469
+and L. Ritzman (1992), "The Need for Contextual and Technical Knowledge in
+Judgmental Forecasting," Journal of Behavioral Decision Making, 5 (January-March), 39-
+52.
+Sasieni, Maurice W. (1971), "Optimal Advertising Expenditure," Management Science, 18
+(December), 64-72.
+(1980), "Testing the Validity of Econometric Analyses of Markets," Admap, (May),
+212-14.
+(1982), "The Effects of Combining Observation Periods in Time Series," Journal of
+the Operational Research Society, 33, 647-53.
+(1989), "Optimal Advertising Strategies," Marketing Science, 8:4 (Fall), 358-70.
+Saunders, John (1987), "The Specification of Aggregate Market Models," European Journal
+of Marketing, 21:2, 5-47.
+Savage, Leonard J. (1954), The Foundations of Statistics. New York: John Wiley.
+Sawyer, Alan and Scott Ward (1979), "Carryover Effects in Advertising Communication," in
+Jagdish N. Sheth, ed., Research in Marketing, 2, JAI Press, 259-314.
+Schmalensee, Richard (1972), The Economics of Advertising. New York: North-Holland.
+(1976), "A Model of Promotional Competition in Oligopoly," Review of Economic
+Studies, 43 (October), 493-507.
+(1978), "A Model of Advertising and Product Quality," Journal of Political Economy,
+86 (June), 485-503.
+Schmidt, Frank (1994), "Statistical Significance Testing and Cumulative Knowledge in
+Psychology: Implications for the Training of Researchers," Psychological Methods, 1, 115-
+29.
+Schmidt, Peter (1973), "Calculating the Power of the Minimum Standard Error Choice
+Criterion," International Economic Review, 14 (February), 253-55.
+Schultz, Don E., William A. Robinson, and Lisa A. Petrison (1998), Sales Promotion
+Essentials, 3rd Edition. Lincolnwood, IL: NTC Business Books.
+Schultz, Randall L. (197la), "Market Measurement and Planning With a SimultaneousEquation Model," Journal of Marketing Research, 8 (May), 153-64.
+(1971b), "The Measurement of Aggregate Advertising Effects," Proceedings.
+Chicago: American Marketing Association, 220-24.
+(1984), "The Implementation of Forecasting Models," Journal of Forecasting, 3
+(January-March), 43-55.
+and (1978), "An Empirical-Simulation Approach to Competition," Research
+in Marketing, 1, 269-301.
+Michael J. Ginzberg, and Henry C. Lucas, Jr. (1984), "A Structural Model of
+Implementation," in Management Science Implementation, Randall L. Schultz and Michael
+J. Ginzberg, eds. Greenwich, CT: JAI Press, 55-87.
+and (1975a), "Implementation and Organizational Validity: An Empirical
+Investigation," in Implementing Operations Research/Management Science, Randall L.
+Schultz and Dennis P. Slevin, eds. New York: American Elsevier, 153-72.
+and (1975b), Implementing Operations Research/Management Science. New
+York: American Elsevier, 1975.
+and Wilfried R. Vanhonacker (1978), "A Study of Promotion and Price Elasticity,"
+Institute Paper No. 657, Krannert Graduate School of Management, Purdue University,
+March.
+and Dick R. Wittink (1976), "The Measurement of Industry Advertising Effects,"
+Journal of Marketing Research, 13 (February), 71-75.
+Schwert, G. William (1979), "Tests of Causality: The Message in the Innovations," Journal of
+Monetary Economics, 10, 55-76.
+470 BIBLIOGRAPHY
+Scitovsky, Tibor (1978), "Asymmetries in Economics," Scottish Journal of Political
+Economy, 25 (November), 227-37.
+Seldon, Barry J., Sudip Banerjee, and Roy G. Boyd (1993), "Advertising Conjectures and the
+Nature of Advertising Competition in an Oligopoly," Managerial and Decision Economics, 14:6 (November), 489-98.
+Sethuraman, Raj (1995), "A Meta-Analysis of National Brand and Store Brand CrossPromotional Price Elasticities," Marketing Letters, 6:4 (October), 275-86.
+(1996), "A Model of How Discounting High-Priced Brands Affects Sales of LowPriced Brands," Journal of Marketing Research, 33:4 (November), 399-409.
+V. Srinivasan, and Dolye Kim (1999), "Asymmetric and Neighborhood Cross-Price
+Effects: Some Empirical Generalizations," Marketing Science, 18:1, 23-41.
+and Gerald Tellis (1991), "An Analysis of the Tradeoff Between Advertising and
+Price Discounting," Journal of Marketing Research, 28:2 (May), 160-74.
+Sexton, Donald E. (1970), "Estimating Marketing Policy Effects on Sales of a Frequently
+Purchased Branded Product," Journal of Marketing Research, 7 (August), 338-47.
+(1972), "A Microeconomic Model of the Effects of Advertising," Journal of Business,
+45 (January), 29-41.
+Shakun, Melvin F. (1965), "Advertising Expenditures in Coupled Markets A GameTheory
+Approach," Management Science, 11 (February), B42-47.
+(1966), "A Dynamic Model for Competitive Marketing in Coupled Markets,"
+Management Science, 12 (August), B525-29.
+(1968), "Competitive Organizational Structures in Coupled Markets," Management
+Science, 14 (August), B663-73.
+Shane, H. D. (1977), "Mathematical Models for Economic and Political Advertising
+Campaigns," Operations Research, 25, 1-14.
+Gregory S. Carpenter, and Lakshman Krishnamurthi (1999), "The Advantage of
+Entry in the Growth Stage of the Product Life Cycle: An Empirical Analysis," Journal of
+Marketing Research, 36 (May), 269-76.
+Shankar, Venkatesh and Lakshman Krishnamurthi (1996), "Relating Price Sensitivity to
+Retailer Promotional Variables and Pricing Policy: An Empirical Analysis," Journal of
+Retailing, 72:3 (Fall), 249-72.
+Shapouri, S., R.J. Folwell, and J.L. Baritelle (1981), "Statistical Estimation of Firm-Level
+Demand Functions: A Case Study in an Oligopolistic Industry," Agricultural Economics
+Research, 33:2 (April), 18-25.
+Sharma, Subhash and William L. James (1981), "Latent Root Regression: An Alternate
+Procedure for Estimating Parameters in the Presence of Multicollinearity," Journal of
+Marketing Research, 18 (May), 154-61.
+Shiller, P.J. and Pierre Perron (1985), "Testing the Random-walk Hypothesis: Power versus
+Frequency of Observation," Economics Letters, 18, 381-86.
+Shipchandler, Zoher E. and James S. Moore (1988), "Examining the Effects of Regression
+Procedures on the Temporal Stability of Parameter Estimates in Marketing Models,"
+Journal of the Academy of Marketing Science, 16 (Fall), 79-87.
+Shoemaker, Robert W. (1986). "Comment on ‘Dynamics of Price Elasticity and Brand Life
+Cycles: An Empirical Study,"’ Journal of Marketing Research, 23 (February), 78-82.
+and Lewis G. Pringle (1980), "Possible Biases in Parameter Estimation with Store
+Audit Data," Journal of Marketing Research, 16 (February), 91-96.
+Shubik, Martin (1975), The Uses and Methods of Gaming. New York: Elsevier.
+Sickles, Robin C. and Peter Schmidt (1978), "Simultaneous Equations Models with Truncated
+Dependent Variables: A Simultaneous Tobit Model," Journal of Economics and Business,
+31 (Fall), 11-21.
+BIBLIOGRAPHY 471
+Peter Schmidt, and Ann D. White (1979), "An Application of the Simultaneous Tobit
+Model: A Study of the Determinants of Criminal Recidivism," Journal of Economics and
+Business, 31 (Spring), 166-71.
+Silk, Alvin J. and Glen L. Urban (1978), "Pre-Test Market Evaluation of New Packaged
+Goods: A Model and Measurement Methodology," Journal of Marketing Research, 15
+(May), 171-91.
+Silva-Risso, Jorge M., Randolph E. Bucklin, and Donald G. Morrison (1999), "A Decision
+Support System for Planning Manufacturers’ Sales Promotion Calendars," Marketing
+Science, 18:3, 274-300.
+Simester, Ducan (1997), "Optimal Promotional Strategies: A Demand-Sided Characterization," Management Science, 43:2 (February), 251-56.
+Simon, Hermann (1979), "Dynamics of Price Elasticity and Brand Life Cycles: An Empirical
+Study," Journal of Marketing Research, 16 (November), 439-52.
+(1982), "ADPULS: An Advertising Model with Wearout and Pulsation," Journal of
+Marketing Research, 19 (August), 352-63.
+(1997), "Hysteresis in Marketing—A New Phenomenon?" Sloan Management
+Review, 38:3 (Spring), 39-49.
+and Karl-Heinz Sebastian (1987), "Diffusion and Advertising: The German Telephone
+Campaign," Management Science, 33 (April), 451-66.
+Simon, Julian L. (1965), "A Simple Model for Determining Advertising Appropriations,"
+Journal of Marketing Research, 2 (August), 285-92.
+(1969a), "The Effect of Advertising on Liquor Brand Sales," Journal of Marketing
+Research, 6 (August), 301-13.
+(1969b), "A Further Test of the Kinky Oligopoly Demand Curve," American
+Economic Review, 59 (December), 971-75.
+(1970), Issues in the Economics of Advertising. Urbana, IL: University of Illinois
+Press.
+and Johan Arndt (1980), "The Shape of the Advertising Function," Journal of
+Advertising Research, 20 (August), 11-28.
+Sims, Christopher A. (1972), "Money, Income and Causality," American Economic Review,
+62 (September), 540-52.
+Singer, A. and Roderick J. Brodie (1990), "Forecasting Competitors’ Actions: An Evaluation
+of Alternative Ways of Analyzing Business Competition," International Journal of
+Forecasting, 6, 75-88.
+Skiera, Bernd and Sönke Albers (1998), "COSTA: Contribution Optimizing Sales Territory
+Alignment," Marketing Science, 17:3 (May), 196-213.
+Slade, Margaret E. (1995), "Product Rivalry with Multiple Strategic Weapons: An Analysis of
+Price and Advertising Competition," Journal of Economics & Management Strategy, 4:3
+(Fall), 445-76.
+Smith, Adrian F.M. (1973), "A General Bayesian Linear Model," Journal of the Royal
+Statistical Society, Series B, 35, 67-75.
+Smith, Stephen A, Shelby H. McIntyre, and Dale D. Achabal (1994), "A Two-Stage Sales
+Forecasting Procedure Using Discounted Least Squares," Journal of Marketing Research,
+31:1 (February), 44-56.
+Snell, Andy and Ian Tonks (1988), "The Sweet Taste of Information: A Study of the Demand
+for New Brands in the UK Confectionery Industry," Applied Economics, 20:8 (August),
+1041-55.
+Snetsinger, Douglas W. (1985a), "Multiproduct Firm Competition: The Role of Product and
+Advertising Policies," AMA Doctoral Dissertation Competition Abstract, April.
+(1985b), "Reaction to Advertising of New Brands: A Vector ARMA Modeling
+Approach," working paper no. 9184, Wilfrid Laurier University.
+472 BIBLIOGRAPHY
+Somers, T.M., Y.P. Gupta and S.C. Herriot (1990), "Analysis of Cooperative Advertising
+Expenditures: A Transfer Function Modeling Approach," Journal of Advertising Research,
+30:5 (October/November), 35-49.
+Spencer, David E. and Kenneth N. Berk (1981), "A Limited Information Specification Test,"
+Econometrica, 49:4 (July), 1079-85.
+Spitzer, John J. (1978), "A Monte Carlo Investigation of the Box-Cox Transformations in
+Small Samples," Journal of the American Statistical Association, 73 (September), 488-95.
+Srinivasan, Shuba, Peter T. L. Popkowski Leszczyc and Frank M. Bass (1999), "Market Share
+Equilibrium and Competitive Interaction: The Impact of Temporary, Permanent and
+Structural Changes in Prices," working paper, University of California, Riverside, August.
+Srinivasan, Srini S., Robert P. Leone, and Francis J. Mulhern (1995), "The Advertising
+Exposure Effect of Free Standing Inserts," Journal of Advertising, 24:1 (Spring), 32-40.
+Srinivasan, V, (1976), "Decomposition of a Multiperiod Media Scheduling Model," Management Science, 23 (December), 349-60.
+(1981), "An Investigation of the Equal Commission Rate Policy for a Multiproduct
+Salesforce," Management Science, 27 (July), 731-56.
+and Charlotte Mason (1986), "Nonlinear Least Squares Estimation of New Product
+Diffusion Models," Marketing Science, 5, 169-78.
+and Helen A. Weir (1988), "A Direct Approach to Inferring Microparameters of the
+Koyck Advertising-Sales Relationship from Macro Data," Journal of Marketing Research,
+25 (May), 145-56.
+Stackelberg, Heinrich von (1934), Marktform und Gleichgewicht. Vienna: Julius Springer.
+Staelin, Richard and Russell S. Winer (1976), "An Unobservable Variables Model for
+Determining the Effect of Advertising on Consumer Purchases," in 1976 Educators’
+Proceedings, Kenneth L. Bernhardt, ed., Chicago, American Marketing Association, 671-
+76.
+and Ronald E. Turner (1973), "Error in Judgmental Sales Forecasts: Theory and
+Results," Journal of Marketing Research, 10 (February), 10-16.
+Steckel, Joel H. and Wilfried R. Vanhonacker (1993), "Cross-Validation Models in Marketing
+Research," Marketing Science, 12:4 (Fall), 415-27.
+Steiner, Robert L. (1987), "The Paradox of Increasing Returns to Advertising," Journal of
+Advertising Research, 27 (February-March), 45-53.
+Stellwagen, Eric A. and Robert L. Goodrich (1994), Forecast Pro for Windows (User’s
+Manual). Belmont, MA.
+Stewart, Michael J. (1978), "The Long Term Effects of Econometrics," ADMAP, (February),
+64-69.
+(1990), "A Comment on ‘Modelling Beyond the Blip’," Journal of the Market
+Research Society, 32:3 (July), 457-62.
+Stigler, George J. (1947), "The Kinky Oligopoly Demand Curve and Price," Journal of
+Political Economy, 55, 432-49.
+(1952), Theory of Price. New York: Macmillan.
+(1961), "Economics of Information," Journal of Political Economy, 69 (June),
+213-25.
+Stock, James H. and Mark Watson (1988), "Testing for Common Trends," Journal of American Statistical Association, 83, 1097-1107.
+Stowsand, Heino and Wilfried Wenzel (1979), "Market Mechanics: A Study to Measure the
+Effect of Marketing Instruments on the Market Position of Fast-Moving Consumer
+Goods," Journal of Business Research, 7, 243-57.
+Sturgess, Brian and Peter Wheale (1985), "Advertising Interrelations in an Oligopolistic
+Market: An Analysis of Causality," International Journal of Advertising 4:4, 305-18.
+BIBLIOGRAPHY 473
+Sunoo, Don and Lynn Y. S. Lin (1978), "Sales Effects of Promotion and Advertising" Journal
+of Advertising Research, 18 (October), 37-40.
+Swait, Joffre and Jordan Louviere (1993), "The Role of the Scale Parameter in the Estimation and Comparison of Multinomial Logit Models," Journal of Marketing Research, 30 (August), 305-14.
+Swamy, P.A.V.B. (1971), Statistical Inference in Random Coefficient Models. New York: Springer-Verlag.
+and Peter von zur Muehlen (1988), "Further Thoughts on Testing for Causality with Econometric Models," Journal of Econometrics, 39 (September-October), 105-47.
+Sweezy, Paul M. (1939), "Demand Under Conditions of Oligopoly," Journal of Political Economy, 47, 568-73.
+Szajna, Bernadette (1994), "Software Evaluation and Choice: Predictive Validity of the Technology Assessment Instrument," MIS Quarterly, 18 (September),
+(1996), "Empirical Evaluation of the Revised Technology Acceptance Model," Management Science, 42 (January), 85-92.
+Takada, Hirokazu and Frank M. Bass (1998), "Multiple Time Series Analysis of Competitive Marketing Behavior," Journal of Business Research, 44.
+Taylor, Lester D. (1993), "The Demand for First-Class Mail: An Econometric Analysis," Review of Industrial Organization, 8:5, 523-44.
+Tellis, Gerard J. (1988), "The Price Sensitivity of Selective Demand: A Meta-Analysis of Econometric Models of Sales," Journal of Marketing Research, 25 (November), 391-404.
+(1989), "Interpreting Advertising and Price Elasticities," Journal of Advertising Research, 29:4 (August/September), 40-43.
+Rajesh K. Chandy, and Pattana Thaivanich (2000), "Which Ads Work, When, Where,
+and How Often? Modeling the Effects of Direct Television Advertising," Journal of Marketing Research, 37:1 (February), 32-46.
+and Claus Fornell (1988), "The Relationship Between Advertising and Product Quality over the Product Life Cycle: A Contingency Theory," Journal of Marketing Research, 25 (February), 64-71.
+and Doyle L. Weiss (1995), "Does TV Advertising Really Affect Sales? The Role of Measures, Models, and Data Aggregation," Journal of Adverttising, 24:3 (Fall), 1-12.
+Telser, Lester G. (1962a), "The Demand for Branded Goods as Estimated from Consumer Panel Data," Review of Economics and Statistics, 44 (August), 300-324.
+(1962b), "Advertising and Cigarettes," Journal of Political Economy, 70 (October), 471-99.
+Terui, Nobuhiko (2000), "Forecasting Dynamic Market Share Relationships," Marketing Intelligence & Planning, 18:2, 67-77.
+Theil, Henri (1965), "The Information Approach to Demand Analysis," Econometrica, 33 (January), 67-87.
+(1971), Principles of Econometrics. New York: John Wiley.
+Thompson, Stanley R., (1974), "Sales Response to Generic Promotion Efforts and Some Implications of Milk Advertising and Economic Surplus," Journal of the Northeastern Agricultural Economics Council, 3:2, 78-90.
+and Doyle A. Eiler (1977), "Determinants of Milk Advertising Effectiveness," American Journal of Agricultural Economics, 59 (May), 330-35.
+Tiao, George C. and George E. P. Box (1981), "Modeling Multiple Time Series with Applications," Journal of the American Statistical Association, 76 (December), 802-16.
+and Ruey S. Tsay (1983), "Multiple Time Series Modeling and Extended Sample Cross-Correlations," Journal of Business and Economic Statistics, 1 (January), 43-56.
+Tobin, James (1958), "Estimation of Relationships for Limited Dependent Variables," Econometrica, 26 (January), 24-36.
+
+Todd, Peter and Izak Benbasat (1992), "The Use of Information in Decision Making: An
+Experimental Investigation of the Impact of Computer-Based Decision Aids," MIS
+Quarterly, 16 (September), 373-93.
+Tonks, Ian (1986), "The Demand for Information and the Diffusion of a New Product,
+International Journal of Industrial Organization, 4:4, 397-408.
+Totten, John C. (1993), "Baseline Methods Comparison," memorandum.
+(1995), "Baseline Estimation Fundamentals," Chicago Area Marketing Modeler’s
+Group, March 2.
+(1997), Letter to Ross Link, November 16.
+(1999), "Aggregation—The Problem of Price," E-mail to AMODLMKT list, August
+22.
+(2000), "RE: Advertising Effects," E-mail to AMODLMKT list, February 4.
+and Martin P. Block (1994), Analyzing Sales Promotion, 2nd Edition. Chicago:
+Dartnell.
+Tsay, Ruey S. (1985), "Model Identification in Dynamic Regression (Distributed Lag)
+Models," Journal of Business and Economic Statistics, 3 (July), 228-37.
+and George C. Tiao (1984), "Consistent Estimates of Autoregressive Parameters and
+Extended Sample Autocorrelation Functions for Stationary and Nonstationary ARMA
+Models," Journal of the American Statistical Association, 79 (March), 84-96.
+Tsurumi, Hiroki (1973), "A Comparison of Alternative Optimal Models of Advertising
+Expenditures: Stock Adjustment Versus Control Theoretic Approaches," Review of
+Economics and Statistics, 55 (May), 156-68.
+and Yoshi Tsurumi (1971), "Simultaneous Determination of Market Share and
+Advertising Expenditure under Dynamic Conditions: The Case of a Firm Within the
+Japanese Pharmaceutical Industry," Kikan riron-keizaisaku, 22 (December), 1-23.
+Tull, Donald S. (1955), ‘A Re-Examination of the Causes of the Decline in Sales of Sapolio,"
+Journal of Business, 28 (April), 128-37.
+Van R. Wood, Dale Duhan, Tom Gillpatriek, Kim R. Robertson, and James G.
+Helgeson (1986), "‘Leveraged’ Decision Making in Advertising: The Flat Maximum
+Principle and Its Implications," Journal of Marketing Research, 23 (February), 25-32.
+Turner, Ronald E. (1971), "Market Measures from Salesmen: A Multidimensional Scaling
+Approach," Journal of Marketing Research, 8 (May), 165-72.
+Tyagi, Rajeev K. (1999), "A Characterization of Retailer Response to Manufacturer Trade
+Deals," Journal of Marketing Research, 36:4 (November), 510-16.
+Tybout, Alice M. and John R. Hauser (1981), "A Marketing Audit Using a Conceptual Model
+of Consumer Behavior: Application and Evaluation," Journal of Marketing, 45 (Summer),
+82-101.
+Umashankar, S. and Johannes Ledolter (1983), "Forecasting with Diagonal Multiple Time
+Series Models: An Extension of Univariate Models," Journal of Marketing Research, 20,
+58-63.
+Urban, Glen L. (1969), "A Mathematical Modeling Approach to Product Line Decisions,"
+Journal of Marketing Research, 6 (February), 40-47.
+(1975), "PERCEPTOR Model for Product Positioning," Management Science, 21
+(April), 858-71.
+and John R. Hauser (1993), Design and Marketing of New Products (Second Edition).
+Englewood Cliffs, NJ: Prentice-Hall.
+and Richard Karash (1971), "Evolutionary Model Building," Journal of Marketing
+Research, 8:1 (February), 62-70.
+Urzua, C.M., (1996), "On the Correct Use of Omnibus Tests for Normality," Economic
+Letters, 53, 247-51.
+BIBLIOGRAPHY 475
+van Bruggen, Gerrit H., Ale Smidts, and Berend Wierenga (1996), "The Impact of a
+Marketing Decision Support System: An Experimental Study," International Journal of
+Research in Marketing, 13 (October), 331-43.
+and (1998), "Improving Marketing Decision Making by Means of a
+Marketing Decision Support System," Management Science, 44 (May), 645-58.
+Vandaele, Walter (1983), Applied Time Series and Box-Jenkins Models. New York: Academic
+Press.
+Vanden Abeele, Piet, Els Gijsbrechts, and Marc Vanhuele (1990), "Specification and
+Empirical Evaluation of a Cluster-Asymmetry Market Share Model," International Journal
+of Research in Marketing, 7:4, 223-47.
+and (1992), "Specification and Empirical Evaluation of a ClusterAsymmetry Market Share Model: Erratum," International Journal of Research in Marketing, 9:2, 359.
+Vandenbosch, Mark B., and Charles B. Weinberg (1993), "Salesforce Operations," in Marketing. Handbooks in Operations Research and Management Science. 5. J. Elaishberg and
+G.L. Lilien, eds. Amsterdam: North-Holland, 653-94.
+van Heerde, Harald J., Peter S.H. Leeflang, and Dick R. Wittink (2000), "The Estimation of
+Pre- and Postpromotion Dips with Store-Level Scanner Data," Journal of Marketing
+Research, 37:3 (August), 383-95.
+and (2001), "Semiparametric Analysis to Estimate the Deal Effect
+Curve," Journal of Marketing Research, forthcoming.
+Vanhonacker, Wilfried R. (1983), "Carryover Effects and Temporal Aggregation in a Partial
+Adjustment Framework," Marketing Science, 2 (Summer), 297-317.
+(1984), "Estimation and Testing of a Dynamic Sales Response Model with Data
+Aggregated over Time: Some Results for the Autoregressive Current Effects Model,"
+Journal of Marketing Research, 21 (November), 445-55.
+(1987), "Estimating the Duration of Dynamic Effects with Temporally Aggregated
+Observations,’ Journal of Statistical Computation and Simulation, 27 (April), 185-209.
+(1988), "Estimating an Autoregressive Current Effects Model of Sales Response
+When Observations Are Aggregated over Time: Least Squares Versus Maximum
+Likelihood," Journal of Marketing Research, 25 (August), 301-7.
+(1989a), "Estimating Dynamic Response Models When Data Are Subject to Different
+Temporal Aggregation," Marketing Letters, 1:2 (June), 125-37.
+(1989b), "Modeling the Effect of Advertising on Price Response: An Econometric
+Framework and Some Preliminary Findings," Journal of Business Research, 19, 127-49.
+and Diana Day (1987), "Cross-Sectional Estimation in Marketing: Direct Versus
+Reverse Regression," Marketing Science, 6 (Summer), 254-67.
+Donald R. Lehmann, and Fareena Sultan (1990), "Combining Related and Sparse
+Data in Linear Regression Models," Journal of Business & Economic Statistics, 8:3, 327-
+35.
+and Lydia J. Price (1992), "Using Meta-Analysis in Bayesian Updating: The Empty
+Cell Problem," Journal of Business & Economic Statistics, 10:4 (October), 427-35.
+van Wezel, Michiel C. and Walter R. J. Baets (1995), "Predicting Market Responses with a
+Neural Network: The Case of Fast Moving Consumer Goods," Marketing Intellingence &
+Planning, 13:7, 23-30.
+Van Wormer, Theodore A. and Doyle L. Weiss, (1970), "Fitting Parameters to Complex
+Models by Direct Search," Journal of Marketing Research, 7 (November), 503-12.
+Verbeke, W., F. Clement, and P. W. Farris (1994), "Product Availability and Market Share in
+an Oligopolistic Market: The Dutch Detergent Market," The International Review of
+Retail, Distribution and Consumer Research, 4:3, 277-96.
+476 BIBLIOGRAPHY
+Verma, Vinod K. (1980), "A Price Theoretic Approach to the Specification and Estimation of
+the Sales-Advertising Function," Journal of Business, 53 (July), S115-37.
+Vidale, M. L. and H. B. Wolfe (1957), "An Operations Reseach Study of Sales Response to
+Advertising," Operational Research Quarterly, 5 (June), 370-81.
+Vilcassim, Naufel J. and Dipak C. Jain (1991), "Modeling Purchase-Timing and BrandSwitching Behavior Incorporating Explanatory Variables and Unobserved Heterogeneity,"
+Journal of Marketing Research, 28:1 (February), 29-41.
+Vrinda, Kadiyali, and Pradeep K. Chintagunta (1999), "Investigating Dynamic
+Multifirm Market Interactions in Price and Advertising," Management Science, 45:4
+(April), 499-518.
+von Gonten, Michael F. (1998), "Tracing Advertising Effects: Footprints in the Figures,"
+Admap, 33:9 (October), 43-45.
+and James F. Donius (1997), "Advertising Exposure and Advertising Effects: New
+Panel-Based Findings," Journal of Advertising Research, 37:4 (July-August), 51-60.
+Vuong, Quang H. (1989), "Likelihood Ratio Tests for Model Selection and NonNested
+Hypotheses," Econometrica, 57:2, 307-33.
+Waid, Clark, Donald F. Clark, and Russell L. Ackoff (1956), "Allocation of Sales Effort in the
+Lamp Division of General Electric Company," Operations Research, 4 (December),
+629-47.
+Wallace, T.D. (1972) "Weaker Criteria and Tests for Linear Restrictions in Regression,"
+Econometrica, 40 (July), 689-98.
+Walters, Rockney G. (1989), "An Empirical Investigation into Retailer Response to Manufacturer Trade Promotions," Journal of Retailing, 65:2 (Summer), 253-72.
+(1991), "Assessing the Impact of Retail Price Promotions on Product Substitution,
+Complementary Purchase, and Interstore Sales Displacement," Journal of Marketing, 55:2
+(April), 17-28.
+and William Bommer (1996), "Measuring the Impact of Product and Promotion-Related Factors on Product Category Price Elasticities," Journal of Business Research, 36:3
+(July), 203-216.
+and Scott B. MacKenzie (1988), "A Structural Equations Analysis of the Impact of
+Price Promotions on Store Performance," Journal of Marketing Research, 25:1 (February),
+51-63.
+and Heikki J Rinne (1986), "An Empirical Investigation into the Impact of Price
+Promotions on Retail Store Performance," Journal of Retailing, 62:3 (Fall), 237-66.
+Ward, Ronald W. (1975), "Revisiting the Dorfman-Steiner Static Advertising Theorem: An
+Application to the Processed Grapefruit Industry," American Journal of Agricultural
+Economics, (August), 500-504.
+and James Davis (1978a), "Coupon Redemption," Journal of Advertising Research,
+18 (August), 51-58.
+and (1978b), "A Pooled Cross Sectional Time Series Model of Coupon
+Promotions," American Journal of Agricultural Economics, (November), 393-401.
+and Bruce L. Dixon (1989), "Effectiveness of Fluid Milk Advertising Since the Dairy
+and Tobacco Adjustment Act of 1983," American Journal of Agricultural Economics, 71:3
+(August), 730-39.
+and Richard L. Kilmer (1989), The Citrus Industry. Ames, IA: Iowa State University
+Press.
+and C. Lambert (1993), "Generic Promotion of Beef: Measuring the Impact of the
+U.S. Beef Checkoff," Journal of Agricultural Economics, 44 (September), 456-65.
+and Lester H. Myers (1979), "Advertising Effectiveness and Coefficient Variation
+Over Time," Agricultural Economics Research, 31:1 (January), 1-11.
+BIBLIOGRAPHY 477
+Wartenberg, F. and R. Decker (1995), "Analysis of Sales Data: A Neural Net Approach," in
+From Knowledge to Data, Wolfgag Gaul and Dietmar Pfeifer, eds. Berlin: SpringerVerlag, 326-33.
+Webster, Frederick E., Jr. (1992), "The Changing Role of Marketing in the Corporation,"
+Journal of Marketing, 56 (October), 1-17,
+Weinberg, Charles B. and Doyle L. Weiss (1982), "On the Econometric Measurement of the
+Saturation of Advertising Effects on Sales," Journal of Marketing Research, 9
+(November), 585-91.
+and (1986), "A Simpler Estimation Procedure for a Micromodeling Approach
+to the Advertising-Sales Relationship," Marketing Science, 5 (Summer), 269-72.
+Weiss, Doyle L. (1968), "The Determinants of Market Share," Journal of Marketing Research, 5 (August), 290-95.
+(1969), "An Analysis of the Demand Structure for Branded Consumer Products,"
+Applied Economics, 1 (January), 37-44.
+Franklin S. Houston, and Pierre Windal (1978), "The Periodic Pain of Lydia E.
+Pinkham," Journal of Business, 51, 91-101.
+Charles B. Weinberg, and Pierre M. Windal (1983), "The Effects of Serial Correlation and Data Aggregation on Advertising Measurement," Journal of Marketing
+Research 20, (August), 268-79.
+and Pierre M. Windal (1980), "Testing Cumulative Advertising Effects: A Comment
+on Methodology," Journal of Marketing Research, 17 (August), 371-78.
+Welch, Joe L. and Tom K. Massey, Jr. (1988), "Consumer Cost Implications of Reducing Item
+Omission Errors in Retail Optical Scanner Environments," Akron Business and Economic
+Review, 19 (Summer), 97-105.
+Wernham, Roy (1984), "Bridging the Awful Gap Between Strategy and Action," Long Range
+Planning, 17 (December), 34-42.
+(1985), "Obstacles to Strategy Implementation in a Nationalized Industry," Journal of
+Management Studies, 22 (November), 632-648.
+Wichern, Dean W. and Richard H. Jones (1977), "Assessing the Impact of Market Disturbances Using Intervention Analysis," Management Science, 23 (November), 329-37.
+Wierenga, Berend (1981), "Modeling the Impact of Advertising and Optimising Advertising
+Policy," European Journal of Operational Research, 8, 235-48.
+and Jack Kluytmans (1994), "Neural Nets versus Marketing Models in Time Series
+Analysis: A Simulation Study," in Proceedings of the Annual Conference of the
+European Marketing Academy, J. Bloemer, Jos Lemmink, and H. Kasper, eds. Maastricht,
+1139-53.
+and Jack Kluytmans (1996), "Predicting Neural Nets in Marketing with Time Series
+Data," Management Series Report No. 258, Rotterdam School of Management, Eramus
+University,.March.
+and Peter A. M. Oude Ophuis (1997), "Marketing Decision Support Systems:
+Adoption, Use, and Satisfaction, International Journal of Research in Marketing, 14
+(July), 275-90.
+and Gerrit H. van Bruggen (1997) "The Integration of Marketing Problem-Solving
+Modes and Marketing Management Support Systems," Journal of Marketing, 51 (July),
+21-37.
+Wildt, Albert R. (1974), "Multifirm Analysis of Competitive Decision Variables," Journal of
+Marketing Research, 11 (November), 50-62.
+(1976), "The Empirical Investigation of Time-Dependent Parameter Variation in
+Marketing Models," Proceedings. Chicago: American Marketing Association.
+(1977), "Estimating Models of Seasonal Market Response Using Dummy Variables,"
+Journal of Marketing Research, 14 (February), 34-41.
+,
+,
+478 BIBLIOGRAPHY
+(1993), "Equity Estimation and Assessing Market Response," Journal of Marketing
+Research, 30:4 (November), 437-51.
+James D. Parker, and Clyde E. Harris (1987), "Assessing the Impact of Sales- Force
+Contests: An Application," Journal of Business Research, 15 (April), 145-55.
+and Russell S. Winer (1983), "Modeling and Estimation in Changing Market
+Environments," Journal of Business, 56 (July), 365-88.
+Wilson, Nick and Graham J. Hooley (1988), "Advertising Effects: More Methodological
+Issues: A Reply," Journal of the Market Research Society, 30 (April), 231-34.
+Windal, Pierre M. and Doyle L. Weiss (1980), "An Iterative GLS Procedure for Estimating
+the Parameters of Models with Autocorrelated Errors Using Data Aggregated over time,"
+Journal of Business, 53 (October), 415-24.
+Winer, Russell S. (1979), "An Analysis of the Time Varying Effects of Advertising: The Case
+of Lydia Pinkham," Journal of Business, 52 (October), 563-76.
+(1983), "Attrition Bias in Econometric Models Estimated by Panel Data," Journal of
+Marketing Research, 20 (May), 177-86.
+(1985), "A Price Vector Model of Demand for Consumer Durables: Preliminary
+Developments," Marketing Science, 4 (Winter), 74-90.
+(1986), "A Reference Price Model of Brand Choice for Frequently Purchased
+Products," Journal of Consumer Research, 13 (September), 250-56.
+(1993), "Using Single-Source Scanner Data as a Natural Experiment for Evaluating
+Advertising Effects, Journal of Marketing Science, 2:12, 15-31.
+and William L. Moore (1989), "Evaluating the Effects of Marketing Mix Variables on
+, Brand Positioning," Journal of Advertising Research, 29:1 (February-March), 39-45.
+Winkelhofer, Heidi, Adamantios Diamantopoulos, and Stephen F. Witt (1996), "Forecasting
+Practice: A Review of the Empirical Literature and an Agenda for Future Research," International Journal of Forecasting, 12 (June), 193-221.
+Winkler, Robert L. (1989), "Combining Forecasts: A Philosophical Basis and Some Current
+Issues," International Journal of Forecasting, 5 (4), 605-09.
+Wittink, Dick R. (1973), "Partial Pooling: A Heuristic," Institute Paper No. 419, Krannert
+Graduate School of Industrial Administration, Purdue University, July.
+(1977a), "Advertising Increases Sensitivity to Price," Journal of Advertising Research, 17 (April), 39-42.
+(1977b), "Exploring Territorial Differences in the Relationship Between Marketing
+Variables," Journal of Marketing Research, 14 (May), 145-55.
+(1983a), "Standardized Regression Coefficients: Use and Misuse," Graduate School
+of Management, Cornell University, September.
+(1983b), "Autocorrelation and Related Issues in Applications of Regression
+Analysis," Graduate School of Management, Cornell University, October.
+(1987), "Causal Market Share Models in Marketing: Neither Forecasting nor
+Understanding?" International Journal of Forecasting, 3:3/4, 445-48.
+(1988), The Application of Regression Analysis. Boston, MA: Allyn and Bacon.
+Michael Addona, William Hawkes, and John Porter, (1988), "SCAN*PRO: The
+Estimation, Validation, and Use of Promotional Effects Based on Scanner Data," working
+paper, Johnson Graduate School of Management, Cornell University, February.
+and John C. Porter (1991), "Pooled Store-Level Data versus Market Aggregates: A
+Comparison of Econometric Models," working paper, Johnson Graduate School of Management, Cornell University.
+and Sachin Gupta (1994), "Biases in Parameter Estimates from Linearly Aggregated Data When the Disaggregate Model is Nonlinear," working paper, Johnson Graduate School of Management, Cornell University, December.
+
+Wolfe, Michael (1996), "RE: Modeling Seasonality," E-mail to AMODLMKT list, February 14.
+Wolffram, Rudolf (1971), "Positivistic Measures of Aggregate Supply Elasticities: Some New Approaches Some Critical Notes," American Journal of Agricultural Economics, 53, 356-59.
+Woodside, Arch G and Gerald L. Waddle (1975), "Sales Effects of In-Store Advertising," Journal of Advertising Research, 15:3 (June), 29-33.
+Wright, George, Michael J. Lawrence, and Fred Collopy (1996), "The Role and Validity of Judgment in Forecasting," International Journal of Forecasting, 12 (March), 1-8.
+Yi, Youjae (1988), "Assessing Main Effects in Interactive Regression Models," Proceedings. Chicago: American Marketing Association, 298.
+Yokum, J. Thomas and Albert R. Wildt (1987), "Forecasting Sales Response for Multiple Time Horizons and Temporally Aggregated Data: A Comparison of Constant and Stochastic Coefficient Models," International Journal of Forecasting, 3 (314), 479-88.
+Yoon, Youngohc, Tor Guimaraes and Quinton O’Neil (1995), "Exploring Factors Associated With Expert Systems Success," MIS Quarterly, 19 (March), 83-106.
+Young, Kan H. and Lin Y. Young (1975), "Estimation of Regression Involving Logarithmic Transformation of Zero Values in the Dependent Variable," The American Statistician, 29 (August), 118-20.
+Young, Trevor (1982), "Addiction Asymmetry and the Demand for Coffee," Scottish Journal of Political Economy, 29 (February), 89-98.
+(1983), "The Demand for Cigarettes: Alternative Specifications of Fujii’s Model," Applied Economics, 15 (April), 203-11.
+Yule, G. U. (1926), "Why Do We Sometimes Get Nonsense Correlations Between Time Series? A Study in Sampling and the Nature of Time Series," Journal of the Royal Statistical Society, 89, 1-64.
+Zanias, G.P. (1994), "The Long Run, Causality, and Forecasting in the Advertising-Sales Relationship," Journal of Forecasting, 13, 601-10.
+Zellner, Arnold (1971), An Introduction to Bayesian Inference in Econometrics. New York: John Wiley.
+(1988a), "Bayesian Analysis in Econometrics," Journal of Econometrics, 39 (January), 27-50.
+(1988b), "Causality and Causal Laws in Econometrics," Journal of Econometrics, 39 (September-October), 7-21.
+and M.S. Geisel (1970), "Analysis of Distributed Lag Models with Application to Consumption Function Estimation," Econometrica, 38 (November), 865-88.
+J. Kmenta, and J. Dreze (1966), "Specification and Estimation of Cobb-Douglas Production Function Models," Econometrica, 34 (October), 784-95.
+and Franz Palm (1974), "Time Series Analysis and Simultaneous Equation Regression Models," Journal of Econometrics, 2, 17-54.
+Zenor, Micheal J., Bart J. Bronnenberg, and Leigh McAlister (1998), "The Impact of Marketing Policy on Promotional Price Elasticities and Baseline Sales," Journal of Retailing and Consumer Services, 5:1 (January), 25-32.
+Zentler, A. P. and Dorothy Ryde (1956), "An Optimal Geographic Distribution of Publicity Expenditure in a Private Organization," Management Science, 4 (July), 337-52.
+Zidack, Walter, Henry Kinnucan, and Upton Hatch (1992), "Wholesale and Farm level Impacts of Generic Advertising: The Case of Catfish," Applied Economics, 24, 959-68.
+Zielske, Hugh A. (1986), "Comments," Marketing Science, 5 (Spring), 109.
+Zoltners, Andris A. (1981), "Normative Marketing Models," in Marketing Decision Models, 
+Randall L. Schultz and Andris A. Zolthers, eds. New York: North-Holland, 55-76.
+and Prahakant Sinha (1980), "Integer Programming Models for Sales Resource Allocation," Management Science, 26 (March), 242-60.
+Zufryden, Fred S. and James H. Pedrick (1993), "Measuring the Reach and Frequency Elasticities of Advertising Media," Marketing Letters, 4:3, 215-25.

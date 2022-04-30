@@ -8,6 +8,29 @@ fig-caption: # Add figcaption (optional)
 tags: [modelling, chat bot, wikipedia, support] 
 ---
 
+
+One of the problems with AI is that what is called inference is usually prediction and not the deeper logic ability we associate with aristotle's syllogism. Modern test for general intelligence also look at coreference resolution and some other abilities that indicate that the model has learned a good representation of the text. The problem with large language models testing on small data sets is that they learn to cheat. This is a different problem from overfitting what happens is that the model learn to defeat the weakness in the dataset rather than addressing the real problem. It does not help that researchers often help it (perhaps even inadvertently).
+
+Here is an interesting idea find task that are indicative of general intelligence or at least of understanding of non atomic concepts like complex relations, logical inference where multiple deductions may be required to make an inference. And so on. This essentially is going to force the AI to learn multiple level of abstractions.
+
+Some challenges with setting up a challenge at multiple levels of abstraction is that for the lower level like free text we have lots of data but for more abstract we have orders of magnitude less. One reason why your run of the mill language model can't do complex reasoning is that it is learning to fill certain gaps in a text but these gaps only require short and rather simple contexts. If the completions were harder it would be have to learn more complex representations and abstractions. Such a model I'd presume have the added benefit of learning to economizing on the  use of simpler abstractions. Finally if we had concrete entities we are considering at different levels than we may be able to explore visualize how they are captured by the model. (Are there neurons specializing in entities or relations at certain levels of abstractions.)
+
+One approach that I find incredibly attractive is to create a synthetic dataset for this. Creating an extensive syllogism and logical deduction seems of interest particularly as there are few of these in most text. Also this type of thinking is rather limited. First order logic adds to predicate calculus the universal and existential quantifiers and as such seems to deal with absolutes. But absolutes are limiting. You will find few statements of this form in text. When people make use of them they are easily refuted. On the other hand if we are compiling an ontology we easily come across a myriad of such statements but they seem to a human rather trivial - more a fact or definition rather than a high level of abstraction one can use in a deduction. 
+
+On the other hand certain types of writing does seem to have more of this - Scientific writing. Perhaps am advantage is that most of it is structured in such a way that there is a section on conclusions. However even encyclopedia articles tend to exhibit more logical deduction that regular texts.
+
+
+
+Another is to look at what humans consider as challenging tasks. One of these has to do with inlining citations. One advantage is that this can be a challenging task. While it is a big challenge it seems to be a problem one could tackle with data mining and IR tools. On the other hand if one wanted to make an AI that quickly learns higher abstractions - these may well be of some interest too. The fact that it can be solved with an data mining and IR tools and that there is plenty of data available indicates that datasets can be built.
+
+: make a model that learns to recommends and inline citations in a text based on pre-existing texts. 
+
+Data :
+
+1. wikipedia articles.
+2. citation databases + graphs
+3. scientific literature.
+
 # Task
 
 Given a list of citations at the end of an document indicate:
@@ -34,7 +57,7 @@ I would hazard this notion - that once the list of citations at the end is long 
 
 I have considered writing a program to match citations with the source using IR methods. If we were so luck to have a Memmex (as envisioned by Venver Bush) we might create a specialized search routine to query each section or sentence on the subset of cited articles in the Memmex. In reality many sources are not available online. Some my only have there have their abstract listed in a database. Some sources may just have the metadata listed. Others which are may be behind paywalls. Others may only be found in an internet archive. So it is not a case of conducting a search, the program may need to try and find the article.
 
-this type of reverse search engine is unlikely to do very well unless the citations contain within them the the target sentences mentioned. Even a laymen's summary is going to be challenging to make use of.
+this type of reverse search engine is unlikely to do very well unless the citations contain within them the the target sentences mentioned. Even a layman's summary is going to be challenging to make use of.
 
 # What has changed.
 
@@ -42,8 +65,6 @@ this type of reverse search engine is unlikely to do very well unless the citati
 2. Large number of citations have been uploaded to wikidata. 
 3. Attention is used in models to learn to predict how to to align related text in different documents.
 4. WordToVec and related algorithms can model text and its context based on sufficient examples.
-
-
 
 It is conceivable to use several tricks to create a ml model to inline citations.
 

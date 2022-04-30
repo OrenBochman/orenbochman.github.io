@@ -1,10 +1,17 @@
 ---
 layout: page
-title:  "My Jekyll Markdown Cheat Sheet"
-date:   2021-02-01 16:00:00
-categories: [cheat-sheets, blogging]
-tags: [code, tests]
-img : cover/cheat-sheets.jpg
+title: My Jekyll Markdown Cheat Sheet
+date: 2021-02-01 16:00:00
+categories:
+  - blogging
+  - pages
+  - cheet sheets
+tags:
+  - code
+  - tests
+img: cover/cheat-sheets.jpg
+description: A Jekyll Markdown Cheat Sheet for quickly adding complex content
+lastmod: 2022-04-30T09:01:53.743Z
 ---
 
 **Contents**

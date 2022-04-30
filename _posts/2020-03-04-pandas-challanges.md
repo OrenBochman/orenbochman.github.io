@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-03-04 00:00:00 +0300
-title: Pandas Challenged?
+title: Pandas Productivity Challenge?
 description: Just a little rant on Pandas various contexts
 img: cover/python-bg.jpeg
 fig-caption: # Add figcaption (optional)
@@ -10,7 +10,16 @@ tags: [data-science, python, data-wrangling]
 
 # TLDR
 
-Just a little rant on Pandas. Since pandas is the primarily a data scientist replacement for Excel and SQL I'd hope it lets one be more productive than an analyst using these. It can be but there is a learning curve and all to often it only saves time on tasks you need to do many times over 
+Just a mini-rant on Pandas. Pandas is a replacement for Excel and SQL for Python data scientist. I would this replacement should make us more productive than an analyst using Excel. 
+Pandas has a learning curve.
+
+It is pretty strong when we consider automation of tasks, and applying a function of an algorithms that is not available in excel. 
+
+It is weak when it comes to anything interactive exploration is faster if you can interactively filtering, sorting, freeze headers, and your index columns, apply formatting and conditional formatting. Define pivots tables using drag and drop. 
+
+Finally bushiness analysts often use BI tools and while R has Shiny Python is kind of weak in this regard as well particularly when working in a notebook.
+
+So can we bridge this divide and make ourselves as agile and efficent on pandas as an analyst is in Excel ?
 
 # Pandas Challenged ?
 
@@ -18,16 +27,23 @@ As time goes by I hope to update some of these challenges with solutions I find 
 
 I find myself using Pandas more frequently these days here are a few thoughts. I expect that in 2020 certain task should be much easier to do than on 2010 or 2000 but many are still easier in point and click software with minimal coding like Excel, Google sheet or Tableau and this is both a shame and a reason many projects fail to get to production.
 
-Pandas or Point and Click
-Pandas is Python's programmatic spreadsheet based on R's DataFrames. R community is very pragmatic and the data frames have evolved to improve performance and increase agility. They have a tidyverse package and tribbles. Pandas lags behind and while easier to code then R it often requires more code to get things done and the code can get pretty ugly. 
+## Pandas or Point and Click
+
+Pandas is Python's programmatic spreadsheet based on R's DataFrames. R community is very pragmatic and the data frames have evolved to improve performance and increase agility. They have a tidyverse package and tribbles. Pandas lags behind and while easier to code then R it often requires more code to get things done and the code can get pretty ugly. Pandas advocates often point out that spreadsheets fail around 1.5 million cells. But what they fail to mention is that getting pandas to be fast on a large dataset requires deep understanding of pandas, its api, numpy. I won't even go into memory management. I'd say most of the ugly code is going to be very slow on big data and you'll run out of memory. While SQL and excel have had serious effort at optimizing performance - pandas is pretty pathetic in this regard.
+
+ I expected Pandas to be fast and intuitive on tasks like
 * subsetting by column type
 * printing subset rows by criteria of several columns
+
 The first thing I expected is to be able to do tasks I did with excel or google sheets faster and better. What I mean is that I expected to map most tasks from one to the other and to be able to automate faster. Some tasks map better then others.
+
 # Automation
+
 Next I expected I can automate tasks and this is where python shines but again this was often a challenge.
 There is a learning curve but after a while I leaned some coding idioms such as pipes that made this somewhat simpler.
 
 ## Functional Programming
+
 I also noticed that Pandas provides access to subsets using [rows,cols] operator and the `iloc` and `loc` methods.  I had also expected a modern functional interface to process data using RX style coding via functional primitives like map, flatmap, groupby, zip, filter, and so on. I notched some exist but no one seems to be using them in the idiomatic way. R's tidyverse and Magrit had evolved very quickly in this direction why didn't pandas?
 
 The two biggest disappointments are reports and dashboards.  Reports in excel are a no-brainer. Solid reporting can be essential when taking a data pipeline to production. Dashboards are a both a productivity enhancer and a power multiplier in BI tools like Tableau, Power BI, Google Data Studio, informatica etc. Interactive dashboards can be amazing for exploring datasets that change a lot like marketing. These are all challenges with python and pandas in a Jupyter notebook as a starting point.
@@ -85,3 +101,29 @@ widening rows using a validated index
 filling data using html lookup.
 I hoped that I could quickly setup pipelines in Python that are agile to construct easy to read and maintain. 
 It is possible by requires lots of codes. I wonder if there are some libraries to flatten the learning curve for this?
+
+
+# Some solutions
+
+## interactive pivot tables
+
+[Pivottable.js](), interactive pivot tables and charts
+
+### Installation
+
+``` python
+!pip install pivottablejs
+from pivottablejs import pivot_ui
+pivot_ui(df,outfile_path=’pivottablejs.html’)
+HTML(‘pivottablejs.html’)
+```
+
+## interactive sorting and filtering
+
+[qgrd](https://github.com/quantopian/qgrid)
+
+
+# Resources
+
+- [Practical Business Python](https://pbpython.com/)
+- [Python Table Style Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
