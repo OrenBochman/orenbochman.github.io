@@ -1,18 +1,20 @@
 ---
 layout: post
-title: How to get more from your agency?
+title: How to get more from your digital marketing agency ?
 subtitle: Some thoughts about digital marketing agencies.
 date: 2021-09-27 12:43
-category: null
 author: Oren Bochman
 tags: []
 summary: some thoughts about digital marketing agencies.
 keywords:
   - digital marketing
-lastmod: 2022-04-30T09:59:21.387Z
+  - agency
+lastmod: 2022-04-30T12:57:50.401Z
 slug: agency-thoughts-digital-marketing-agencies
-description: How to get more from your agency? some thoughts about digital marketing
-  agencies.
+description: Getting more from your agency, some thoughts on picking your next digital
+  marketing agency.
+categories:
+  - marketing
 ---
 
 # How to get more from your agency: my five cents on digital marketing agencies.
