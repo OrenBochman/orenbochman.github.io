@@ -4,12 +4,14 @@ title: Getting more from your digital marketing agency ?
 subtitle: Some thoughts about digital marketing agencies.
 date: 2021-09-27 12:43
 author: Oren Bochman
+img: cover/chaotic-time-series.jpeg
+fig-caption: Marketing Research model
 tags: []
 summary: some thoughts about digital marketing agencies.
 keywords:
   - digital marketing
   - agency
-lastmod: 2022-05-01T04:57:47.255Z
+lastmod: 2022-05-01T05:00:39.221Z
 slug: agency-thoughts-digital-marketing-agencies
 description: Getting more from your digital marketing agency, my five cents on picking your
   next agency.

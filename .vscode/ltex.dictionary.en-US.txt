@@ -3,3 +3,9 @@ Orignally
 Contrafactual
 Autoecoder
 autoencoder
+frequentist
+Frequentist
+trigram
+bigrams
+LSTMs
+RELU

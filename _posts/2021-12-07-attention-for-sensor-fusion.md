@@ -4,8 +4,7 @@ title: attention for sensor fusion
 date: 2021-09-24 00:00:00 +0300
 description: attention for sensor fusion
 img: cover/python.jpeg
-fig-caption: # Marketing Research models
-  null
+fig-caption: attention for sensor fusion
 tags:
   - attention
   - data science
@@ -14,7 +13,7 @@ tags:
   - statistics
   - autoecoder
 bibliography: sensor_fusion.bib
-lastmod: 2022-04-30T09:47:10.472Z
+lastmod: 2022-05-01T05:02:39.535Z
 ---
 
 ## An overview of the Autoecoder.

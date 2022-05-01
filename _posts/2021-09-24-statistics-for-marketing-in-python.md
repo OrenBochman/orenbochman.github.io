@@ -4,9 +4,13 @@ title: What is in a citation
 date: 2021-09-24 00:00:00 +0300
 description: Creating Citation Web Components
 img: cover/python.jpeg
-fig-caption: # Marketing Research models
-tags: [data science, statistics,marketing]
+fig-caption: Marketing Research models null
+tags:
+  - data science
+  - statistics
+  - marketing
 bibliography: delphi_method.bib
+lastmod: 2022-05-01T05:00:01.182Z
 ---
 
 # TLDR
