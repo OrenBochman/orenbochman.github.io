@@ -1,16 +1,16 @@
 ---
 layout: post
-title: What is in a citation
+title: Excel 2019 for Marketing Statistics in pandas
 date: 2021-09-24 00:00:00 +0300
-description: Marketing Research models
+description: Excel 2019 for Marketing Statistics in pandas
 img: cover/pandas2.jpeg
-fig-caption: Marketing Research models
+fig-caption: Excel 2019 for Marketing Statistics in pandas
 tags:
   - data science
   - statistics
   - marketing
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T06:04:58.629Z
+lastmod: 2022-05-01T06:07:04.600Z
 ---
 
 # TLDR
