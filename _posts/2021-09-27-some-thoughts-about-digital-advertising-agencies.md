@@ -9,7 +9,7 @@ summary: some thoughts about digital marketing agencies.
 keywords:
   - digital marketing
   - agency
-lastmod: 2022-04-30T13:46:48.696Z
+lastmod: 2022-05-01T04:57:47.255Z
 slug: agency-thoughts-digital-marketing-agencies
 description: Getting more from your digital marketing agency, my five cents on picking your
   next agency.
@@ -18,6 +18,8 @@ categories:
 ---
 
 # Getting more from your digital marketing agency, my five cents on picking your next agency.
+
+I worked long and hard in digital marketing. I think the people who I worked with were amazing. Management was hands-on, creative and innovative. And there were some insights I would pass on to anyone picking their next digital advertising agency.
 
 ## TLDR
 
@@ -53,7 +55,7 @@ It is really a matter of priorities when it comes to spending on creative. You c
 
 Spending big made more sense when campaign used mass media, run for months and cost in the tens of millions. Today digital marketers can handle much smaller campaigns that are super focused on specific markets and incredibly agile in terms of time.
 
-I notice that creative advertising firms like to sell the big concept but are then unwilling to grasp the minutia of digital advertising formats and lack the capacity to handle the many opportunities they presesnt. They are ready a few days before going on the air and they are not interested in going back to reshoot shorter or longer versions for digital video. You can only do so much in the editing room so most tv ads do much more poorly in digital. If you want to test agencies you should look at how readily their creatives handle the full gamut of digital formats. 
+I notice that creative advertising firms like to sell the big concept but are then unwilling to grasp the minutia of digital advertising formats and lack the capacity to handle the many opportunities they present. They are ready a few days before going on the air, and they are not interested in going back to reshooting shorter or longer versions for digital video. You can only do so much in the editing room, so most TV ads do much more poorly in digital. If you want to test agencies you should look at how readily their creatives handle the full gamut of digital formats. 
 
 I mean doing art direction of banner ads in different shapes and sizes that are not a good fit for the original concept, Making shorter and continuation ads for video. Making sequences of ads based on the original concept for making remarketing interesting and exciting to the viewer. Making variants for different location, handling different palettes and fonts to be organic in sites with different look and feel. Using animation, typography and so on to stand out and thinking about Guerrilla marketing opportunities that can make the campaign go viral.
 
