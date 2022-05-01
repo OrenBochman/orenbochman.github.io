@@ -10,7 +10,7 @@ tags:
   - statistics
   - marketing
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T05:29:31.497Z
+lastmod: 2022-05-01T05:30:08.679Z
 ---
 
 # TLDR
@@ -44,7 +44,7 @@ Why are classical models so hard to get right?
 There is a theoretical problem - we have finite evidence (in the corpus) but we want to model an infinite space (all possible sequences in a language), which manifests in the real world as number of challenges. 
 
 The evidence is sparse - For N>3 Almost all word permutations will never be seen in a corpus. This means that there is no evidence if the permutation is ungrammatical, uncommon or that it is part of language not covered by the model
-Ziffp's Law - Most words are rare but a few words are very common.
+Ziffp's Law - Most words are rare, but a few words are very common.
 
 Sequences of length N > 3 are often unique in the sense that generating text using such n-grams will just recreate long sequences from the corpus and fail to capture the more general structure of language
 
