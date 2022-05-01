@@ -4,11 +4,15 @@ title: Python Graphs
 date: 2021-08-29 00:00:00 +0300
 description: Python Graph Cookbook
 img: cover/chaotic-time-series.jpeg
-fig-caption: # Marketing Research models
-tags: [PPC, data science, digital marketing, quantitative marketing, intelligence] 
+fig-caption: Marketing Research models
+tags:
+  - PPC
+  - data science
+  - digital marketing
+  - quantitative marketing
+  - intelligence
+lastmod: 2022-05-01T05:31:09.252Z
 ---
-
-[toc] 
 
 Some tricks collected from the SO and the web
 # Images
