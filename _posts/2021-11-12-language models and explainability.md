@@ -10,7 +10,7 @@ tags:
   - statistics
   - marketing
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T05:21:17.558Z
+lastmod: 2022-05-01T05:29:31.497Z
 ---
 
 # TLDR
@@ -93,7 +93,7 @@ Models like GPT3 used massive compute and lots of data but were developed using 
 
 This leads more NLP practitioners to consider that the larger model sizes is not necessarily a better model in the sense that a smarter/more efficient representation should be able to provide better results. While there are general research groups like Open AI who build bigger model like GPT2 and GPT3 there are other researchers who work on 
 
-Some known issues with neural networks are that they tend to overfit the data which means that every larger datasets are required to regularize this. Recent language models like GPT2, GP3 etc. use a very large number of parameters. Scrutiny of their output leads to output that appears to be written by humans. However, this is familiar issue from 4-grams or 5-grams N-grams models where sparsity of data (say the complete works of Shakespeare) leads to more and longer sequences being memorized by the (Markov chain model) and the output being a somewhat lossy compression of the corpus. As DNN will prefer to memorise and then retrieve the data rather than to model and infer. In the case of DNN with internet sized corpuses the researchers can easily fool themselves that the model is not stitching up its output from more examples rather than learning to model what is needed to represent the language. (Note wikipedians also frequently stitch up articles on subject they are not very knowledgeable about and only domain experts can readily find the glaring errors that betray the ineptitude.) 
+Some known issues with neural networks are that they tend to overfit the data which means that every larger datasets are required to regularize this. Recent language models like GPT2, GP3 etc. use a very large number of parameters. Scrutiny of their output leads to output that appears to be written by humans. However, this is familiar issue from 4-grams or 5-grams N-grams models where sparsity of data (say the complete works of Shakespeare) leads to more and longer sequences being memorized by the (Markov chain model) and the output being a somewhat lossy compression of the corpus. As DNN will prefer to memorize and then retrieve the data rather than to model and infer. In the case of DNN with internet sized corpuses the researchers can easily fool themselves that the model is not stitching up its output from more examples rather than learning to model what is needed to represent the language. (Note Wikipedians also frequently stitch up articles on subject they are not very knowledgeable about and only domain experts can readily find the glaring errors that betray the ineptitude.) 
 
 Specifically we are now seeing and therefore expecting deep language models to learn the grammar, the lexicon, semantics, pragmatic commonsense knowledge of the world, and a rudimentary logical reasoning ability. 
 
@@ -101,33 +101,30 @@ Classic Linguistic theory postulates that an efficient representation of languag
 
 # Making models less opaque?
 
-If we think about language model arising from something like an HMM using vitrebi with two components - one that generates the evolution of the hidden state and the second an emission matric that generates a lexeme for each state. We might even oversimplify and imagine the first is a mophosyntactic state and the second a semantic-probablistic lexicon. The second part seems to be fairly simple - just a big lookup table. While the first part is a model for the grammar and morphology. But if we have a good representation we might actualy be able to learn the first part faster then the second. 
+If we think about language model arising from something like an HMM using Vitrebi with two components - one that generates the evolution of the hidden state and the second an emission matrix that generates a lexeme for each state. We might even oversimplify and imagine the first is a morphosyntactic state and the second a semantic probabilistic lexicon. The second part seems to be fairly simple - just a big lookup table. While the first part is a model for the grammar and morphology. But if we have a good representation we might actually be able to learn the first part faster than the second. 
 
-How come - the lexicon is finite but the grammer can generate infinite number of sentences. But the grammar is represented using a small set of rules with just a few symbols per rules say 4 on avarage. And the cardinality of the symbols in that component is perhaps many orders of magnitude smaller than the full lexicon. 
+How come - the lexicon is finite, but the grammar can generate infinite number of sentences. But the grammar is represented using a small set of rules with just a few symbols per rules say 4 on average. And the cardinality of the symbols in that component is perhaps many orders of magnitude smaller than the full lexicon. 
 
-So while we will always have just an approximation of each component we should expect to see each rules of length 3 many times before we see all our trigrams. The challange is for the model to capture the reality that we have the same syntax for such varied sematics.
+So while we will always have just an approximation of each component we should expect to see each rules of length 3 many times before we see all our trigrams. The challenge is for the model to capture the reality that we have the same syntax for such varied semantics.
 
 So how can we make the model less opaque?
 
-Let's imagine that the model realy learns all this stuff - it has captured a much deeper grammer for language than we have ever envisioned. Let's also imagine we have a regularization process to distill this knowledge and discard the noise learned along with the signal. The problem is that we want to extract this representation but the its state is very complicated it has stuff from most lingistic theories as well as some constructs we never even came up with (like alpha go's startegies.) And all the 'stuff' is jambled up into matrix which represents all these jointly using insruitable embeddings.
+Let's imagine that the model really learns all this stuff - it has captured a much deeper grammar for language than we have ever envisioned. Let's also imagine we have a regularization process to distill this knowledge and discard the noise learned along with the signal. The problem is that we want to extract this representation, but the state is very complicated it has stuff from most linguistic theories as well as some constructs we never even came up with (like Alpha Go's strategies.) And all the 'stuff' is jumbled up into matrix which represents all these jointly using inscrutable embeddings.
 
 What we want is to unscramble the state matrix into one populated with symbols for the constructs we already know about and perhaps a few extra god-symbols that perhaps we don't know about. 
 
-A second paradigm is that we might not be able to unscamble this but we might be able to query it and extract all the constructs up to a certain level.
+A second paradigm is that we might not be able to unscramble this but, we might be able to query it and extract all the constructs up to a certain level.
 
-Again it may well be the case that we will discover that the model under contraints of regularization will pick a rather small dimension of symbols for its semantic atoms and for its gramer and not require a massive grammer. I.e. we might end up with a rather smaller model then most we have been training. Where 99% of the data is the lexicon, but the lexicon might have a number of arbitrary looking genders which orgenise features from different levels.
+Again it may well be the case that we will discover that the model under constraints of regularization will pick a rather small dimension of symbols for its semantic atoms and for its grammar and not require a massive grammar. I.e. we might end up with a rather smaller model then most we have been training. Where 99% of the data is the lexicon, but the lexicon might have a number of arbitrary looking genders which organize features from different levels.
 
+We could try a number of approaches, one is to include in out model higher level nodes in out parse tree as nodes which we can recognize (NP for noun phrase) and we might have some more other constructs like frames for verbs and scripts for complex actions
 
-We could try a number of approches, one is to include in out model higher level nodes in out parse tree as nodes which we can recognise (NP for noun phrase) and we might have some more other constructs like frames for verbs and scripts for complex actions
+## A fearful symmetry
 
-
-
-## A fearful symetry
-
-We may even imagine a situation where we have sperated the language into a number of constructs each with its hidden states and an emission matrix which converts the signal at the interface. Most signals get processed layer by layer but on occasion they might skip or cross. 
+We may even imagine a situation where we have separated the language into a number of constructs each with its hidden states and an emission matrix which converts the signal at the interface. Most signals get processed layer by layer but on occasion they might skip or cross. 
 
 ## How Can we explicitly process higher level construct 
 
-As pointed earlier models that model sequences using a probablistic grammar rather than looking just at sequences is going to capture a much richer view of language. 
+As pointed earlier models that model sequences using a probabilistic grammar rather than looking just at sequences is going to capture a much richer view of language. 
 
-There are a couple of reasons for this. Perhaps the more significant factor is the ability to capture much longer  sequences which will expose the model to much richer wealth of signals. Grammer is typicaly represnted using production rules which typicaly replace a symbol with two or more new symbols. These require moderetly shorter sequences and they also have a much lower cardinality for the symbols needed to represent the grammatical enteties, at least when compared to the cardinality of the words in a the language or its leading caegories. For rich morphologies even more significantly. Which means that grammer should be learned much faster then a detailed lexicon. Since rules are so much shorter then sentences the grammar should be learned with significantly higher confidence at any given point.  captured faster than the lexicon  But by training on the grammer which is a much lower representation more regular structure then the full vocabulary make ake its productions  even in a grammar some  using This is 
+There are a couple of reasons for this. Perhaps the more significant factor is the ability to capture much longer sequences which will expose the model to much richer wealth of signals. Grammar is typically represented using production rules which typically replace a symbol with two or more new symbols. These require moderately shorter sequences, and they also have a much lower cardinality for the symbols needed to represent the grammatical entities, at least when compared to the cardinality of the words in a language or its leading categories. For rich morphologies even more significantly. Which means that grammar should be learned much faster than a detailed lexicon. Since rules are so much shorter than sentences the grammar should be learned with significantly higher confidence at any given point. 

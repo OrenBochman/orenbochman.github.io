@@ -9,3 +9,6 @@ trigram
 bigrams
 LSTMs
 RELU
+sperated
+trigrams
+lexeme
