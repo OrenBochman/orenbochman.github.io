@@ -3,14 +3,14 @@ layout: post
 title: Language models and explainability
 date: 2021-09-24 00:00:00 +0300
 description: Language models and explainability
-img: cover/python.jpeg
+img: cover/litrature-review-highlights.jpg
 fig-caption: Language models and explainability
 tags:
   - data science
   - statistics
   - marketing
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T05:33:51.610Z
+lastmod: 2022-05-01T05:51:58.562Z
 ---
 
 # TLDR

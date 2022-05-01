@@ -1,12 +1,17 @@
 ---
 layout: post
-title: Notes from Computer Age Statistical Inference by Bradley Efron & Trevor Hastie
+title: Notes from Computer Age Statistical Inference
 date: 2021-09-24 00:00:00 +0300
-description: book notes 
-img: cover/python.jpeg
-fig-caption: # Marketing Research models
-tags: [data science, statistics, notes, book review]
+description: Notes from Computer Age Statistical Inference by Bradley Efron & Trevor Hastie
+img: cover/literature-review-open-book.jpg
+fig-caption: book review
+tags:
+  - data science
+  - statistics
+  - notes
+  - book review
 bibliography: sensor_fusion.bib
+lastmod: 2022-05-01T05:53:38.888Z
 ---
 
 # TLDR 
