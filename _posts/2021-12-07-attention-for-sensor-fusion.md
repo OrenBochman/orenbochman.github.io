@@ -3,7 +3,7 @@ layout: post
 title: Attention for sensor fusion
 date: 2021-09-24 00:00:00 +0300
 description: Attention for sensor fusion
-img: cover/code.jpg
+img: cover/transformer-robot.png
 fig-caption: Attention for sensor fusion
 tags:
   - attention
@@ -13,7 +13,7 @@ tags:
   - statistics
   - autoecoder
 bibliography: sensor_fusion.bib
-lastmod: 2022-05-01T05:51:20.862Z
+lastmod: 2022-05-01T05:59:58.818Z
 ---
 
 ## An overview of the Autoecoder.
