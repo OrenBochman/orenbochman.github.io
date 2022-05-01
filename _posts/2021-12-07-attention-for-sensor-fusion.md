@@ -1,10 +1,10 @@
 ---
 layout: post
-title: attention for sensor fusion
+title: Attention for sensor fusion
 date: 2021-09-24 00:00:00 +0300
-description: attention for sensor fusion
+description: Attention for sensor fusion
 img: cover/python.jpeg
-fig-caption: attention for sensor fusion
+fig-caption: Attention for sensor fusion
 tags:
   - attention
   - data science
@@ -13,7 +13,7 @@ tags:
   - statistics
   - autoecoder
 bibliography: sensor_fusion.bib
-lastmod: 2022-05-01T05:02:39.535Z
+lastmod: 2022-05-01T05:33:08.507Z
 ---
 
 ## An overview of the Autoecoder.

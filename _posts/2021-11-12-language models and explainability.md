@@ -10,7 +10,7 @@ tags:
   - statistics
   - marketing
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T05:30:08.679Z
+lastmod: 2022-05-01T05:33:51.610Z
 ---
 
 # TLDR
