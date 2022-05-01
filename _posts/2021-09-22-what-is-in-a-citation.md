@@ -1,11 +1,17 @@
 ---
 layout: post
-title: What is in a citation
+title: What is in a citation?
 date: 2021-08-29 00:00:00 +0300
 description: Creating Citation Web Components
-img: cover/chaotic-time-series.jpeg
-fig-caption: # Marketing Research models
-tags: [Citations, information science, scientific blogging,Web Components,lit] 
+img: cover/reference.jpg
+fig-caption: What is in a citation?
+tags:
+  - Citations
+  - information science
+  - scientific blogging
+  - Web Components
+  - lit
+lastmod: 2022-05-01T05:57:10.099Z
 ---
 
 TLDR 
