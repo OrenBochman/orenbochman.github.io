@@ -3,7 +3,7 @@ layout: post
 title: Storytelling and other essentials
 date: 2021-09-24 00:00:00 +0300
 description: Storytelling and other essentials,
-img: cover/cover/vitruvian-man-collage.jpg
+img: cover/vitruvian-man-collage.jpg
 fig-caption: Storytelling in data science
 tags:
   - data science
@@ -11,7 +11,7 @@ tags:
   - marketing
   - war story
 bibliography: delphi_method.bib
-lastmod: 2022-05-01T05:58:54.792Z
+lastmod: 2022-05-01T06:02:38.321Z
 ---
 
 Years of supporting Digital marketers have demonstrated the Importance of story telling. More so today when we can use the innovative tools of causal inference, which are rife with paradoxes and contradictory results. There are stories that need to be told, occasionally there are stories that you should keep to yourself but most of all when dealing with data you need to be honest.
