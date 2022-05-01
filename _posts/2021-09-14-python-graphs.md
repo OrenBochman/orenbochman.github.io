@@ -11,7 +11,8 @@ tags:
   - digital marketing
   - quantitative marketing
   - intelligence
-lastmod: 2022-05-01T05:31:09.252Z
+lastmod: 2022-05-01T05:31:53.199Z
+slug: python-graphs
 ---
 
 Some tricks collected from the SO and the web
