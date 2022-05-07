@@ -1,21 +1,46 @@
 ---
 layout: post
 title: # Bayesian Games and Bayesian Equilibrium
+  null
 date: 2021-04-10 00:00:00 +0300
 description: Bayesian Games and Bayesian Equilibrium
-img: dice-distribution.jpg 
+img: dice-distribution.jpg
 fig-caption: # Add figcaption (optional)
-tags: [modelling, game theory, incomplete information] 
+  null
+tags:
+  - modelling
+  - game theory
+  - incomplete information
+lastmod: 2022-05-02T16:45:46.116Z
 ---
+
+
+# TLDR
+
+This post arose from my wish to update some colleague that one of our problems could be better understood as a Bayesian game. I thought I should provide them with an into. Now as I am making progress in a reinforcement learning specialization I am seeing more clearly the benefits an limits of this approach.
+
+# Game Theory in 20 seconds
+
+Game theory is the branch in mathematics for reasoning about rational decisions making. Game theory makes numerous appearances in reinforcement learning but is not considered a prerequisite. Game theory has also become a foundational tool in microeconomics. 
+
+I think that most of game theory to be straight forward and that its extensive terminology is an added benefit which  facilitates reasoning more precisely about a very large numbers of situations.
+
+## Solution concepts:
+
+Bayesian Game theory is a solution concept in game theory.
+Solution concepts are a hierarchy assumptions on what we think as a game and the rational decisions for the players in such games. Solution concepts made a late entry into Game theory when it became evident that the methods most frequently used were providing nonsensical recommendation which needed to be excluded. Instead of finding better methods for these situations, the game theorists simply updated their assumptions to rejects such recommendations. Unfortunately, while this  made the beautiful framework more rigorous it became less intuitive.
+
 # Bayesian Games and Bayesian Equilibrium
 
-In *evolutionary game theory* there is a class of games called dynamic games with incomplete information. Incomplete information means there are information sets which place restriction on who knows what happened at a particular move. For example:
-    - Which cards each player was dealt in a card game. 
-    - Which type each player was assigned at the start.
+Bayesian in the name refers to the bayes theorem which intuitively is the updating of our beliefs whenever the moves of the game provide new evidence. Bayesian games deal with situations with incomplete information which we like to think of as uncertainty and represent as probability distributions. 
 
-As the game progress a player may be able to build an estimate on the missing information and act accordingly. 
+The first is the type of uncertainty is what kind of players have been 'assigned by nature' to the other agents as this determined their rewards and strategy. The second type of uncertainty is more dynamic and we call it the state of the world. The third type of uncertainty is what other agents thinks about the state of the world. This is a more complicated affair as belief are defined recursively taking into account what other agents might consider.
 
-These games have been studied and are solved using a perfect Bayesian equilibrium which is an refinement of Bayesian Nash equilibrium. 
+Lets make it more concrete using the game of Bridge which combines cooperation by pairs which are in competition.
+
+We have four players with different skill levels and temperaments and we can learn these characteristics after some games, still partners may be assigned randomly by sitting order. Next the cards are dealt and each player has only knowledge of their hand. This is the state of the world. In the Bidding steps partners signal the strength of their hands without disclosing their actual contents. Attentive opponents should be able to learn their opponent's and partners strongest suit and number of cards and their strength. Perhaps they will also learn about other weaker suits in those hands. Next as tricks are played there are less unknown cards in play and uncertainty may be reduced. The should use their information to cooperate and finesse their opponents out of fulfilling their contract.
+
+These games have been studied and are solved using a the so called sub-perfect Bayesian equilibrium which is an refinement of Bayesian Nash equilibrium. 
 
 The Bayesian game is a tuple of the form @(N,A,\Theta ,p,u)@ where  
 - @N@ is the players 
@@ -37,22 +62,22 @@ Here the following notation **@s_i(a_i|\theta_i)@** refers to the probability un
 
 i.e. a choice of mixed action as a function of the player's type
 
-# Expected Utitlty
+# Expected Utility
 
 ex-ante
 : the agent has no information about types
 
-Where according to Sun Tzu - failure is assured. This however can correspond to some prior about the distribution of types.
+Where according to *Sun Tzu* - failure is assured. This however can correspond to some prior about the distribution of types.
 
 interim
-: the agent know his type 
+: the agents know their own types 
 
-Where according to Sun Tzu - 50% chance of victory and 50% chance of failure.
+Where according to *Sun Tzu*  - 50% chance of victory and 50% chance of failure.
 
 ex-post
 : the agent knows all agent's type.
 
-Where according to Sun Tzu - victory is assured. But in this case we just have a game of perfect information
+Where according to Sun Tzu - victory is assured. However we still lack information on the state of the world
 
 player @i@'s interim expected utility:
 
@@ -93,8 +118,6 @@ a mixed strategy profile s must satisfy: @s_i \in arg max EU_i(s_i',s_{-i}|\thet
 Bayesian Nash equilibrium can result in implausible equilibria in dynamic games, where players move sequentially rather than simultaneously. As in games of complete information, these can arise via non-credible strategies off the equilibrium path. In games of incomplete information there is also the additional possibility of non-credible beliefs.
 
 To deal with these issues, Perfect Bayesian equilibrium, in the spirit of sub-game perfect equilibrium requires that, starting from any information set, subsequent play be optimal. Furthermore, it requires that beliefs be updated consistently with Bayes' rule on every path of play that occurs with positive probability.
-
-
 
 ## Some examples:
 

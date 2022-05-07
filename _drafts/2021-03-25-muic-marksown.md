@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Music Markdown"
-date:   2021-03-29 16:16:16 +0300
+title: Music Markdown
+date: 2021-03-29 16:16:16 +0300
 categories: blogging test
-tags: ["charts"]
+tags:
+  - charts
+draft: true
+lastmod: 2022-05-02T08:49:25.501Z
 ---
 
 # Music Markdown

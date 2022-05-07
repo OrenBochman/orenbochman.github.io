@@ -1,16 +1,18 @@
 ---
 layout: post
-title: 'Review of Deep contextualized word representations'
-description: review of the paper "Deep contextualized word representations" on dot product attention for the deeplearning.ai NLP specialization.
+title: Review of Deep contextualized word representations
+description: review of the paper "Deep contextualized word representations" on dot product
+  attention for the deeplearning.ai NLP specialization.
 date: 2021-04-09T10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
-   - attention
-   - deep learning
-   - literature review
-   - paper
+  - attention
+  - deep learning
+  - literature review
+  - paper
 img: literature-review-open-book.jpg
-lastmod: 2021-04-07T13:24:37.743Z
+lastmod: 2022-05-02T08:53:56.451Z
+draft: true
 ---
 <style>
 hr { 	clear:both;  }

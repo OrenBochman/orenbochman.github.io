@@ -1,16 +1,18 @@
 ---
 layout: post
-title: 'review of Reformer: The Efficient Transformer'
-description: review of the 2020 paper "Reformer The Efficient Transformer" on improving the transformer architecture for the deeplearning.ai NLP specialization.
+title: "review of Reformer: The Efficient Transformer"
+description: review of the 2020 paper "Reformer The Efficient Transformer" on improving the
+  transformer architecture for the deeplearning.ai NLP specialization.
 date: 2021-04-10T10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
-   - attention
-   - deep learning
-   - literature review
-   - paper
+  - attention
+  - deep learning
+  - literature review
+  - paper
 img: literature-review-open-book.jpg
-lastmod: 2021-04-07T13:24:37.743Z
+lastmod: 2022-05-02T08:54:22.953Z
+draft: true
 ---
 <style>
 hr { 	clear:both;  }

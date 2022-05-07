@@ -11,7 +11,8 @@ tags:
   - books
 img: cover/literature-review-open-book.jpg
 fig-caption: literature review
-lastmod: 2022-04-30T09:30:41.247Z
+lastmod: 2022-05-02T08:49:05.786Z
+draft: true
 ---
 
 # TLDR

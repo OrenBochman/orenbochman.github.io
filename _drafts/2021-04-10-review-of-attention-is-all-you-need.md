@@ -1,16 +1,18 @@
 ---
 layout: post
-title: 'Review of Attention is all you need'
-description: review of the 2017 paper "Attention is all you need" on using attention for the deeplearning.ai NLP specialization.
+title: Review of Attention is all you need
+description: review of the 2017 paper "Attention is all you need" on using attention for
+  the deeplearning.ai NLP specialization.
 date: 2021-04-10T10:50:09.040Z
 categories: nlp coursera notes paper
 tags:
-   - attention
-   - deep learning
-   - literature review
-   - paper
+  - attention
+  - deep learning
+  - literature review
+  - paper
 img: literature-review-open-book.jpg
-lastmod: 2021-04-07T13:24:37.743Z
+lastmod: 2022-05-02T08:54:55.886Z
+draft: true
 ---
 <style>
 hr { 	clear:both;  }

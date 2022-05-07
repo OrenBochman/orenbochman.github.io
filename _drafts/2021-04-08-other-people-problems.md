@@ -1,15 +1,24 @@
 ---
-
-
+date: 2022-05-02T08:52:19.357Z
+title: environments
+slug: environments
+draft: true
+categories:
+  - environments
+tags:
+  - environments
+  - macos
+  - shell
+  - terminal
+  - tmux
+lastmod: 2022-05-02T08:53:25.837Z
 ---
 
 
 
-Other PEople's stuff
+# Other People's stuff
 
 Here is a confession - I run a computer lab for the School of Information Science for about a year in the 1990s the time the internet really started to take off. The most intersting part of it was to sit back and see what cool things people were doing on the computers. However, I lost that amazing job when I had to enlist.
-
-
 
 ## Tmux
 
