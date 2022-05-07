@@ -5,7 +5,7 @@ description: Fundamentals of Reinforcement Learning Course Notes Week 1 - The K-
   Bandit Problem
 author: Oren Bochman
 date: 2022-05-02T17:24:17.269Z
-lastmod: 2022-05-07T17:00:18.192Z
+lastmod: 2022-05-07T18:15:42.592Z
 draft: false
 tags:
   - Coursera
@@ -21,7 +21,6 @@ categories:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
-
 <style>
 body {
     font-family: 'Klee One', cursive;
@@ -62,6 +61,15 @@ img[src*='#logo'] {
 
 ![rl algorithms](/assets/img/articles/rl/alg_selector.jpeg)
 
+One caveat fellow students who are checking out these notes. I have a habit of going off the reservation and covering in my notes additional material. In this case there are a number of sources I've come across.
+
+- David Silver's Video Course and Slides.
+- Tor Latimore's Book on Bandit Algorithms.
+- [Charles Isbell](https://faculty.cc.gatech.edu/~isbell/pubs/) and [Michael Littman](https://www.littmania.com/) A free Udacity course on RL, with some emphasis on game theory  proofs, and some novel algorithms like [Coco-Q: Learning in Stochastic Games with Side Payments](http://proceedings.mlr.press/v28/sodomka13.pdf).
+- A number of videos + papers from MS research videos on contextual bandit algorithms.
+- I have been known to review papers as well,[Muzero](https://www.nature.com/articles/s41586-020-03051-4.epdf?sharing_token=kTk-xTZpQOF8Ym8nTQK6EdRgN0jAjWel9jnR3ZoTv0PMSWGj38iNIyNOw_ooNp2BvzZ4nIcedo7GEXD7UmLqb0M_V_fop31mMY9VBBLNmGbm0K9jETKkZnJ9SgJ8Rwhp3ySvLuTcUr888puIYbngQ0fiMf45ZGDAQ7fUI66-u7Y%3D) [MuZero](https://arxiv.org/abs/2202.06626) and [EfficentZero](https://arxiv.org/abs/2111.00210) [code](https://github.com/YeWR/EfficientZero) seem to be of interest.
+
+
 ## Week 1: The K-Armed Bandit Problem /
 
 Read: 
@@ -101,10 +109,11 @@ where:
 
 Since agents want to maximize rewards, recalling the definition of expectations we can write this as:
 
-@@ \argmax_a q_*(a)=\sum p(r  \vert a)*r@@
+@@ \argmax_a q_*(a)=\sum p(r  \vert a)*r @@
 
 where:
- - @ \argmax_a - \text{means the argument a maximizes ...}@
+- @ \argmax_a @- means the argument @a@ maximizes ...
+ 
 ### LESSON 2: What to learn, understanding Action Values
 
 1. Define action-value estimation methods

@@ -5,7 +5,7 @@ description: Fundamentals of Reinforcement Learning Course Notes Week 2 - MDPs M
   Decision Processes
 author: Oren Bochman
 date: 2022-05-02T17:24:17.269Z
-lastmod: 2022-05-07T16:54:35.041Z
+lastmod: 2022-05-07T17:20:13.371Z
 draft: false
 tags:
   - Coursera
@@ -64,18 +64,19 @@ img[src*='#logo'] {
 
 ### Objectives 
  
-- [ ] Understand Markov Decision Processes (MDP).
-- [ ] Describe how the dynamics of an MDP are defined.
-- [ ] Understand the graphical representation of a Markov Decision Process.
-- [ ] Explain how many diverse processes can be written in terms of the MDP framework.
-- [ ] Describe how rewards relate to the goal of an agent.
-- [ ] Understand episodes and identify episodic tasks.
-- [ ] Formulate returns for continuing tasks using discounting.
-- [ ] Describe how returns at successive time steps are related to each other.
-- [ ] Understand when to formalize a task as episodic or continuing.
+- [x] Understand Markov Decision Processes (MDP).
+- [x] Describe how the dynamics of an MDP are defined.
+- [x] Understand the graphical representation of a Markov Decision Process.
+- [x] Explain how many diverse processes can be written in terms of the MDP framework.
+- [x] Describe how rewards relate to the goal of an agent.
+- [x] Understand episodes and identify episodic tasks.
+- [x] Formulate returns for continuing tasks using discounting.
+- [x] Describe how returns at successive time steps are related to each other.
+- [x] Understand when to formalize a task as episodic or continuing.
 
+Before I started this course I saw an intro to RL course on you tube. I really like it as the David Silver is the best best instructors I have come across so far. Anyhow what I liked about his talk on MDP is how he develops them constructively. He begins with a Markov Process. By adding rewards he gets a Markov reward process. By adding actions  he then gets a markov decision process. He explains these and in the notes covers three additional extentions. 
 
-David Silver shows in his lecture how to develop MDP. He starts with a Markov process with (states and transitions), My adding rewards we get a Markov rewards process. By adding actions we get a markov decision process. 
+shows in his lecture how to develop MDP. He starts with a Markov process with (states and transitions), My adding rewards we get a Markov rewards process. By adding actions we get a markov decision process. 
 
 He notes in the notes the following MDP extensions:
 - Infinite and continuous MDPs - the case of optimal control
