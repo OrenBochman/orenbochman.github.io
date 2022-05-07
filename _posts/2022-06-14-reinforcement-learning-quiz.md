@@ -1,10 +1,10 @@
 ---
 title: Reinforcement Learning Quiz
-slug: fundamentals-reinforcement-learning
+slug: reinforcement-learning-quiz
 description: Reinforcement Learning Quiz
 author: oren bochman
 date: 2022-05-07T16:03:06.877Z
-lastmod: 2022-05-07T16:03:35.487Z
+lastmod: 2022-05-07T16:13:54.042Z
 draft: true
 tags:
   - quiz
