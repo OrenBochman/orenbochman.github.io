@@ -4,7 +4,7 @@ slug: fundamentals-reinforcement-learning-notes
 description: Fundamentals of Reinforcement Learning course Notes
 author: Oren Bochman
 date: 2022-05-02T17:24:17.269Z
-lastmod: 2022-05-07T16:15:16.725Z
+lastmod: 2022-05-07T16:24:41.400Z
 draft: false
 tags:
   - Coursera
@@ -71,8 +71,8 @@ Mathematics is much easier if you recall the definitions and  notation, here are
 - @\pi@ `policy` - a decision making rule for every state.
 - @\pi_*@ `optimal policy` - which returns the maximum rewards.
 - @G_t@ `return` at time t, for a @(s_t,a_t,r_t...)@ sequence discounted by @\gamma@.
-- @p(s',r|s,a)@ - `transition probability` to state @s'@ with reward @r@ from state @s@ via action @a@ AKA `four valued dynamics`
-- @p(s'|s,a)@ - `transition probability` to state @s'@ from state @s@ via action @a@ AKA `Markov process transition matrix`
+- @p(s',r \vert s,a)@ - `transition probability` to state @s'@ with reward @r@ from state @s@ via action @a@ AKA `four valued dynamics`
+- @p(s' \vert s,a)@ - `transition probability` to state @s'@ from state @s@ via action @a@ AKA `Markov process transition matrix`
 - @r(s,a)@ - `expected immediate rewards` for action @a@ in state @s@ AKA `reward` of a `Markov reward process`
 - @v_\pi(s)@ - state's `value` under policy @\pi@ which is its expected return
 - @q_\pi(s,a)@ - the `action value ` in state @s@ under policy @\pi@
@@ -91,14 +91,14 @@ In the `k-armed bandit` problem there is an `agent` who is given by the environm
 #### Action Values /
 
 The `value` of an action is its `expected reward` which can be expressed mathematically as 
-    @@ q_*(a) \doteq \mathbb{E}[R_t|A_t=a] \space \forall a \in \{a_1 ... a_k\}  @@
+    @@ q_*(a) \doteq \mathbb{E}[R_t  \vert  A_t=a] \space \forall a \in \{a_1 ... a_k\}  @@
 where:
  - @\doteq @ means definition
- - @\mathbb{E[r|a]}@ means expectation of a reward given some action a
+ - @\mathbb{E[r \vert a]}@ means expectation of a reward given some action a
 
 Since agents want to maximize rewards, recalling the definition of expectations we can write this as:
 
-@@ \argmax_a q_*(a)=\sum p(r|a)*r@@
+@@ \argmax_a q_*(a)=\sum p(r  \vert a)*r@@
 
 where:
  - @ \argmax_a - \text{means the argument a maximizes ...}@
@@ -147,7 +147,7 @@ He notes in the notes the following MDP extensions:
 Markov Property for a state space where The future is independent of the past given the present.
 
 A state S@_t@ is Markov if and only if:
-    @@ \mathbb{P}[S_{t+1} | S_{t}] =  \mathbb{P}[S_{t+1} | S_1,...,S_t]@@
+    @@ \mathbb{P}[S_{t+1}  \vert  S_{t}] =  \mathbb{P}[S_{t+1}  \vert  S_1,...,S_t]@@
 
 * The state captures all relevant information from the history 
 * Once the state is known, the history may be thrown away i.e. 
@@ -155,7 +155,7 @@ A state S@_t@ is Markov if and only if:
 
 For a Markov state s and successor state s′, the state transition probability is defined by:
 
-@@\mathbb{P}_{ss′} = \mathbb{P}[S_{t+1}=s′|S_t=s]@@
+@@\mathbb{P}_{ss′} = \mathbb{P}[S_{t+1}=s′  \vert  S_t=s]@@
 
 State transition matrix @P@ defines transition probabilities from all states @s@ to all successor states @s′@,
 
@@ -169,7 +169,7 @@ State transition matrix @P@ defines transition probabilities from all states @s@
 Definition: A Markov Process (or Markov Chain) is:
     : a tuple @⟨S,P⟩@ where:
         - **@S@** is a (finite) set of states
-        - **@P@** is a state transition probability matrix, @P_{ss'} =P[S_{t+1}=s'|S_t=s]@
+        - **@P@** is a state transition probability matrix, @P_{ss'} =P[S_{t+1}=s'  \vert S_t=s]@
 
 
 
@@ -180,8 +180,8 @@ A Markov Reward Process **(MRP)** is a Markov chain with values.
 Definition: A Markov Reward Process is:
     : a tuple @⟨S, P, R, γ⟩@ where
         - **@S@** is a finite set of states
-        - **@P@** is a state transition probability matrix,   where @P_{ss′} =  \mathbb{P}[S_{t+1} = s′| S_t = s]@
-        - **@R@** is a reward function, @R_s = \mathbb{E}[R_{t+1} | S_t = s] @
+        - **@P@** is a state transition probability matrix,   where @P_{ss′} =  \mathbb{P}[S_{t+1} = s′ \vert  S_t = s]@
+        - **@R@** is a reward function, @R_s = \mathbb{E}[R_{t+1}  \vert  S_t = s] @
         - **@\gamma@** is a discount factor, @\gamma \in [0, 1]@
 
 The return @G_t@:
@@ -191,7 +191,7 @@ The return @G_t@:
 
 The value function:
 :   The state value function v(s) of an MRP is the expected return starting from state s
-    @@v(s) =\mathbb{E} [G_t| S_t = s]@@
+    @@v(s) =\mathbb{E} [G_t  \vert  S_t = s]@@
 
 #### Bellman equations for MRP
 
@@ -200,15 +200,15 @@ The value function can be decomposed into two parts:
 - a discounted value of successor state @\gamma v(S_{t+1})@
 
 @@\begin{align} 
-v(s) &= \mathbb{E}[G_t|S_t=s] \newline
-& = \mathbb{E}[R_{t+1} + \gamma R_{t+2}+\gamma^2 R_{t+3} + ... |S_t = s]   \newline
-& = \mathbb{E}[R_{t+1} + \gamma( R_{t+2}+\gamma^2 R_{t+3} + ... )|S_t = s]   \newline
-& = \mathbb{E}[R_{t+1} + \gamma G_{t+1}|S_t = s]   \newline
-& = \mathbb{E}[R_{t+1} + \gamma v(S_{t+1})|S_t = s] 
+v(s) &= \mathbb{E}[G_t  \vert  S_t=s] \newline
+& = \mathbb{E}[R_{t+1} + \gamma R_{t+2}+\gamma^2 R_{t+3} + ...  \vert S_t = s]   \newline
+& = \mathbb{E}[R_{t+1} + \gamma( R_{t+2}+\gamma^2 R_{t+3} + ... )  \vert S_t = s]   \newline
+& = \mathbb{E}[R_{t+1} + \gamma G_{t+1}  \vert  S_t = s]   \newline
+& = \mathbb{E}[R_{t+1} + \gamma v(S_{t+1})  \vert S_t = s] 
 \end{align}@@
 
 @@\begin{equation} 
-    v(s) = \mathbb{E}[R_{t+1} + \gamma v(S_{t+1})|S_t = s] 
+    v(s) = \mathbb{E}[R_{t+1} + \gamma v(S_{t+1})  \vert S_t = s] 
     \end{equation}@@
 
 @@v(s) = R_s + γ \sum_{s'\in S} P_{ss'}v(s)@@
