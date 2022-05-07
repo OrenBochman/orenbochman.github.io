@@ -2,9 +2,9 @@
 title: Fundamentals of Reinforcement Learning
 slug: fundamentals-reinforcement-learning
 description: Fundamentals of Reinforcement Learning course Notes
-author: oren bochman
+author: Oren Bochman
 date: 2022-05-02T17:24:17.269Z
-lastmod: 2022-05-07T15:39:09.348Z
+lastmod: 2022-05-07T16:04:19.452Z
 draft: true
 tags: []
 categories: []
