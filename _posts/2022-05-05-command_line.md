@@ -145,6 +145,7 @@ ripgrep - recursively searches directories for a regex pattern while respecting 
 | vim +15                              | edit from line 15 |
 | code -g mdp.md:15                    | edit from line 12 |
 | rg search_ptrn fname -r replace_ptrn | grep and replace  |
+|grep -rnw . -e 'pattrn'| grep recusively all files in . for pattern |
 
 
 # bat - a cat + syntax highlighting with git support
